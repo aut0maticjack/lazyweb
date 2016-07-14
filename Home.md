@@ -4,9 +4,19 @@ This is a wiki of useful advice I commonly give or have seen on places like Stac
 
 ## Raspberry Pi
 
+* [3.5mm Audio Hiss](Raspberry-Pi-3.5mm-Audio-Hiss)
+
 ## RetroPie
 
+The [RetroPie Wiki](https://github.com/RetroPie/RetroPie-Setup/wiki) details almost anything you'd want to know.
+
+* BIOS Files
+* MAME / FBA ROMs
+* Controllers
+
 ## FightSticks
+
+* Arcade Encoders
 
 ## Linux
 
