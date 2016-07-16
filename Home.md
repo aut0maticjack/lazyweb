@@ -6,6 +6,8 @@ This is a wiki of useful advice I commonly give or have seen on places like Stac
 
 * [3.5mm Audio Hiss](Raspberry-Pi-3.5mm-Audio-Hiss)
 * [Handhelds](Raspberry-Pi-Handhelds)
+* Power
+* USB Hubs
 
 ## RetroPie
 
