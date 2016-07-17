@@ -21,6 +21,7 @@ The [RetroPie Wiki](https://github.com/RetroPie/RetroPie-Setup/wiki) details alm
 ## FightSticks
 
 * Arcade Encoders
+* [Mad Catz SE Wiring](Mad-Catz-SE-Wiring)
 
 ## Linux
 
