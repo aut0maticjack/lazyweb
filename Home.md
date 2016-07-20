@@ -22,6 +22,8 @@ The [RetroPie Wiki](https://github.com/RetroPie/RetroPie-Setup/wiki) details alm
 
 * Arcade Encoders
 * [Mad Catz SE Wiring](Mad-Catz-SE-Wiring)
+* [Preventing SOCD on common ground PCB using 7400 NAND gates](http://forums.shoryuken.com/discussion/147393/guide-preventing-socd-on-any-common-ground-pcb-by-using-7400-chips/p1)
+* [Slagcoin](http://slagcoin.com/joystick/introduction.html)
 
 ## Linux
 
