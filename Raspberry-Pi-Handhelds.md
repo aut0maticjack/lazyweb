@@ -10,3 +10,4 @@ This page lists detail Raspberry Pi handheld posts
 
 * [DMG mod by bentika](http://imgur.com/a/shoci)
 * [DMG mod by elliptichyperboloid](https://imgur.com/gallery/XBXNu)
+* [Game Boy Zero by Wermy](http://sudomod.com/wiki/index.php?title=Game_Boy_Zero)
