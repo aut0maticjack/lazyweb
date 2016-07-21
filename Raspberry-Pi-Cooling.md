@@ -12,10 +12,10 @@ Some of them even come with regular double sided tape which probably insulates a
 
 This guy did a good series of heatsink tests from an 85C baseline:
 
-* <https://www.youtube.com/watch?v=e6okZKRwnTQ> - Tiny heatsink = not much (80C)
-* <https://www.youtube.com/watch?v=5Ud-grj4Zl0> - Tiny heatsink and fan = 20C drop (60C)
-* <https://www.youtube.com/watch?v=1AYGnw6MwFM> - Giant heatsink = further 10C drop (50C)
-* <https://www.youtube.com/watch?v=WfQMLInuwws> - Giant heatsink and fan = biggest drop (35C)
+* <https://www.youtube.com/watch?v=e6okZKRwnTQ> - Tiny heatsink = 80C
+* <https://www.youtube.com/watch?v=5Ud-grj4Zl0> - Tiny heatsink and fan = 60C
+* <https://www.youtube.com/watch?v=1AYGnw6MwFM0> - Giant heatsink = 50C
+* <https://www.youtube.com/watch?v=WfQMLInuwws> - Giant heatsink and fan = 35C
 
 So, the bigger the passive heatsink the better. A fan also helps.
 
