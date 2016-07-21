@@ -25,4 +25,5 @@
 
 ### Other
 
+* [Microcontroller Boards](http://sudomod.com/wiki/index.php?title=Microcontroller_Boards) a list on Sudomod Wiki
 * Arduino/AVR V-USB - Really hard
