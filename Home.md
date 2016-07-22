@@ -10,7 +10,7 @@ This is a wiki of useful advice I commonly give or have seen on places like Stac
 * [Display Auto Switching](Raspberry-Pi-Display-Auto-Switching)
 * [Handhelds](Raspberry-Pi-Handhelds)
 * [Power](Raspberry-Pi-Power)
-* USB Hubs
+* [USB Hubs](http://elinux.org/RPi_Powered_USB_Hubs)
 
 ## RetroPie
 
