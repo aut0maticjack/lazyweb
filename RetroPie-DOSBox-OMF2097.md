@@ -4,7 +4,9 @@ This assumes knowledge of how to SSH into your Pi or use the commandline, how to
 
 You need a keyboard and mouse connected for the initial setup, but not to play once it's properly setup.
 
-I started with the RetroPie 4.0.0 beta2 image.
+I tried with the RetroPie 4.0.0 beta2 image, and with RetroPie 3.8.1 image with the 4.0.0-dev setup script.
+
+On a Pi 1 this ran too slow, even with all the sound and graphics settings turned down. On a Pi 3 this ran so fast I had to restrict DOSBox's speed settings as detailed below.
 
 ### Install DOSBox
 
@@ -19,11 +21,21 @@ Manage Optional packages, Install `dosbox` package.
 
 ### Configure DOSBox
 
-I set the joystick type to FCS Thrustmaster so it recognises my axis-based D-Pad as joystick input. I don't know if this is required in DOSBox-SVN on the Pi, but I have to do this on my desktop DOSBox-0.74 setup so I did it here too:
+I set the joystick type to FCS Thrustmaster so it recognises my axis-based D-Pad as joystick input. I don't know if this is required in DOSBox-SVN on the Pi, but I have to do this on my desktop DOSBox-0.74 setup so I did it here too.
+
+I also increase the sound buffer and configure a fixed CPU cycles or it runs too fast:
 
 ~~~
 /opt/retropie/configs/pc/dosbox-SVN.conf
 
+[cpu]
+core=auto
+cycles=fixed 10000
+
+[mixer]
+prebuffer=50
+
+[joystick]
 joysticktype=fcs
 ~~~
 
