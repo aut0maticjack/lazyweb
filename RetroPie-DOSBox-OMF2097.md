@@ -6,7 +6,9 @@ You need a keyboard and mouse connected for the initial setup, but not to play o
 
 I tried with the RetroPie 4.0.0 beta2 image, and with RetroPie 3.8.1 image with the 4.0.0-dev setup script.
 
-On a Pi 1 this ran too slow, even with all the sound and graphics settings turned down. On a Pi 3 this ran so fast I had to restrict DOSBox's speed settings as detailed below.
+On a Pi 1 (overclocked to 900/450/450/2) this ran too slow, even with all the sound and graphics settings turned down. The Pi 1 can only manage about 3000 DOSBox cycles effectively which isn't enough to play this smoothly.
+
+On a Pi 3 (no overclock) this ran so fast I had to restrict DOSBox's speed settings to 10000 cycles. It runs really well!
 
 ### Install DOSBox
 
@@ -21,9 +23,9 @@ Manage Optional packages, Install `dosbox` package.
 
 ### Configure DOSBox
 
-I set the joystick type to FCS Thrustmaster so it recognises my axis-based D-Pad as joystick input. I don't know if this is required in DOSBox-SVN on the Pi, but I have to do this on my desktop DOSBox-0.74 setup so I did it here too.
+I configure a fixed CPU cycles or it runs too fast, and increase the sound buffer because I always do.
 
-I also increase the sound buffer and configure a fixed CPU cycles or it runs too fast.
+I set the joystick type to FCS Thrustmaster so it recognises my axis-based D-Pad as joystick input. I don't know if this is required in DOSBox-SVN on the Pi, but I have to do this on my desktop DOSBox-0.74 setup so I did it here too.
 
 You can edit the config files in `~/.dosbox/` and they are placed into `/opt/retropie/configs/all/pc/` automatically. The two files are a hardlink to the same inode, so there is no difference in which file you edit.
 
@@ -33,6 +35,8 @@ You can edit the config files in `~/.dosbox/` and they are placed into `/opt/ret
 [cpu]
 core=auto
 cycles=fixed 10000
+cycleup=1000
+cycledown=1000
 
 [mixer]
 prebuffer=50
@@ -53,12 +57,18 @@ I configured like this:
 * Right Shift key = Y button
 * Esc key = Select button
 * Arrow keys = D-Pad
+* Quit DOSBox = Select+Start
+* DOSBox cycles down = Select+L
+* DOSBox cycles up = Select+R
 
 Using a Logitech F710 resulted the following changes to the mapper file:
 
 ~~~
 ~/.dosbox/mapper-SVN.map
 
+hand_shutdown "stick_0 button 7 mod3" "key 290 mod1" 
+hand_cycledown "stick_0 button 4 mod3" "key 292 mod1" 
+hand_cycleup "stick_0 button 5 mod3" "key 293 mod1" 
 key_esc "stick_0 button 6" "key 27" 
 key_enter "stick_0 button 0" "key 13" 
 key_rshift "stick_0 button 2" "key 303" 
@@ -66,6 +76,7 @@ key_up "stick_0 hat 0 1" "key 273"
 key_left "stick_0 hat 0 8" "key 276" 
 key_down "stick_0 hat 0 4" "key 274" 
 key_right "stick_0 hat 0 2" "key 275" 
+mod_3 "stick_0 button 6" 
 ~~~
 
 I also removed the joystick mappings later in this file which were added automatically. Any entry which starts with `j` just remove the configured parameter from it so you have an empty list like this:
