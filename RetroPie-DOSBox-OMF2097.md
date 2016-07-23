@@ -23,11 +23,13 @@ Manage Optional packages, Install `dosbox` package.
 
 ### Configure DOSBox
 
-I configure a fixed CPU cycles or it runs too fast, and increase the sound buffer because I always do.
+I configure a fixed CPU cycles or it runs too fast, and increase the sound buffer because I have always found this helps prevent sound stuttering.
 
 I set the joystick type to FCS Thrustmaster so it recognises my axis-based D-Pad as joystick input. I don't know if this is required in DOSBox-SVN on the Pi, but I have to do this on my desktop DOSBox-0.74 setup so I did it here too.
 
 You can edit the config files in `~/.dosbox/` and they are placed into `/opt/retropie/configs/all/pc/` automatically. The two files are a hardlink to the same inode, so there is no difference in which file you edit.
+
+These are the changes I made, not the complete file:
 
 ~~~
 ~/.dosbox/dosbox-SVN.conf
@@ -113,8 +115,6 @@ jhat_0_0_1
 Put OMF in the `/home/pi/RetroPie/roms/pc/OMF` directory
 
 I copied an existing install from my PC so I had already run `SETUP.EXE` and configured the soundcard. If you haven't done this, connect a USB keyboard and do so.
-
-On a Pi 1 overclocked to 900/450/450/2, the highest sound setting resulted in crackling, I had to configure a lower performance sound setting in the setup program. I haven't tried a Pi 2 or Pi 3 yet.
 
 ### Create Launcher
 
