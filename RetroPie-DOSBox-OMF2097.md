@@ -57,7 +57,7 @@ I configured like this:
 
 * Enter key = B button
 * Right Shift key = Y button
-* Esc key = Select button
+* Esc key = Start button
 * Arrow keys = D-Pad
 * Quit DOSBox = Select+Start
 * DOSBox cycles down = Select+L
@@ -71,7 +71,7 @@ Using a Logitech F710 resulted the following changes to the mapper file:
 hand_shutdown "stick_0 button 7 mod3" "key 290 mod1" 
 hand_cycledown "stick_0 button 4 mod3" "key 292 mod1" 
 hand_cycleup "stick_0 button 5 mod3" "key 293 mod1" 
-key_esc "stick_0 button 6" "key 27" 
+key_esc "stick_0 button 7" "key 27" 
 key_enter "stick_0 button 0" "key 13" 
 key_rshift "stick_0 button 2" "key 303" 
 key_up "stick_0 hat 0 1" "key 273" 
