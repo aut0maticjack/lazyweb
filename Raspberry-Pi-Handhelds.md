@@ -12,3 +12,5 @@ This page lists detail Raspberry Pi handheld posts
 * [DMG mod by elliptichyperboloid](https://imgur.com/gallery/XBXNu)
 * [Game Boy Zero by Wermy](http://sudomod.com/wiki/index.php?title=Game_Boy_Zero)
 * [Pi-Pocket by WarriorRocker](http://www.xodustech.com/projects/raspberry-pi-gameboy-pocket)
+* [Super Pi Boy](https://superpiboy.wordpress.com/)
+* [Game Boy PC](http://www.retrovia.ie/showthread.php/8491-Game-Boy-PC-(Raspberry-Pi))
