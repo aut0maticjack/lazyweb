@@ -23,10 +23,12 @@ Manage Optional packages, Install `dosbox` package.
 
 I set the joystick type to FCS Thrustmaster so it recognises my axis-based D-Pad as joystick input. I don't know if this is required in DOSBox-SVN on the Pi, but I have to do this on my desktop DOSBox-0.74 setup so I did it here too.
 
-I also increase the sound buffer and configure a fixed CPU cycles or it runs too fast:
+I also increase the sound buffer and configure a fixed CPU cycles or it runs too fast.
+
+You can edit the config files in `~/.dosbox/` and they are placed into `/opt/retropie/configs/all/pc/` automatically. The two files are a hardlink to the same inode, so there is no difference in which file you edit.
 
 ~~~
-/opt/retropie/configs/pc/dosbox-SVN.conf
+~/.dosbox/dosbox-SVN.conf
 
 [cpu]
 core=auto
@@ -54,11 +56,8 @@ I configured like this:
 
 Using a Logitech F710 resulted the following changes to the mapper file:
 
-(I'm not sure which of these mapper file paths is right. I think I saved it in `~/.dosbox/` and it was copied into `/opt/` automatically)
-
 ~~~
 ~/.dosbox/mapper-SVN.map
-/opt/retropie/configs/pc/mapper-SVN.map
 
 key_esc "stick_0 button 6" "key 27" 
 key_enter "stick_0 button 0" "key 13" 
