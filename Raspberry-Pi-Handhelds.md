@@ -15,4 +15,7 @@ This page lists detail Raspberry Pi handheld posts
 * [Pi-Pocket by WarriorRocker](http://www.xodustech.com/projects/raspberry-pi-gameboy-pocket)
 * [Super Pi Boy](https://superpiboy.wordpress.com/)
 * [Game Boy PC](http://www.retrovia.ie/showthread.php/8491-Game-Boy-PC-(Raspberry-Pi))
-* [PiSP](http://www.instructables.com/id/PiPS-Pi-Portable-Station-a-Raspberry-Pi-Gaming-Han/?ALLSTEPS)
+* [PiPS](http://www.instructables.com/id/PiPS-Pi-Portable-Station-a-Raspberry-Pi-Gaming-Han/?ALLSTEPS)
+* [PSPi 1.0](https://retropie.org.uk/forum/topic/2201/pspi-1-0-psp-raspberry-pi-zero-retropie-mod)
+* [PSPi 2.0](https://retropie.org.uk/forum/topic/2217/pspi-2-0-psp-raspberry-pi-zero-build-progress)
+* [Pi Portable](https://retropie.org.uk/forum/topic/1047/pi-portable)
