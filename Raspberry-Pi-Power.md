@@ -4,7 +4,7 @@ This page attempts to quantify Raspberry Pi power requirements, then recommend s
 
 ## Power Requirements
 
-* The SoC (CPU and GPU) draw at most 800mA when active, typically more like 500mA, and less than 100mA when idle.
+* The SoC (CPU and GPU) draw maximum 800mA when at 100% usage, typically more like 500mA, and less than 100mA when idle.
 * The USB controller requires 240mA
 * The LEDs require 5mA each
 * HDMI output requires 25mA
@@ -12,13 +12,23 @@ This page attempts to quantify Raspberry Pi power requirements, then recommend s
 * The Pi 3's built-in Wifi consumes around 20mA when idle
 * Unknown to me: Max current requirements of the Pi 3's onboard Wifi and Bluetooth
 
-So far that's about 1.5A at most. From there, the difference comes in the USB peripherals you plug in. The USB specification mandates that a port can supply up to 500mA, so a Pi 2/3 with 4 USB ports could require up to an additional 2A.
+So far that's 1.5A at most. From there, the difference comes in the USB peripherals you plug in, and things you power off the 5V GPIO pins. The USB specification mandates that a port supply 500mA, so a Pi 2/3 with 4 USB ports could require up to an additional 2A, for 3.5A total, however you cannot draw that much current from the power supply.
 
-Some examples of devices:
+## Power Draw Limit
 
-* USB keyboard and mouse usually require 50-150mA each, this differs per device
-* One USB WiFi adaptor tested required 40mA, others may differ
-* A wired XBox 360 controller requires 450mA
+The max current able to be drawn through the entire 5V line from the microUSB power connector is:
+
+* Early/Asian Pi 1 with T075 polyfuse = 750mA (fuse blows at 1.1A)
+* Late/British Pi 1 with miniSMDC075 polyfuse = 750mA (fuse blows at 1.5A)
+* Pi 1 B+ with 1812L or similar polyfuse = 2A (fuse blows at 3.5A)
+* Pi 2 presumably the same as the B+, schematic diagram not available
+* Pi 3 with MF-MSMF250 polyfuse = 2.5A (fuse blows at 5A)
+
+So assuming the SoC and USB on a Pi 3 are drawing say 1.5A, the most you should really plug into the USB ports is about 1A. The Pi 1 seems to already be at the limit of what it can reliably draw and a [powered USB hub](http://elinux.org/RPi_Powered_USB_Hubs) should probably be used for anything serious.
+
+The Pi Zero has no polyfuse and its SoC power usage is down to about 160mA.
+
+## USB Device Power Consumption
 
 You can quantify power requirements of any specific device you have with `lsusb -v` and the `MaxPower` property.
 
@@ -35,6 +45,12 @@ $ lsusb -v | egrep "idVendor|idProduct|MaxPower"
   idProduct          0x3187 
     MaxPower              500mA
 ~~~
+
+Some examples of common devices:
+
+* USB keyboard/mouse usually require 50mA to 150mA each
+* One USB WiFi adaptor tested required 40mA, others may differ
+* A wired XBox 360 controller requires 450mA
 
 References:
 
