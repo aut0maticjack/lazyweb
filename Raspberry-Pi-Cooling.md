@@ -27,7 +27,7 @@ You can power a small 5V fan off the 5V GPIO pin. Up to 60mm should be enough, b
 
 The 5V GPIO pins are passed through directly from the microUSB power supply connector, so you can drive a fan off the 5V pin safely. A fan will typically draw around 200mA. Most fans are rated in watts and `Watts / Volts = Amps`, so say `0.5W / 5V = 0.2A (200mA)`.
 
-The max current able to be drawn through the entire 5V line (Pi plus USB plus GPIO) is 750mA (fuse blows at 1.1A) for early Pi boards with the T075 polyfuse, 750mA (fuse blows at 1.5A) for miniSMDC075 polyfuse, and 2.5A (fuse blows at 5A) on Pi 2 and Pi 3 boards with the MF-MSMF250 polyfuse.
+The max current able to be drawn through the entire 5V line (Pi plus USB plus GPIO) is 750mA (fuse blows at 1.1A) for early Pi boards with the T075 polyfuse, 750mA (fuse blows at 1.5A) for miniSMDC075 polyfuse, and 2.5A (fuse blows at 5A) on Pi 3 boards with the MF-MSMF250 polyfuse. Presumably the Pi 2 uses the same polyfuse as the B+, a likely candidate is the 1812L with current hold of 2A (blows at 3.5A).
 
 **Do not use the 3.3v or other GPIO pins to power high current devices!!!** The rest of the GPIO pins pass through the SoC and can only supply very limited current. The exact number seems unknown, but a safe max seems 50mA over all GPIO pins, and max 16mA per pin.
 
