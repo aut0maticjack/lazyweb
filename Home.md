@@ -18,6 +18,7 @@ The [RetroPie Wiki](https://github.com/RetroPie/RetroPie-Setup/wiki) details alm
 
 * BIOS Files
 * [DOSBox One Must Fall 2097](RetroPie-DOSBox-OMF2097)
+* [Game Controller USB Power Database](Game-Controller-USB-Power-Database)
 * MAME / FBA ROMs
 * Controllers
 
