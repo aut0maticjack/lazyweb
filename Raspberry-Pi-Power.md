@@ -12,7 +12,11 @@ This page attempts to quantify Raspberry Pi power requirements, then recommend s
 * The Pi 3's built-in Wifi consumes around 20mA when idle
 * Unknown to me: Max current requirements of the Pi 3's onboard Wifi and Bluetooth
 
-So far that's 1.5A at most. From there, the difference comes in the USB peripherals you plug in, and things you power off the 5V GPIO pins. The USB specification mandates that a port supply 500mA, so a Pi 2/3 with 4 USB ports could require up to an additional 2A, for 3.5A total, however you cannot draw that much current from the power supply.
+So far that's 1.5A at most. From there, the difference comes in the USB peripherals you plug in, and things you power off the 5V GPIO pins. The USB specification mandates that a port supply 500mA, however each model has a max total current it can supply to all USB ports:
+
+* Pi 1: 500mA
+* Pi 1B and Pi 2: 600mA, or 1.2A with `max_usb_current=1`
+* Pi 3: 1.2A
 
 ## Power Draw Limit
 
