@@ -19,3 +19,4 @@ This page lists detail Raspberry Pi handheld posts
 * [PSPi 1.0](https://retropie.org.uk/forum/topic/2201/pspi-1-0-psp-raspberry-pi-zero-retropie-mod)
 * [PSPi 2.0](https://retropie.org.uk/forum/topic/2217/pspi-2-0-psp-raspberry-pi-zero-build-progress)
 * [Pi Portable](https://retropie.org.uk/forum/topic/1047/pi-portable)
+* [Raspberry Pi Handheld Emulation Device by LeejSm1th](http://imgur.com/a/9Rvfd)
