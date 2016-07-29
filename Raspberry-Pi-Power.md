@@ -4,15 +4,19 @@ This page attempts to quantify Raspberry Pi power requirements, then recommend s
 
 ## Power Requirements
 
-* The SoC (CPU and GPU) draw maximum 1.35A (Pi3) or 800mA (Pi 2) or 350mA (Pi 1/0) when at a 100% stress test, typically more like 500mA (Pi 3) under regular usage, and under 300mA when idle.
-* The USB controller requires 240mA
+* The SoC (CPU and GPU) draw
+    * Pi 3: 1.35A under stress test, typical usage like 400mA, and 300mA at idle
+    * Pi 2: 850mA under stress test, and 300mA at idle
+    * Pi 1: 350mA under stress test, typical usage like 350mA (B+) or 500mA (B), and 200mA at idle
+    * Pi Zero: 350mA under stress test, typical usage like 250mA, and 100mA at idle
+* The USB controller chip on the Pi 1/2/3 requires 240mA
 * The LEDs require 5mA each
 * HDMI output requires 25mA
 * The built-in Ethernet requires 2mA
-* The Pi 3's built-in Wifi consumes around 20mA when idle
+* Pi 3 built-in Wifi consumes around 20mA when idle
 * Unknown to me: Max current requirements of the Pi 3's onboard Wifi and Bluetooth
 
-So far that's 1.5A at most. From there, the difference comes in the USB peripherals you plug in, and things you power off the 5V GPIO pins. The USB specification mandates that a port supply 500mA, however each model has a max total current it can supply to all USB ports:
+So far that's maximum 1.5A for a Pi 3, and around 1.1A for the other models. From there, the difference comes in the USB peripherals you plug in, and things you power off the 5V GPIO pins. The USB specification mandates that a port supply 500mA, however each model has a max total current it can supply to all USB ports:
 
 * Pi 1: 500mA
 * Pi 1B and Pi 2: 600mA, or 1.2A with `max_usb_current=1`
