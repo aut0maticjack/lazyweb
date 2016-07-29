@@ -5,7 +5,7 @@ This page attempts to quantify Raspberry Pi power requirements, then recommend s
 ## Power Requirements
 
 * The SoC (CPU and GPU) draw
-    * Pi 3: 1.35A under stress test, typical usage like 400mA, and 300mA at idle
+    * Pi 3: 1.35A under stress test, typical usage like 800mA, and 300mA at idle
     * Pi 2: 850mA under stress test, and 300mA at idle
     * Pi 1: 350mA under stress test, typical usage like 500mA, and 200mA at idle
     * Pi Zero: 350mA under stress test, typical usage like 250mA, and 100mA at idle
