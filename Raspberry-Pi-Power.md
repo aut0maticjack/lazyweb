@@ -30,31 +30,7 @@ The max current able to be drawn through the entire 5V line from the microUSB po
 
 So assuming the SoC and USB on a Pi 3 are drawing say 1.5A, the most you should really plug into the USB ports is about 1A. The Pi 1 seems to already be at the limit of what it can reliably draw and a [powered USB hub](http://elinux.org/RPi_Powered_USB_Hubs) should probably be used for anything serious.
 
-The Pi Zero has no polyfuse and its SoC power usage is down to about 160mA.
-
-## USB Device Power Consumption
-
-You can quantify power requirements of any specific device you have with `lsusb -v` and the `MaxPower` property.
-
-The following example shows the power requirements for a couple of game controllers:
-
-~~~
-$ lsusb -v | egrep "idVendor|idProduct|MaxPower"
-
-  idVendor           0x046d Logitech, Inc.
-  idProduct          0xc21f F710 Wireless Gamepad [XInput Mode]
-    MaxPower               98mA
-
-  idVendor           0x0738 Mad Catz, Inc.
-  idProduct          0x3187 
-    MaxPower              500mA
-~~~
-
-Some examples of common devices:
-
-* USB keyboard/mouse usually require 50mA to 150mA each
-* One USB WiFi adaptor tested required 40mA, others may differ
-* A wired XBox 360 controller requires 450mA
+The Pi Zero has no polyfuse or current protection anywhere and its SoC power usage is much lower, you can safely backpower a standalone Zero off a regular computer USB port and even run it in USB Gadget mode to get networking.
 
 References:
 
@@ -63,6 +39,20 @@ References:
 * http://www.jeffgeerling.com/blogs/jeff-geerling/raspberry-pi-zero-power
 * http://www.jeffgeerling.com/blogs/jeff-geerling/raspberry-pi-zero-conserve-energy
 * http://www.pidramble.com/wiki/benchmarks/power-consumption
+* https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/README.md
+* http://www.circuitbasics.com/raspberry-pi-zero-ethernet-gadget/
+
+## USB Device Power Consumption
+
+You can quantify power requirements of any specific device you have with `lsusb -v` and the `MaxPower` property.
+
+Some examples of common devices:
+
+* USB keyboard/mouse usually require 50mA to 150mA each
+* One USB WiFi adaptor tested required 40mA, others may differ
+* A wired XBox 360 controller requires 450mA
+
+I am keeping a database of [game controller USB power consumption](Game-Controller-USB-Power-Database).
 
 ## Power Supplies
 
