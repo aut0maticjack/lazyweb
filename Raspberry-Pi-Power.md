@@ -4,7 +4,7 @@ This page attempts to quantify Raspberry Pi power requirements, then recommend s
 
 ## Power Requirements
 
-* The SoC (CPU and GPU) draw maximum 800mA when at 100% usage, typically more like 500mA, and less than 100mA when idle.
+* The SoC (CPU and GPU) draw maximum 1.35A (Pi3) or 800mA (Pi 2) or 350mA (Pi 1/0) when at a 100% stress test, typically more like 500mA (Pi 3) under regular usage, and under 300mA when idle.
 * The USB controller requires 240mA
 * The LEDs require 5mA each
 * HDMI output requires 25mA
