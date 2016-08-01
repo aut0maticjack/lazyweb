@@ -61,10 +61,16 @@ sysbench --num-threads=$(nproc --all) --test=cpu --cpu-max-prime=10000000 run
 
 ## Monitoring
 
-* `htop` - process CPU usage
-* `vcgencmd measure_temp` - temperature
-* `for src in arm core h264 isp v3d pixel; do echo -e "$src:\t$(vcgencmd measure_clock $src)"; done` - current speeds
-* `sudo vcdbg reloc | awk -F '[ ,]*' '/^\[/ {sum += $12} END { print sum / 1024 / 1024 }'` - VRAM usage in MiB
+*   Process CPU Usage  
+    `htop`
+*   Temperature  
+    `vcgencmd measure_temp`
+*   Config settings  
+    `vcgencmd get_config int | egrep "(arm|core|gpu|sdram)_freq|over_volt"`
+*   Current runtime speeds  
+    `for src in arm core h264 isp v3d pixel; do echo -e "$src:\t$(vcgencmd measure_clock $src)"; done`
+*   VRAM usage in MiB  
+    `sudo vcdbg reloc | awk -F '[ ,]*' '/^\[/ {sum += $12} END { print sum / 1024 / 1024 }'`
 
 ## Games Which Benefit From Overclocks
 
