@@ -39,6 +39,7 @@ temp_limit=
 
 over_voltage=
 # anything greater than 6
+# counted in steps of 0.025 V
 # minimum setting -16 = 0.8 V
 # default setting   0 = 1.2 V
 # maximum setting   8 = 1.4 V
@@ -71,6 +72,9 @@ sysbench --num-threads=$(nproc --all) --test=cpu --cpu-max-prime=10000000 run
 * Ultimate MK3 (arcade) `umk3.zip` added 0.37b5 [emma](http://www.progettoemma.net/index.php?gioco=umk3&lang=en)
 * NBA Jam TE (arcade) `nbajamte.zip` added 0.36r2 [emma](http://www.progettoemma.net/index.php?gioco=nbajamte&lang=en)
 * Super Mario 64 (N64)
+* Yoshi's Island (SNES)
+* Star Fox (SNES)
+* F-Zero (SNES) does not run at full speed on default Pi 1 or Zero, but does after a `900/400/400/2` overclock.
 
 ## Other Messy Notes
 
