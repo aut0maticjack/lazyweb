@@ -83,9 +83,15 @@ sysbench --num-threads=$(nproc --all) --test=cpu --cpu-max-prime=10000000 run
 *   ~~NBA Jam TE (arcade) `nbajamte.zip` added 0.36r2 [emma](http://www.progettoemma.net/index.php?gioco=nbajamte&lang=en)~~  
     Works fine in RetroPie 4.0 with no overclock
 *   Super Mario 64 (N64) slight sound glitches - **confirmed**  
-    RetroPie 4.0, GlideN64 at 320x240, core/gpu/sdram to 500, OK after overclock
+    OK after overclock (core/gpu/sdram to 500)
+*   GoldenEye (N64) large sound glitches and slowdown - **confirmed**  
+    Few parts OK after overclock but still very annoying, wouldn't consider playable
+*   Star Fox 64 (N64) slight sound glitches and slowdown - **confirmed**  
+    Much improved after overclock but not 100% resolved, still very playable
 *   Yoshi's Island (SNES)
 *   Star Fox (SNES) ?
+
+N64 at GlideN64 at 320x240 for all tests. Overclock is Core/GPU/SDRam to 500.
 
 ### Pi 1/Zero
 
