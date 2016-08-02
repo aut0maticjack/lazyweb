@@ -74,13 +74,23 @@ sysbench --num-threads=$(nproc --all) --test=cpu --cpu-max-prime=10000000 run
 
 ## Games Which Benefit From Overclocks
 
-* NARC (arcade) `narc.zip` added 0.34b7 [emma](http://www.progettoemma.net/index.php?gioco=narc&lang=en)
-* Ultimate MK3 (arcade) `umk3.zip` added 0.37b5 [emma](http://www.progettoemma.net/index.php?gioco=umk3&lang=en)
-* NBA Jam TE (arcade) `nbajamte.zip` added 0.36r2 [emma](http://www.progettoemma.net/index.php?gioco=nbajamte&lang=en)
-* Super Mario 64 (N64)
-* Yoshi's Island (SNES)
-* Star Fox (SNES)
-* F-Zero (SNES) does not run at full speed on default Pi 1 or Zero, but does after a `900/400/400/2` overclock.
+### Pi 3
+
+*   ~~NARC (arcade) `narc.zip` added 0.34b7 [emma](http://www.progettoemma.net/index.php?gioco=narc&lang=en)~~  
+    Works fine in RetroPie 4.0 with no overclock
+*   ~~Ultimate MK3 (arcade) `umk3.zip` added 0.37b5 [emma](http://www.progettoemma.net/index.php?gioco=umk3&lang=en)~~  
+    Works fine in RetroPie 4.0 with no overclock
+*   ~~NBA Jam TE (arcade) `nbajamte.zip` added 0.36r2 [emma](http://www.progettoemma.net/index.php?gioco=nbajamte&lang=en)~~  
+    Works fine in RetroPie 4.0 with no overclock
+*   Super Mario 64 (N64) slight sound glitches - **confirmed**  
+    RetroPie 4.0, GlideN64 at 320x240, core/gpu/sdram to 500, OK after overclock
+*   Yoshi's Island (SNES)
+*   Star Fox (SNES) ?
+
+### Pi 1/Zero
+
+*   F-Zero (SNES) **confirmed**  
+    Does not run at full speed on default Pi 1 or Zero, but does after a `900/400/400/2` overclock.
 
 ## Other Messy Notes
 
