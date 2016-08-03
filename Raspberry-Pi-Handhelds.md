@@ -20,3 +20,7 @@ This page lists detail Raspberry Pi handheld posts
 * [PSPi 2.0](https://retropie.org.uk/forum/topic/2217/pspi-2-0-psp-raspberry-pi-zero-build-progress)
 * [Pi Portable](https://retropie.org.uk/forum/topic/1047/pi-portable)
 * [Raspberry Pi Handheld Emulation Device by LeejSm1th](http://imgur.com/a/9Rvfd)
+
+#### Other Cool Customs
+
+* [RomTaStick 3D printed arcade console by Gilles Grousset](http://blog.backelite.com/blog/2016/07/29/romtastick-3d-printed-arcade-console/)
