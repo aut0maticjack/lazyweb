@@ -14,6 +14,14 @@ lsusb -v | egrep "idVendor|idProduct|MaxPower"
     MaxPower              100mA
 ~~~
 
+#### iBuffalo Classic USB Gamepad
+
+~~~
+  idVendor           0x0583 Padix Co., Ltd (Rockfire)
+  idProduct          0x2060 
+    MaxPower           100mA
+~~~
+
 #### Logitech Dual Action
 
 ~~~
@@ -44,6 +52,26 @@ lsusb -v | egrep "idVendor|idProduct|MaxPower"
   idVendor           0x046d Logitech, Inc.
   idProduct          0xc218 Logitech RumblePad 2 USB
     MaxPower              500mA
+~~~
+
+#### Microsoft Xbox 360 Wired Controller
+
+~~~
+  idVendor           0x045e Microsoft Corp.
+  idProduct          0x028e Xbox360 Controller
+    MaxPower           500mA
+~~~
+
+#### Microsoft Xbox S (original) Controller
+
+~~~
+  idVendor           0x045e Microsoft Corp.
+  idProduct          0x0289 Xbox Controller S
+    MaxPower           100mA
+
+  idVendor           0x045e Microsoft Corp.
+  idProduct          0x0288 Xbox Controller S Hub
+    MaxPower           100mA
 ~~~
 
 #### Mad Catz PS3 WWE All Start Brawl Stick
