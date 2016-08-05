@@ -1,4 +1,4 @@
-This page lists detail Raspberry Pi handheld posts
+This page lists detailed Raspberry Pi handheld posts (and now also custom arcade machines)
 
 #### Professionally Made
 
@@ -21,6 +21,8 @@ This page lists detail Raspberry Pi handheld posts
 * [Pi Portable](https://retropie.org.uk/forum/topic/1047/pi-portable)
 * [Raspberry Pi Handheld Emulation Device by LeejSm1th](http://imgur.com/a/9Rvfd)
 
-#### Other Cool Customs
+#### Customs Arcade Machines
 
+* [2-Player Bartop Arcade Machine by rolfebox](http://www.instructables.com/id/2-Player-Bartop-Arcade-Machine-Powered-by-Pi/?ALLSTEPS)
 * [RomTaStick 3D printed arcade console by Gilles Grousset](http://blog.backelite.com/blog/2016/07/29/romtastick-3d-printed-arcade-console/)
+* [Build a Bartop Arcade by bookdip](http://www.buildabartoparcade.com/)
