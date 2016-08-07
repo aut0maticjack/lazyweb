@@ -8,7 +8,7 @@ This is a wiki of useful advice I commonly give or have seen on places like Stac
 * [Cooling](Raspberry-Pi-Cooling)
 * [Custom Controller Input](Raspberry-Pi-Custom-Controller-Input)
 * [Display Auto Switching](Raspberry-Pi-Display-Auto-Switching)
-* [Handhelds](Raspberry-Pi-Handhelds)
+* [Handhelds](Raspberry-Pi-Handhelds) and custom arcade machines
 * [Power](Raspberry-Pi-Power)
 * [USB Hubs](http://elinux.org/RPi_Powered_USB_Hubs)
 
