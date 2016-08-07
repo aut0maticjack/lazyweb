@@ -5,6 +5,7 @@ This page lists detailed Raspberry Pi handheld posts (and now also custom arcade
 * [PiGrrl by Adafruit](https://learn.adafruit.com/pigrrl-raspberry-pi-gameboy/overview)
 * [PiGrrl2 by Adafruit](https://learn.adafruit.com/pigrrl-2/overview)
 * [SuperGameGirl Christov9000 and Kitsch-Bent](http://www.supergamegirl.com/)
+* [PiGrrl Zero by Adagruit](https://learn.adafruit.com/pigrrl-zero/overview)
 
 #### User Made
 
