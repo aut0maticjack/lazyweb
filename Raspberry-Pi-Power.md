@@ -50,13 +50,11 @@ References:
 
 You can quantify power requirements of any specific device you have with `lsusb -v` and the `MaxPower` property.
 
-Some examples of common devices:
-
-* USB keyboard/mouse usually require 50mA to 150mA each
-* One USB WiFi adaptor tested required 40mA, others may differ
-* A wired XBox 360 controller requires 450mA
+Just because a device claims to require a certain current doesn't necessarily mean the device draws that current constantly or at all, it's just a maximum. For example, USB wifi dongles claim to require 450mA or more, but Jeff Geerling found his USB wifi dongle only drew 40mA at idle.
 
 I am keeping a database of [game controller USB power consumption](Game-Controller-USB-Power-Database).
+
+USB keyboard/mouse usually require 50mA to 150mA each.
 
 ## Power Supplies
 
