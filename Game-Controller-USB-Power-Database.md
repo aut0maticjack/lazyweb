@@ -62,6 +62,14 @@ lsusb -v | egrep "idVendor|idProduct|MaxPower"
     MaxPower           500mA
 ~~~
 
+#### Microsoft Xbox 360 Wireless Receiver
+
+~~~
+  idVendor           0x045e Microsoft Corp.
+  idProduct          0x0719 Xbox 360 Wireless Adapter
+    MaxPower           260mA
+~~~
+
 #### Microsoft Xbox S (original) Controller
 
 ~~~
