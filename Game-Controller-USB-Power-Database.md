@@ -120,13 +120,23 @@ lsusb -v | egrep "idVendor|idProduct|MaxPower"
 
 ## Generic Console-to-USB Adapters
 
-#### GreenAsia SNES 2-player
+#### Mayflash SNES Controller Adapter
 
 * http://i.imgur.com/bAQGiRC.jpg
 
 ~~~
   idVendor           0x0e8f GreenAsia Inc.
-  idProduct          0x3013 
+  idProduct          0x3013
+    MaxPower              300mA
+~~~
+
+#### Mayflash Mega Drive (Genesis) Controller Adapter
+
+* http://i.imgur.com/b1ED5ZA.jpg ?
+
+~~~
+  idVendor           0x0079 DragonRise Inc.
+  idProduct          0x1824
     MaxPower              300mA
 ~~~
 
