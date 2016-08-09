@@ -22,7 +22,7 @@ This page lists detailed Raspberry Pi handheld posts (and now also custom arcade
 * [PSPi 2.0](https://retropie.org.uk/forum/topic/2217/pspi-2-0-psp-raspberry-pi-zero-build-progress)
 * [Pi Portable](https://retropie.org.uk/forum/topic/1047/pi-portable)
 * [Raspberry Pi Handheld Emulation Device by LeejSm1th](http://imgur.com/a/9Rvfd)
-* {RaspiBoy by mp911de}(http://www.instructables.com/id/RaspiBoy-Raspberry-Pi-Gameboy-SuperPiBoy-A-Raspber/?ALLSTEPS)
+* [RaspiBoy by mp911de](http://www.instructables.com/id/RaspiBoy-Raspberry-Pi-Gameboy-SuperPiBoy-A-Raspber/?ALLSTEPS)
 
 #### Customs Arcade Machines
 
