@@ -27,7 +27,7 @@ You can power a small 5V fan off the 5V GPIO pin. A 40mm fan should be enough, b
 
 The 5V GPIO pins are passed through directly from the microUSB power supply connector, so you can drive a fan off the 5V pin safely. A fan will typically draw around 200mA. Most fans are rated in watts and `Watts / Volts = Amps`, so say `0.5W / 5V = 0.2A (200mA)`.
 
-The max current able to be drawn through the entire 5V line covered at [Raspberry Pi Power](https://github.com/superjamie/lazyweb/wiki/Raspberry-Pi-Power).
+The max current able to be drawn through the entire 5V line is covered at [Raspberry Pi Power](https://github.com/superjamie/lazyweb/wiki/Raspberry-Pi-Power).
 
 **Do not use the 3.3v or other GPIO pins to power high current devices!!!** The rest of the GPIO pins pass through the SoC and can only supply very limited current. The exact number seems unknown, but a safe max seems 50mA over all GPIO pins, and max 16mA per pin.
 
