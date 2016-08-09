@@ -10,19 +10,19 @@ This page lists detailed Raspberry Pi handheld posts (and now also custom arcade
 
 #### User Made
 
-* [DMG mod by bentika](http://imgur.com/a/shoci)
-* [DMG mod by elliptichyperboloid](https://imgur.com/gallery/XBXNu)
-* [Game Boy Zero by Wermy](http://sudomod.com/wiki/index.php?title=Game_Boy_Zero)
-* [Pi-Station Portable](http://drewsrobots.blogspot.com/2015/06/building-my-psp-pistation-portable.html)
-* [Pi-Pocket by WarriorRocker](http://www.xodustech.com/projects/raspberry-pi-gameboy-pocket)
-* [Super Pi Boy](https://superpiboy.wordpress.com/)
-* [Game Boy PC](http://www.retrovia.ie/showthread.php/8491-Game-Boy-PC-(Raspberry-Pi))
-* [PiPS](http://www.instructables.com/id/PiPS-Pi-Portable-Station-a-Raspberry-Pi-Gaming-Han/?ALLSTEPS)
-* [PSPi 1.0](https://retropie.org.uk/forum/topic/2201/pspi-1-0-psp-raspberry-pi-zero-retropie-mod)
-* [PSPi 2.0](https://retropie.org.uk/forum/topic/2217/pspi-2-0-psp-raspberry-pi-zero-build-progress)
-* [Pi Portable](https://retropie.org.uk/forum/topic/1047/pi-portable)
-* [Raspberry Pi Handheld Emulation Device by LeejSm1th](http://imgur.com/a/9Rvfd)
-* [RaspiBoy by mp911de](http://www.instructables.com/id/RaspiBoy-Raspberry-Pi-Gameboy-SuperPiBoy-A-Raspber/?ALLSTEPS)
+* [DMG mod by bentika](http://imgur.com/a/shoci) (DMG)
+* [DMG mod by elliptichyperboloid](https://imgur.com/gallery/XBXNu) (DMG)
+* [Game Boy Zero by Wermy](http://sudomod.com/wiki/index.php?title=Game_Boy_Zero) (DMG)
+* [Pi-Station Portable](http://drewsrobots.blogspot.com/2015/06/building-my-psp-pistation-portable.html) (3D)
+* [Pi-Pocket by WarriorRocker](http://www.xodustech.com/projects/raspberry-pi-gameboy-pocket) (MGB)
+* [Super Pi Boy](https://superpiboy.wordpress.com/) (DMG)
+* [Game Boy PC](http://www.retrovia.ie/showthread.php/8491-Game-Boy-PC-(Raspberry-Pi)) (DMG)
+* [PiPS](http://www.instructables.com/id/PiPS-Pi-Portable-Station-a-Raspberry-Pi-Gaming-Han/?ALLSTEPS) (3D)
+* [PSPi 1.0](https://retropie.org.uk/forum/topic/2201/pspi-1-0-psp-raspberry-pi-zero-retropie-mod) (PSP)
+* [PSPi 2.0](https://retropie.org.uk/forum/topic/2217/pspi-2-0-psp-raspberry-pi-zero-build-progress) (PSP)
+* [Pi Portable](https://retropie.org.uk/forum/topic/1047/pi-portable) (Vac)
+* [Raspberry Pi Handheld Emulation Device by LeejSm1th](http://imgur.com/a/9Rvfd) (3D)
+* [RaspiBoy by mp911de](http://www.instructables.com/id/RaspiBoy-Raspberry-Pi-Gameboy-SuperPiBoy-A-Raspber/?ALLSTEPS) (DMG)
 
 #### Customs Arcade Machines
 
