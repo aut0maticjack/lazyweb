@@ -4,14 +4,14 @@ This page attempts to quantify Raspberry Pi power requirements, then recommend s
 
 ## Power Requirements
 
-* The SoC (CPU and GPU) draw
+* The SoC (CPU and GPU) draw:
     * Pi 3: 1.35A under stress test, typical usage like 800mA, and 300mA at idle
     * Pi 2: 850mA under stress test, and 300mA at idle
     * Pi 1: 350mA under stress test, typical usage like 500mA, and 200mA at idle
     * Pi Zero: 350mA under stress test, typical usage like 250mA, and 100mA at idle
 * The USB controller chip on the Pi 1/2/3 requires 240mA
 * The LEDs require 5mA each
-* HDMI output requires 25mA
+* HDMI output required 25mA to one monitor tested
 * The built-in Ethernet requires 2mA
 * Pi 3 built-in Wifi consumes around 20mA when idle
 * Unknown to me: Max current requirements of the Pi 3's onboard Wifi and Bluetooth
@@ -35,6 +35,8 @@ The max current able to be drawn through the entire 5V line from the microUSB po
 So assuming the SoC and USB on a Pi 3 are drawing say 1.5A, the most you should really plug into the USB ports is about 1A. The Pi 1 seems to already be at the limit of what it can reliably draw and a [powered USB hub](http://elinux.org/RPi_Powered_USB_Hubs) should probably be used for anything serious.
 
 The Pi Zero has no polyfuse or current protection anywhere and its SoC power usage is much lower, you can safely backpower a standalone Zero off a regular computer USB port and even run it in USB Gadget mode to get networking.
+
+The HDMI port is current-limited to 200mA. It is expected that an unpowered HDMI-to-VGA adapter would draw more current than just a plain monitor.
 
 References:
 
@@ -64,7 +66,9 @@ If you're seeing the small rainbow square in the top right corner, your Raspberr
 
 Note this is *not* the giant rainbow splash screen which appears on boot. That's the GPU self-test and is perfectly normal. If desired, you can disable the rainbow splash screen with `disable_splash=1` in `/boot/config.txt`.
 
-If you're seeing the yellow/orange/red square in the top right corner, those are temperature warnings.
+The red power LED will also blink if power drops below this level. This LED is connected to an APX803 supervisor chip which blinks the LED when power drops below 4.65V. This is visible on the schematics of the Pi B+ and Pi 3, look for `PWR_LOW_N`.
+
+If you're seeing the yellow/orange/red square in the top right corner, those are temperature warnings. I have another page on [Raspberry Pi Cooling](https://github.com/superjamie/lazyweb/wiki/Raspberry-Pi-Cooling).
 
 There are many aspects to a good power supply, covered in great detail on [Ken Shirrif's blog](http://www.righto.com/2012/10/a-dozen-usb-chargers-in-lab-apple-is.html).
 
@@ -86,3 +90,5 @@ References:
 
 * http://www.righto.com/2012/10/a-dozen-usb-chargers-in-lab-apple-is.html
 * https://www.raspberrypi.org/forums/viewtopic.php?t=82373
+* https://www.reddit.com/r/raspberry_pi/comments/4wotty/can_we_get_a_better_explanation_on_the_red_led/
+* https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/README.md
