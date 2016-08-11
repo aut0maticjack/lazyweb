@@ -4,6 +4,8 @@
 lsusb -v | egrep "idVendor|idProduct|MaxPower"
 ~~~
 
+"Actual power usage" figures measured with [Keweisi USB Power Meter](http://i.imgur.com/Q1s0lv5.jpg).
+
 ## Brand-name Controllers
 
 #### Hyperkin GN6
