@@ -8,6 +8,8 @@ lsusb -v | egrep "idVendor|idProduct|MaxPower"
 
 #### Hyperkin GN6
 
+* http://i.imgur.com/OvSA34V.jpg
+
 ~~~
   idVendor           0x0079 DragonRise Inc.
   idProduct          0x0011 Gamepad
@@ -16,10 +18,13 @@ lsusb -v | egrep "idVendor|idProduct|MaxPower"
 
 #### iBuffalo Classic USB Gamepad
 
+* http://i.imgur.com/jAbBqet.jpg
+* Actual power usage: Under 10mA
+
 ~~~
   idVendor           0x0583 Padix Co., Ltd (Rockfire)
   idProduct          0x2060 
-    MaxPower           100mA
+    MaxPower              100mA
 ~~~
 
 #### Logitech Dual Action
@@ -30,7 +35,14 @@ lsusb -v | egrep "idVendor|idProduct|MaxPower"
     MaxPower               30mA
 ~~~
 
+#### Logitech Gamepad F310
+
+* http://i.imgur.com/KN6TgtP.png
+
 #### Logitech Gamepad F710
+
+* http://i.imgur.com/2z6Kq9E.png
+* Actual power usage: Under 10mA
 
 ~~~
   idVendor           0x046d Logitech, Inc.
@@ -48,6 +60,9 @@ lsusb -v | egrep "idVendor|idProduct|MaxPower"
 
 #### Logitech RumblePad 2
 
+* http://i.imgur.com/oxnV4la.jpg
+* Actual power usage: Under 10mA when pressing buttons, up to 100mA when vibrating
+
 ~~~
   idVendor           0x046d Logitech, Inc.
   idProduct          0xc218 Logitech RumblePad 2 USB
@@ -59,7 +74,7 @@ lsusb -v | egrep "idVendor|idProduct|MaxPower"
 ~~~
   idVendor           0x045e Microsoft Corp.
   idProduct          0x028e Xbox360 Controller
-    MaxPower           500mA
+    MaxPower              500mA
 ~~~
 
 #### Microsoft Xbox 360 Wireless Receiver
@@ -67,19 +82,28 @@ lsusb -v | egrep "idVendor|idProduct|MaxPower"
 ~~~
   idVendor           0x045e Microsoft Corp.
   idProduct          0x0719 Xbox 360 Wireless Adapter
-    MaxPower           260mA
+    MaxPower              260mA
 ~~~
+
+#### Microsoft Xbox One Controller - Model 1537
+
+~~~
+  idVendor           0x045e Microsoft Corp.
+  idProduct          0x02d1
+    MaxPower              500mA
+~~~~
+
 
 #### Microsoft Xbox S (original) Controller
 
 ~~~
   idVendor           0x045e Microsoft Corp.
   idProduct          0x0289 Xbox Controller S
-    MaxPower           100mA
+    MaxPower              100mA
 
   idVendor           0x045e Microsoft Corp.
   idProduct          0x0288 Xbox Controller S Hub
-    MaxPower           100mA
+    MaxPower              100mA
 ~~~
 
 #### Mad Catz PS3 WWE All Start Brawl Stick
@@ -87,6 +111,16 @@ lsusb -v | egrep "idVendor|idProduct|MaxPower"
 ~~~
   idVendor           0x0738 Mad Catz, Inc.
   idProduct          0x3187 
+    MaxPower              500mA
+~~~
+
+#### RetroLink 64 Classic Controller
+
+* http://i.imgur.com/SfMN9Ag.jpg
+
+~~~
+  idVendor           0x0079 DragonRise Inc.
+  idProduct          0x0006 Generic USB Joystick
     MaxPower              500mA
 ~~~
 
@@ -104,6 +138,16 @@ lsusb -v | egrep "idVendor|idProduct|MaxPower"
   idVendor           0x054c Sony Corp.
   idProduct          0x05c4 DualShock 4
     MaxPower              500mA
+~~~
+
+#### X-Arcade Dual Joystick
+
+* http://i.imgur.com/H54QHY3.png
+
+~~~
+  idVendor           0xaa55
+  idProduct          0x0101
+    MaxPower              100mA
 ~~~
 
 ## Generic Controllers
