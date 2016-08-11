@@ -29,7 +29,7 @@ The max current able to be drawn through the entire 5V line from the microUSB po
 * Early/Asian Pi 1 with T075 polyfuse = 750mA (fuse blows at 1.1A)
 * Late/British Pi 1 with miniSMDC075 polyfuse = 750mA (fuse blows at 1.5A)
 * Pi 1 B+ with 1812L or similar polyfuse = 2A (fuse blows at 3.5A)
-* Pi 2 presumably the same as the B+, schematic diagram not available
+* Pi 2 with 204L polyfuse = 2A (fuse blows at 4A)
 * Pi 3 with MF-MSMF250 polyfuse = 2.5A (fuse blows at 5A)
 
 So assuming the SoC and USB on a Pi 3 are drawing say 1.5A, the most you should really plug into the USB ports is about 1A. The Pi 1 seems to already be at the limit of what it can reliably draw and a [powered USB hub](http://elinux.org/RPi_Powered_USB_Hubs) should probably be used for anything serious.
