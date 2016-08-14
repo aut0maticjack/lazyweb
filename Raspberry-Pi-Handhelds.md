@@ -24,6 +24,7 @@ This page lists detailed Raspberry Pi handheld posts (and now also custom arcade
 * [Raspberry Pi Handheld Emulation Device by LeejSm1th](http://imgur.com/a/9Rvfd) (3D)
 * [RaspiBoy by mp911de](http://www.instructables.com/id/RaspiBoy-Raspberry-Pi-Gameboy-SuperPiBoy-A-Raspber/?ALLSTEPS) (DMG)
 * [The GamePi by Dandeman321](http://cookingcircuits.com/home/thegamepi) (3D)
+* [NeoPiGamer by Tekkaman_Slade](https://retropie.org.uk/forum/topic/960/neopigamer) (GBA)
 
 #### Customs Arcade Machines
 
