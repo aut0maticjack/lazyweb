@@ -37,6 +37,7 @@ This page lists detailed Raspberry Pi handheld posts (and now also custom arcade
 * [2-Player Bartop Arcade Machine by rolfebox](http://www.instructables.com/id/2-Player-Bartop-Arcade-Machine-Powered-by-Pi/?ALLSTEPS)
 * [RomTaStick 3D printed arcade console by Gilles Grousset](http://blog.backelite.com/blog/2016/07/29/romtastick-3d-printed-arcade-console/)
 * [Build a Bartop Arcade by bookdip](http://www.buildabartoparcade.com/)
+* [2 player Bartop Arcade by SnaKeZ83](https://imgur.com/a/9LebN)
 
 #### Lists
 
