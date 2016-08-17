@@ -31,6 +31,7 @@ This page lists detailed Raspberry Pi handheld posts (and now also custom arcade
 * [Pi Zero Gameboy NANO by Rasmushauschild](http://www.thingiverse.com/thing:1334253) (3D, Zero)
 * [Raspberry Pi Portable by benheck](http://www.thingiverse.com/thing:110354) (3D, A)
 * [PieBoy Handheld Retro Game Console by melawis501](https://www.thingiverse.com/thing:1681431) (3D, B+)
+* [Wii U gamepad portable by SpaceAgeWizard](http://imgur.com/gallery/wmopX) (WiiU, B+)
 
 #### Customs Arcade Machines
 
