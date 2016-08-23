@@ -33,7 +33,7 @@ This page lists detailed Raspberry Pi handheld posts (and now also custom arcade
 * [PieBoy Handheld Retro Game Console by melawis501](https://www.thingiverse.com/thing:1681431) (3D, B+)
 * [Wii U gamepad portable by SpaceAgeWizard](http://imgur.com/gallery/wmopX) (WiiU, B+)
 
-#### Customs Arcade Machines
+#### Custom Arcade Machines
 
 * [2-Player Bartop Arcade Machine by rolfebox](http://www.instructables.com/id/2-Player-Bartop-Arcade-Machine-Powered-by-Pi/?ALLSTEPS)
 * [RomTaStick 3D printed arcade console by Gilles Grousset](http://blog.backelite.com/blog/2016/07/29/romtastick-3d-printed-arcade-console/)
