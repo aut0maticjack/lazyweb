@@ -36,7 +36,6 @@ The Pi uses 3.3V TTL. Many components, including those intended for Arduino, use
 
 * https://learn.sparkfun.com/tutorials/voltage-dividers
 * https://learn.sparkfun.com/tutorials/using-the-logic-level-converter
-* http://jamesreubenknowles.com/level-shifting-stragety-experments-1741
 
 As a rule of thumb, if a component needs 5V power, it probably supplies 5V TTL.
 
@@ -49,8 +48,16 @@ As you might have picked up, Adafruit and Sparkfun are good places to start lear
 * https://learn.adafruit.com/
 * https://learn.sparkfun.com/
 
-If you have a particular sensor you're after, such as a DS1307 Real Time Clock, search Google for the part number and "raspberry pi". Searching for `DS1307 raspberry pi` shows several tutorials and Python libraries, so you can get up and running using your component as quickly as possible.
+If you have a particular sensor you wish to use, search Google for the part number and "raspberry pi". This will often provide tutorials and Python libraries, so you can get up and running using your component as quickly as possible.
+
+For example, if we want to use a DS1307 Real Time Clock, search for `DS1307 raspberry pi`.
 
 If you are using Python, you should also search the Python Package Index at https://pypi.python.org/ or by using `pip search partnumber` on the commandline, there may be a library in there too.
 
 If you cannot find a pre-existing library, then look up the manufacturer's page for the component and get the Data Sheet. This wil explain how to interface with the component, though it's not always easy to figure out, and is probably a task for advanced users.
+
+## Further Reading
+
+* http://elinux.org/RPi_Tutorial_Easy_GPIO_Hardware_%26_Software
+* http://elinux.org/RPi_GPIO_Code_Samples
+* http://jamesreubenknowles.com/level-shifting-stragety-experments-1741
