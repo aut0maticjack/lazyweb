@@ -5,6 +5,7 @@ This is a wiki of useful advice I commonly give or have seen on places like Stac
 ## Raspberry Pi
 
 * [3.5mm Audio Hiss](Raspberry-Pi-3.5mm-Audio-Hiss)
+* [Clustering](Raspberry-Pi-Clustering)
 * [Cooling](Raspberry-Pi-Cooling)
 * [Custom Controller Input](Raspberry-Pi-Custom-Controller-Input)
 * [Display Auto Switching](Raspberry-Pi-Display-Auto-Switching)
