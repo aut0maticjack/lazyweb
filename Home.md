@@ -33,4 +33,14 @@ The [RetroPie Wiki](https://github.com/RetroPie/RetroPie-Setup/wiki) details alm
 
 ## Linux
 
+* Bonding and LACP: [one](http://unix.stackexchange.com/questions/82569/bonds-vs-aggregators/172232#172232) [two](http://unix.stackexchange.com/questions/81633/rhel-5-complex-port-bonding/168545#168545)
+* Network Performance Tuning [talk](https://www.youtube.com/watch?v=ZYCKSN4xf84) (and [notes](http://jbainbri.github.io/lca2016.html)) that I gave at LCA2016
+* [Real Time](Linux-Real-Time)
+
+StackExchange:
+
+* [My ServerFault answers](http://serverfault.com/users/122677/suprjami?tab=answers&sort=votes)
+* [My superuser.com answers](http://superuser.com/users/136766/suprjami?tab=answers&sort=votes)
+* [My Unix & Linux answers](http://unix.stackexchange.com/users/39229/suprjami?tab=answers&sort=votes)
+
 ## Networking
