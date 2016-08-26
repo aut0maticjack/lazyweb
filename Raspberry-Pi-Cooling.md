@@ -36,3 +36,23 @@ References:
 * http://raspberrypi.stackexchange.com/questions/9298/what-is-the-maximum-current-the-gpio-pins-can-output
 * http://elinux.org/RPi_Low-level_peripherals#Power_pins
 * https://www.raspberrypi.org/forums/viewtopic.php?f=44&t=12498
+
+### Thermal Test
+
+* CPUBurn-A53
+
+~~~
+wget https://raw.githubusercontent.com/ssvb/cpuburn-arm/master/cpuburn-a53.S
+gcc -o cpuburn-a53 cpuburn-a53.S
+while true; do vcgencmd measure_clock arm; vcgencmd measure_temp; sleep 10; done& ./cpuburn-a53
+~~~
+
+* Linpack
+
+~~~
+sudo apt-get install libmpich-dev
+wget http://web.eece.maine.edu/~vweaver/junk/pi3_hpl.tar.gz
+tar -xvzf pi3_hpl.tar.gz
+chmod +x xhpl
+./xhpl
+~~~
