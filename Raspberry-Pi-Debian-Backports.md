@@ -38,6 +38,8 @@ The Backports repo is not as well-tested as Raspbian or Debian, and it's possibl
 
 If you see a large amount of libraries and dependent packages being updated, give it a try but expect it not to work or to break other things. If you see fundamental packages like `libc` or `systemd` or `xorg` or `python` being updated, expect that your OS may not boot or work well again. If you update all packages then your OS almost certainly won't boot again.
 
+I've had more success using Backports on Pi 2/3 with their ARMv7 architecture, than on the Pi 1/0 with their ARMv6 architecture. Some binaries segfault so I guess they use ARMv7 features that ARMv6 doesn't have.
+
 ## Installation
 
 Add the two Debian package signing keys:
