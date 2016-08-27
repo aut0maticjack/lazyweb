@@ -1,4 +1,6 @@
-## [Index](https://github.com/superjamie/lazyweb/wiki)
+## Index
+
+* [Home](https://github.com/superjamie/lazyweb/wiki)
 
 ## About
 
