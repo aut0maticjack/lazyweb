@@ -77,7 +77,7 @@ sudo apt-get -t jessie-backports install packagename
 
 We can see in regular Jessie that the current version [youtube-dl (2014.08.05-1+deb8u1)](https://packages.debian.org/jessie/web/youtube-dl) is very old, but in Backports, it's currently [youtube-dl (2016.02.22-1~bpo8+1)](https://packages.debian.org/jessie-backports/web/youtube-dl) which is much better.
 
-Assuming we've installed this before:
+Assuming we've installed this before with:
 
 ~~~
 sudo apt-get install youtube-dl
@@ -107,7 +107,7 @@ Success!
 
 ## Alternate Key Install Methods
 
-If you're a GPG nerd or want a different way to install packages, you can also:
+If you're a GPG nerd or want a different way to install the keys, you can also:
 
 ~~~
 # Debian Archive Automatic Signing Key (8/jessie) <ftpmaster@debian.org>
