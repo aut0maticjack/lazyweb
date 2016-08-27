@@ -14,6 +14,7 @@ This is a wiki of useful advice I commonly give or have seen on places like Stac
 * [Handhelds](Raspberry-Pi-Handhelds) and custom arcade machines
 * [Power](Raspberry-Pi-Power)
 * [USB Hubs](http://elinux.org/RPi_Powered_USB_Hubs)
+* [VPN Router](https://gist.github.com/superjamie/ac55b6d2c080582a3e64)
 
 ## RetroPie
 
