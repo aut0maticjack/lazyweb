@@ -51,6 +51,10 @@ User Made
 * [Rombus3000 by circuitbeard](http://circuitbeard.co.uk/blog/rombus3000-a-raspberry-pi-mini-arcade-machine)
 * [3D Printed Arcade Machine by silvas2001](http://slivas2001.pixnet.net/blog/post/63886792)
 
+#### Custom Consoles
+
+* [SNES RetroPie by g0tter](https://imgur.com/a/llFkj)
+
 #### Lists
 
 * https://all3dp.com/retro-game-cases-for-raspberry-pi/
