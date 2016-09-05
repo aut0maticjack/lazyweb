@@ -41,6 +41,7 @@ Professionally Made
 
 * [PiCade by Pimoroni](https://shop.pimoroni.com/products/picade)
 * [Starforce Pi](www.starforcepi.com/)
+* [Cupcade by Adafruit](https://learn.adafruit.com/cupcade-raspberry-pi-micro-mini-arcade-game-cabinet)
 
 User Made
 
