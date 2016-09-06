@@ -24,6 +24,31 @@ To have a custom key map, in that config file, set:
 mapperfile=mapper-game.map
 ~~~
 
+## Keymapper
+
+Good ideas:
+
+* mod3 = Select
+* Shutdown = Start
+* Cycles Down = L2
+* Cycles Up = R2
+
+Logitech F710:
+
+~~~
+mod_3 "stick_0 button 8" 
+hand_shutdown "key 290 mod1" "stick_0 button 9 mod3" 
+hand_cycledown "stick_0 button 6 mod3" "key 292 mod1" 
+hand_cycleup "key 293 mod1" "stick_0 button 7 mod3" 
+~~~
+
+Should probably make a convention like:
+
+* L2 = y
+* R2 = n
+* Select = Esc
+* Start = Enter
+
 ## Aspect Ratio
 
 To get games to display in the correct aspect ratio:
@@ -56,7 +81,7 @@ Doom maxes out the CPU at 21000 cycles, which gives about 21fps, about the perfo
 
 Performance depends on the game, OMF2097 performs well on its "Pentium" setting with only 10000 cycles. IIRC from using real hardware, that setting actually did require a Pentium or faster.
 
-Probably worth playing with `cycles=max` with some games.
+Probably worth playing with `cycles=max` with some games. In Doom this dropped 4fps. In OMF2097 it makes the game unplayably fast.
 
 ## Compiling from Source
 
