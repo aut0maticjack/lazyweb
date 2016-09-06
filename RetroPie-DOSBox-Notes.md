@@ -1,6 +1,8 @@
 ## Config File
 
-The DOSBox config file is at `~/.dosbox/dosbox-SVN.conf`
+The DOSBox config file is at `~/.dosbox/dosbox-SVN.conf` and the mapper file is `mapper-SVN.map`
+
+The `~/.dosbox/` directory is a symlink to `/opt/retropie/configs/pc/` directory
 
 ## C Drive
 
@@ -29,9 +31,9 @@ mapperfile=mapper-game.map
 Good ideas:
 
 * mod3 = Select
-* Shutdown = Start
-* Cycles Down = L2
-* Cycles Up = R2
+* Shutdown = Start mod3
+* Cycles Down = L2 mod3
+* Cycles Up = R2 mod3
 
 Logitech F710:
 
@@ -61,9 +63,9 @@ aspect=true
 
 Setting `output=opengl` does not harm performance and applies bilinear smoothing to make things look nicer, though it also renders a mouse cursor in the top left corner which is rather annoying.
 
-Setting `windowresolution=1280x960` looks nicer but performance suffers. Maybe this is OK to use with less demanding games.
+Setting `windowresolution=1280x960` looks nicer but performance suffers for more complex games. Maybe this is OK to use with less demanding games.
 
-Setting `scaler=normal2x` doesn't seem to make any performance difference, unsure if it makes a graphical difference either.
+Setting `scaler=normal2x` doesn't seem to make any performance difference, unsure if it makes a graphical difference either. Even on weaker games, `scaler=normal3x` affects performance.
 
 ## Performance
 
@@ -77,11 +79,11 @@ cycleup=1000
 cycledown=1000
 ~~~
 
-Doom maxes out the CPU at 21000 cycles, which gives about 21fps, about the performance of a 486-66 according to the Doom Benchmark.
+Doom maxes out the CPU at about 21000 cycles, which gives about 21fps, about the performance of a 486-66 according to the Doom Benchmark - https://www.complang.tuwien.ac.at/misc/doombench.html
 
-Performance depends on the game, OMF2097 performs well on its "Pentium" setting with only 10000 cycles. IIRC from using real hardware, that setting actually did require a Pentium or faster.
+Performance depends on the game, OMF2097 performs well on its "Pentium" setting with only 12500 cycles. IIRC from using real hardware, that setting actually did require a Pentium or faster.
 
-Probably worth playing with `cycles=max` with some games. In Doom this dropped 4fps. In OMF2097 it makes the game unplayably fast.
+Probably worth playing with `cycles=max` with some games. In Doom this dropped 4fps. In OMF2097 it makes the game so fast as to be unplayable.
 
 ## Compiling from Source
 
@@ -148,7 +150,7 @@ sleep 1
 
 ## Mouse control with analog Stick (Logitech F710)
 
-This isn't working.
+This isn't working, the mouse tries to stay in one corner and is way too fast. It also seems you need to map *every* key you want to use, not just the mouse axes. Kinda thinking this is no good for me.
 
 #### Device
 
@@ -196,5 +198,4 @@ sleep 1
 ## References
 
 * https://www.reddit.com/r/RetroPie/comments/50q04s/getting_320x200_dos_games_to_display_correctly/
-* https://www.complang.tuwien.ac.at/misc/doombench.html
 * https://retropie.org.uk/forum/topic/2032/dosbox-mapping-mouse-to-ps3-analog-stick
