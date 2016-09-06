@@ -87,7 +87,114 @@ Probably worth playing with `cycles=max` with some games. In Doom this dropped 4
 
 The binaries RetroPie provides are compiled with the Pi 2 compiler flags, but recompiling on a Pi 3 uses different flags, which appears to give a boost in performance. I haven't benchmarked this.
 
+## Mouse control with analog stick (PS3)
+
+Download and compile joymapper: https://sourceforge.net/projects/linuxjoymap/
+
+Find device ID:
+
+~~~
+cat /proc/bus/input/devices
+
+I: Bus=0003 Vendor=054c Product=0268 Version=0111
+N: Name="Sony PLAYSTATION(R)3 Controller"
+P: Phys=usb-bcm2708_usb-1.3.2/input0
+S: Sysfs=/devices/platform/bcm2708_usb/usb1/1-1/1-1.3/1-1.3.2/1-1.3.2:1.0/0003:054C:0268.0001/input/input2
+U: Uniq=
+H: Handlers=js0 event2 
+B: PROP=0
+B: EV=1b
+B: KEY=7 0 0 0 0 0 0 0 0 0 0 0 0 ffff 0 0 0 0 0 0 0 0 0
+B: ABS=7fffff00 27
+B: MSC=10
+~~~
+
+Example PS3 mouse mapping for DOSBox:
+
+~~~
+# General Mouse Mapping for DOSBox
+
+# Map Mouse
+axis vendor=0x054c product=0x0268 src=0 target=mouse axis=0
+axis vendor=0x054c product=0x0268 src=1 target=mouse axis=1
+button vendor=0x054c product=0x0268 src=14 target=mouse button=0
+button vendor=0x054c product=0x0268 src=15 target=mouse button=1
+
+# Navigation
+button vendor=0x054c product=0x0268 src=0 target=kbd button="esc"
+button vendor=0x054c product=0x0268 src=3 target=kbd button="enter"
+button vendor=0x054c product=0x0268 src=12 target=kbd button="space"
+
+button vendor=0x054c product=0x0268 src=4 target=kbd button="up"
+button vendor=0x054c product=0x0268 src=5 target=kbd button="right"
+button vendor=0x054c product=0x0268 src=6 target=kbd button="down"
+button vendor=0x054c product=0x0268 src=7 target=kbd button="left"
+~~~
+
+To use the mouse, DOSBox needs to capture it. This can be done by pressing CTRL+F10 or left-clicking.
+
+Example launcher for Albion:
+
+~~~
+#!/bin/bash
+sudo /home/pi/joymap/loadmap /home/pi/RetroPie/roms/pc/dosbox-map/mouse.map &
+/opt/retropie/emulators/dosbox/bin/dosbox -c "mount c /home/pi/RetroPie/roms/pc" -c "c:" -c "cd ALBION" -c "LAUNCH.EXE" -c "exit" 
+sudo killall loadmap
+sleep 1
+~~~
+
+* https://retropie.org.uk/forum/topic/2032/dosbox-mapping-mouse-to-ps3-analog-stick/
+* http://blog.petrockblock.com/forums/topic/mapping-a-game-controller-in-kodi/#post-106586
+
+## Mouse control with analog Stick (Logitech F710)
+
+This isn't working.
+
+#### Device
+
+~~~
+I: Bus=0003 Vendor=046d Product=c21f Version=0305
+N: Name="Logitech Gamepad F710"
+P: Phys=usb-3f980000.usb-1.2/input0
+S: Sysfs=/devices/platform/soc/3f980000.usb/usb1/1-1/1-1.2/1-1.2:1.0/input/input3
+U: Uniq=
+H: Handlers=event3 js0 
+B: PROP=0
+B: EV=20000b
+B: KEY=7fdb0000 0 0 0 0 0 0 0 0 0
+B: ABS=3001b
+B: FF=1 7030000 0 0
+~~~
+
+#### Mapper
+
+~~~
+~/.dosbox/mouse.map
+
+# left analog left/right
+axis vendor=0x046d product=0xc21f src=0 target=mouse axis=0
+# left analog up/down
+axis vendor=0x046d product=0xc21f src=1 target=mouse axis=1
+# L3 = left click
+button vendor=0x046d product=0xc21f src=11 target=mouse button=0
+# R3 = left clock
+button vendor=0x046d product=0xc21f src=12 target=mouse button=1
+~~~
+
+#### Launcher
+
+~~~
+Street Rod.sh
+
+#!/bin/bash
+sudo /home/pi/joymap/loadmap /home/pi/.dosbox/mouse.map &
+/opt/retropie/emulators/dosbox/bin/dosbox -c "@MOUNT C /home/pi/RetroPie/roms/DOS" -c "@C:" -c "@CD SR1" -c "@SR.EXE" -c "@EXIT"
+sudo killall loadmap
+sleep 1
+~~~
+
 ## References
 
 * https://www.reddit.com/r/RetroPie/comments/50q04s/getting_320x200_dos_games_to_display_correctly/
 * https://www.complang.tuwien.ac.at/misc/doombench.html
+* https://retropie.org.uk/forum/topic/2032/dosbox-mapping-mouse-to-ps3-analog-stick
