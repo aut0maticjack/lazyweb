@@ -21,6 +21,7 @@ This is a wiki of useful advice I commonly give or have seen on places like Stac
 The [RetroPie Wiki](https://github.com/RetroPie/RetroPie-Setup/wiki) details almost anything you'd want to know.
 
 * BIOS Files
+* [DOSBox Notes](RetroPie-DOSBox-Notes)
 * [DOSBox One Must Fall 2097](RetroPie-DOSBox-OMF2097)
 * [Game Controller USB Power Database](Game-Controller-USB-Power-Database)
 * MAME / FBA ROMs
