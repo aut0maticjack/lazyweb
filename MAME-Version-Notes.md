@@ -1,6 +1,6 @@
 MAME romset versions corresponding to various emulators on various platforms:
 
-### RetroArch Cores
+### RetroArch
 
 * mame2000 (aka mame4all) - 0.37b5
 * mame2003 - 0.78
@@ -8,6 +8,13 @@ MAME romset versions corresponding to various emulators on various platforms:
 * mame2014 - 0.159
 * lr-fba - 0.154 (FBA 0.2.97.30)
 * lr-fba-next - 0.173 (fba 0.2.97.38)
+
+### RetroPie Others
+
+* PiFBA - 0.114 (FBA 0.2.96.71)
+* advmame-0.94 - 0.94
+* advmame-1.4 - 0.106
+* gngeopi - 0.138
 
 ### Android
 
@@ -17,14 +24,17 @@ MAME romset versions corresponding to various emulators on various platforms:
 
 ### PSP
 
-* CPS1PSP CPS2PSP MVSPSP v2.3.1 - 0.120
-* CPS1PSP CPS2PSP MVSPSP v2.3.5 NJEmu - 0.152
+* CPS1PSP CPS2PSP MVSPSP v2.3.1 and earlier - 0.120  
+    (*also need to run `romcnv` to create cache files for CPS2 and MVS*)
+* CPS1PSP CPS2PSP MVSPSP v2.3.5 NJEmu - 0.152  
+    (*also need to run `romcnv` to create cache files for CPS2 and MVS*)
 * FBA4PSP - 0.141
 
 ### Other
 
 * FightCade 0.42 - 0.123u1 (FBA 0.2.96.74)
-* PiFBA and OpenDingux FBA 1.0 - 0.114 (FBA 0.2.96.71)
+* OpenDingux FBA 1.0 - 0.114 (FBA 0.2.96.71)  
+    (*same as PiFBA, probably the same sourcecode*)
 
 ### DATs
 
