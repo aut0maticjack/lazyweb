@@ -34,6 +34,10 @@ The [RetroPie Wiki](https://github.com/RetroPie/RetroPie-Setup/wiki) details alm
 * [Preventing SOCD on common ground PCB using 7400 NAND gates](http://forums.shoryuken.com/discussion/147393/guide-preventing-socd-on-any-common-ground-pcb-by-using-7400-chips/p1)
 * [Slagcoin](http://slagcoin.com/joystick/introduction.html)
 
+## Emulation
+
+* [MAME Version Notes](MAME-Version-Notes)
+
 ## Linux
 
 * Bonding and LACP: [one](http://unix.stackexchange.com/questions/82569/bonds-vs-aggregators/172232#172232) [two](http://unix.stackexchange.com/questions/81633/rhel-5-complex-port-bonding/168545#168545)
