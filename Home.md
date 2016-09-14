@@ -37,7 +37,10 @@ The [RetroPie Wiki](https://github.com/RetroPie/RetroPie-Setup/wiki) details alm
 
 ## Linux
 
-* Bonding and LACP: [one](http://unix.stackexchange.com/questions/82569/bonds-vs-aggregators/172232#172232) [two](http://unix.stackexchange.com/questions/81633/rhel-5-complex-port-bonding/168545#168545)
+* Bonding and LACP
+    * http://unix.stackexchange.com/questions/82569/bonds-vs-aggregators/172232#172232
+    * http://unix.stackexchange.com/questions/81633/rhel-5-complex-port-bonding/168545#168545
+    * http://serverfault.com/questions/731508/how-to-implement-lacp-cross-switches
 * Network Performance Tuning [talk](https://www.youtube.com/watch?v=ZYCKSN4xf84) (and [notes](http://jbainbri.github.io/lca2016.html)) that I gave at LCA2016
 * [Real Time](Linux-Real-Time)
 
