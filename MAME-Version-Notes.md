@@ -6,11 +6,15 @@ MAME romset versions corresponding to various emulators on various platforms:
 * mame2003 - 0.78
 * mame2010 - 0.139
 * mame2014 - 0.159
+* lr-fba2012 - 0.145u5 (FBA 0.2.97.24)
+* lr-fba - 0.173 (FBA 0.2.97.38)
+
+### RetroPie
+
+Most of the RetroArch cores above apply, names/versions unique to RetroPie are:
+
 * lr-fba - 0.154 (FBA 0.2.97.30)
-* lr-fba-next - 0.173 (fba 0.2.97.38)
-
-### RetroPie Others
-
+* lr-fba-next - 0.173 (FBA 0.2.97.38)
 * PiFBA - 0.114 (FBA 0.2.96.71)
 * advmame-0.94 - 0.94
 * advmame-1.4 - 0.106
@@ -20,7 +24,7 @@ MAME romset versions corresponding to various emulators on various platforms:
 
 * [mame4all](https://play.google.com/store/apps/details?id=com.seleuco.mame4all) - 0.37b5
 * [mame4droid](https://play.google.com/store/apps/details?id=com.seleuco.mame4droid) - 0.139u1
-* [RetroidNetPlay](https://play.google.com/store/apps/details?id=org.retroidnetplay) - 0.147u4 FBA 0.2.97.28 
+* [RetroidNetPlay](https://play.google.com/store/apps/details?id=org.retroidnetplay) - 0.147u4 (FBA 0.2.97.28)
 
 ### PSP
 
@@ -44,3 +48,5 @@ MAME romset versions corresponding to various emulators on various platforms:
 ### References
 
 * https://github.com/RetroPie/RetroPie-Setup/wiki/Managing-ROMs
+* http://choccyhobnob.com/tutorials/demystifying-mame-roms/
+* https://retropie.org.uk/forum/topic/2859/how-to-use-mame-with-retropie-help-guide
