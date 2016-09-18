@@ -4,7 +4,7 @@ This page lists detailed Raspberry Pi handheld posts (and now also custom arcade
 
 * [PiGrrl by Adafruit](https://learn.adafruit.com/pigrrl-raspberry-pi-gameboy/overview) (3D, 1B)
 * [PiGrrl2 by Adafruit](https://learn.adafruit.com/pigrrl-2/overview) (3D, B+)
-* [SuperGameGirl Christov9000 and Kitsch-Bent](http://www.supergamegirl.com/) (3D, B+)
+* [SuperGameGirl Christov9000 and Kitsch-Bent](https://m.imgur.com/a/gFhk7) - [shop](http://www.supergamegirl.com/) (3D, B+)
 * [PiGrrl Zero by Adagruit](https://learn.adafruit.com/pigrrl-zero/overview) (3D, Zero)
 * [Super Game Pi by Adafruit](https://learn.adafruit.com/super-game-pi) (3D, A+)
 * [Pocket PiGrrl by Adafruit](https://learn.adafruit.com/pocket-pigrrl/) (3D, A+)
