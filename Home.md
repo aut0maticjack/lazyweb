@@ -33,6 +33,7 @@ The [RetroPie Wiki](https://github.com/RetroPie/RetroPie-Setup/wiki) details alm
 
 ## Emulation
 
+* [MAME Clones Worth Playing](MAME-Clones-Worth-Playing)
 * [MAME Version Notes](MAME-Version-Notes)
 
 ## Linux
