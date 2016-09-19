@@ -8,6 +8,10 @@ When using a Raspberry Pi 2 and or Raspberry Pi 3, the 3.5mm audio connector nex
 
 Some people have said adding `disable_audio_dither=1` to `/boot/config.txt` fixed this for them. Some people say this fixes it in RetroPie but not Raspbian. This did not fix it for me.
 
+#### Experimental Audio Driver
+
+As of Feb 2016 there is a different audio method in the Pi firmware, set `audio_pwm_mode=2` in `/boot/config.txt` to use it. I haven't tried this yet.
+
 #### Constantly Play Silence
 
 Some people have had success making the audio device active but constantly playing silence with a command like:
@@ -21,6 +25,10 @@ aplay -t raw -r 48000 -c 2 -f S16_LE /dev/zero
 A "*HDMI Audio Splitter*" or "*HDMI Audio Extractor*" is an inline HDMI-to-HDMI adaptor box with a 3.5mm audio socket on it. You would configure the Pi to output audio via HDMI, then plug the speaker or headphone into the 3.5mm socket on the splitter.
 
 These often have other output like RCA and optical SPDIF. These also usually require a separate power supply, usually in the form of a MiniUSB cable (note: not MicroUSB like the Pi's power connector). I expect you could power it off one of the Pi's USB ports.
+
+#### HDMI-to-VGA Adapter
+
+The whole reason I needed 3.5mm audio out was because I have a VGA monitor for this spare Pi setup. I just bought a HDMI-to-VGA adapter with 3.5mm audio out, this works perfectly similar to HDMI Audio Splitter above.
 
 #### USB Soundcard
 
@@ -59,3 +67,4 @@ Unknown. Some people say this is a hardware problem, some say it's a firmware pr
 * https://github.com/raspberrypi/firmware/issues/380
 * https://delightlylinux.wordpress.com/2016/02/09/usb-audio-and-retropie-3-4-for-better-sound/
 * http://raspberrypi.stackexchange.com/questions/19705/usb-card-as-my-default-audio-device/21989#21989
+* https://www.raspberrypi.org/forums/viewtopic.php?f=29&t=136445
