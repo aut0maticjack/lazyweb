@@ -33,6 +33,7 @@ The [RetroPie Wiki](https://github.com/RetroPie/RetroPie-Setup/wiki) details alm
 
 ## Emulation
 
+* [Emu Gen Wiki](http://emulation.gametechwiki.com/) - [backup](https://emulation.miraheze.org/)
 * [MAME Clones Worth Playing](MAME-Clones-Worth-Playing)
 * [MAME Version Notes](MAME-Version-Notes)
 
