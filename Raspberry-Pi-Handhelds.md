@@ -56,6 +56,7 @@ User Made
 #### Custom Consoles
 
 * [SNES RetroPie by g0tter](https://imgur.com/a/llFkj)
+* [Nintemu by Morph-X](https://retropie.org.uk/forum/topic/4214/nintemu-a-raspberry-pi-emulation-console)
 
 #### Lists
 
