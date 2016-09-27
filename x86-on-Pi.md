@@ -1,4 +1,14 @@
+### tl;dr
+
+Try this free Pi 2 Raspbian Wheezy image with x86 Wine preinstalled, it runs about the speed of a 300MHz PC, I don't think it supports Pi 3 as-is but I haven't tried: https://github.com/AlbrechtL/RPi-QEMU-x86-wine
+
+----
+
+### Background
+
 Every now and then, someone pops up asking if they can play their favorite PC game on the Raspberry Pi. The answer is usually no, PC games are made for the x86 architecture but the Pi uses ARM architecture and the two are not compatible.
+
+### DOSBox and Wine
 
 DOSBox does exist and allows DOS PC games to work on the Raspberry Pi. [My own testing](https://www.complang.tuwien.ac.at/misc/doombench.html) has found the Pi 3 performs at roughly the speed of a 486 66MHz.
 
@@ -6,18 +16,22 @@ However, people often do not mean DOS games, they mean Windows games.
 
 [Wine](https://www.winehq.org/) can be used to run Windows applications on x86 Linux but it is not a solution here either. Wine literally stands for **W**ine **I**s **N**ot an **E**mulator. Wine is an application call translation layer. The basic idea is that a Windows application says something like "*Hey Windows, draw the game window here*" and Wine translates that into "*Hey Linux Xorg, draw the game window here*". The actual application code is still x86 and executes natively, it's only the operating system parts like graphics/sound/input that are translated to Linux.
 
-So, this page explores possible ways to run 90s Windows games such as:
+### Aim
+
+One of the most commonly-requested games is Fallout 2, so this page explores possible ways to run 1990s 32-bit Windows games which use little or no 3D such as:
 
 * [Mechwarrior 2: 31st Century Combat](https://en.wikipedia.org/wiki/MechWarrior_2:_31st_Century_Combat)    
-  Dec 1995, Win 95, 100 MHz CPU, 16 Mb RAM, Direct3D (DirectX 3) ([PCGW](http://pcgamingwiki.com/wiki/MechWarrior_2:_31st_Century_Combat))
+  Dec 1995, Win95, 100 MHz CPU, 16 Mb RAM, Direct3D (DirectX 3) ([PCGW](http://pcgamingwiki.com/wiki/MechWarrior_2:_31st_Century_Combat))
 * [Mechwarrior 2: Mercenaries](https://en.wikipedia.org/wiki/MechWarrior_2:_Mercenaries)  
-  Sept 1996, Win 95, 100 MHz CPU, 16 Mb RAM, Direct3D (DirectX 3) ([PCGW](http://pcgamingwiki.com/wiki/MechWarrior_2:_Mercenaries))
+  Sept 1996, Win95, 100 MHz CPU, 16 Mb RAM, Direct3D (DirectX 3) ([PCGW](http://pcgamingwiki.com/wiki/MechWarrior_2:_Mercenaries))
 * [Diablo](https://en.wikipedia.org/wiki/Diablo_(video_game))  
-  Dec 1996, Win 95/NT, 60 MHz CPU, 8 MB RAM (16 MB for multiplayer), SVGA video card, DirectX 3 ([wiki](http://www.diablowiki.net/Diablo_I), [PCGW](http://pcgamingwiki.com/wiki/Diablo))
+  Dec 1996, Win95/NT, 60 MHz CPU, 8 MB RAM (16 MB for multiplayer), SVGA video card, DirectX 3 ([wiki](http://www.diablowiki.net/Diablo_I), [PCGW](http://pcgamingwiki.com/wiki/Diablo))
 * [StarCraft](https://en.wikipedia.org/wiki/StarCraft_(video_game))  
-  Mar 1998, Win 95, 90 MHz CPU, 16 Mb RAM, SVGA video card, DirectDraw at 640x480 256 colors ([PCGW](http://pcgamingwiki.com/wiki/StarCraft))
+  Mar 1998, Win95, 90 MHz CPU, 16 Mb RAM, SVGA video card, DirectDraw at 640x480 256 colors ([PCGW](http://pcgamingwiki.com/wiki/StarCraft))
 * [Fallout 2](https://en.wikipedia.org/wiki/Fallout_2)  
-  Sept 1998, Win 95, 90 MHz CPU, 16Mb RAM; DirectX 3.0a, 1 Mb VESA SVGA video card, Sound Blaster sound card ([wiki](http://fallout.wikia.com/wiki/Fallout_2), [PCGW](http://pcgamingwiki.com/wiki/Fallout_2)) 
+  Sept 1998, Win95, 90 MHz CPU, 16Mb RAM; DirectX 3.0a, 1 Mb VESA SVGA video card, Sound Blaster sound card ([wiki](http://fallout.wikia.com/wiki/Fallout_2), [PCGW](http://pcgamingwiki.com/wiki/Fallout_2)) 
+
+This page is not about later 3D games like [Half-Life](https://en.wikipedia.org/wiki/Half-Life_(video_game)) (1997) or [Unreal Tournament](https://en.wikipedia.org/wiki/Unreal_Tournament) (1999) or [Deus Ex](https://en.wikipedia.org/wiki/Deus_Ex) (2000).
 
 ### Windows 9x in DOSBox
 
