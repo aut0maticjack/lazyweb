@@ -33,7 +33,7 @@ One of the most commonly-requested games is Fallout 2, so this page explores pos
 * [Fallout 2](https://en.wikipedia.org/wiki/Fallout_2)  
   Sept 1998, Win95, 90 MHz CPU, 16Mb RAM; DirectX 3.0a, 1 Mb VESA SVGA video card, Sound Blaster sound card ([wiki](http://fallout.wikia.com/wiki/Fallout_2), [PCGW](http://pcgamingwiki.com/wiki/Fallout_2)) 
 
-This page is not about later 3D games like [Half-Life](https://en.wikipedia.org/wiki/Half-Life_(video_game)) (1997) or [Unreal Tournament](https://en.wikipedia.org/wiki/Unreal_Tournament) (1999) or [Deus Ex](https://en.wikipedia.org/wiki/Deus_Ex) (2000).
+This page is *not* about later 3D accelerated games like [Half-Life](https://en.wikipedia.org/wiki/Half-Life_(video_game)) (1997) or [Unreal Tournament](https://en.wikipedia.org/wiki/Unreal_Tournament) (1999) or [Deus Ex](https://en.wikipedia.org/wiki/Deus_Ex) (2000) or Fallout 3 or Portal or Crysis or anything like that.
 
 ### Windows 9x in DOSBox
 
