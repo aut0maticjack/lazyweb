@@ -15,6 +15,7 @@ This is a wiki of useful advice I commonly give or have seen on places like Stac
 * [Power](Raspberry-Pi-Power)
 * [USB Hubs](http://elinux.org/RPi_Powered_USB_Hubs)
 * [VPN Router](https://gist.github.com/superjamie/ac55b6d2c080582a3e64)
+* [x86 on Pi](x86-on-Pi)
 
 ## RetroPie
 
