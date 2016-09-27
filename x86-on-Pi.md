@@ -1,6 +1,8 @@
 ### tl;dr
 
-Try this free Pi 2 Raspbian Wheezy image with x86 Wine preinstalled, it runs about the speed of a 300MHz PC, I don't think it supports Pi 3 as-is but I haven't tried: https://github.com/AlbrechtL/RPi-QEMU-x86-wine
+Try this free Pi 2 Raspbian Wheezy image with x86 Wine preinstalled, it runs about the speed of a 300MHz PC, I don't think it supports Pi 3 as-is but I haven't tried:
+
+* https://github.com/AlbrechtL/RPi-QEMU-x86-wine
 
 ----
 
