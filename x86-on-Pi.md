@@ -101,7 +101,7 @@ This must be what ExaGear does. Performance is apparently about equal with a 300
 * Try update AlbrechtL's Wheezy image for the Pi 3
 * Try get QEMU with NPTL patch working on Jessie on Pi 3
 * Try get Wine with NPTL and epoll patches working on Jessie on Pi 3
-* Try compile Eltechs' ExaGear source on Jessie on Pi 3
+* Try compile Eltechs' ExaGear Wine 1.8.1 source on Jessie on Pi 3
 * Try use the Raspberry Pi 2 Cortex A7 compile flags from RetroPie:  
   `-O3 -mcpu=cortex-a7 -mfpu=neon-vfpv4 -mfloat-abi=hard -funsafe-math-optimizations`
 * Try use the Raspberry Pi 3 Cortex A53 compile flags from RetroPie:  
