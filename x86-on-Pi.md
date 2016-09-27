@@ -57,7 +57,7 @@ There are some things we can learn about ExaGear from the various things said by
 * There is no trial version
 * There is no refund
 * There is no 3D acceleration
-* Performance seems a little slower than a 500MHz x86 PC
+* Performance seems roughly equal to a 400MHz x86 PC
 * There is an open source repository at https://github.com/Eltechs/wine with exagear branches
 
 The MagPi looked at ExaGear in their [Issue 35 from July 2015](https://www.raspberrypi.org/magpi/issues/35/) on Page 58. This explains much more about the technology, it's using a QEMU emulation layer to run a Debian or Ubuntu container or virtual machine image which can have Wine installed in it. They described that getting x86 Linux working was easy, but getting 32-bit x86 Windows software running was very hard and that "only very old" software could be used. This could be due to the old Wine 1.6.2 version included and lack of Wine compatibility or simply because they expected it to run more modern 3D Windows apps than I would be interested in. Their conclusion is:
