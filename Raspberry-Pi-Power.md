@@ -92,3 +92,20 @@ References:
 * https://www.raspberrypi.org/forums/viewtopic.php?t=82373
 * https://www.reddit.com/r/raspberry_pi/comments/4wotty/can_we_get_a_better_explanation_on_the_red_led/
 * https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/README.md
+
+## Power Cables
+
+The cable which carries the power is also important. If receiving the under-voltage rainbow or lightning bolt, try a different cable. A good smartphone or tablet fast-charge cable should be sufficient.
+
+There is always some voltage drop over any cable, some power supplies intentionally output slightly more than 5V to account for the drop over a typical cable (eg: [5.25V 2A over 1M](http://www.calculator.net/voltage-drop-calculator.html?material=copper&wiresize=52.96&voltage=5.25&phase=dc&noofconductor=1&distance=1&distanceunit=meters&amperes=2&x=51&y=21)).
+
+A longer or thinner cable makes this worse, so don't use a 3M USB cable to power your Pi. Cheap crappy cables tend to have thinner wire, worse connectors, and degrade quickly over time.
+
+You can get power cables with switches (to save you constantly unplugging the Pi). Cheap ones of these tend to cause a voltage drop, though good thick wire and quality connectors should help avoid any problem. This one from Adafruit should be good: https://www.adafruit.com/products/2379
+
+As a recommendation, you want 22AWG wire or thicker (up to maybe 20AWG is realistic) and probably 1M (3 feet) or shorter length.
+
+References:
+
+* http://www.calculator.net/voltage-drop-calculator.html
+* http://www.powerstream.com/Wire_Size.htm
