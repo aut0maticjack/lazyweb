@@ -99,7 +99,7 @@ The cable which carries the power is also important. If receiving the under-volt
 
 There is always some voltage drop over any cable, some power supplies intentionally output slightly more than 5V to account for the drop over a typical cable (eg: [5.25V 2A over 1M](http://www.calculator.net/voltage-drop-calculator.html?material=copper&wiresize=52.96&voltage=5.25&phase=dc&noofconductor=1&distance=1&distanceunit=meters&amperes=2&x=51&y=21)).
 
-A longer or thinner cable makes this worse, so don't use a 3M USB cable to power your Pi. Cheap crappy cables tend to have thinner wire, worse connectors, and degrade quickly over time.
+A longer or thinner cable makes this worse, so don't use a 6-metre USB cable to power your Pi. Cheap crappy cables tend to have thinner wire, worse connectors, and degrade quickly over time.
 
 You can get power cables with switches (to save you constantly unplugging the Pi). Cheap ones of these tend to cause a voltage drop, though good thick wire and quality connectors should help avoid any problem. This one from Adafruit should be good: https://www.adafruit.com/products/2379
 
