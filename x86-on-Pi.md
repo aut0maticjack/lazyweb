@@ -94,7 +94,9 @@ The patches needed to get this working are on the WineHQ forums at:
 
 * https://forum.winehq.org/viewtopic.php?f=8&t=17701&start=25#p84325
 
-This must be what ExaGear does. Performance is apparently about equal with a 300MHz x86 PC. It doesn't seem the creator has applied any of these patches to Raspbian Jessie, and it's not clear if the Pi 2 image supplied works on a Pi 3 (or ever could).
+Performance is apparently about equal with a 300MHz x86 PC. It doesn't seem the creator has applied any of these patches to Raspbian Jessie, and it's not clear if the Pi 2 image supplied works on a Pi 3 (or ever could).
+
+I thought this is what ExaGear does as well, but Vadim from Eltechs [read this page and advised that they're not using QEMU, they're using their own emulation](https://www.reddit.com/r/raspberry_pi/comments/546ecl/5_great_pieces_of_software_that_you_use_on_your/d8ihtl2).
 
 ### Future Ideas
 
