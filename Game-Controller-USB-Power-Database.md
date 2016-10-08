@@ -142,6 +142,14 @@ lsusb -v | egrep "idVendor|idProduct|MaxPower"
     MaxPower              500mA
 ~~~
 
+#### Sony Dualshock 4 USB Wireless Adaptor (Official)
+
+~~~
+  idVendor           0x054c Sony Corp.
+  idProduct          0x0ba0 
+    MaxPower              100mA
+~~~
+
 #### X-Arcade Dual Joystick
 
 * http://i.imgur.com/H54QHY3.png
