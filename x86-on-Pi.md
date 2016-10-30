@@ -108,3 +108,73 @@ I thought this is what ExaGear does as well, but Vadim from Eltechs [read this p
   `-O3 -mcpu=cortex-a7 -mfpu=neon-vfpv4 -mfloat-abi=hard -funsafe-math-optimizations`
 * Try use the Raspberry Pi 3 Cortex A53 compile flags from RetroPie:  
   `-O3 -march=armv8-a+crc -mtune=cortex-a53 -mfpu=neon-fp-armv8 -mfloat-abi=hard -funsafe-math-optimizations`
+
+----
+
+### Exagear Review
+
+After seeing this page on Reddit, Exagear's CEO Vadim Gimpelson said the above was correct except that they don't use qemu, they use their own x86 emulation layer. He [offered me](https://www.reddit.com/r/raspberry_pi/comments/546ecl/5_great_pieces_of_software_that_you_use_on_your/d8im4ad/) a free Exagear trial key, which is something they'd been doing on Twitter lately as well. I got a license for a Pi 3 and gave it a shot.
+
+Running `strings` over the binary shows a number of C++ function names which only return Google results relating to Exagear, so the assertion that the emulation is unique appears true. The install is simple, you end up with a desktop icon or the command `exagear` which launches you into a Debian 8 i686 terminal where you can install Wine or whatever else you want. There also appears to be a hook into `/usr/bin/wine` in the parent OS so that Wine app icons in the application menu launch in Exagear, which is a nice touch.
+
+Given that Exagear doesn't support 3D acceleration and runs Wine 1.8, I figured I'd try some old pre-3D Windows games. I've also made efforts to distinguish between which were Wine problems and which were Exagear problems by testing the same games on Wine 1.8 in Ubuntu 16.04 on my x86 PC as well. My results were as follows:
+
+#### Yoda Stories
+
+* Worked
+
+I had an already-installed set of Yoda Stories files, they fired right up and worked fine.
+
+#### Indiana Jones' Desktop Adventures
+
+* Failed - Wine problem
+
+The installer wouldn't run for this, nor would it run on x86 Wine. Given that this game uses the same engine as Yoda Stories, if I had an already-installed set of files I expect this would work.
+
+#### Decker by Shawn Overcash
+
+* Failed - Wine problem
+
+Another installer failure, reproduced on Wine x86 as well.
+
+#### WinRisk
+
+* Failed - Exagear problem
+
+This one works fine on x86, so I guess Exagear doesn't implement something it needs.
+
+#### Age of Empires
+
+* Failed - Exagear problem
+
+AoE installs but fails with a DirectDraw error. This works fine on x86 Wine. Considering this isn't *exactly* 3D support, I had expected it would work. If DirectDraw doesn't work, that probably rules out any other games I'm interested in too.
+
+#### Sim City 2000
+
+* Failed - Wine problem
+
+Another one where the installer wouldn't run. Maybe these are Win16 installers and need the already-installed game files run?
+
+#### Fallout 2
+
+* Failed - Exagear problem
+
+The GOG installer runs but brings up some Dot Net error when launching the game. I then couldn't get winetricks to work to install components like Dot Net (though the GOG installer apparently already included them) so no luck here. These games work fine on x86 Wine.
+
+#### Diablo
+
+* Failed - Exagear problem
+
+This brings up some graphics error, potentially this is related to DirectDraw support like Age of Empires.
+
+#### Summary
+
+At this point I gave up. I'd had one success and many failures.
+
+I don't really see the utility of being able to run x86 Linux programs on ARM. Pretty much everything in-repos compiles on ARM anyway. There's no point running an x86 binary of bash or vim or whatever. Some friends have reported success running Netflix in a tiny Chrome window, but that's no good for practical use.
+
+If there is some x86 Linux thing you need to run, at $30 Exagear seems a hard sell. If you need something temporarily then get a free shell or VPS or a low-cost VPS. If you need something permanently, get a low-cost VPS or a $50 netbook with a 1GHz processor and 2Gb RAM.
+
+The idea of running all my favorite Windows games on Raspberry Pi with Exagear seemed too good to be true, and it was.
+
+Exagear doesn't seem worth it for my purposes.
