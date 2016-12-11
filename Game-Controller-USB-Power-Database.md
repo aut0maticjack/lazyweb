@@ -29,7 +29,17 @@ lsusb -v | egrep "idVendor|idProduct|MaxPower"
     MaxPower              100mA
 ~~~
 
+#### Logitech Attack 3 Joystick
+
+~~~
+  idVendor           0x046d Logitech, Inc.
+  idProduct          0xc214 ATK3 (Attack III Joystick)
+    MaxPower               30mA
+~~~
+
 #### Logitech Dual Action
+
+F310 appears as Dual Action when in DirectInput Mode
 
 ~~~
   idVendor           0x046d Logitech, Inc.
@@ -40,6 +50,12 @@ lsusb -v | egrep "idVendor|idProduct|MaxPower"
 #### Logitech Gamepad F310
 
 * http://i.imgur.com/KN6TgtP.png
+
+~~~
+  idVendor           0x046d Logitech, Inc.
+  idProduct          0xc21d F310 Gamepad [XInput Mode]
+    MaxPower              500mA
+~~~
 
 #### Logitech Gamepad F710
 
