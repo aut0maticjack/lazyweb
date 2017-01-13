@@ -62,7 +62,7 @@ USB keyboard/mouse usually require 50mA to 150mA each.
 
 **Don't use cheap rubbishy power supplies!!!**
 
-If you're seeing the small rainbow square in the top right corner, your Raspberry Pi is not getting enough power. Specifically, power has dropped to 4.65V or less.
+If you're seeing the small rainbow square or lightning bolt in the top right corner, your Raspberry Pi is not getting enough power. Specifically, power has dropped to 4.65V or less.
 
 Note this is *not* the giant rainbow splash screen which appears on boot. That's the GPU self-test and is perfectly normal. If desired, you can disable the rainbow splash screen with `disable_splash=1` in `/boot/config.txt`.
 
