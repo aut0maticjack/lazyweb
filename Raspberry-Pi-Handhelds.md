@@ -35,6 +35,7 @@ This page lists detailed Raspberry Pi handheld posts (and now also custom arcade
 * [Game Boy Advance SPi by frostedfires](http://forum.odroid.com/viewtopic.php?f=108&t=6089) [\[2\]](https://blog.adafruit.com/2014/11/21/a-raspberry-pi-in-a-game-boy-advance-sp-piday-raspberrypi-raspberry_pi/) (GBA SP, W1)
 * [Pi Zero in a Game Boy Advance by Ryzee](http://imgur.com/a/kjFmS) (GBA, Zero)
 * [Wii U Raspberry Pi 3 by banjokazooie](http://sudomod.com/forum/viewtopic.php?f=13&t=1607) (WiiU, B+)
+* [Four Button Gameboy Advance by linx_001](http://imgur.com/a/yOA9A), [Reddit](https://www.reddit.com/r/RetroPie/comments/5rqxqj/finished_my_retro_pie_build/) (GBA, Zero)
 
 #### Custom Arcade Machines
 
