@@ -28,6 +28,7 @@ The [RetroPie Wiki](https://github.com/RetroPie/RetroPie-Setup/wiki) details alm
 ## Gaming
 
 * [FTL-likes](Gaming-FTL-likes)
+* [Making a Custom Teensy3 HID Joystick](Gaming-Making-a-Custom-Teensy3-HID-Joystick)
 
 ## FightSticks
 
