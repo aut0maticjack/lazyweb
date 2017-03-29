@@ -18,6 +18,8 @@ Check other stupid manufacturer measurements at a torque converter like: http://
 
 I find my extruder needs more current (1A to 1.2A) than the XYZ motion motors (0.75A).
 
+When adjusting the current via the screw trimpot, clamp ground to 12V ground wire, and clamp positive to your screwdriver. This way you'll measure the voltage as you adjust.
+
 Use the Step Angle to work out motor steps for firmware with: http://www.prusaprinters.org/calculator/
 
 ## References
