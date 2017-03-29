@@ -5,7 +5,7 @@ This is a wiki of useful advice I commonly give or have seen on places like Stac
 ## 3D Printing
 
 * [Heated Beds](3D-Printing-Heated-Beds)
-* [Stepper Motor Drivers](3D-Printing-Stepper-Motor-Drivers)
+* [Stepper Motors and Drivers](3D-Printing-Stepper-Motors-and-Drivers)
 
 ## Raspberry Pi
 
