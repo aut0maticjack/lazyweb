@@ -2,6 +2,11 @@
 
 This is a wiki of useful advice I commonly give or have seen on places like StackExchange and Reddit. Sometimes I will link directly to useful posts, sometimes I will make a page on here and curate content.
 
+## 3D Printing
+
+* [Heated Beds](3D-Printing-Heated-Beds)
+* [Stepper Motor Drivers](3D-Printing-Stepper-Motor-Drivers)
+
 ## Raspberry Pi
 
 * [3.5mm Audio Hiss](Raspberry-Pi-3.5mm-Audio-Hiss)
