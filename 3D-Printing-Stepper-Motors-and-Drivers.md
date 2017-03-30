@@ -103,6 +103,14 @@ M907 X1.0 Y1.0 Z1.0 E1.5
 
 * http://smoothieware.org/supported-g-codes
 
+Apparently using a SilentStepStick Protector may help? See:
+
+* http://forums.reprap.org/read.php?13,666367
+
+More research required on decay mode:
+
+* https://www.youtube.com/watch?v=Wf8rN3bV8XM
+
 ## TMC2100
 
 These seem like either a meme that people fall for, or the best thing since sliced bread. Either way there's a lot of misinformation and conflicting reports out about them.
