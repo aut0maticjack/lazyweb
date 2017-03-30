@@ -73,6 +73,12 @@ TODO: Document non-default pinouts
 * v1.2 fixed the heatbed
 * v1.3 fixed the Ethernet crystal
 
+### AZSMZ
+
+Another closed-source Chinese Smoothie clone hated by the Smoothie community.
+
+All-in-one board with 16-bin Pololu stepper sockets.
+
 ## 32-bit Arduino Due
 
 ### Firmware
