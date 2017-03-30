@@ -106,6 +106,7 @@ M907 X1.0 Y1.0 Z1.0 E1.5
 Apparently using a SilentStepStick Protector may help? See:
 
 * http://forums.reprap.org/read.php?13,666367
+* http://www.watterott.com/en/SilentStepStick-Protector
 
 More research required on decay mode:
 
