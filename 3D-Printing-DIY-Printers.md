@@ -15,12 +15,12 @@ Some favorites in a table:
 
 | Name | Type | Build Volume | X motion | Y motion | Z motion | Z drive | Extruder
 |---   |---   |    :---:     |---       |---       |---       |---      |---            
-| **D-Bot** | CoreXY | 200x300x325 | V-slot wheel | V-slot wheel | V-slot wheel | 1x leadscrew | Bowden
-| **FB2020** | CoreXY | 200x200x170 | 8mm rod | 8mm rod | 12mm rod | 1x leadscrew | Bowden
-| **Funbot 8mm** | Cantilever | 165x170x120 | 8mm rod | 8mm rod | 8mm rod | 1x leadscrew | Direct
-| **HyperCube** | CoreXY | 200x200x155 | 10mm rod | 8mm rod | 8mm rod | 1x leadscrew | Bowden
-| **Voron**| CoreXY | xxx | 8mm rod | 8mm rod | 8mm rod | 2x leadscrew | Bowden
-| **VSlot-CoreXY** | CoreXY | 210x195x240 | V-slot wheel | V-slot wheel | 12mm rod | 1x leadscrew | Bowden
+| **D-Bot** | CoreXY | 200x300x325 | V-wheel | V-wheel | V-wheel | 1x screw | Bowden
+| **FB2020** | CoreXY | 200x200x170 | 8mm rod | 8mm rod | 12mm rod | 1x screw | Bowden
+| **Funbot 8mm** | Cantilever | 165x170x120 | 8mm rod | 8mm rod | 8mm rod | 1x screw | Direct
+| **HyperCube** | CoreXY | 200x200x155 | 10mm rod | 8mm rod | 8mm rod | 1x screw | Bowden
+| **Voron**| CoreXY | 230x230x230 | 8mm rod | 8mm rod | 8mm rod | 2x screw | Bowden
+| **VSlot-CoreXY** | CoreXY | 210x195x240 | V-wheel | V-wheel | 12mm rod | 1x screw | Bowden
 
 ## Cantliever
 
@@ -64,7 +64,7 @@ Some favorites in a table:
     * [SmartrapCore Alu](http://www.thingiverse.com/thing:1007070)
         * [SmartrapCore XL300](http://www.thingiverse.com/thing:1361163)
 * [S.T.E.V.E.](https://www.thingiverse.com/thing:2146430)
-* [Voron CoreXY](https://github.com/mzbotreprap/VORON)
+* [**Voron**](https://github.com/mzbotreprap/VORON)
 * [Vulcanus V1](http://www.instructables.com/id/Vulcanus-V1-3D-Printer/?ALLSTEPS)
     * [Vulcanus Max V1.1](http://www.thingiverse.com/thing:1130016)
         * [Vulcanus V2](http://www.instructables.com/id/Vulcanus-V2-Reprap-3D-Printer/?ALLSTEPS)
