@@ -19,7 +19,7 @@ Some favorites in a table:
 | **FB2020** | CoreXY | 200x200x170 | 8mm rod | 8mm rod | 12mm rod | 1x screw | Bowden
 | **Funbot 8mm** | Cantilever | 165x170x120 | 8mm rod | 8mm rod | 8mm rod | 1x screw | Direct
 | **HyperCube** | CoreXY | 200x200x155 | 10mm rod | 8mm rod | 8mm rod | 1x screw | Bowden
-| **Voron**| CoreXY | 230x230x230 | 8mm rod | 8mm rod | 8mm rod | 2x screw | Bowden
+| **Voron**| CoreXY | 228x228x240 | 8mm rod | 8mm rod | 8mm rod | 2x screw | Dual Bowden
 | **VSlot-CoreXY** | CoreXY | 210x195x240 | V-wheel | V-wheel | 12mm rod | 1x screw | Bowden
 
 ## Cantliever
