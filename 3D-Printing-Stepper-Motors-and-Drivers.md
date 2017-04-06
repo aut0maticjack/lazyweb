@@ -5,22 +5,38 @@ Learn how stepper motors work:
 * https://www.youtube.com/watch?v=eyqwLiowZiU
 * https://www.youtube.com/watch?v=bkqoKWP4Oy4
 
-3D printers usually use NEMA17 motors which are 1.7" (43.2mm) square across the face. There are larger sizes like NEMA23 and NEMA34 which are common on CNCs.
+3D printers usually use NEMA17 motors which are 1.7" (43.2mm) square across the face. There are larger sizes like NEMA23 and NEMA34 which are common on CNCs. There are smaller sizes like NEMA14 and NEMA11 too. The first RepRap 3D printers used NEMA14s but they were right on the limit of what they could do well.
 
 Look up your motor's part number and pay attention to the **Step Angle**, **Holding Torque**, and **Rated Current**.
 
 3D printers need at least 40 N-cm holding torque. Generally the longer the motor the more torque it has, but not always, there are some "pancake steppers" specifically designed to be high-torque in a small light package.
 
+Not everyone publishes in N-cm so check other stupid manufacturer measurements at a torque converter like: http://www.numberfactory.com/nf%20torque.htm
+
 * 1 N-cm = 0.1019716 kg-cm, so 40 N-cm = 4.08 kg-cm
 * 1 N-cm = 1.41612 oz-in, so 40 N-cm = 56.64 oz-in
 
-Check other stupid manufacturer measurements at a torque converter like: http://www.numberfactory.com/nf%20torque.htm
-
 I find my extruder needs more current (1A to 1.2A) than the XYZ motion motors (0.75A).
 
-When adjusting the current via the screw trimpot, clamp ground to 12V ground wire, and clamp positive to your screwdriver. This way you'll measure the voltage as you adjust.
-
 Use the Step Angle to work out motor steps for firmware with: http://www.prusaprinters.org/calculator/
+
+## How to Tune
+
+Turn power off, unplug the stepper motor cables, turn power back on and tune the stepper drivers.
+
+When done, turn power off, plug in the stepper motor cables, turn power back on and test motor movement.
+
+Don't tune stepper drivers with the motors plugged in, if you accidentally set current too high you can fry the motor.
+
+Don't plug or unplug stepper motors with the power on.
+
+Measure DC voltage between the stepper trimpot and 12V ground. The ground at the 12V supply to the control board is fine to use.
+
+Look up the correct current for your motor part number. If you have cheap Chinese motors with no part number, assume they have a max of 1.25A to be safe.
+
+Look up the proper formula for your stepper drivers below, and find the voltage which corresponds with the current you want to set.
+
+Pro tip: Get slip-on alligator clips for your multimeter. Clamp ground to a 12V ground wire and clamp positive to your screwdriver. This way you'll measure the voltage as you adjust and don't need three hands.
 
 ## References
 
