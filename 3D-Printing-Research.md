@@ -11,6 +11,12 @@ Tech2C found out the fastest an 8-bit Arduino setup (RAMPS) can print over seria
 
 CoreXY requires more complex computations than cartesian so these limits don't apply to Mendel or cantilever designs. They're probably fairly applicable for Ultimaker-style gantries tho.
 
+## Aluminium Build Plates
+
+Use cast, not rolled. Trade name for precision cast plates is MIC6:
+
+* https://www.reddit.com/r/3Dprinting/comments/4bo4q5/stop_buying_aluminum_build_plates_buy_raw_cast/
+
 ## E3D V6 Extrusion Speed Limit
 
 Bryce Standley found out the fastest an E3D V6 can reliably extrude is about 150mm/sec, faster than that and there is poor layer adhesion due to the filament not spending enough time in the melt zone and not getting hot enough:
