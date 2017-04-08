@@ -19,8 +19,10 @@ Some favorites in a table:
 | **FB2020** | CoreXY | 200x200x170 | 8mm rod | 8mm rod | 12mm rod | 1x screw | Bowden
 | **Funbot 8mm** | Cantilever | 165x170x120 | 8mm rod | 8mm rod | 8mm rod | 1x screw | Direct
 | **HyperCube** | CoreXY | 200x200x155 | 10mm rod | 8mm rod | 8mm rod | 1x screw | Bowden
+| **LulzBot TAZ 6** | Cartesian | 280x280x250 | 12mm rod | 10mm rod | 10mm rod | 2x screw | Direct
 | **Voron**| CoreXY | 228x228x240 | 8mm rod | 8mm rod | 8mm rod | 2x screw | Dual Bowden
 | **VSlot-CoreXY** | CoreXY | 210x195x240 | V-wheel | V-wheel | 12mm rod | 1x screw | Bowden
+| **Wilson II** | Cartesian | 200x300x200 | 10mm rod | 10mm rod | 10mm rod | 2x screw | Direct
 
 ## Cantliever
 
@@ -37,12 +39,16 @@ Some favorites in a table:
 
 * [FoldaRap](http://reprap.org/wiki/FoldaRap)
 * [IMA-GO mini](https://www.thingiverse.com/thing:2218697)
+* [LulzBot TAZ 6](https://www.lulzbot.com/store/printers/lulzbot-taz-6) - [source](http://download.lulzbot.com/TAZ/) - [forum](https://forum.lulzbot.com/viewtopic.php?t=4469) - [diffs](https://forum.lulzbot.com/viewtopic.php?t=3194) - [mods](https://forum.lulzbot.com/viewtopic.php?f=36&t=2378)
 * [OB 1.4](http://www.thingiverse.com/thing:41967)
 * [OneZ i3](http://openbuilds.org/builds/onez-i3.3389/)
 * [Scalar S](https://www.thingiverse.com/thing:1973604)
 * [Sigma3D](http://www.thingiverse.com/thing:817504)
 * [Tevo Totem](https://www.thingiverse.com/thing:2108671)
 * [Voxel OX](http://www.openbuilds.com/builds/voxel-ox-extendable-3d-printer-and-cnc-platform.2418/)
+* [Wilson](http://www.thingiverse.com/thing:255605)
+    * [Wilson TS](http://reprap.org/wiki/Category:Wilson)
+        * [**Wilson II**](http://www.thingiverse.com/thing:1086101) - [GitHub](https://github.com/mjrice/Wilson2) - [RepRapWiki](http://reprap.org/wiki/Wilson_II)
 
 ## CoreXY
 
