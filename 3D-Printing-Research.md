@@ -44,11 +44,20 @@ Angus from Maker's Muse shows printing with multiple infill processes in the sam
 * https://www.youtube.com/watch?v=oR-cToT8v-c - processes
 * https://www.youtube.com/watch?v=piwKAOOaPKc - supports
 
-## PLA printed smoothrod Bearings
+## Printed smoothrod Bearings
 
 Russ from RWG Research showed that printed PLA bearings work best with silicone spray lubricant, and lasted pretty well even after a year of heavy printing:
 
 * https://www.youtube.com/watch?v=MV1gH_RPmRk
+
+List of models and discussion on r/Reprap:
+
+* https://www.reddit.com/r/Reprap/comments/1g5a18/is_anybody_using_printed_lm8uu_style_bearings/
+
+Some people make a carrier which holds PTFE (Teflon) tubes for the bearing surface:
+
+* http://www.thingiverse.com/thing:1039173
+* http://www.thingiverse.com/thing:1739340
 
 ## Z Probe Accuracy and Repeatability
 
