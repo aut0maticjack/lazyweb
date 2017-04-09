@@ -186,3 +186,4 @@ Considering all the unknowns, the fact they can only drive 1.25A, and the fact t
 * http://reprap.org/wiki/DRV8825
 * http://reprap.org/wiki/TMC2100
 * http://reprap.org/wiki/A4988_vs_DRV8825_Chinese_Stepper_Driver_Boards
+* https://www.facebook.com/groups/1711323699127948/permalink/1881251935468456/ - Tom Keidar TMC findings on D-Bot Facebook Group
