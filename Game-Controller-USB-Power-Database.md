@@ -8,6 +8,16 @@ lsusb -v | egrep "idVendor|idProduct|MaxPower"
 
 ## Brand-name Controllers
 
+#### 2-Tech USB Gamepad
+
+* http://i.imgur.com/3zHhEMz.jpg
+
+~~~
+  idVendor           0x0079 DragonRise Inc.
+  idProduct          0x0011 Gamepad
+    MaxPower              100mA
+~~~
+
 #### Hyperkin GN6
 
 * http://i.imgur.com/OvSA34V.jpg
