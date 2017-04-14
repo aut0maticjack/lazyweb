@@ -34,6 +34,7 @@ The max current able to be drawn through the entire 5V line is covered at [Raspb
 References:
 
 * http://raspberrypi.stackexchange.com/questions/9298/what-is-the-maximum-current-the-gpio-pins-can-output
+* https://raspberrypi.stackexchange.com/questions/51615/raspberry-pi-power-limitations
 * http://elinux.org/RPi_Low-level_peripherals#Power_pins
 * https://www.raspberrypi.org/forums/viewtopic.php?f=44&t=12498
 
