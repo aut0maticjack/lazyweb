@@ -43,6 +43,21 @@ Pro tip: Get slip-on alligator clips for your multimeter. Clamp ground to a 12V 
 * http://reprap.org/wiki/Stepper_motor
 * http://reprap.org/wiki/NEMA_17_Stepper_motor
 
+## Motors I Own
+
+TEVO Tarantula ships with TEVO-branded `17HD40005-C5.18`.
+
+The [TEVO Black Widow Community Guide](http://bit.ly/2k1dBoZ) says:
+
+> TEVO has officially confirmed that these are an OEM version of the previously shipped `Busheng 17HD40005-22B`.
+
+| Manufacturer | Part No       | Step Angle | Holding Torque | Current | Voltage
+|---           |---            |---         |---             |---      |---
+| Busheng      | 17HD40005-22B | 1.8°       | 36N-cm         | 1.3A    | 2V
+
+* <http://www.haoyuelectronics.com/Attachment/17HD40005-22B/>
+* <http://www.hotmcu.com/reprap-40mm-stepper-motor-p-214.html>
+
 # Stepper Motor Drivers
 
 | Manufacturer      | Chip    | Max Microstep | Max Current | Datasheet |
