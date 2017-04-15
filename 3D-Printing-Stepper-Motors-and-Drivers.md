@@ -20,13 +20,13 @@ I find my extruder needs more current (1A to 1.2A) than the XYZ motion motors (0
 
 Use the Step Angle to work out motor steps for firmware with: http://www.prusaprinters.org/calculator/
 
-## How to Tune
+## How to Tune Stepper Drivers
 
 Turn power off, unplug the stepper motor cables, turn power back on and tune the stepper drivers.
 
 When done, turn power off, plug in the stepper motor cables, turn power back on and test motor movement.
 
-Don't tune stepper drivers with the motors plugged in, if you accidentally set current too high you can fry the motor.
+Don't tune stepper drivers with the motors plugged in, if you accidentally set current too high you can fry the motor or the stepper.
 
 Don't plug or unplug stepper motors with the power on.
 
@@ -50,7 +50,8 @@ Pro tip: Get slip-on alligator clips for your multimeter. Clamp ground to a 12V 
 | Allegro           | A4988   | 1/16          | 2A          | [PDF](http://www.allegromicro.com/~/media/Files/Datasheets/A4988-Datasheet.ashx?la=en) | 
 | Texas Instruments | DRV8825 | 1/32          | 2.5A        | [PDF](www.ti.com/lit/ds/symlink/drv8825.pdf) |
 | Sanyo             | LV8729  | 1/128         | 1.3A        | [Alldatasheet](http://www.alldatasheet.com/view.jsp?Searchword=LV8729)
-| Trinamic          | TMC2100 | 1/256         | 1.25A       | [PDF](https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC2100_datasheet.pdf) |
+| Shenzhenshi Yongfukang | HR4988  | 1/128    | 2A          | [PDF](http://www.szczkjgs.com/UploadFiles/fujian/3721/HR4988.pdf)
+| Trinamic          | TMC2100 | 1/256         | 1.2A        | [PDF](https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC2100_datasheet.pdf) |
 
 ## A4988
 
@@ -155,6 +156,14 @@ Volts	Amps
 0.7     1.4
 0.75    1.5
 ~~~
+
+## HR4988
+
+These Chinese steppers are available cheap on Aliexpress.
+
+Use the same formula as A4988, they apparently come with 0.1R sense resistors.
+
+Silent 1/128 stepping, 2A constant current, no cooling issues, and $25 for a set of 5 seems too good to be true.
 
 ## TMC2100
 
