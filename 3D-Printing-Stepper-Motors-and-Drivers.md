@@ -49,6 +49,7 @@ Pro tip: Get slip-on alligator clips for your multimeter. Clamp ground to a 12V 
 |-------------------|---------|---------------|-------------|-----------|
 | Allegro           | A4988   | 1/16          | 2A          | [PDF](http://www.allegromicro.com/~/media/Files/Datasheets/A4988-Datasheet.ashx?la=en) | 
 | Texas Instruments | DRV8825 | 1/32          | 2.5A        | [PDF](www.ti.com/lit/ds/symlink/drv8825.pdf) |
+| Sanyo             | LV8729  | 1/128         | 1.3A        | [Alldatasheet](http://www.alldatasheet.com/view.jsp?Searchword=LV8729)
 | Trinamic          | TMC2100 | 1/256         | 1.25A       | [PDF](https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC2100_datasheet.pdf) |
 
 ## A4988
@@ -127,6 +128,33 @@ Apparently using a SilentStepStick Protector may help? See:
 More research required on decay mode:
 
 * https://www.youtube.com/watch?v=Wf8rN3bV8XM
+
+## LV8729
+
+Not much info out there on these. Supposed to be quiet.
+
+Peak current 1.8A but constant max is advertised as either 1.3A or 1.5A.
+
+* http://forums.reprap.org/read.php?160,724177
+
+~~~
+Formula: V = A * (0.5)	
+Amps	Volts
+1.5     0.75
+1.3     0.65
+1.2     0.60
+1       0.50
+0.8     0.40
+	
+Formula: A = V / (0.5)	
+Volts	Amps
+0.3     0.6
+0.4     0.8
+0.5     1
+0.6     1.2
+0.7     1.4
+0.75    1.5
+~~~
 
 ## TMC2100
 
