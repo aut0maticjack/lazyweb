@@ -43,6 +43,16 @@ Pro tip: Get slip-on alligator clips for your multimeter. Clamp ground to a 12V 
 * http://reprap.org/wiki/Stepper_motor
 * http://reprap.org/wiki/NEMA_17_Stepper_motor
 
+## Where to Buy in Australia
+
+* [LearCNC](http://stores.ebay.com.au/learcnc)
+    * NEMA17 - 67Ncm 1.5A (seems best, double check supply voltage, probably 4.8)
+* [Stepper Online](http://stores.ebay.com.au/au-stepperonline)
+    * NEMA17 - 45Ncm 2.0A 2.2V, 59Ncm 2.0A 2.8V, 65Ncm 2.1A 3.36V
+    * NEMA14 - 40Ncm 1.5A 4.2V
+    * All other sizes NEMA8 thru NEMA34
+    * Pay attention, they sell a lot of motors with low current but high voltage (10V) demands
+
 ## Motors I Own
 
 TEVO Tarantula ships with TEVO-branded `17HD40005-C5.18`.
