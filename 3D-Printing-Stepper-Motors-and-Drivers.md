@@ -20,6 +20,10 @@ I find my extruder needs more current (1A to 1.2A) than the XYZ motion motors (0
 
 Use the Step Angle to work out motor steps for firmware with: http://www.prusaprinters.org/calculator/
 
+Also note there's really no point going above 1/32 microstepping with an ATmega2560, it can only supply that many steps reliably at 100mm/sec. You need at least that to bridge.
+
+* http://reprap.org/wiki/Step_rates
+
 ## How to Tune Stepper Drivers
 
 Turn power off, unplug the stepper motor cables, turn power back on and tune the stepper drivers.
