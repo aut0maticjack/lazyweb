@@ -74,6 +74,7 @@ Some favorites in a table:
 * [Vulcanus V1](http://www.instructables.com/id/Vulcanus-V1-3D-Printer/?ALLSTEPS)
     * [Vulcanus Max V1.1](http://www.thingiverse.com/thing:1130016)
         * [Vulcanus V2](http://www.instructables.com/id/Vulcanus-V2-Reprap-3D-Printer/?ALLSTEPS)
+* [MicroCube](https://www.thingiverse.com/thing:1938877)
 
 ## Ultimaker
 
