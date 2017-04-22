@@ -4,7 +4,7 @@ This is a wiki of useful advice I commonly give or have seen on places like Stac
 
 ## 3D Printing
 
-* [Control Boards](3D-Printing-Control-Boards)
+* [Control Boards and Firmware](3D-Printing-Control-Boards-and-Firmware)
 * [DIY Printers](3D-Printing-DIY-Printers)
 * [Frame Stuff](3D-Printing-Frame-Stuff)
 * [Heated Beds](3D-Printing-Heated-Beds)
