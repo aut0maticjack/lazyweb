@@ -71,14 +71,10 @@ http://smoothieware.org/
 * Config relatively well documented
 * Software-settable motor current, no more trimpots
 * Custom menu items easily programmed
-* Limited display selection, 12864 GLCD works
 * Web interface which looks like Pronterface
 * Not as mature as Marlin or RepRapFirmware
-* No soft endstops, you can crash the carriage easily
-* Web interface won't allow uploading to sdcard, no interest in supporting this
-* Cannot use Z probe as Z endstop
-* I find the BLTouch setup very confusing
-* Developer more interested in taking time doing things "The Right Way" and happy for firmware to lag behind in features for years if the end result is more maintainable code which fewer people contribute to
+
+Moving this bitch to a separate page: [My opinion on Smoothieware](3D-Printing-Smoothieware-Opinion).
 
 ### Smoothieboard
 
