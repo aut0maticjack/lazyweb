@@ -5,22 +5,24 @@ Learn how stepper motors work:
 * https://www.youtube.com/watch?v=eyqwLiowZiU
 * https://www.youtube.com/watch?v=bkqoKWP4Oy4
 
-3D printers usually use NEMA17 motors which are 1.7" (43.2mm) square across the face. There are larger sizes like NEMA23 and NEMA34 which are common on CNCs. There are smaller sizes like NEMA14 and NEMA11 too. The first RepRap 3D printers used NEMA14s but they were right on the limit of what they could do well.
+Modern 3D printers usually use NEMA17 motors which are 1.7" (43.2mm) square across the face. There are larger sizes like NEMA23 and NEMA34 which are common on CNCs. There are smaller sizes like NEMA14 and NEMA11 too. The first RepRap 3D printers used NEMA14s but the most powerful ones (40Ncm) were right on the limit of what they could do well.
 
 Look up your motor's part number and pay attention to the **Step Angle**, **Holding Torque**, **Rated Current**, and **Voltage**.
 
-3D printers need at least 40 N-cm holding torque. Generally the longer the motor the more torque it has, but not always, there are some "pancake steppers" specifically designed to be high-torque in a small light package.
+3D printers need at least 35 Ncm holding torque. Generally the longer the motor the more torque it has, but not always, there are some "pancake steppers" specifically designed to be high-torque in a small light package.
 
 You can gear up a motor, either with metal gears or printed gears, to increase the torque at the cost of decreasing speed. For example, a 3:1 gearset triples torque but results in a third of the speed.
 
 Ideally you want the highest torque for the lowest current within the driver's capabilities. A 50Ncm 1.5A motor is a better choice than a 50Ncm 3A motor, none of the common drivers can even supply 3A.
 
-Not everyone publishes in N-cm so check other stupid manufacturer measurements at a torque converter like: http://www.numberfactory.com/nf%20torque.htm
+Some people think it's better to pick a very powerful motor and under-drive it, to give a wild example pick a 100Ncm 2A motor and run it at 1A. I don't know if torque-to-current scales linearly.
+
+Not every motor vendor publishes in Ncm so check other stupid manufacturer measurements at a torque converter like: http://www.numberfactory.com/nf%20torque.htm
 
 * 1 N-cm = 0.1019716 kg-cm
-    * 40 N-cm = 4.08 kg-cm
+    * 40 Ncm = 4.08 kg-cm
 * 1 N-cm = 1.41612 oz-in
-    * 40 N-cm = 56.64 oz-in
+    * 40 Ncm = 56.64 oz-in
 
 I find my extruder needs more current (1A to 1.2A) than the XYZ motion motors (0.75A) on my 1.3A 36Ncm motors.
 
@@ -90,7 +92,9 @@ I don't think there's any point going below 1/16 stepping with an 8-bit controll
 |---                |---      |---            |---          |---
 | Allegro           | A4988   | 1/16          | 2A          | [PDF](http://www.allegromicro.com/~/media/Files/Datasheets/A4988-Datasheet.ashx?la=en)
 | Texas Instruments | DRV8825 | 1/32          | 2.2A        | [PDF](www.ti.com/lit/ds/symlink/drv8825.pdf)
+| Allegro           | A5984   | 1/32          | 2A          | [PDF](www.allegromicro.com/~/media/Files/Datasheets/A5984-Datasheet.ashx?la=en)
 | Sanyo             | LV8729  | 1/128         | 1.3A        | [Alldatasheet](http://www.alldatasheet.com/view.jsp?Searchword=LV8729)
+| Sanyo             | THB6128 | 1/128         | 2.2A        | [Datasheet-PDF](http://www.datasheet-pdf.com/PDF/THB6128-Datasheet-ETC-817135)
 | Shenzhenshi Yongfukang | HR4988  | 1/128    | 2A          | [PDF](http://www.szczkjgs.com/UploadFiles/fujian/3721/HR4988.pdf)
 | Trinamic          | TMC2100 | 1/16 (16x)    | 1.2A        | [PDF](https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC2100_datasheet.pdf)
 
@@ -207,6 +211,15 @@ Volts	Amps
 0.7     1.4
 0.75    1.5
 ~~~
+
+## Sanyo THB6128 (aka SD6128)
+
+* 2.2A constant current
+* Cooling unknown, needs at least big heatsinks
+* 1/128 stepping, 32-bit board required
+* `A = (V / 5) / R`
+
+Sold in StepStick form factor as the [Panucatt SD6128](https://www.panucatt.com/product_p/sd6128.htm) or [RAPS128](http://reprap.org/wiki/RAPS128). Seems like a good idea.
 
 ## Shenzhenshi Yongfukang (Heroic) HR4988
 
