@@ -26,6 +26,7 @@ Place holder for a page about linear bearings.
 * RWG Research, printed bearings - https://www.youtube.com/watch?v=MV1gH_RPmRk
 * The Tinkering Corner, printed bearings - https://www.youtube.com/watch?v=k60qlbqB5TQ
 * Igus Drylin Product Page - http://www.igus.com/wpck/3542/DryLin_R_Lineargleitlager
+* I180-PF tribofilament launch - https://airwolf3d.com/2014/12/04/3d-printed-bearings-arrived/
 * Triffid Hunter printable bearing - http://www.thingiverse.com/thing:16813
 * LM8UU plate by Gyrobot (look at Remixes of) - http://www.thingiverse.com/thing:322968
 * Linear bearing by PropsFactory - http://www.thingiverse.com/thing:24990
