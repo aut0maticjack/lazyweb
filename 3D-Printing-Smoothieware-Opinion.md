@@ -28,11 +28,11 @@ In the meantime, don't accidentally move past your frame limit.
 
 Smoothie comes with a basic web interface which looks like Pronterface, which is a pretty nice feature. You can also upload files to this and then print them.
 
-However, only the internal sdcard is supported. I don't want my prints on the same sdcard as my configuration file. sdcard storage is already unreliable enough without having to worry about wearing our or killing the sdcard where the firmware updates and configuration file that run the printer are living.
+However, only the internal sdcard is supported. I don't want my prints on the same sdcard as my configuration file. sdcard storage is already unreliable enough without having to worry about wearing out or killing the sdcard where the firmware updates and configuration file that run the printer are living.
 
 I would much rather be able to use the external sdcard in the LCD screen.
 
-Development have no interest in supporting upload to external sdcard because it is "unreliable". Most 3D printers in the world print successfully from sdcard every print but that apparently doesn't work. Okay.
+Development have no interest in supporting upload to external sdcard because it is "unreliable". Most 3D printers in the world print successfully from sdcard every print but that apparently doesn't work. Marlin has a configuration option for CRC checking of sdcard communication but that apparently is not reliable either. Okay.
 
 * Reference: [Feature Request: Web upload to /ext/ and play from /ext/](http://forum.smoothieware.org/forum/t-2223914/feature-request:web-upload-to-ext-and-play-from-ext)
 
