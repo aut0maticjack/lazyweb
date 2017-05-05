@@ -70,8 +70,8 @@ Apparently every other Smoothie-compatible board (Azteeg X5, Re-ARM, Cohesion3D)
 
 ## Summary
 
-Smoothieware seems good on paper, but the experience has been poor. After using Smoothie for a while I went back to Marlin on Arduino. I wish I'd never bought the board and should probably sell it while it's still worth something.
+Smoothieware seems good on paper, but my experience has been poor. After using Smoothie for a while I went back to Marlin on Arduino. I wish I'd never bought this board and should probably sell it while it's still worth something.
 
-RepRapFirmware on the Due-based hardware seems much better, and the developer dc42 has a much better attitude and is helpful, positive, and interested in community requests. Duet3D's DuetWifi is the best implementation, though the UK exchange rate and the fact that it only works with the expensive PanelDue makes these prohibitively expensive for me in Australia, over AU$400.
+RepRapFirmware on the Due-based hardware seems much better. The developer dc42 has a much better attitude and is helpful, positive, and interested in community requests. Duet3D's DuetWifi is the best implementation, though the UK exchange rate and the fact that it only works with the expensive PanelDue makes these prohibitively expensive for me in Australia, over AUD$400.
 
-RepRapMe sell a RADDS shield and RADDS LCD and Arduino Due which come to about AU$180. Even with TMC2100 steppers ($20 each) it's still ~$150 cheaper than a DuetWifi and PanelDue. RADDS can be used with an LCD2004 or GLCD 12864 however those are 5v screens and the Arduino Due is 3.3v, plus the plug is not compatible, so you need to make a cable and futz around with voltages. I'd rather just buy the pre-made working LCD.
+RepRapMe in Denmark sell a RADDS shield and RADDS LCD and Arduino Due which come to about AUD$180. Even with genuine TMC2100 steppers ($20 each) it's still ~$140 cheaper than a DuetWifi and PanelDue. RADDS can be used with an LCD2004 or GLCD 12864 however those are 5v screens and the Arduino Due is 3.3v, plus the plug is not compatible, so you need to make a cable and futz around with voltages. I'd rather just buy the pre-made working LCD.
