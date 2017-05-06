@@ -143,18 +143,20 @@ TODO: Document SBASE pinouts
 
 http://reprap.org/wiki/RepRap_Firmware
 
-* Made by dc42 from Duet3D
+* Currently mostly maintained by dc42 from Duet3D
 * Promoted vigorously by him, though he seems friendly and helpful in all interactions
 
 ### Arduino Due and RADDS
 
-http://www.reprap.me/arduinodue.html + http://www.reprap.me/radds-v15.html + http://www.reprap.me/radds-lcd-display.html
+http://www.reprap.me/arduinodue.html  
+http://www.reprap.me/radds-v15.html  
+http://www.reprap.me/radds-lcd-display.html  
 
 * RAMPS-like shield designed for Arduino Due (3.3v TTL)
-* Cheapest way to run RRF
 * Pololu stepper sockets
-* Not pin-compatible with RAMPS displays, but some can be converted by cutting the cable
-* Can also just buy a RADDS LCD
+* Runs Repetier Firmware or RepRapFirmware
+* Repetier: Buy a RADDS LCD (or make a cable to convert LCD2004/GLCD12864 maybe?)
+* RRF: Buy a PanelDue
 
 ### DuetWifi
 
@@ -164,7 +166,7 @@ https://www.duet3d.com/DuetWifi - http://reprap.org/wiki/DuetWifi
 * All-in-one Arduino Due and shield
 * Up to 25V power input
 * Five built-in TMC2660 stepper drivers (1/16 stepping, 16x interpolation, effective step 1/256)
-* Only works with PanelDue controllers
+* Only works with PanelDue controllers, no RADDS LCD or 2004/12864
 * UK exchange rate makes the total package really expensive
 
 ### Arduino Due and RAMPS-FD
