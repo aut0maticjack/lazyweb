@@ -67,3 +67,14 @@ http://bukito3d.com/
 * Build volume: 125 x 150 x 125
 * A Kickstarter which actually delivered.
 * Claims very fast print speed of 100mm/sec!
+
+## Proton by Atom3D
+
+http://www.thingiverse.com/thing:2149685
+
+* Build Volume: 170 x 160 x 130
+* Open source design
+* Cantilever arm based around 12mm Z rod and 8mm other rods
+
+Look at the "distant" direct-drive with the motor on one end, joined by a rod to the filament gear on the other end!
+
