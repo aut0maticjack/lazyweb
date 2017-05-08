@@ -10,6 +10,7 @@ This is a wiki of useful advice I commonly give or have seen on places like Stac
 * [Heated Beds](3D-Printing-Heated-Beds)
 * [Linear Bearings](3D-Printing-Linear-Bearings)
 * [Research](3D-Printing-Research)
+* [Small Printers](3D-Printing-Small-Printers)
 * [Stepper Motors and Drivers](3D-Printing-Stepper-Motors-and-Drivers)
 
 ## Raspberry Pi
