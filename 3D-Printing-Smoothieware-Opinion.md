@@ -36,6 +36,10 @@ Development have no interest in supporting upload to external sdcard because it 
 
 * Reference: [Feature Request: Web upload to /ext/ and play from /ext/](http://forum.smoothieware.org/forum/t-2223914/feature-request:web-upload-to-ext-and-play-from-ext)
 
+## sdcard upload speed
+
+Uploading to the sdcard via the web interface is slow. Despite saying how good Smoothie's sdcard interface is, in practical use it takes several minutes to upload a few MiB of g-code via the web interface, which is really annoying.
+
 ## Z probe != endstop
 
 There is no support for using a Z probe as an endstop. Every other firmware supports this.
@@ -67,6 +71,10 @@ The reason they give for not opening the designs is that other Chinese vendors w
 Apparently every other Smoothie-compatible board (Azteeg X5, Re-ARM, Cohesion3D) apart from being open source, gives Arthur Wolf money to support the firmware development.
 
 * Reference: [New MKS SBASE Smoothieware-compatible board from China](http://forums.reprap.org/read.php?13,499322)
+
+## sdcard detection
+
+With my SBASE and Full Graphic LCD, I need to either reboot with an sdcard in, or insert an sdcard then reboot the board for the card to be detected. If I want to swap or remove and replace the sdcard, I also need to reboot. MKS support tell me to just reboot the board and there's no way to fix it. This is probably a limitation of the SPI channel the SBASE uses for sdcards rather than of Smoothieware, however it's still annoying.
 
 ## Summary
 
