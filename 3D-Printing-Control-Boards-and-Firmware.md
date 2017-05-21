@@ -1,13 +1,13 @@
-# Control Boards
+# Control Boards:
 
 Options I think are worth using
 
-* Arduino 2560 and Premium RAMPS or RAMPS 1.4.2
-* MKS 8-bit boards (BASE/GEN/GEN-L)
-* Arduino Due and RADDS
-* DuefWifi but so expensive
+* Arduino Mega2560 and Premium RAMPS or RAMPS 1.4.2
+* Good 8-bit all-in-ones like RAMBo, RUMBA, MKS BASE/GEN/GEN-L
+* Arduino Due and RADDS, Get PanelDue to run RRF, or RADDS LCD to run Repetier/MK4duo
+* DuefWifi and PanelDue but so expensive
 * If using an 8-bit board, stick with 1/16 steppers due to low step rate, either A4988 or TMC2100
-* If using a 32-bit board, use whatever you like, TMCs still the best option
+* If using a 32-bit board, use whatever you like, TMC still the best option
 
 ## 8-Bit Arduino
 
@@ -74,7 +74,7 @@ http://smoothieware.org/
 * Web interface which looks like Pronterface
 * Not as mature as Marlin or RepRapFirmware
 
-Moving this bitch to a separate page: [My opinion on Smoothieware](3D-Printing-Smoothieware-Opinion).
+Moving my bitch session to a separate page: [My opinion on Smoothieware](3D-Printing-Smoothieware-Opinion).
 
 ### Smoothieboard
 
@@ -145,6 +145,22 @@ http://reprap.org/wiki/RepRap_Firmware
 
 * Currently mostly maintained by dc42 from Duet3D
 * Promoted vigorously by him, though he seems friendly and helpful in all interactions
+* Only supports PanelDue displays
+
+### Firmware - Repetier Firmware
+
+https://www.repetier.com/firmware/v092/
+
+* As per Repetier section above
+* Supports RADDS shield and Smart RAMPS shield
+* Supports RADDS LCD2004 and a number of other Due-specific displays
+
+### Firmware - MK4duo
+
+https://github.com/MagoKimbra/MK4duo
+
+* Port of Marlin to 32-bit Due platform
+* Supports RADDS shield and Smart RAMPS shield
 
 ### Arduino Due and RADDS
 
@@ -156,7 +172,7 @@ http://www.reprap.me/radds-lcd-display.html
 * Pololu stepper sockets
 * Runs Repetier Firmware or RepRapFirmware
 * Repetier: Buy a RADDS LCD (or make a cable to convert LCD2004/GLCD12864 maybe?)
-* RRF: Buy a PanelDue
+* RepRapFirmware: Buy a PanelDue
 
 ### DuetWifi
 
@@ -173,8 +189,9 @@ https://www.duet3d.com/DuetWifi - http://reprap.org/wiki/DuetWifi
 
 http://www.reprap.org/wiki/RAMPS-FD
 
+* Forget RAMPS-FD, seriously it's not even an option
 * RAMPS-like shield designed for use with Arduino Due (3.3v TTL) but also works on Mega 2560
 * RAMPS-FD v1.x has safety concerns, Geeetech sold the unfinished pre-release design despite being asked not to
 * bobc designed RAMPS-FD v2.2 but gave up the project, and all the Chinese sellers still sell v1
 * Fixes for v1 boards are detailed at: http://forums.reprap.org/read.php?219,424146
-* Fixes require SMD soldering so not recommended, avoid RAMPS-FD altogether
+* Fixes require SMD soldering so not recommended, hence avoid RAMPS-FD altogether
