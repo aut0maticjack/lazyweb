@@ -23,6 +23,7 @@ There is no developer interest in implementing a basic "ignore" on movements pas
 In the meantime, don't accidentally move past your frame limit.
 
 * Reference: [New to Smoothieware, are travel limits supported?](http://forum.smoothieware.org/forum/t-1478417/new-to-smoothieware-are-travel-limits-supported)
+* Update: https://github.com/Smoothieware/Smoothieware/pull/1149
 
 ### Web Interface != sdcard
 
@@ -72,7 +73,7 @@ Apparently every other Smoothie-compatible board (Azteeg X5, Re-ARM, Cohesion3D)
 
 * Reference: [New MKS SBASE Smoothieware-compatible board from China](http://forums.reprap.org/read.php?13,499322)
 
-## sdcard detection
+## SBASE sdcard detection
 
 With my SBASE and Full Graphic LCD, I need to either reboot with an sdcard in, or insert an sdcard then reboot the board for the card to be detected. If I want to swap or remove and replace the sdcard, I also need to reboot. MKS support tell me to just reboot the board and there's no way to fix it. This is probably a limitation of the SPI channel the SBASE uses for sdcards rather than of Smoothieware, however it's still annoying.
 
@@ -80,6 +81,15 @@ With my SBASE and Full Graphic LCD, I need to either reboot with an sdcard in, o
 
 Smoothieware seems good on paper, but my experience has been poor. After using Smoothie for a while I went back to Marlin on Arduino. I wish I'd never bought this board and should probably sell it while it's still worth something.
 
+## The Alternative
+
 RepRapFirmware on the Due-based hardware seems much better. The developer dc42 has a much better attitude and is helpful, positive, and interested in community requests. Duet3D's DuetWifi is the best implementation, though the UK exchange rate and the fact that it only works with the expensive PanelDue makes these prohibitively expensive for me in Australia, over AUD$400.
 
-RepRapMe in Denmark sell a RADDS shield and RADDS LCD and Arduino Due which come to about AUD$180. Even with genuine TMC2100 steppers ($20 each) it's still ~$140 cheaper than a DuetWifi and PanelDue. RADDS can be used with an LCD2004 or GLCD 12864 however those are 5v screens and the Arduino Due is 3.3v, plus the plug is not compatible, so you need to make a cable and futz around with voltages. I'd rather just buy the pre-made working LCD.
+RepRapMe in Denmark sell a RADDS shield and Arduino Due which come to about AUD$180. Even with genuine TMC2100 steppers ($20 each) it's still significantly cheaper than a DuetWifi. However, note that RepRapFirmware only supports PanelDue displays.
+
+RADDS can be used with an LCD2004 or GLCD 12864 however those are 5v screens and the Arduino Due is 3.3v, plus the plug is not compatible, so you need to make a cable and futz around with voltages. RepRapMe sell a RADDS LCD which is already 3.3v and has the right plug, I'd rather just buy the pre-made working LCD.
+
+So, if you really want 32-bit:
+
+* Best: Due + RADDS + PanelDue and run RepRapFirmware
+* Still good: Due + RADDS + RADDS-LCD and run Repetier or MK4duo
