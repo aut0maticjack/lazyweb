@@ -87,10 +87,17 @@ References:
 TODO
 ~~~
 
+tl;dr - don't try and print too fast
+
+start with XY max 125, XY accel 1000, XY jerk 1, print speed 40mm/sec
+
+work up from there
+
+* https://www.thingiverse.com/thing:277394
 * [Tom Sanladerer - 3D printing guides - Tuning speeds](https://www.youtube.com/watch?v=7HsIZuj9vOs)
 * [Tech2C - This is Y](https://www.youtube.com/watch?v=AKTvykTPjQw)
 
-## Temperature
+## Firmware Temperature
 
 * When to Calibrate: When changing thermistor, when changing printer location, when changing environmental conditions (eg: cold winter, hot summer)
 
@@ -109,6 +116,19 @@ Different firmware uses different IDs for nozzle and bed:
 References:
 
 * [Tom Sanladerer - 3D printing guides - Using Marlin's PID autotune](https://www.youtube.com/watch?v=APzJfYAgFkQ)
+
+## Filament Temperature
+
+~~~
+TODO
+~~~
+
+print a temperature tower, pick which looks best or gives the strongest layer adhesion or the best detail or the best bridging or whatever aspect you care about
+
+for pla use 185c to 235c
+
+* https://www.thingiverse.com/search?q=temperature+tower
+* https://www.thingiverse.com/search?q=temperature+calibration
 
 ## Filament Diameter
 
