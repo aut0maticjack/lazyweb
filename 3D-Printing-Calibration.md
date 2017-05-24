@@ -1,14 +1,16 @@
 # How To Calibrate Your 3D Printer Properly
 
-General Links
+### General Links
 
 * Tom Sanladerer - https://www.youtube.com/channel/UCb8Rde3uRL1ohROUVg46h1A
 * RepRap Wiki - http://reprap.org/wiki/
 
-## Stepper Driver Current
+### Stepper Driver Current
+
+* When to Calibrate: During initial setup, when changing motor, stepper driver, or control board
 
 ~~~
-TODO
+TODO - make nicer
 ~~~
 
 do this before plugging in. power off and unplug motors before tuning
@@ -29,13 +31,15 @@ References:
 * http://reprap.org/wiki/Stepper_motor
 * [Tom Sanladerer - 3D printing guides - How steppers work and how to adjust their drivers](https://www.youtube.com/watch?v=bItYRMLGoVc)
 
-## XYZ Steps
+### XYZ Steps
+
+* When to Calibrate: During initial setup, when changing axis gear/motor/parts
 
 The correct figures for X, Y, and Z axis are based on physical properties of your printer. You don't "tune" or adjust these unless you change parts.
 
 The correct way to determine these values is to find your motor's step angle (usually 1.8° or 0.9°), the microstepping of your drivers (usually 1/16 or 1/32), your belt pitch (2mm for GT2), and either the number of teeth on your pulleys (usually 16, 20, or 36) or the pitch of your leadscrew (usually 2mm or 8mm).
 
-The formulas are given on Triffid Hunder's calibration guide, but the Prusa Calculator makes this very easy, so just use that,
+The formulas are given on Triffid Hunder's calibration guide, but the Prusa Calculator makes this very easy, so just use that.
 
 These are your "Steps Per mm" values to be entered into the firmware, eg:
 
@@ -52,7 +56,9 @@ References:
 * http://www.reprap.org/wiki/Triffid_Hunter's_Calibration_Guide
 * [Tom Sanladerer - 3D printing guides: Calibration and why you might be doing it wrong](https://www.youtube.com/watch?v=Mbn1ckR86Z8)
 
-## Extruder Steps
+### Extruder Steps
+
+* When to Calibrate: During initial setup, when changing extruder motor/parts
 
 You can do a rough calculation for extruder steps based on the gear, or just set to `100` and test from there.
 
@@ -81,10 +87,12 @@ References:
 * [Tom Sanladerer - 3D printing guides - Calibrating your extruder](https://www.youtube.com/watch?v=YUPfBJz3I6Y)
 * http://zennmaster.com/makingstuff/reprap-101-calibrating-your-extruder-part-1-e-steps
 
-## Speeds
+### Speeds
+
+* When to Calibrate: During initial setup, when changing mechanical/weight properties of the printer.
 
 ~~~
-TODO
+TODO - make nicer
 ~~~
 
 tl;dr - don't try and print too fast
@@ -93,11 +101,13 @@ start with XY max 125, XY accel 1000, XY jerk 1, print speed 40mm/sec
 
 work up from there
 
+different materials require different print speeds, so tune speed with PLA and just tell the slicer to print slower for other materials as required
+
 * https://www.thingiverse.com/thing:277394
 * [Tom Sanladerer - 3D printing guides - Tuning speeds](https://www.youtube.com/watch?v=7HsIZuj9vOs)
 * [Tech2C - This is Y](https://www.youtube.com/watch?v=AKTvykTPjQw)
 
-## Firmware Temperature
+### Firmware Temperature
 
 * When to Calibrate: When changing thermistor, when changing printer location, when changing environmental conditions (eg: cold winter, hot summer)
 
@@ -117,10 +127,12 @@ References:
 
 * [Tom Sanladerer - 3D printing guides - Using Marlin's PID autotune](https://www.youtube.com/watch?v=APzJfYAgFkQ)
 
-## Filament Temperature
+### Filament Temperature
+
+* When to Calibrate: When using a different brand, color, or material of filament for the first time
 
 ~~~
-TODO
+TODO - make nicer
 ~~~
 
 print a temperature tower, pick which looks best or gives the strongest layer adhesion or the best detail or the best bridging or whatever aspect you care about
@@ -130,7 +142,7 @@ for pla use 185c to 235c
 * https://www.thingiverse.com/search?q=temperature+tower
 * https://www.thingiverse.com/search?q=temperature+calibration
 
-## Filament Diameter
+### Filament Diameter
 
 * When to Calibrate: For each filament spool
 
@@ -162,8 +174,14 @@ Now set your flow rate to that number and try a print again. If you can get with
 
 ## Stringing, Bridging, Retraction
 
+* When to Calibrate: When using a different brand, color, or material of filament for the first time
+
 ~~~
-TODO
+TODO - make nicer
 ~~~
+
+print some torture tests
+
+futz with the settings like print speed, retraction, coast, cooling until you get good print quality
 
 * https://www.thingiverse.com/thing:2219103
