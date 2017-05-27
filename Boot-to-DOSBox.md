@@ -22,6 +22,8 @@ Ensure the first partition is bootable. In Linux use `fdisk` and toggle bootable
 
 Use UNetbootin to put the Ubuntu Mini Remix image onto the USB drive. Give up to 4000 MiB persistent space.
 
+See the [note](#note-about-usb-drive-size) below to understand why you can't add more space than that.
+
 ## Network
 
 Plug Ethernet in before boot.
@@ -82,6 +84,8 @@ Edit `~/.dosbox/dosbox-0.74.conf` as below:
     @ECHO OFF
     MOUNT C ~/DOS
     C:
+
+Run `sudo dosbox` again to test your settings. Repeat until you're happy with it.
 
 ## Auto Login
 
