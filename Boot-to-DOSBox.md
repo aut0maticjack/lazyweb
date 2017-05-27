@@ -12,6 +12,7 @@ This is a set of instructions to create a minimal bootable LiveUSB which runs Li
 * A PC with internet access, at least to get DOSBox working and some games on there
 * USB drive, 4 GiB or 8 GiB is fine (see [note](#note-about-usb-drive-size) below)
 * Some basic knowledge of Linux text editing with `nano` or `vim` and `sudo`. If you don't know this then search Google for "linux nano tutorial" and "linux sudo tutorial".
+* An understanding of DOSBox and [its configuration file](http://www.dosbox.com/wiki/dosbox.conf)
 
 ## Create a Bootable Drive with Persistent Storage
 
