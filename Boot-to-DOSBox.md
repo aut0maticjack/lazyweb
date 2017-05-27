@@ -151,7 +151,7 @@ Dowload [CuteMouse](http://cutemouse.sourceforge.net/) and run it inside DOSBox 
 
 You could add that command to the `[autoexec]` section in `dosbox.conf` if you like.
 
-You can adjust mouse sensitivity like `CTMOUSE /R5`, the number can be 1 to 9 (0 is auto).
+You can adjust mouse sensitivity like `CTMOUSE /R5`, the R number can be 1 to 9 (0 is auto).
 
 You can also adjust mouse sensitivity with `sensitivity` setting in `dosbox.conf`
 
