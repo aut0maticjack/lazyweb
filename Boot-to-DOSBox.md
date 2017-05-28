@@ -49,17 +49,35 @@ If you do have a wireless device, I'll assume it's `wlan0`, edit `/etc/network/i
 
 Reboot.
 
-## Install DOSBox
+## Setup SSH
+
+The next steps are easier if you can remote in and copy-paste from this page.
+
+You'll also use this to copy games onto the LiveUSB system.
 
 The default login name is `ubuntu` with a blank password.
-
-Make a directory to be the DOSBox C drive: `mkdir ~/DOS`
 
 In `/etc/apt/sources.list` add `universe multiverse` to the end of each repo line.
 
 Update repos: `sudo apt update`
 
-Install stuff: `sudo apt install dosbox alsa-base pulseaudio vim`
+Install SSH server: `sudo apt install openssh-server`
+
+Start SSH server: `sudo systemctl start sshd`
+
+Make SSH server start on boot: `sudo systemctl enable sshd`
+
+Change user password: `sudo passwd ubuntu` and set the password to `password` or whatever you like.
+
+Type `ip address` if you need to know the LiveUSB system's IP.
+
+Use [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) to connect to the LiveUSB via SSH.
+
+## Install DOSBox
+
+Make a directory to be the DOSBox C drive: `mkdir ~/DOS`
+
+Install stuff: `sudo apt install dosbox alsa-base pulseaudio`
 
 Run just `dosbox` to make a base config file.
 
@@ -108,14 +126,6 @@ Edit `/etc/profile.d/10-runthing.sh` as below:
     fi
 
 ## Copying Games via Network (Recommended Method)
-
-Install SSH server: `sudo apt install openssh-server`
-
-Start SSH server: `sudo systemctl start sshd`
-
-Make SSH server start on boot: `sudo systemctl enable sshd`
-
-Change user password: `sudo passwd ubuntu` and set the password to `password` or whatever you like.
 
 Type `ip address` if you need to know the LiveUSB system's IP.
 
