@@ -17,6 +17,25 @@ Use cast, not rolled. Trade name for precision cast plates is MIC6:
 
 * https://www.reddit.com/r/3Dprinting/comments/4bo4q5/stop_buying_aluminum_build_plates_buy_raw_cast/
 
+## Axial Force on Radial Bearings
+
+SKF provide a calculator:
+
+* http://www.skf.com/group/products/bearings-units-housings/roller-bearings/cylindrical-roller-bearings/split-cylindrical-roller-bearings/dynamic-axial-load-carrying-capacity/index.html
+
+All 608ZZ I can find have a static rating of about 1350N.
+
+A 3D printer is smooth in action so let's use `b` as 1.1 to 1.3:
+
+~~~
+1350 / 40 * 1.1 = ~30N
+1350 / 40 * 1.3 = ~25N
+~~~
+
+An apple (102g) under regular gravity exerts 1N. A Boweden X gantry weighs maybe 500g at most, so exerts 5N down.
+
+You could probably put an entire 3D printer on a 608 bearing and it would still be within rating.
+
 ## E3D V6 Extrusion Speed Limit
 
 Bryce Standley found out the fastest an E3D V6 can reliably extrude is about 150mm/sec, faster than that and there is poor layer adhesion due to the filament not spending enough time in the melt zone and not getting hot enough:
