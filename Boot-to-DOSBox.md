@@ -51,6 +51,8 @@ Reboot.
 
 ## Install DOSBox
 
+The default login name is `ubuntu` with a blank password.
+
 Make a directory to be the DOSBox C drive: `mkdir ~/DOS`
 
 In `/etc/apt/sources.list` add `universe multiverse` to the end of each repo line.
