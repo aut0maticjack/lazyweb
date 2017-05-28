@@ -63,9 +63,9 @@ Update repos: `sudo apt update`
 
 Install SSH server: `sudo apt install openssh-server`
 
-Start SSH server: `sudo systemctl start sshd`
+Start SSH server: `sudo systemctl start ssh`
 
-Make SSH server start on boot: `sudo systemctl enable sshd`
+Make SSH server start on boot: `sudo systemctl enable ssh`
 
 Change user password: `sudo passwd ubuntu` and set the password to `password` or whatever you like.
 
