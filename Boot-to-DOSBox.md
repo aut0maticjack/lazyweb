@@ -30,6 +30,8 @@ Ubuntu Mini Remix takes up about 400 MiB, so give the size of your thumb drive m
 
 See the [note](#note-about-usb-drive-size) below to understand why you can't add more space than 4 GiB.
 
+The below steps will consume about 640 MiB of the persistent space.
+
 ## Network
 
 Plug Ethernet in before boot.
@@ -69,7 +71,9 @@ You'll also use SSH to copy games onto the LiveUSB system, so do this anyway.
 
 The default login name is `ubuntu` with a blank password.
 
-In `/etc/apt/sources.list` add `universe multiverse` to the end of each repo line. It should look like this:
+In `/etc/apt/sources.list` add `universe multiverse` to the end of each repo line.
+
+It should look like this:
 
     deb http://archive.ubuntu.com/ubuntu/ xenial main restricted universe multiverse
     deb http://security.ubuntu.com/ubuntu/ xenial-security main restricted universe multiverse
@@ -119,11 +123,11 @@ Run DOSBox on its own to make a base config file:
 
     dosbox
 
-This will look like messy text so type `EXIT` and press **Enter**. If that doesn't work try **Ctrl+c**. Use **Ctrl+l** (lowercase L) to clear the terminal. If the terminal is still messed up, log out with **Ctrl+d** and log back in.
+This will look like messy text so type `EXIT` and press **Enter**. If that doesn't work try **Ctrl+c**. Use **Ctrl+l** (lowercase L) to clear the terminal. If the terminal is still messed up, log out with **Ctrl+d** and log back in or just reboot with `sudo reboot`.
 
 To run DOSBox in text mode (without X), we need to use the SDL from RetroPie which is patched to allow hardware scaling on the framebuffer.
 
-We're going to follow RetroPie's [Ubuntu x86 Tutorial](https://github.com/RetroPie/RetroPie-Setup/wiki/RetroPie-Ubuntu-16.04-LTS-x86-Flavor) but just install RetroPie's DOSBox, which will install the required SDL. We won't install full RetroPie. We won't use use RetroPie's newer DOSBox-SVN.
+We're going to follow part of RetroPie's [Ubuntu x86 Tutorial](https://github.com/RetroPie/RetroPie-Setup/wiki/RetroPie-Ubuntu-16.04-LTS-x86-Flavor) but just install RetroPie's DOSBox, which will install the required SDL. We won't install full RetroPie. We won't use use RetroPie's newer DOSBox-SVN.
 
 Install requirements:
 
@@ -213,9 +217,11 @@ Turn the real computer's power off:
 
 ## Speed Control
 
-Turn DOSBox cycles down with **Ctrl+F11**, the number of cycles corresponds to `cycledown` in the config file.
+Turn DOSBox cycles down with **Ctrl+F11**.
 
-Turn DOSBox cycles up with **Ctrl+F12**, the number of cycles corresponds to `cycleup` in the config file.
+Turn DOSBox cycles up with **Ctrl+F12**.
+
+The number of cycles these change correspond to `cycledown` and `cycleup` in the DOSBox config file.
 
 You can also set a cycles value inside DOSBox with a command like: `CYCLES 10000`
 
@@ -223,25 +229,29 @@ You can also set a cycles value inside DOSBox with a command like: `CYCLES 10000
 
 Run `MIXER` inside DOSBox.
 
-You can also use the ALSA mixer on the Linux commandline:
+You can also use this mixer on the Linux commandline:
 
     alsamixer
 
 ## Mouse Support
 
-Dowload [CuteMouse](http://cutemouse.sourceforge.net/) and run it inside DOSBox with `CTMOUSE`
+Download [CuteMouse](http://cutemouse.sourceforge.net/) and run it inside DOSBox with `CTMOUSE`
 
 You could add that command to the `[autoexec]` section in `dosbox.conf` if you like.
 
 You can adjust mouse sensitivity like `CTMOUSE /R5`, the R number can be 1 to 9 (0 is auto).
 
-You can also adjust mouse sensitivity with `sensitivity` setting in `dosbox.conf`
+You can also adjust mouse sensitivity with `sensitivity` setting in the DOSBox config file.
 
 ## Limitations
 
-On some systems, the DOSBox window won't consume the whole screen. This might only happen on laptops.
+On some systems, the DOSBox window won't consume the whole screen. This is more likely to happen on laptops. Desktop monitors may have hardware scaling options, play around with the physical menu buttons on the monitor.
 
-DOSBox's aspect correction is ugly (it just inserts an extra line every 4). hq2x helps a lot with this. You can't use OpenGL scaling on the framebuffer to scale properly.
+DOSBox's aspect correction can be ugly (it just inserts an extra line every 4). Nice scaling modes like `hq2x` help with this. You can't use OpenGL scaling on the framebuffer to scale properly.
+
+Keep in mind that DOSBox in text mode will always be small, but graphics modes will scale up depending on the `scaler` value you've set in the DOSBox config file.
+
+Normal DOSBox cannot scale up past 3x. Some of the forks like [Daum](http://ykhwong.x-y.net/) have 4x and 5x scaling for larger screen resolutions, but installing those is beyond the scope of this tutorial.
 
 ## Advanced Topics
 
