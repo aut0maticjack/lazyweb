@@ -117,11 +117,25 @@ Run DOSBox on its own to make a base config file:
 
 This will look like messy text so type `EXIT` and press **Enter**. If that doesn't work try **Ctrl+c**. Use **Ctrl+l** (lowercase L) to clear the terminal. If the terminal is still messed up, log out with **Ctrl+d** and log back in.
 
-Run DOSBox as root and it should run much better on the framebuffer:
+To run DOSBox in text mode (without X), we need to use the SDL from RetroPie which is patched to allow hardware scaling on the framebuffer.
 
-    sudo dosbox
+We're going to follow RetroPie's [Ubuntu x86 Tutorial](https://github.com/RetroPie/RetroPie-Setup/wiki/RetroPie-Ubuntu-16.04-LTS-x86-Flavor) but just install RetroPie's DOSBox, which will install the required SDL. We won't install full RetroPie. We won't use use RetroPie's newer DOSBox-SVN.
 
-To get out of this DOSBox window, type `EXIT` and press **Enter**
+Install requirements:
+
+    sudo apt install git dialog
+
+Install RetroPie Setup Script and run it:
+
+    git clone --depth=1 https://github.com/RetroPie/RetroPie-Setup.git
+    cd RetroPie-Setup
+    sudo ./retropie_setup.sh
+
+In the RetroPie menu select **Manage packages** then **Manage optional packages** then **dosbox** then **Install from source**. Once that's done go **Back** until you exit the script.
+
+Change back to the home directory:
+
+    cd
 
 Edit `~/.dosbox/dosbox-0.74.conf` as below:
 
@@ -143,7 +157,13 @@ Edit `~/.dosbox/dosbox-0.74.conf` as below:
     MOUNT C ~/DOS
     C:
 
-Run `sudo dosbox` again to test your settings. Repeat until you're happy with it.
+Run DOSBox as root and it should run on the framebuffer and look nice:
+
+    sudo dosbox
+
+To get out of this DOSBox window, type `EXIT` and press **Enter**
+
+If you want to edit the DOSBox config settings, do that now and run `sudo dosbox` again to test your settings. Repeat until you're happy with it.
 
 ## Auto Login
 
