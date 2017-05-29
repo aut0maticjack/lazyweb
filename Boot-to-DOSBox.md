@@ -103,7 +103,7 @@ Run DOSBox on its own to make a base config file:
 
     dosbox
 
-This will look like messy text so type `EXIT` and press **Enter**, then **Ctrl+l** (lowercase L) to clear the terminal.
+This will look like messy text so type `EXIT` and press **Enter**. If that doesn't work try **Ctrl+c**. Use **Ctrl+l** (lowercase L) to clear the terminal. If the terminal is still messed up, log out with **Ctrl+d** and log back in.
 
 Run DOSBox as root and it should run much better on the framebuffer:
 
