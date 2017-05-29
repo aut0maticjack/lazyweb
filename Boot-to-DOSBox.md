@@ -57,33 +57,59 @@ You'll also use this to copy games onto the LiveUSB system.
 
 The default login name is `ubuntu` with a blank password.
 
-In `/etc/apt/sources.list` add `universe multiverse` to the end of each repo line.
+In `/etc/apt/sources.list` add `universe multiverse` to the end of each repo line. It should look like this:
 
-Update repos: `sudo apt update`
+    deb http://archive.ubuntu.com/ubuntu/ xenial main restricted universe multiverse
+    deb http://security.ubuntu.com/ubuntu/ xenial-security main restricted universe multiverse
+    deb http://archive.ubuntu.com/ubuntu/ xenial-updates main restricted universe multiverse
 
-Install SSH server: `sudo apt install openssh-server`
+Update repos:
 
-Start SSH server: `sudo systemctl start ssh`
+    sudo apt update
 
-Make SSH server start on boot: `sudo systemctl enable ssh`
+Install SSH server:
 
-Change user password: `sudo passwd ubuntu` and set the password to `password` or whatever you like.
+    sudo apt install openssh-server
 
-Type `ip address` if you need to know the LiveUSB system's IP.
+Start SSH server:
 
-Use [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) to connect to the LiveUSB via SSH.
+    sudo systemctl start ssh
+
+Make SSH server start on boot:
+
+    sudo systemctl enable ssh
+
+Change user password and set it to `password` or whatever you like:
+
+    sudo passwd ubuntu
+
+If you need to know the LiveUSB system's IP address:
+
+    ip address
+
+Connect to the LiveUSB via SSH. On Windows you can use [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html), on Mac you can use [iTerm2](http://www.iterm2.com/).
 
 ## Install DOSBox
 
-Make a directory to be the DOSBox C drive: `mkdir ~/DOS`
+Make a directory to be the DOSBox C drive:
 
-Install stuff: `sudo apt install dosbox alsa-base pulseaudio`
+    mkdir ~/DOS
 
-Run just `dosbox` to make a base config file.
+Install DOSBox and audio:
+
+    sudo apt install dosbox alsa-base pulseaudio
+
+Run DOSBox on its own to make a base config file:
+
+    dosbox
 
 This will look like messy text so type `EXIT` and press **Enter**, then **Ctrl+l** (lowercase L) to clear the terminal.
 
-Run `sudo dosbox` and it should run much better on the framebuffer. Type `EXIT` and press **Enter**.
+Run DOSBox as root and it should run much better on the framebuffer:
+
+    sudo dosbox
+
+To get out of this, type `EXIT` and press **Enter**
 
 Edit `~/.dosbox/dosbox-0.74.conf` as below:
 
@@ -109,7 +135,9 @@ Run `sudo dosbox` again to test your settings. Repeat until you're happy with it
 
 ## Auto Login
 
-`sudo mkdir -p /etc/systemd/system/getty@tty1.service.d/`
+Make this directory:
+
+    sudo mkdir -p /etc/systemd/system/getty@tty1.service.d/
 
 Edit `/etc/systemd/system/getty@tty1.service.d/autologin.conf` as below:
 
@@ -127,7 +155,9 @@ Edit `/etc/profile.d/10-runthing.sh` as below:
 
 ## Copying Games via Network (Recommended Method)
 
-Type `ip address` if you need to know the LiveUSB system's IP.
+If you need to know the LiveUSB system's IP address:
+
+    ip address
 
 Use a graphical SFTP program like [Filezilla](https://filezilla-project.org/) (Lin/Win/Mac) or [WinSCP](https://winscp.net/) (Win) or [CyberDuck](https://cyberduck.io/) (Mac) to copy games to `/home/ubuntu/DOS/` on the LiveUSB system.
 
@@ -141,7 +171,9 @@ Always shut down properly, don't just turn the power off and yank the USB drive 
 
 Exit DOSBox with `EXIT` or **Ctrl+F9**.
 
-Turn the real computer's power off with: `sudo poweroff`
+Turn the real computer's power off:
+
+    sudo poweroff
 
 ## Speed Control
 
@@ -155,7 +187,9 @@ You can also set a cycles value inside DOSBox with a command like: `CYCLES 10000
 
 Run `MIXER` inside DOSBox.
 
-You can also use `alsamixer` on the Linux commandline.
+You can also use the ALSA mixer on the Linux commandline:
+
+    alsamixer
 
 ## Mouse Support
 
@@ -181,15 +215,15 @@ If you want to do these, I assume you understand a bit about Linux and filesyste
 
 I haven't tested this much, I don't know if it's how you should use the persistent filesystem.
 
-`sudo mkdir -p /mnt/dos`
-
-`sudo mount -o loop /path/to/usbdrive/casper-rw /mnt/dos`
-
-`sudo chmod -R ugo+rw /mnt/dos/upper/home/ubuntu/DOS`
+    sudo mkdir -p /mnt/dos
+    sudo mount -o loop /path/to/usbdrive/casper-rw /mnt/dos
+    sudo chmod -R ugo+rw /mnt/dos/upper/home/ubuntu/DOS
 
 Copy games to `/mnt/dos/upper/home/ubuntu/DOS/`
 
-When finished `sudo umount /mnt/dos`
+When finished, unmount the filesystem:
+
+    sudo umount /mnt/dos
 
 Safely eject the USB drive.
 
@@ -201,7 +235,7 @@ I don't use Windows so I don't know the exact steps for this, you'll need to fig
 
 Use [OSFMount](http://www.osforensics.com/tools/mount-disk-images.html) to mount the `casper-rw` file which is on the USB drive.
 
-Copy games to `/upper/home/ubuntu/DOS/` inside that filesystem.
+Copy games to `/upper/home/ubuntu/DOS/` inside that mount.
 
 When done, unmount the OSFMount.
 
