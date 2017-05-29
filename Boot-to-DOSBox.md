@@ -20,13 +20,17 @@ Format the USB drive as FAT32.
 
 Ensure the first partition is bootable. In Linux use `fdisk` and toggle bootable flag with **a**. In Windows use `diskpart` and set **active**.
 
-Use UNetbootin to put the Ubuntu Mini Remix image onto the USB drive. Give up to 4000 MiB persistent space.
+Use UNetbootin to put the Ubuntu Mini Remix image onto the USB drive. Give at least 1000 MiB persistent space, as installing DOSBox and other stuff will take a few hundred MiB. Give up to 4000 MiB persistent space.
 
-See the [note](#note-about-usb-drive-size) below to understand why you can't add more space than that.
+See the [note](#note-about-usb-drive-size) below to understand why you can't add more space than 4 GiB.
 
 ## Network
 
 Plug Ethernet in before boot.
+
+If you forgot to do this, then just reboot:
+
+    sudo reboot
 
 ## WiFi (untested)
 
@@ -47,13 +51,15 @@ If you do have a wireless device, I'll assume it's `wlan0`, edit `/etc/network/i
         wireless-power off
     iface default inet dhcp
 
-Reboot.
+Reboot:
+
+    sudo reboot
 
 ## Setup SSH
 
-The next steps are easier if you can remote in and copy-paste from this page.
+The next steps are easier if you can remote in and copy-paste from this page, so we'll setup SSH remote console for that.
 
-You'll also use this to copy games onto the LiveUSB system.
+You'll also use SSH to copy games onto the LiveUSB system, so do this anyway.
 
 The default login name is `ubuntu` with a blank password.
 
@@ -109,7 +115,7 @@ Run DOSBox as root and it should run much better on the framebuffer:
 
     sudo dosbox
 
-To get out of this, type `EXIT` and press **Enter**
+To get out of this DOSBox window, type `EXIT` and press **Enter**
 
 Edit `~/.dosbox/dosbox-0.74.conf` as below:
 
