@@ -91,9 +91,13 @@ Make SSH server start on boot:
 
     sudo systemctl enable ssh
 
-Change user password and set it to `password` or whatever you like:
+Edit `/etc/ssh/sshd_config` and change `PermitEmptyPasswords` from `no` to `yes`:
 
-    sudo passwd ubuntu
+    PermitEmptyPasswords yes
+
+Restart the SSH server to apply this change:
+
+    sudo systemctl restart ssh
 
 If you need to know the LiveUSB system's IP address:
 
@@ -193,7 +197,7 @@ If you need to know the LiveUSB system's IP address:
 
 Use a graphical SFTP program like [Filezilla](https://filezilla-project.org/) (Lin/Win/Mac) or [WinSCP](https://winscp.net/) (Win) or [CyberDuck](https://cyberduck.io/) (Mac) to copy games to `/home/ubuntu/DOS/` on the LiveUSB system.
 
-The username is `ubuntu` and the password is `password` or whatever you set above.
+The username is `ubuntu` with a blank password.
 
 If you copy new games on while DOSBox is running, press **Ctrl+F4** within DOSBox to refresh the files from disk.
 
