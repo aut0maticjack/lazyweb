@@ -20,7 +20,13 @@ Format the USB drive as FAT32.
 
 Ensure the first partition is bootable. In Linux use `fdisk` and toggle bootable flag with **a**. In Windows use `diskpart` and set **active**.
 
-Use UNetbootin to put the Ubuntu Mini Remix image onto the USB drive. Give at least 1000 MiB persistent space, as installing DOSBox and other stuff will take a few hundred MiB. Give up to 4000 MiB persistent space.
+Use UNetbootin to put the Ubuntu Mini Remix image onto the USB drive. Select persistent space.
+
+Ubuntu Mini Remix takes up about 400 MiB, so give the size of your thumb drive minus 500 MiB, up to a maximum of 4000 MiB persistent space. eg:
+
+* 2 GiB USB drive - give 1500 MiB persistent space
+* 4 GiB USB drive - give 3500 MiB persistent space
+* 8 GiB USB drive - give 4000 MiB persistent space
 
 See the [note](#note-about-usb-drive-size) below to understand why you can't add more space than 4 GiB.
 
