@@ -59,6 +59,12 @@ There is a way to make a "universal adapter" with another Arduino, which would t
 
 * Reference: http://smoothieware.org/panel
 
+## Additional
+
+I'm not the only one:
+
+* https://www.reddit.com/r/voroncorexy/comments/6e1jj1/looking_for_recommendations_on_32_bit_boards/
+
 ## MKS SBASE
 
 Chinese company Makerbase sell their own closed-source version of the Smoothieboard called the SBASE.
