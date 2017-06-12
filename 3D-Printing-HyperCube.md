@@ -107,15 +107,19 @@ Random others:
 * Several people have found a dab of nail polish on the nut threads helps them catch the T-nut and spin it, and acts as a weak threadlock compound.
 * A set of files has been useful for making the ends of extrusion even, and shaving down poorly-made T-nuts.
 
+### Extrusions
+
+* The BOM specifies **Type 6** T-slot extrusion which has a 6mm slot in the middle, so accepts M5 screws. Some people end up buying Type 5 extrusion which as a 4.8mm hole which only accepts M4 screws. You can just buy M4 screws and T-nuts instead of M5, or this remix resizes all holes to accept M4: [HyperCube 3D Printer M4 Variant by Zargony](https://pinshape.com/items/35851-3d-printed-hypercube-3d-printer-m4-variant)
+* Make sure all your extrusions are the same length, and are flat on the ends. The D-Bot Facebook group suggest extrusions should be within 1/64" (0.4mm) of each other. I got mine down to half that and checked with a feeler gauge. A file can be used to adjust. Even a small file cuts through the soft aluminium quickly so be careful.
+* I measured my extrusions by standing them all on their end, clamping another piece of extrusion each side so they were square, and using a straightedge or another piece of extrusion across the top.
+
 ### Frame
 
 * Getting the frame square can be quite difficult. It's worth spending time getting this right.
 * At the end, you should be able to place any side of the frame on a flat surface and have no "clack" as the frame rocks back and forth, it should sit flat on the bench. You should also be able to measure horizontally, vertically, and diagonally between all extrusions and get the same measurement within say 0.25mm.
 * Building on a truly **flat** surface such as a glass/marble counter will help. Don't assemble this somewhere soft, like the carpet or a rickety old wooden desk with uneven feet and one propped-up leg.
 * In Artur's Printrbot conversion he describes the idea of making two "windows" from the Y and Z parts, then joining those with the X parts. Arvind agrees this is the best way to assemble a cube frame, it worked well with his FlyingBear P902.
-* Make sure all your extrusions are the same length, and are flat on the ends. The D-Bot Facebook group suggest extrusions should be within 1/64" (0.4mm) of each other. I got mine down to half that and checked with a feeler gauge. A file can be used to adjust. Even a small file cuts through the soft aluminium quickly so be careful.
-* I measured my extrusions by standing them all on their end, clamping another piece of extrusion each side so they were square, and using a straightedge or another piece of extrusion across the top.
-* Additional corner brackets on the outside of the extrusions can help line them up, such as the corner supplied in: [HyperCube extensions/modifications by Golkun](https://www.thingiverse.com/thing:2150132)
+* Additional corner brackets on the outside of the extrusions can help line the frame up, such as the corner supplied in: [HyperCube extensions/modifications by Golkun](https://www.thingiverse.com/thing:2150132)
 * Internal corner brackets which are joined together is also a good idea, such as: [Corner Bracket 3 Way for 2020 aluminum extrusion by LuisCRSousa](https://www.thingiverse.com/thing:1416715)
 * Add another 50mm or 75mm onto your Z extrusions so you can put stuff underneath like the control board and power supply. I ended up using a longer Z screw from Tevo, so I flipped the Z motor mount and designed some feet to lift the frame: [HyperCube Leg Extension by superjamie](https://www.thingiverse.com/thing:2379397)
 
