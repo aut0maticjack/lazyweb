@@ -95,23 +95,29 @@ Random others:
 
 ### Parts
 
-* Corners - Personally I found the Suleve corners on the BOM to be rubbish. I ordered 5 bags, three were so badly made they were useless. Here is a printable internal corner bracket of the same dimensions: [20mm Suleve Corner for 2020 Extrusion (HyperCube) by superjamie](https://www.thingiverse.com/thing:2379295)
+* Corners - I found the Suleve corners on the BOM to be rubbish. Of the 5 bags I bought, 3 bags were so badly made they were useless. Here is a printable internal corner bracket of the same dimensions: [20mm Suleve Corner for 2020 Extrusion (HyperCube) by superjamie](https://www.thingiverse.com/thing:2379295)
 * Nuts - Likewise I found the T-nuts specified on the BOM to be poor quality. Many needed to be filed down on the curve where they are supposed to rotate, or on the top edge furthest from the curve. 5% to 10% of the nuts were just too thick to fit in the extrusion slot and had to be thrown away. Order an extra bag of nuts.
 * Carbon fiber tube/rod - Many on the HyperCube Facebook group have purchased their extrusion from HaoZhong Carbon Fiber on eBay. The size is not always guaranteed exact, and varies from 9.95mm to 10.15mm, but the variance within a single tube is less than 0.01mm so is good for plastic/polymer bushings. You can buy 10x8mm or 10x6mm tube, or solid 10mm rod. https://stores.ebay.com/HaoZhong-Carbon-Fiber-Tube
 
 ### Tools
 
 * Buy a set of long hex key drivers with the 25° ball head, they'll be really useful for getting into hard-to-reach parts of the frame.
+* A torch is useful to look down the frame and make sure the T-nuts have actually spun
+* A needle or other long thin rod is useful to poke at the nuts and spin them manually if they need coaxing
+* Several people have found a dab of nail polish on the nut threads helps them catch the T-nut and spin it, and acts as a weak threadlock compound.
+* A set of files has been useful for making the ends of extrusion even, and shaving down poorly-made T-nuts.
 
 ### Frame
 
-* Getting the frame square can be quite difficult. It's worth spending time on this. At the end, you should be able to place any side of the frame on a flat surface and have no "clack" as the frame rocks back and forth, it should sit flat on the bench. You should also be able to measure between all extrusions and get the same measurement within say 0.25mm.
+* Getting the frame square can be quite difficult. It's worth spending time getting this right.
+* At the end, you should be able to place any side of the frame on a flat surface and have no "clack" as the frame rocks back and forth, it should sit flat on the bench. You should also be able to measure horizontally, vertically, and diagonally between all extrusions and get the same measurement within say 0.25mm.
 * Building on a truly **flat** surface such as a glass/marble counter will help. Don't assemble this somewhere soft, like the carpet or a rickety old wooden desk with uneven feet and one propped-up leg.
 * In Artur's Printrbot conversion he describes the idea of making two "windows" from the Y and Z parts, then joining those with the X parts. Arvind agrees this is the best way to assemble a cube frame, it worked well with his FlyingBear P902.
 * Make sure all your extrusions are the same length, and are flat on the ends. The D-Bot Facebook group suggest extrusions should be within 1/64" (0.4mm) of each other. I got mine down to half that and checked with a feeler gauge. A file can be used to adjust. Even a small file cuts through the soft aluminium quickly so be careful.
-* I measured by extrusions by standing them all on their end, clamping another piece of extrusion each side so they were square, and using a straightedge or another piece of extrusion across the top.
-* Additional corner brackets on the outside of the extrusions can help line them up, such as the corner supplied in [HyperCube extensions/modifications by Golkun](https://www.thingiverse.com/thing:2150132)
-* Internal corner brackets which are joined together may be a better idea, such as [Corner Bracket 3 Way for 2020 aluminum extrusion by LuisCRSousa](https://www.thingiverse.com/thing:1416715)
+* I measured my extrusions by standing them all on their end, clamping another piece of extrusion each side so they were square, and using a straightedge or another piece of extrusion across the top.
+* Additional corner brackets on the outside of the extrusions can help line them up, such as the corner supplied in: [HyperCube extensions/modifications by Golkun](https://www.thingiverse.com/thing:2150132)
+* Internal corner brackets which are joined together is also a good idea, such as: [Corner Bracket 3 Way for 2020 aluminum extrusion by LuisCRSousa](https://www.thingiverse.com/thing:1416715)
+* Add another 50mm or 75mm onto your Z extrusions so you can put stuff underneath like the control board and power supply. I ended up using a longer Z screw from Tevo, so I flipped the Z motor mount and designed some feet to lift the frame: [HyperCube Leg Extension by superjamie](https://www.thingiverse.com/thing:2379397)
 
 ### Axes
 
@@ -122,6 +128,9 @@ Random others:
 
 * The belts need to be evenly tensioned. If the frame is square and the X gantry evenly contacts the frame without belts, but does not evenly contact with belts, then the belts are not evenly tensioned.
 * Tying the X gantry to the frame with cable ties and then tightening the belts has solved this for several people.
+* I didn't like the idea of flipping the belts or having them ride on double flange bearings, so I used these idler holders:
+    * [XY Joiner for GT2 16T Timing Pulleys by PurchenZuPoden](https://www.thingiverse.com/thing:2188100)
+    * [XY Idler for GT2 16T/20T Timing Pulleys by PurchenZuPoden](https://www.thingiverse.com/thing:2186358)
 
 ### Bed and Lead Screw
 
