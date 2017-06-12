@@ -82,6 +82,17 @@ Random others:
 
 ## Build Tips
 
+### Scaling Up
+
+* Tech2C gives clear instructions on how to scale the printer up on the Thingiverse page.
+* The [HyperCube Materials Calculator](http://funkydiver.com/hypercube-materials) makes this easier.
+* People like to talk rubbish about the cantilever bed design, but really for a 200mm or 250mm bed it's fine. For a 300mm or larger bed, two Z screws and 4 Z rods should be used. For a bed larger than 500mm, three Z screws should be used (three points define a plane).
+* It may be better to join multiple Z screws with a belt, instead of using multiple motors. If you strongly pull the build platform, you may cause one of dual motors to skip steps and get out of alignment. A belt does not have this problem. The D-Bot community has many good remixes of dual and triple belted Z screws.
+* Over 500m bed size the HyperCube starts to become flawed, as linear shafts have a large deflection over long distances, especially heavy steel which must also carry its own weight. If you are concerned about this then look up a shaft deflection calculator, calculate the stock deflection, then the deflection resulting from your intended build. If your deflection is worse, increase rod size.
+* At 500mm+ you should be considering a design that does not use linear shafts. Good alternatives are V-slot designs such as the D-Bot, or something that uses linear rails.
+* One person building a 1200mm printer found they needed 20mm steel rod or 25mm carbon fiber solid rod to span the X axis, which was an unfeasible rod size.
+
+
 ### Parts
 
 * Corners - Personally I found the Suleve corners on the BOM to be rubbish. I ordered 5 bags, three were so badly made they were useless. Here is a printable internal corner bracket of the same dimensions: [20mm Suleve Corner for 2020 Extrusion (HyperCube) by superjamie](https://www.thingiverse.com/thing:2379295)
@@ -118,9 +129,6 @@ Random others:
 * Jin found this sprung Z nut holder helped her wobbly Z screw a bit: [Z_Nut_Mount_WobbleFix by syahriansyah](https://www.thingiverse.com/thing:2103550)
 * Even Tech2C comments that the 8mm Z rods are a bit flimsy. A good 10mm Z remix is: [HyperCube LM10UU Z Axis Carriage
 by henryarnold](http://www.thingiverse.com/thing:1950819)
-* People like to talk rubbish about the cantilever bed design, but really for a 200mm or 250mm bed it's fine. For a 300mm or larger bed, two Z screws and 4 Z rods should be used. For a bed larger than 500mm, three Z screws should be used (as three points define a plane).
-* It may be better to join multiple Z screws with a belt, instead of using multiple motors. If you strongly pull the build platform, you may cause one of dual motors to skip steps and get out of alignment. A belt does not have this problem. The D-Bot community has many good remixes of dual and triple belted Z screws.
-* Really at 500m bed size, the HyperCube starts to become flawed, as linear shafts have a large deflection over long distances, especially heavy steel which must also carry its own weight. If you are concerned, look up a shaft deflection calculator. At 500mm+ you should be considering a design that does not use linear shafts. Good alternatives are V-slot designs such as the D-Bot, or something that uses linear rails.
 
 ### Electronics
 
