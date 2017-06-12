@@ -45,40 +45,40 @@ Artur's Lab rebuilt a Printrbot into a mini HyperCube, which has some good assem
 
 Artur has also built a larger HyperCube:
 
-* [Hypercube XL build #1](https://www.youtube.com/watch?v=BwsekiOP7rA)
-* [Hypercube XL build #2](https://www.youtube.com/watch?v=QhrLO-29iV4)
-* [Hypercube XL build #3](https://www.youtube.com/watch?v=Lx24H0jDTfQ)
-* [Hypercube XL build #4](https://www.youtube.com/watch?v=zGGka6glZRQ)
-* [Hypercube XL build #5](https://www.youtube.com/watch?v=MeG1k_vnYzs)
-* [Hypercube XL build #6](https://www.youtube.com/watch?v=WxRTxrE5SVE)
+* [Hypercube XL build #1](https://www.youtube.com/watch?v=BwsekiOP7rA) - Apr 2 2017
+* [Hypercube XL build #2](https://www.youtube.com/watch?v=QhrLO-29iV4) - Apr 10 2017
+* [Hypercube XL build #3](https://www.youtube.com/watch?v=Lx24H0jDTfQ) - Apr 12 2017
+* [Hypercube XL build #4](https://www.youtube.com/watch?v=zGGka6glZRQ) - Apr 18 2017
+* [Hypercube XL build #5](https://www.youtube.com/watch?v=MeG1k_vnYzs) - Apr 21 2017
+* [Hypercube XL build #6](https://www.youtube.com/watch?v=WxRTxrE5SVE) - Apr 24 2017
 
-And he's done some part remixes and info on those:
+Artur has also done some part remixes and info on those:
 
 * [Redesigned parts for Hypercube 3d printer](https://www.youtube.com/watch?v=MYXsmhKzDCk) - Jan 3 2017
-* [3d printed bushings for Hypercube, x carriage LEDs and extruder](https://www.youtube.com/watch?v=f6wNO6v0NKo) - 
+* [3d printed bushings for Hypercube, x carriage LEDs and extruder](https://www.youtube.com/watch?v=f6wNO6v0NKo) - Jan 4 2017
 
 Bryce Standley has built a HyperCube and has made a few videos about it:
 
-* [The Hypercube by Tech2c!](https://www.youtube.com/watch?v=fw5folaXbmU)
-* [How fast can the Hypercube really go?](https://www.youtube.com/watch?v=LdosTxvONI0)
-* [My Hypercube Review! How good is it?](https://www.youtube.com/watch?v=Dp31G53UcJs)
+* [The Hypercube by Tech2c!](https://www.youtube.com/watch?v=fw5folaXbmU) - Feb 12 2017
+* [How fast can the Hypercube really go?](https://www.youtube.com/watch?v=LdosTxvONI0) - Feb 25 2017
+* [My Hypercube Review! How good is it?](https://www.youtube.com/watch?v=Dp31G53UcJs) - Mar 14 2017
 
 PracticalProjects is building one:
 
-* [HyperCube 3D Printer Build Part 1 - Introduction](https://www.youtube.com/watch?v=a7OGYCeLw_I)
-* [HyperCube 3D Printer Build Part 2 - Frame and Parts](https://www.youtube.com/watch?v=dF4U3HeoCt4)
-* [HyperCube 3D Printer Build Part 3 - Mechanical Parts](https://www.youtube.com/watch?v=T2W7N6poNDI)
-* [HyperCube 3D Printer Build Part 3.5](https://www.youtube.com/watch?v=or3AENGhu7w)
+* [HyperCube 3D Printer Build Part 1 - Introduction](https://www.youtube.com/watch?v=a7OGYCeLw_I) - Mar 25 2017
+* [HyperCube 3D Printer Build Part 2 - Frame and Parts](https://www.youtube.com/watch?v=dF4U3HeoCt4) - Apr 17 2017
+* [HyperCube 3D Printer Build Part 3 - Mechanical Parts](https://www.youtube.com/watch?v=T2W7N6poNDI) - May 8 2017
+* [HyperCube 3D Printer Build Part 3.5](https://www.youtube.com/watch?v=or3AENGhu7w) - May 30 2017
 
 Tinkercave did a few:
 
-* [Hypercube Frame Build Log](https://www.youtube.com/watch?v=eLIFhN62GG4)
-* [HyperCube Build Review](https://www.youtube.com/watch?v=NvVZrpWW_Hs)
-* [Hypercube Build Upgrade and Improvements Part 1](https://www.youtube.com/watch?v=Y21V5EICl54)
+* [Hypercube Frame Build Log](https://www.youtube.com/watch?v=eLIFhN62GG4) - Jan 25 2017
+* [HyperCube Build Review](https://www.youtube.com/watch?v=NvVZrpWW_Hs) - Feb 5 2017
+* [Hypercube Build Upgrade and Improvements Part 1](https://www.youtube.com/watch?v=Y21V5EICl54) - Mar 11 2017
 
 Random others:
 
-* [Hypercube coreXY 3d printer by IMA 3D Printer Indonesia](https://www.youtube.com/watch?v=rr5yYukQkT0)
+* [Hypercube coreXY 3d printer by IMA 3D Printer Indonesia](https://www.youtube.com/watch?v=rr5yYukQkT0) - Dec 17 2016
 
 ## Build Tips
 
@@ -151,14 +151,14 @@ The HyperCube Evolution by Scott3D is a remix of the original design, adding a s
 
 The creator has also released a build guide video series:
 
-* [Hypercube Evolution #1 - Introduction](https://www.youtube.com/watch?v=1rctCsUGnX8)
-* [HyperCube Evolution #2 - Parts and Frame](https://www.youtube.com/watch?v=iKh8EUGYfAU)
-* [HyperCube Evolution #3 - Dual Z Axis](https://www.youtube.com/watch?v=ZkLGYHm3pNU)
-* [HyperCube Evolution #4 - Y Axis Assembly](https://www.youtube.com/watch?v=lPyLJxsCRE4)
-* [HyperCube Evolution #5 - X Axis Assembly](https://www.youtube.com/watch?v=qxvfhfVEDvY)
-* [HyperCube Evolution #6 - Belt Assembly](https://www.youtube.com/watch?v=mVVZKdOpUqs)
-* [HyperCube Evolution #7 - Build Platform Assembly](https://www.youtube.com/watch?v=fWTbV11DwOs)
-* [HyperCube Evolution #8 - RAMPS 24v mod + "It's alive"](https://www.youtube.com/watch?v=8Nmmrp4hKeM)
+* [Hypercube Evolution #1 - Introduction](https://www.youtube.com/watch?v=1rctCsUGnX8) - Apr 22 2017
+* [HyperCube Evolution #2 - Parts and Frame](https://www.youtube.com/watch?v=iKh8EUGYfAU) - May 6 2017
+* [HyperCube Evolution #3 - Dual Z Axis](https://www.youtube.com/watch?v=ZkLGYHm3pNU) - May 6 2017
+* [HyperCube Evolution #4 - Y Axis Assembly](https://www.youtube.com/watch?v=lPyLJxsCRE4) - May 6 2017
+* [HyperCube Evolution #5 - X Axis Assembly](https://www.youtube.com/watch?v=qxvfhfVEDvY) - May 6 2017
+* [HyperCube Evolution #6 - Belt Assembly](https://www.youtube.com/watch?v=mVVZKdOpUqs) - May 7 2017
+* [HyperCube Evolution #7 - Build Platform Assembly](https://www.youtube.com/watch?v=fWTbV11DwOs) - May 7 2017
+* [HyperCube Evolution #8 - RAMPS 24v mod + "It's alive"](https://www.youtube.com/watch?v=8Nmmrp4hKeM) - May 7 2017
 
 ## Other Similar Printers
 
