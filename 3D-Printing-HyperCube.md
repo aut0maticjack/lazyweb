@@ -146,6 +146,8 @@ by henryarnold](http://www.thingiverse.com/thing:1950819)
 ### Electronics
 
 * If buying motors from different suppliers, be aware not all motors have the same pinout at the connector. If in doubt, use a multimeter to figure out which pins are members of the same coil, then swap wires or firmware direction until the motor moves as desired.
+* Many RAMPS boards do not ship with the stepper driver jumpers pre-installed, and need to be installed by you before you put the stepper drivers in. The normal configuration is to install all three jumpers under a stepper driver to enable 1/16 stepping mode for A4988.
+* Make sure you line up the stepper driver enable/ground pins with the same pin on the RAMPS board. Double-check each time you install a driver. Installing a driver backwards will probably fry the driver or the RAMPS or both.
 
 ## HyperCube Evolution Remix
 
