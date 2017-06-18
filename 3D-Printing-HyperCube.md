@@ -1,8 +1,12 @@
-# HyperCube
+# HyperCube Community Tips
 
 The HyperCube is a 3D printer by Tech2C. It is intended to provide an upgraded frame and motion to re-use a cheap cartesian (eg: Replikeo i3, Tevo Tarantula, Anet A8, HE3D, etc) and convert it to a cube frame with [corexy](http://www.corexy.com/) kinematics. The parts list is located on Thingiverse at:
 
 * [HyperCube 3D Printer by Tech2C](https://www.thingiverse.com/thing:1752766)
+
+This page collects community knowledge of the HyperCube including assembly tips, popular parts remixes, and things which improve on the original design.
+
+These were mostly gathered from people on the [Hypercube CoreXY 3D Printer Group on Facebook](https://www.facebook.com/groups/1871049783171141/) and YouTube. Credit to others given wherever possible.
 
 ## Original Videos
 
@@ -56,6 +60,7 @@ Artur has also done some part remixes and info on those:
 
 * [Redesigned parts for Hypercube 3d printer](https://www.youtube.com/watch?v=MYXsmhKzDCk) - Jan 3 2017
 * [3d printed bushings for Hypercube, x carriage LEDs and extruder](https://www.youtube.com/watch?v=f6wNO6v0NKo) - Jan 4 2017
+* [new z endstop and initial printer setup for first print](https://www.youtube.com/watch?v=T5Xv6H_RaeI) - Feb 2 2017
 
 Bryce Standley has built a HyperCube and has made a few videos about it:
 
@@ -76,52 +81,52 @@ Tinkercave did a few:
 * [HyperCube Build Review](https://www.youtube.com/watch?v=NvVZrpWW_Hs) - Feb 5 2017
 * [Hypercube Build Upgrade and Improvements Part 1](https://www.youtube.com/watch?v=Y21V5EICl54) - Mar 11 2017
 
-Random others:
-
-* [Hypercube coreXY 3d printer by IMA 3D Printer Indonesia](https://www.youtube.com/watch?v=rr5yYukQkT0) - Dec 17 2016
+There are also plenty of short clips of HyperCubes printing but I'm not going to catalog those.
 
 ## Build Tips
 
 ### Scaling Up
 
 * Tech2C gives clear instructions on how to scale the printer up on the Thingiverse page.
-* The [HyperCube Materials Calculator](http://funkydiver.com/hypercube-materials) makes this easier.
+* The [HyperCube Materials Calculator by FunkyDiver](http://funkydiver.com/hypercube-materials) makes this easier.
 * People like to talk rubbish about the cantilever bed design, but really for a 200mm or 250mm bed it's fine. For a 300mm or larger bed, two Z screws and 4 Z rods should be used. For a bed larger than 500mm, three Z screws should be used (three points define a plane).
-* It may be better to join multiple Z screws with a belt, instead of using multiple motors. If you strongly pull the build platform, you may cause one of dual motors to skip steps and get out of alignment. A belt does not have this problem. The D-Bot community has many good remixes of dual and triple belted Z screws.
+* It may be better to join multiple Z screws with a belt, instead of using multiple motors. If you strongly pull the build platform, you may cause one of dual motors to skip steps and get out of alignment. A belt does not have this problem. The D-Bot community has many good remixes of dual and triple belted Z screws, eg: [Three lead screws and one nema 17 motor remix for C/D/J-bot by oeyhaga](https://www.thingiverse.com/thing:2185911).
 * Over 500m bed size the HyperCube starts to become flawed, as linear shafts have a large deflection over long distances, especially heavy steel which must also carry its own weight. If you are concerned about this then look up a shaft deflection calculator, calculate the stock deflection, then the deflection resulting from your intended build. If your deflection is worse, increase rod size.
-* At 500mm+ you should be considering a design that does not use linear shafts. Good alternatives are V-slot designs such as the D-Bot, or something that uses linear rails.
+* At 500mm+ you should be considering a design that does not use linear shafts. Good alternatives are V-slot designs such as the [D-Bot](http://www.thingiverse.com/thing:1001065), or something which uses linear rails.
 * One person building a 1200mm printer found they needed 20mm steel rod or 25mm carbon fiber solid rod to span the X axis, which was an unfeasible rod size.
-
 
 ### Parts
 
 * Corners - I found the Suleve corners on the BOM to be rubbish. Of the 5 bags I bought, 3 bags were so badly made they were useless. Here is a printable internal corner bracket of the same dimensions: [20mm Suleve Corner for 2020 Extrusion (HyperCube) by superjamie](https://www.thingiverse.com/thing:2379295)
-* Nuts - Likewise I found the T-nuts specified on the BOM to be poor quality. Many needed to be filed down on the curve where they are supposed to rotate, or on the top edge furthest from the curve. 5% to 10% of the nuts were just too thick to fit in the extrusion slot and had to be thrown away. Order an extra bag of nuts.
-* Carbon fiber tube/rod - Many on the HyperCube Facebook group have purchased their extrusion from HaoZhong Carbon Fiber on eBay. The size is not always guaranteed exact, and varies from 9.95mm to 10.15mm, but the variance within a single tube is less than 0.01mm so is good for plastic/polymer bushings. You can buy 10x8mm or 10x6mm tube, or solid 10mm rod. https://stores.ebay.com/HaoZhong-Carbon-Fiber-Tube
+* Nuts - Likewise I found the T-nuts specified on the BOM to be poor quality. Many needed to be filed down on the curve where they are supposed to rotate, or on the top edge furthest from the curve. 5% to 10% of the nuts were just too thick to fit in the extrusion slot and had to be thrown away. Order at least one extra bag of nuts.
+* Carbon fiber tube/rod - Many on the HyperCube Facebook group have purchased their extrusion from [HaoZhong Carbon Fiber on eBay](https://stores.ebay.com/HaoZhong-Carbon-Fiber-Tube). The size is not always guaranteed exact, and varies from 9.95mm to 10.15mm, but the variance within a single tube is less than 0.01mm so is good for plastic/polymer bushings. You can buy 10x8mm tube, or 10x6mm tube (better), or solid 10mm rod (maybe better for larger builds). Look down the categories on their eBay store as they sometimes have different shipping deals to different areas: https://stores.ebay.com/HaoZhong-Carbon-Fiber-Tube
+* Imperial rods - If you're in a place where getting 10mm metric rod for the X axis is difficult, there are several remixes on Thingiverse of X carriages and XY joiners and holders which suit 3/8" (9.525mm) rod or 8mm rod, both of which are more readily available, at least in the USA.
 
 ### Tools
 
 * Buy a set of long hex key drivers with the 25° ball head, they'll be really useful for getting into hard-to-reach parts of the frame.
-* A torch is useful to look down the frame and make sure the T-nuts have actually spun
-* A needle or other long thin rod is useful to poke at the nuts and spin them manually if they need coaxing
+* A torch is useful to look down the frame and make sure the T-nuts have actually spun.
+* A needle or other long thin rod is useful to poke at the nuts and spin them manually if they need coaxing.
 * Several people have found a dab of nail polish on the nut threads helps them catch the T-nut and spin it, and acts as a weak threadlock compound.
-* A set of files has been useful for making the ends of extrusion even, and shaving down poorly-made T-nuts.
+* A set of mini metal files has been useful for making the ends of extrusion even, and shaving down poorly-made T-nuts.
 
 ### Extrusions
 
 * The BOM specifies **Type 6** T-slot extrusion which has a 6mm slot in the middle, so accepts M5 screws. Some people end up buying Type 5 extrusion which as a 4.8mm hole which only accepts M4 screws. You can just buy M4 screws and T-nuts instead of M5, or this remix resizes all holes to accept M4: [HyperCube 3D Printer M4 Variant by Zargony](https://pinshape.com/items/35851-3d-printed-hypercube-3d-printer-m4-variant)
-* Make sure all your extrusions are the same length, and are flat on the ends. The D-Bot Facebook group suggest extrusions should be within 1/64" (0.4mm) of each other. I got mine down to half that and checked with a feeler gauge. A file can be used to adjust. Even a small file cuts through the soft aluminium quickly so be careful.
+* Adam who built the S.T.E.V.E. 3D Printer made his own printed roll nuts which go into Type 5 extrusion: [A Tale of two Nuts by C.R.T](https://www.youtube.com/watch?v=de9rScS7VGY)
+* Make sure all your extrusions are the same length, and are flat on the ends. The D-Bot Facebook group suggest extrusions should be within 1/64" (0.4mm) of each other. I got mine down to half that and checked with a feeler gauge. A file can be used to adjust. Even a small file cuts through the soft aluminium quickly so be careful. Don't use power tools like an angle grinder, they take off material too quickly and heat up the extrusion too much. A fixed-table belt sander (as used by (Chris from Clickspring](https://www.youtube.com/channel/UCworsKCR-Sx6R6-BnIjS2MA)) may be more appropriate.
 * I measured my extrusions by standing them all on their end, clamping another piece of extrusion each side so they were square, and using a straightedge or another piece of extrusion across the top.
+* Consider adding another 75mm or 100mm onto your Z extrusions so you can put stuff underneath like the control board and power supply. I didn't order this but ended up using a longer Z screw from Tevo, so I flipped the Z motor mount and designed some feet to lift the frame, you could resize these feet if more space is required: [HyperCube Leg Extension by superjamie](https://www.thingiverse.com/thing:2379397)
 
 ### Frame
 
-* Getting the frame square can be quite difficult. It's worth spending time getting this right.
+* Getting the frame square can be quite difficult. It's worth spending time getting this done properly. It's common to have your frame together and apart multiple times until you get it right.
 * At the end, you should be able to place any side of the frame on a flat surface and have no "clack" as the frame rocks back and forth, it should sit flat on the bench. You should also be able to measure horizontally, vertically, and diagonally between all extrusions and get the same measurement within say 0.25mm.
 * Building on a truly **flat** surface such as a glass/marble counter will help. Don't assemble this somewhere soft, like the carpet or a rickety old wooden desk with uneven feet and one propped-up leg.
 * In Artur's Printrbot conversion he describes the idea of making two "windows" from the Y and Z parts, then joining those with the X parts. Arvind agrees this is the best way to assemble a cube frame, it worked well with his FlyingBear P902.
 * Additional corner brackets on the outside of the extrusions can help line the frame up, such as the corner supplied in: [HyperCube extensions/modifications by Golkun](https://www.thingiverse.com/thing:2150132)
 * Internal corner brackets which are joined together is also a good idea, such as: [Corner Bracket 3 Way for 2020 aluminum extrusion by LuisCRSousa](https://www.thingiverse.com/thing:1416715)
-* Add another 50mm or 75mm onto your Z extrusions so you can put stuff underneath like the control board and power supply. I ended up using a longer Z screw from Tevo, so I flipped the Z motor mount and designed some feet to lift the frame: [HyperCube Leg Extension by superjamie](https://www.thingiverse.com/thing:2379397)
+* If your motors flex and cause the belt to rub on the pulley when tightened, use this to set the motor straight again: [Hypercube Motor Angle Adjustment by Bakak](https://www.thingiverse.com/thing:2036245)
 
 ### Axes
 
@@ -131,23 +136,34 @@ Random others:
 ### Belts
 
 * The belts need to be evenly tensioned. If the frame is square and the X gantry evenly contacts the frame without belts, but does not evenly contact with belts, then the belts are not evenly tensioned.
-* Tying the X gantry to the frame with cable ties and then tightening the belts has solved this for several people.
+* Belts can be more easily tensioned with [Hypercube easy Belt tensioner
+by bagwan](https://www.thingiverse.com/thing:2092237)
+* Tying the X gantry to the rear of the frame with cable ties and then tightening the belts has solved this for several people.
 * I didn't like the idea of flipping the belts or having them ride on double flange bearings, so I used these idler holders:
     * [XY Joiner for GT2 16T Timing Pulleys by PurchenZuPoden](https://www.thingiverse.com/thing:2188100)
     * [XY Idler for GT2 16T/20T Timing Pulleys by PurchenZuPoden](https://www.thingiverse.com/thing:2186358)
+* Jerry found these cracked for him, so designed thicker ones and used washers to shim the bearing ID: [JeSc HyperCube XY Idler T16](https://www.thingiverse.com/thing:2366999)
 
 ### Bed and Lead Screw
 
-* Tech2C has a video about motors with internal Z screws.
+* Tech2C has a video about motors with internal Z screws: [3D Printer stepper motor mod by Tech2C](https://www.youtube.com/watch?v=NmmFoBsSfEQ)
 * Jin found this sprung Z nut holder helped her wobbly Z screw a bit: [Z_Nut_Mount_WobbleFix by syahriansyah](https://www.thingiverse.com/thing:2103550)
 * Even Tech2C comments that the 8mm Z rods are a bit flimsy. A good 10mm Z remix is: [HyperCube LM10UU Z Axis Carriage
 by henryarnold](http://www.thingiverse.com/thing:1950819)
+* If using a Z limit switch for the endstop, Artur and Henry have holders:
+    * [new z endstop and initial printer setup for first print by Artur's Lab](https://www.youtube.com/watch?v=T5Xv6H_RaeI)
+    * [Extra goodies for Hypercube by arturslab](https://www.thingiverse.com/thing:2053969)
+    * [HyperCube Z Axis Limit Switch - 8 & 10 mm Mount by henryarnold](https://www.thingiverse.com/thing:1998569)
 
 ### Electronics
 
 * If buying motors from different suppliers, be aware not all motors have the same pinout at the connector. If in doubt, use a multimeter to figure out which pins are members of the same coil, then swap wires or firmware direction until the motor moves as desired.
 * Many RAMPS boards do not ship with the stepper driver jumpers pre-installed, and need to be installed by you before you put the stepper drivers in. The normal configuration is to install all three jumpers under a stepper driver to enable 1/16 stepping mode for A4988.
 * Make sure you line up the stepper driver enable/ground pins with the same pin on the RAMPS board. Double-check each time you install a driver. Installing a driver backwards will probably fry the driver or the RAMPS or both.
+* The Y endstop doesn't hit well with some XY joiners. Other holders are around like [HyperCube Y end-stop
+by imstrng](https://www.thingiverse.com/thing:2123488) or [Hypercube Y axis end stop
+by JOES_PARTS](https://www.thingiverse.com/thing:2390449)
+* The X endstop doesn't hit well sometimes either. Try: [JeSc HyperCube X-End Stop add-on by jschun](https://www.thingiverse.com/thing:2386196)
 
 ## HyperCube Evolution Remix
 
@@ -173,5 +189,5 @@ Here's a list of a few other corexy-extrusion printers you maybe interested in l
 * [S.T.E.V.E. by CompRevTech](http://www.thingiverse.com/thing:2146430) - Designed by Adam around the same time Tech2C was designing the HyperCube. Ends up similar but with a few differences, such as direct drive and an AC bed. Two detailed YouTube series about its design and building.
 * [D-Bot by spauda01](http://www.thingiverse.com/thing:1001065) - A popular remix of the [C-Bot by cfeniak](http://www.thingiverse.com/thing:500041). Uses V-wheels on 2040 extrusion, has a very detailed assembly guide which is worth a look, the creators of both C-Bot and D-Bot participate in the community on Reddit and Facebook.
 * [VORON](https://github.com/mzbotreprap/VORON) - Seen by many as the alternative to the HyperCube, default bed is 12" aluminium tooling plate with dual Z screws and an AC heater mat, has a very detailed assembly guide, the creator participates in the community on Reddit and GitHub.
-* [FB2020 by AxMod](https://github.com/AxMod3DPrint/FB2020) - Based on several iterations of an older design called the [FuseBox](http://www.thingiverse.com/thing:1047193), this frame has a horizontal X carriage and a diagnoal cross-brace on the frame. AxMod has 20 of these printers going producing commercial quantities of printed parts, the design has been very reliable for him.
+* [FB2020 by AxMod](https://github.com/AxMod3DPrint/FB2020) - Based on several iterations of an older design called the [FuseBox by AlexY](http://www.thingiverse.com/thing:1047193), this frame has a horizontal X carriage and a diagnoal cross-brace on the frame which reportedly improves print quality. AxMod has 20 of these printers going producing commercial quantities of printed parts, the design has been very reliable for him.
 * Even more on my [DIY Printers](https://github.com/superjamie/lazyweb/wiki/3D-Printing-DIY-Printers) page.
