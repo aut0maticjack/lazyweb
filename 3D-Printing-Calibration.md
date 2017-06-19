@@ -9,24 +9,31 @@
 
 * When to Calibrate: During initial setup, when changing motor, stepper driver, or control board
 
-~~~
-TODO - make nicer
-~~~
+**Don't calibrate stepper driver current with the motors plugged in!** If you set the current to the wrong value, you risk frying the driver or motor or both. Don't unplug the motors with the printer powered on either.
 
-do this before plugging in. power off and unplug motors before tuning
+Power off your printer, unplug the motors, turn on the printer, and tune the drivers.
 
-look up the formula for your stepper drivers
+When finished, power off the printer, plug the motors back in, and turn on the printer.
 
-set your multimeter to DC voltage (2V), clamp negative to the power supply ground, and positive to your screwdriver, measure at the trimpots as you adjust
+Look up the formula for your stepper drivers. Some common ones:
 
-look up the current of your motors, set to that current or just under it. you may be able to get away with 80% less current depending on setup
+* A4988: `V = A * (8 * R)` which is also `A = V / (8 * R)`
+* DRV8825: `V = A * (5 * R)` which is also `A = V / (5 * R)`
+* TMC2100: `V = A / (1.77 / 2.5)` which is also `A = V * (1.77 / 2.5)`
 
-current and torque do not scale linearly, reducing current by 20% can reduce torque by 40% or more
+Basic tables for each driver are given on my [Stepper Motors and Drivers page](https://github.com/superjamie/lazyweb/wiki/3D-Printing-Stepper-Motors-and-Drivers).
 
-i find the extruder needs more torque than the motion axes
+Set your multimeter to DC voltage (2V). Meaure voltage between negative of the power supply ground, and positive to the adjustment trimpot on the driver board. A good tip is to use multimeter clamps, so you clamp one to the negative on the power supply, and positive to your screwdriver. Then the screwdriver can measure voltage at the trimpot as you adjust it.
+
+Look up the current of your motors, set to that current or just under it. You may be able to get away with 80% less current depending on setup. If you have very powerful motors like 70Ncm you can set the motors to way less torque to keep them cool.
+
+Current and torque do not scale linearly, reducing current by 20% can reduce torque by 40% or more. If you find you're skipping motor steps *and everything else is mechanically good* then you could try increase motor current to avoid the skipped steps. If you have a mechanical problem, don't just increase stepper driver current to power through it, solve the mechanical problem properly.
+
+I find the extruder needs more torque than the motion axes. This makes more sense as it's easier to move a carriage sliding over smooth and lubricated rods/rails/wheels than it is to force millimeters of filament through a very tiny nozzle hole.
 
 References:
 
+* https://github.com/superjamie/lazyweb/wiki/3D-Printing-Stepper-Motors-and-Drivers
 * http://reprap.org/wiki/A4988_vs_DRV8825_Chinese_Stepper_Driver_Boards
 * http://reprap.org/wiki/Stepper_motor
 * [Tom Sanladerer - 3D printing guides - How steppers work and how to adjust their drivers](https://www.youtube.com/watch?v=bItYRMLGoVc)
@@ -185,3 +192,15 @@ print some torture tests
 futz with the settings like print speed, retraction, coast, cooling until you get good print quality
 
 * https://www.thingiverse.com/thing:2219103
+
+## Print Quality Troubleshooting
+
+You don't need to remember these all off the top of your head. Skim the pictures and look for poor aspects of printing which you should watch for in your prints.
+
+If you ever have a print problem, go through these guides and try the suggestions within:
+
+* http://support.3dverkstan.se/article/23-a-visual-ultimaker-troubleshooting-guide
+* https://www.simplify3d.com/support/print-quality-troubleshooting/
+* http://deltaprintr.com/troubleshooting/
+* https://all3dp.com/1/common-3d-printing-problems-troubleshooting-3d-printer-issues/
+* http://reprap.org/wiki/Print_Troubleshooting_Pictorial_Guide
