@@ -79,18 +79,21 @@ The [TEVO Black Widow Community Guide](http://bit.ly/2k1dBoZ) says:
 
 | Manufacturer | Part No       | Step Angle | Holding Torque | Current | Voltage | Weight
 |---           |---            |---         |---             |---      |---      |---
-| Busheng      | 17HD40005-22B | 1.8°       | 36N-cm         | 1.3A    | 2V      | 280g
+| Busheng      | 17HD40005-22B | 1.8°       | 36Ncm          | 1.3A    | 2V      | 280g
 
 * <http://www.haoyuelectronics.com/Attachment/17HD40005-22B/>
 * <http://www.hotmcu.com/reprap-40mm-stepper-motor-p-214.html>
 
 Aus3D sells Casun `42SHD0217-24B`.
 
+The Casun website says 45Ncm but is unclear on other details. The datasheet on Aus3D says 50Ncm.
+
 | Manufacturer | Part No       | Step Angle | Holding Torque | Current | Voltage | Weight
 |---           |---            |---         |---             |---      |---      |---
-| Casun        | 42SHD0217-24B | 1.8°       | 45N-cm         | 1.5A    | 3.75V   | 280g
+| Casun        | 42SHD0217-24B | 1.8°       | 50Ncm          | 1.5A    | 3.75V   | 240g
 
 * http://www.casunmotor.com/nema-17-stepper-motor
+* http://aus3d.com.au/image/cache/catalog/products/stepper/40mmdatasheet-800x800.jpg
 
 # Stepper Motor Drivers
 
