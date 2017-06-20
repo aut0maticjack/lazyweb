@@ -1,6 +1,6 @@
 # HyperCube Community Tips
 
-The HyperCube is a 3D printer by Tech2C. It is intended to provide an upgraded frame and motion to re-use a cheap cartesian (eg: Replikeo i3, Tevo Tarantula, Anet A8, HE3D, etc) and convert it to a cube frame with [corexy](http://www.corexy.com/) kinematics. The parts list is located on Thingiverse at:
+The HyperCube is a 3D printer by Tech2C. It is intended to provide an upgraded frame and motion to re-use a cheap cartesian (eg: Replikeo i3, Tevo Tarantula, Anet A8, HE3D, CTC, etc) and convert it to a cube frame with [corexy](http://www.corexy.com/) kinematics. The parts list is located on Thingiverse at:
 
 * [HyperCube 3D Printer by Tech2C](https://www.thingiverse.com/thing:1752766)
 
@@ -47,6 +47,12 @@ Artur's Lab rebuilt a Printrbot into a mini HyperCube, which has some good assem
 * [Printrbot to Hypercube conversion part 3](https://www.youtube.com/watch?v=g5yfxfhEjJ0) - Jan 22 2017
 * [Printrbot to Hypercube conversion part 4](https://www.youtube.com/watch?v=tAwwEuFkiJU) - Jan 24 2017
 
+Artur has also done some part remixes and info on those:
+
+* [Redesigned parts for Hypercube 3d printer](https://www.youtube.com/watch?v=MYXsmhKzDCk) - Jan 3 2017
+* [3d printed bushings for Hypercube, x carriage LEDs and extruder](https://www.youtube.com/watch?v=f6wNO6v0NKo) - Jan 4 2017
+* [new z endstop and initial printer setup for first print](https://www.youtube.com/watch?v=T5Xv6H_RaeI) - Feb 2 2017
+
 Artur has also built a larger HyperCube:
 
 * [Hypercube XL build #1](https://www.youtube.com/watch?v=BwsekiOP7rA) - Apr 2 2017
@@ -55,12 +61,6 @@ Artur has also built a larger HyperCube:
 * [Hypercube XL build #4](https://www.youtube.com/watch?v=zGGka6glZRQ) - Apr 18 2017
 * [Hypercube XL build #5](https://www.youtube.com/watch?v=MeG1k_vnYzs) - Apr 21 2017
 * [Hypercube XL build #6](https://www.youtube.com/watch?v=WxRTxrE5SVE) - Apr 24 2017
-
-Artur has also done some part remixes and info on those:
-
-* [Redesigned parts for Hypercube 3d printer](https://www.youtube.com/watch?v=MYXsmhKzDCk) - Jan 3 2017
-* [3d printed bushings for Hypercube, x carriage LEDs and extruder](https://www.youtube.com/watch?v=f6wNO6v0NKo) - Jan 4 2017
-* [new z endstop and initial printer setup for first print](https://www.youtube.com/watch?v=T5Xv6H_RaeI) - Feb 2 2017
 
 Bryce Standley has built a HyperCube and has made a few videos about it:
 
@@ -114,7 +114,7 @@ There are also plenty of short clips of HyperCubes printing but I'm not going to
 
 * The BOM specifies **Type 6** T-slot extrusion which has a 6mm slot in the middle, so accepts M5 screws. Some people end up buying Type 5 extrusion which as a 4.8mm hole which only accepts M4 screws. You can just buy M4 screws and T-nuts instead of M5, or this remix resizes all holes to accept M4: [HyperCube 3D Printer M4 Variant by Zargony](https://pinshape.com/items/35851-3d-printed-hypercube-3d-printer-m4-variant)
 * Adam who built the S.T.E.V.E. 3D Printer made his own printed roll nuts which go into Type 5 extrusion: [A Tale of two Nuts by C.R.T](https://www.youtube.com/watch?v=de9rScS7VGY)
-* Make sure all your extrusions are the same length, and are flat on the ends. The D-Bot Facebook group suggest extrusions should be within 1/64" (0.4mm) of each other. I got mine down to half that and checked with a feeler gauge. A file can be used to adjust. Even a small file cuts through the soft aluminium quickly so be careful. Don't use power tools like an angle grinder, they take off material too quickly and heat up the extrusion too much. A fixed-table belt sander (as used by (Chris from Clickspring](https://www.youtube.com/channel/UCworsKCR-Sx6R6-BnIjS2MA)) may be more appropriate.
+* Make sure all your extrusions are the same length, and are flat on the ends. The D-Bot Facebook group suggest extrusions should be within 1/64" (0.4mm) of each other. I got mine down to half that and checked with a feeler gauge. A file can be used to adjust. Even a small file cuts through the soft aluminium quickly so be careful. Don't use power tools like an angle grinder, they take off material too quickly and heat up the extrusion too much. A fixed-table belt sander (as used by [Chris from Clickspring](https://www.youtube.com/channel/UCworsKCR-Sx6R6-BnIjS2MA)) may be more appropriate.
 * I measured my extrusions by standing them all on their end, clamping another piece of extrusion each side so they were square, and using a straightedge or another piece of extrusion across the top.
 * Consider adding another 75mm or 100mm onto your Z extrusions so you can put stuff underneath like the control board and power supply. I didn't order this but ended up using a longer Z screw from Tevo, so I flipped the Z motor mount and designed some feet to lift the frame, you could resize these feet if more space is required: [HyperCube Leg Extension by superjamie](https://www.thingiverse.com/thing:2379397)
 
@@ -128,10 +128,13 @@ There are also plenty of short clips of HyperCubes printing but I'm not going to
 * Internal corner brackets which are joined together is also a good idea, such as: [Corner Bracket 3 Way for 2020 aluminum extrusion by LuisCRSousa](https://www.thingiverse.com/thing:1416715)
 * If your motors flex and cause the belt to rub on the pulley when tightened, use this to set the motor straight again: [Hypercube Motor Angle Adjustment by Bakak](https://www.thingiverse.com/thing:2036245)
 
-### Axes
+### Y Axis
 
 * 10mm rods can be used for the Y axis. The Y does not move so weight doesn't matter, any of steel or aluminium tube or carbon fiber rod/tube can be used.
+* Alternates linear shaft clamps for both 8mm and 10mm rod: [HyperCube Y_Shaft_Clamp_REMIXED
+by GofX](https://www.thingiverse.com/thing:2169166)
 * The original XY Joiner can be used with Igus bushings (same as for the X axis) with this holder: [Igus 10mm Bushing Holder for LM8LUU by superjamie](https://www.thingiverse.com/thing:2336683)
+* Or some LM10UU XY Joiners: [by mbruehl](https://www.thingiverse.com/thing:2012264) and [by erdemerciyas](https://www.thingiverse.com/thing:2393210)
 
 ### Belts
 
@@ -146,10 +149,10 @@ by bagwan](https://www.thingiverse.com/thing:2092237)
 
 ### Bed and Lead Screw
 
-* Tech2C has a video about motors with internal Z screws: [3D Printer stepper motor mod by Tech2C](https://www.youtube.com/watch?v=NmmFoBsSfEQ)
+* Tech2C has a video about motors with internal Z screws: [3D Printer stepper motor mod by Tech2C](https://www.youtube.com/watch?v=NmmFoBsSfEQ) but several have found this method to be difficult and ended up ruining the motor or screw or both.
 * Jin found this sprung Z nut holder helped her wobbly Z screw a bit: [Z_Nut_Mount_WobbleFix by syahriansyah](https://www.thingiverse.com/thing:2103550)
 * Even Tech2C comments that the 8mm Z rods are a bit flimsy. A good 10mm Z remix is: [HyperCube LM10UU Z Axis Carriage
-by henryarnold](http://www.thingiverse.com/thing:1950819)
+by henryarnold](http://www.thingiverse.com/thing:1950819) or using LM10LUU long bearings: [Hypercube LM10LUU Z carriage by diegotrap](https://www.thingiverse.com/thing:2075088)
 * If using a Z limit switch for the endstop, Artur and Henry have holders:
     * [new z endstop and initial printer setup for first print by Artur's Lab](https://www.youtube.com/watch?v=T5Xv6H_RaeI)
     * [Extra goodies for Hypercube by arturslab](https://www.thingiverse.com/thing:2053969)
@@ -163,6 +166,8 @@ by henryarnold](http://www.thingiverse.com/thing:1950819)
 * The Y endstop doesn't hit well with some XY joiners. Other holders are around like [HyperCube Y end-stop
 by imstrng](https://www.thingiverse.com/thing:2123488) or [Hypercube Y axis end stop
 by JOES_PARTS](https://www.thingiverse.com/thing:2390449)
+* It may be better to use the smaller type of switch and mount on the extrusion: [Hypercube Improved Y Endstop
+by n9jcv](https://www.thingiverse.com/thing:2230378)
 * The X endstop doesn't hit well sometimes either. Try: [JeSc HyperCube X-End Stop add-on by jschun](https://www.thingiverse.com/thing:2386196)
 
 ## HyperCube Evolution Remix
