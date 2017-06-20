@@ -84,6 +84,14 @@ The [TEVO Black Widow Community Guide](http://bit.ly/2k1dBoZ) says:
 * <http://www.haoyuelectronics.com/Attachment/17HD40005-22B/>
 * <http://www.hotmcu.com/reprap-40mm-stepper-motor-p-214.html>
 
+Aus3D sells Casun `42SHD0217-24B`.
+
+| Manufacturer | Part No       | Step Angle | Holding Torque | Current | Voltage | Weight
+|---           |---            |---         |---             |---      |---      |---
+| Casun        | 42SHD0217-24B | 1.8°       | 45N-cm         | 1.5A    | 3.75V   | 280g
+
+* http://www.casunmotor.com/nema-17-stepper-motor
+
 # Stepper Motor Drivers
 
 I don't think there's any point going below 1/16 stepping with an 8-bit controller, the little MCU step rate is unable to keep up with very high speeds. I don't really see the advantage of 1/128 stepping when 1/256 interpolation exists. This essentially limits choices to A4988 or TMC2100.
