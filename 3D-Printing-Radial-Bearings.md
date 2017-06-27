@@ -4,7 +4,7 @@ This page is not about fidget spinners.
 
 ## Axial Load
 
-It's a good idea to take the weight of the bed off spring couplers and rest it on a bearing instead. People like to say these bearings are not designed for axial loads, and while that may be right, but they still do have an axial load rating. As long as we don't exceed that load rating, we're fine to apply a load.
+It's a good idea to take the weight of the bed off spring couplers and rest it on a bearing instead. People like to say these bearings are not designed for axial loads, and while that may be right, they still do have an axial load rating. As long as we don't exceed that load rating, we're fine to apply a load.
 
 So how much can a 608 bearing hold along its axis?
 
