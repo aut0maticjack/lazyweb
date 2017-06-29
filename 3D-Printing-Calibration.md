@@ -51,8 +51,8 @@ The formulas are given on Triffid Hunder's calibration guide, but the Prusa Calc
 These are your "Steps Per mm" values to be entered into the firmware, eg:
 
 ~~~
-1.8 deg motor, 20T pulley, 1/16 microstep, GT2 belt = 80 steps/mm
-1.8 deg motor, 2mm leadscrew, 1/16 microstep = 1600 steps/mm
+1.8 deg motor, 1/16 microstep, GT2 belt, 20T pulley = 80 steps/mm
+1.8 deg motor, 1/16 microstep, 2mm leadscrew = 1600 steps/mm
 
 #define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 1600, E }
 ~~~
@@ -65,9 +65,9 @@ References:
 
 ### Extruder Steps
 
-* When to Calibrate: During initial setup, when changing extruder motor/parts
+* When to Calibrate: During initial setup, when changing extruder motor/parts, when changing filament material
 
-You can do a rough calculation for extruder steps based on the gear, or just set to `100` and test from there.
+You can do a rough calculation for extruder steps based on the diameter of the gear, or just set to `100` and test from there.
 
 If you're using a geared extruder then multiply that start value by the gear ratio.
 
@@ -89,10 +89,13 @@ This goes as the last measurement:
 #define DEFAULT_AXIS_STEPS_PER_UNIT   { X, Y, X, 100 }
 ~~~
 
+Different filament (eg: PLA vs PETG) will likely be gripped differently by the gear as the teeth "dig in" more or less, which modifies the effective diameter of the pulley and hence modifies the ideal steps. You can set the value in the start G-code for a material like `M92 E101`
+
 References:
 
 * [Tom Sanladerer - 3D printing guides - Calibrating your extruder](https://www.youtube.com/watch?v=YUPfBJz3I6Y)
 * http://zennmaster.com/makingstuff/reprap-101-calibrating-your-extruder-part-1-e-steps
+* http://reprap.org/wiki/G_code#M92:_Set_axis_steps_per_unit
 
 ### Speeds
 
@@ -104,9 +107,11 @@ TODO - make nicer
 
 tl;dr - don't try and print too fast
 
-start with XY max 125, XY accel 1000, XY jerk 1, print speed 40mm/sec
+start with XY max 250, XY accel 1000, XY jerk 1, print speed 40mm/sec
 
 work up from there
+
+accel 1500 is very good. jerk should be 10% of print speed or less
 
 different materials require different print speeds, so tune speed with PLA and just tell the slicer to print slower for other materials as required
 
