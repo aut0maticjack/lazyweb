@@ -48,3 +48,4 @@ For electronics-only or for printers without a heated bed.
 * http://doc.3dmodularsystems.com/atx-power-supply-conversion-for-3d-printer-usage/
 * http://reprap.org/wiki/PC_Power_Supply
 * https://brazenartifice.wordpress.com/2011/12/26/atx-power-supply-5v-load-resistor-for-better-12v-regulation/
+* http://reprap.org/wiki/Balancing_ATX_Supplies
