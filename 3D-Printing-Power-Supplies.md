@@ -28,10 +28,16 @@ For electronics-only or for printers without a heated bed.
 * Hook ATX green to `PS_ON` (D12) on RAMPS.
 * MKS boards don't expose D12 so sacrifice a servo pin like D11 and edit the relevant `pins.h`.
 * 12V is yellow, 5V is red.
-* Some ATX power supplies need a load on 5V to regulate the 12V load properly. A 4R7 10W resistor provides enough but gets too hot to touch. Two resistors in parallel should be cooler. A 10R 10W resistor might also work.
+* Some ATX power supplies need a load on 5V to regulate the 12V load properly. A 4R7 10W resistor provides enough but gets too hot to touch. Two resistors in parallel should be cooler. You can also place the resistor in the path of the power supply fan to cool it. You can get "chassis mount" resistors which come in a metal heatsink.
+* Suggested resistors based on Ohm's law and guesswork:
+    * Wattage - Single or Parallel
+    * 10W - 4R7 or 3R9
+    * 20W - 4R or 2R
+    * 50W - 2R or 1R
+    * 100W - 1R or 0R5
 * In Marlin, set `#define POWER_SUPPLY 1`
 * G-Code `M80` to turn on, `M81` to turn off.
-* If powering off at the end of prints, keep in mind you'll turn off 12V including the hotend fan which could lead to heat creep into the coldend and melt your filament into the heatbreak. Maybe try `M109 S45` to wait until the heater block cools down. From memory there's a timeout on that command. Maybe it's better to use `M85 S900` to let the printer cool down for 15 minutes.
+* If powering off at the end of prints, keep in mind you'll turn off 12V including the hotend fan which could lead to heat creep into the coldend and melt your filament into the heatbreak. Maybe try `M109 S45` to wait until the heater block cools down. From memory there's a timeout on that command. Maybe it's better to use `M85 S900` (timeout after 15 minutes) to let the printer cool down then power off.
 * **Most importantly**, check the power supply specs! Most power supplies break into various "rails" which provide different currents. It's common to run electronics on one rail and heatbed on another.
 * Power supplies known to provide one big 12V rail:
     * EVGA, eg: [430 W1 White](http://au.evga.com/products/product.aspx?pn=100-W1-0430-KR)
