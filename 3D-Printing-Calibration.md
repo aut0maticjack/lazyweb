@@ -209,3 +209,47 @@ If you ever have a print problem, go through these guides and try the suggestion
 * http://deltaprintr.com/troubleshooting/
 * https://all3dp.com/1/common-3d-printing-problems-troubleshooting-3d-printer-issues/
 * http://reprap.org/wiki/Print_Troubleshooting_Pictorial_Guide
+
+## Maintenance / Service
+
+Every Print
+
+* Inspect axis belts/rods/rails/slots for any random plastic pieces and remove
+* Remove any debris off print bed
+* If using build surface, clean build surface by wiping with isopropyl alcohol
+* If using adhesive (glue/hairspray), ensure material is level and there's enough on there
+* Clean boogers off nozzle as the print starts
+
+Weekly or Fortnightly
+
+* Level bed manually (even if you're using auto levelling)
+
+Monthly or when a roll of filament runs out
+
+* Check belt tension, use a sound meter on your phone to tune around 41Hz
+* Clean rods
+* Lubricate rods/screws/bearings
+* Blow dust out of fans
+* Blow dust out of filament gear
+* Check/clean/replace [filament dust filter](https://www.thingiverse.com/thing:497764)
+* Check nozzle bore to ensure nozzle isn't wearing out/down too much
+
+Quarterly
+
+* Check set screws on motor pulleys, couplers, extruder gear
+* Check screws holding in all frame, motors, rods, and other mounted parts
+* Inspect Bowden tube and trim/replace if required
+* Clean nozzle using [cold pull](https://printrbot.zendesk.com/hc/en-us/articles/202100554-Unclogging-the-Hotend-using-the-Cold-Pull-method) aka [atomic method](https://ultimaker.com/en/resources/19510-how-to-apply-atomic-method)
+* Ensure nozzle is fastened against heatbreak while hot
+* Update firmware
+* Update host software
+
+References
+
+* https://www.lulzbot.com/maintaining-your-3d-printer
+* https://www.youtube.com/watch?v=SdXT_SR8dC8
+* http://support.3dverkstan.se/article/42-basic-maintenance
+* https://pinshape.com/blog/3d-printer-maintenance/
+* https://ultimaker.com/en/resources/21925-maintaining-your-printer
+* http://zx3d.com.au/maintenance/
+* https://www.makerbot.com/media-center/2011/01/27/how-to-get-better-results-from-your-3d-printer-%E2%80%93-part-iv
