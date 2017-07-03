@@ -7,6 +7,7 @@ This is a wiki of useful advice I commonly give or have seen on places like Stac
 * [Calibration](3D-Printing-Calibration)
 * [Control Boards and Firmware](3D-Printing-Control-Boards-and-Firmware)
 * [DIY Printers](3D-Printing-DIY-Printers)
+* [Extruders](3D-Printing-Extruders)
 * [Frame Stuff](3D-Printing-Frame-Stuff)
 * [Heated Beds](3D-Printing-Heated-Beds)
 * [HyperCube](3D-Printing-HyperCube)
