@@ -38,6 +38,14 @@
 * OpenSCAD source
 * I'm not sure why one would choose the larger (less grip and torque) MK7 when the MK8 is available
 
+### Simple Bowden extruder for geared NEMA 17 by Stargrove1
+
+* https://www.thingiverse.com/thing:1196498
+* 619/4 bearing on MK8
+* Bowden
+* 1.75mm
+* Intended for an already-geared motor
+
 ### Greg's Wade's Geared Extruder by AndrewBCN
 
 * Direct Drive 30mm version - https://www.thingiverse.com/thing:961630
