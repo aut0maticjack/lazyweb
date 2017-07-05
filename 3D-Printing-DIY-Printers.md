@@ -31,6 +31,7 @@ Some favorites in a table:
 * [D-Bot](http://www.instructables.com/id/The-D-Bot-My-Self-Made-Reprap/?ALLSTEPS)
 * [**Funbot 8mm Version**](http://www.thingiverse.com/thing:1040094)
 * [M Prime One](https://www.thingiverse.com/thing:1058861)
+* [OpenBot](http://openbuilds.org/builds/openbot.843/)
 * [Printrbot JR v2](http://printrbot.com/2014/03/17/printrbot-jr-v2-files-are-available-non-commercial/)
 * [Proton](https://www.thingiverse.com/thing:2149685)
 * [Smartrap](http://www.thingiverse.com/thing:177256)
