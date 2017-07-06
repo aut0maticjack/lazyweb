@@ -63,3 +63,11 @@
 * 3:1 gearing
 * 625 bearing on MK8 gear
 * "Not So Tiny Titan", AxMod's inspiration for the Drakon
+
+### Kossel Mini NEMA17 Extruder for 1.75mm Filament by blomker
+
+* https://www.thingiverse.com/thing:215010
+* 625 bearing on 11mm gear
+* 1.75mm only
+* Bowden only
+* Super minimal design, gear is sprung against the drive with integrated housing springiness
