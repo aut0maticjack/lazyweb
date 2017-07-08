@@ -71,3 +71,18 @@
 * 1.75mm only
 * Bowden only
 * Super minimal design, gear is sprung against the drive with integrated housing springiness
+
+### B'Struder: Universal Bowden 1.75mm Extruder by tempo502
+
+* https://www.thingiverse.com/thing:711401
+* 623 bearing on pretty much any gear
+* 1.75mm only
+* Bowden only
+* Nice minimal design, unique filament path through sprung arm, fits geared and ungeared motors
+
+### Greg's B'Wadestruder v2 by VanessaEzekowitz
+
+* https://www.thingiverse.com/thing:1831961
+* Wade gear remix of B'struder
+* Bowden only
+* MK7, MK8, similar gears
