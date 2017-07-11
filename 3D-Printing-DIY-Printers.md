@@ -34,6 +34,7 @@ Some favorites in a table:
 * [OpenBot](http://openbuilds.org/builds/openbot.843/)
 * [Printrbot JR v2](http://printrbot.com/2014/03/17/printrbot-jr-v2-files-are-available-non-commercial/)
 * [Proton](https://www.thingiverse.com/thing:2149685)
+* [SimplrBot](http://www.openbuilds.com/builds/simplrbot.3653/)
 * [Smartrap](http://www.thingiverse.com/thing:177256)
 
 ## Cartesian
