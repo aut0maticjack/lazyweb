@@ -109,14 +109,14 @@ From most members to least:
 * The [HyperCube Materials Calculator by FunkyDiver](http://funkydiver.com/hypercube-materials) makes this easier.
 * People like to talk rubbish about the cantilever bed design, but really for a 200mm or 250mm bed it's fine. For a 300mm or larger bed, two Z screws and 4 Z rods should be used. For a bed larger than 500mm, three Z screws should be used (three points define a plane).
 * It may be better to join multiple Z screws with a belt, instead of using multiple motors. If you strongly pull the build platform, you may cause one of dual motors to skip steps and get out of alignment. A belt does not have this problem. The D-Bot community has many good remixes of dual and triple belted Z screws, eg: [Three lead screws and one nema 17 motor remix for C/D/J-bot by oeyhaga](https://www.thingiverse.com/thing:2185911).
-* Over 500m bed size the HyperCube starts to become flawed, as linear shafts have a large deflection over long distances, especially heavy steel which must also carry its own weight. If you are concerned about this then look up a shaft deflection calculator, calculate the stock deflection, then the deflection resulting from your intended build. If your deflection is worse, increase rod size.
-* At 500mm+ you should be considering a design that does not use linear shafts. Good alternatives are V-slot designs such as the [D-Bot](http://www.thingiverse.com/thing:1001065), or something which uses linear rails.
-* One person building a 1200mm printer found they needed 20mm steel rod or 25mm carbon fiber solid rod to span the X axis, which was an unfeasible rod size.
+* Over 500m bed size the HyperCube starts to become flawed, as linear shafts have a large deflection over long distances, especially heavy steel which must also carry its own weight. If you are concerned about this then look up a shaft deflection calculator, calculate the stock deflection, then the deflection resulting from your intended build. If your deflection is worse, increase rod size. You may be better to use carbon fiber hollow tube or solid rod, even on the Y axis, to avoid deflection due to the rod's own weight.
+* At 500mm+ you should be considering a design that does not use linear shafts. Good alternatives are V-slot designs such as the [D-Bot](http://www.thingiverse.com/thing:1001065), or something which uses linear rails like the [FolgerTech FT-5](https://www.folgertech.com/collections/3d-printer-full-kits/products/folger-tech-ft-5-large-scale-3d-printer-kit).
+* If you want to build a printer over 1000mm, forget raising-bed designs altogether, as a glass or alloy bed is too heavy to move. You should build a fixed-bed raising-gantry printer like the [Sub33D by sschm9](https://www.thingiverse.com/thing:1977727), or the [V24 by russiancatfood](https://www.reddit.com/r/voroncorexy/comments/6e6577/v24_aka_the_last_5_months_of_every_spare_second/) (creator of the Voron), or [this large printer by Shane Hooper](https://www.facebook.com/groups/cncbuilddesign/permalink/1573209072692391/).
 
 ### Parts
 
-* Corners - I found the Suleve corners on the BOM to be rubbish. Of the 5 bags I bought, 3 bags were so badly made they were useless. Here is a printable internal corner bracket of the same dimensions: [20mm Suleve Corner for 2020 Extrusion (HyperCube) by superjamie](https://www.thingiverse.com/thing:2379295)
-* Nuts - Likewise I found the T-nuts specified on the BOM to be poor quality. Many needed to be filed down on the curve where they are supposed to rotate, or on the top edge furthest from the curve. 5% to 10% of the nuts were just too thick to fit in the extrusion slot and had to be thrown away. Order at least one extra bag of nuts.
+* Corners - I found the Suleve corners on the BOM to be rubbish. Of the 5 bags I bought, 3 bags were so badly made they were useless. Here is a printable internal corner bracket of the same 20x20x17 dimensions: [20mm Suleve Corner for 2020 Extrusion (HyperCube) by superjamie](https://www.thingiverse.com/thing:2379295)
+* Nuts - Likewise I found the T-nuts specified on the BOM to be poor quality. Many needed to be filed down on the curve where they are supposed to rotate, or on the top edge furthest from the curve. 5% to 10% of the nuts were just too thick to fit in the extrusion slot or were drilled and tapped at an angle and had to be thrown away. Order at least one extra bag of nuts.
 * Carbon fiber tube/rod - Many on the HyperCube Facebook group have purchased their extrusion from [HaoZhong Carbon Fiber on eBay](https://stores.ebay.com/HaoZhong-Carbon-Fiber-Tube). The size is not always guaranteed exact, and varies from 9.95mm to 10.15mm, but the variance within a single tube is less than 0.01mm so is good for plastic/polymer bushings. You can buy 10x8mm tube, or 10x6mm tube (better), or solid 10mm rod (maybe better for larger builds). Look down the categories on their eBay store as they sometimes have different shipping deals to different areas: https://stores.ebay.com/HaoZhong-Carbon-Fiber-Tube
 * Imperial rods - If you're in a place where getting 10mm metric rod for the X axis is difficult, there are several remixes on Thingiverse of X carriages and XY joiners and holders which suit 3/8" (9.525mm) rod or 8mm rod, both of which are more readily available, at least in the USA.
 
@@ -125,8 +125,8 @@ From most members to least:
 * Buy a set of long hex key drivers with the 25° ball head, they'll be really useful for getting into hard-to-reach parts of the frame.
 * A torch is useful to look down the frame and make sure the T-nuts have actually spun.
 * A needle or other long thin rod is useful to poke at the nuts and spin them manually if they need coaxing.
-* Several people have found a dab of nail polish on the nut threads helps them catch the T-nut and spin it, and acts as a weak threadlock compound.
-* A set of mini metal files has been useful for making the ends of extrusion even, and shaving down poorly-made T-nuts.
+* A dab of nail polish on screw threads helps them catch the T-nut and spin it, and acts as a weak threadlock compound.
+* A set of mini metal files has been useful for making the ends of extrusion even, and shaving down poorly-made T-nuts, and will be generally useful for tidying up prints of all sorts.
 
 ### Extrusions
 
@@ -140,7 +140,7 @@ From most members to least:
 
 * Getting the frame square can be quite difficult. It's worth spending time getting this done properly. It's common to have your frame together and apart multiple times until you get it right.
 * At the end, you should be able to place any side of the frame on a flat surface and have no "clack" as the frame rocks back and forth, it should sit flat on the bench. You should also be able to measure horizontally, vertically, and diagonally between all extrusions and get the same measurement within say 0.25mm.
-* Building on a truly **flat** surface such as a glass/marble counter will help. Don't assemble this somewhere soft, like the carpet or a rickety old wooden desk with uneven feet and one propped-up leg.
+* Building on a truly **flat** surface such as a glass/marble counter will help. Don't assemble this somewhere soft, like the carpet or a rickety old warped wooden desk with uneven feet and one propped-up leg.
 * In Artur's Printrbot conversion he describes the idea of making two "windows" from the Y and Z parts, then joining those with the X parts. Arvind agrees this is the best way to assemble a cube frame, it worked well with his FlyingBear P902.
 * Additional corner brackets on the outside of the extrusions can help line the frame up, such as the corner supplied in: [HyperCube extensions/modifications by Golkun](https://www.thingiverse.com/thing:2150132)
 * Internal corner brackets which are joined together is also a good idea, such as: [Corner Bracket 3 Way for 2020 aluminum extrusion by LuisCRSousa](https://www.thingiverse.com/thing:1416715)
@@ -148,10 +148,10 @@ From most members to least:
 
 ### Y Axis
 
-* 10mm rods can be used for the Y axis. The Y does not move so weight doesn't matter, any of steel or aluminium tube or carbon fiber rod/tube can be used.
+* 10mm rods can be used for the Y axis. The Y does not move so weight doesn't matter, any of steel or aluminium tube or carbon fiber rod/tube can be used, though larger builds may benefit from CF to prevent rod deflection due to larger steel rod weight.
 * Alternates linear shaft clamps for both 8mm and 10mm rod: [HyperCube Y_Shaft_Clamp_REMIXED
 by GofX](https://www.thingiverse.com/thing:2169166)
-* The original XY Joiner can be used with Igus bushings (same as for the X axis) with this holder: [Igus 10mm Bushing Holder for LM8LUU by superjamie](https://www.thingiverse.com/thing:2336683)
+* The original LM8UU XY Joiner can be used with JSM-1012 Igus bushings (same as for the X axis) with this holder: [Igus 10mm Bushing Holder for LM8LUU by superjamie](https://www.thingiverse.com/thing:2336683)
 * Or some LM10UU XY Joiners: [by mbruehl](https://www.thingiverse.com/thing:2012264) and [by erdemerciyas](https://www.thingiverse.com/thing:2393210)
 
 ### Belts
@@ -163,7 +163,7 @@ by bagwan](https://www.thingiverse.com/thing:2092237)
 * I didn't like the idea of flipping the belts or having them ride on double flange bearings, so I used these idler holders:
     * [XY Joiner for GT2 16T Timing Pulleys by PurchenZuPoden](https://www.thingiverse.com/thing:2188100)
     * [XY Idler for GT2 16T/20T Timing Pulleys by PurchenZuPoden](https://www.thingiverse.com/thing:2186358)
-* Jerry found these cracked for him, so designed thicker ones and used washers to shim the bearing ID: [JeSc HyperCube XY Idler T16](https://www.thingiverse.com/thing:2366999)
+* Jerry found the idlers cracked for him, so designed thicker ones and used washers to shim the bearing ID: [JeSc HyperCube XY Idler T16](https://www.thingiverse.com/thing:2366999)
 
 ### Bed and Lead Screw
 
@@ -184,13 +184,13 @@ by henryarnold](http://www.thingiverse.com/thing:1950819) or using LM10LUU long 
 * The Y endstop doesn't hit well with some XY joiners. Other holders are around like [HyperCube Y end-stop
 by imstrng](https://www.thingiverse.com/thing:2123488) or [Hypercube Y axis end stop
 by JOES_PARTS](https://www.thingiverse.com/thing:2390449)
-* It may be better to use the smaller type of switch and mount on the extrusion: [Hypercube Improved Y Endstop
+* It may be better to use the smaller type of limit switch and mount on the extrusion: [Hypercube Improved Y Endstop
 by n9jcv](https://www.thingiverse.com/thing:2230378)
-* The X endstop doesn't hit well sometimes either. Try: [JeSc HyperCube X-End Stop add-on by jschun](https://www.thingiverse.com/thing:2386196)
+* The X endstop doesn't hit well sometimes either, especially with larger 20T pulleys. Try: [JeSc HyperCube X-End Stop add-on by jschun](https://www.thingiverse.com/thing:2386196)
 
 ## HyperCube Evolution Remix
 
-The HyperCube Evolution by Scott3D is a remix of the original design, adding a stronger 3030 outer frame, more options for X and Y rail sizes, 12mm Z rods for strength, a dual Z screw option for larger beds, and a parametric design scaled up easier.
+The HyperCube Evolution by Scott3D is a remix of the original design, adding a stronger 3030 outer frame, more options for X and Y rail sizes, 12mm Z rods for strength, a dual Z screw option for larger beds, and a parametric design which scales up easier.
 
 * [HyperCube Evolution by Scott_3D](http://www.thingiverse.com/thing:2254103)
 
@@ -210,7 +210,7 @@ The creator has also released a build guide video series:
 Here's a list of a few other corexy-extrusion printers you maybe interested in looking at:
 
 * [S.T.E.V.E. by CompRevTech](http://www.thingiverse.com/thing:2146430) - Designed by Adam around the same time Tech2C was designing the HyperCube. Ends up similar but with a few differences, such as direct drive and an AC bed. Two detailed YouTube series about its design and building.
-* [D-Bot by spauda01](http://www.thingiverse.com/thing:1001065) - A popular remix of the [C-Bot by cfeniak](http://www.thingiverse.com/thing:500041). Uses V-wheels on 2040 extrusion, has a very detailed assembly guide which is worth a look, the creators of both C-Bot and D-Bot participate in the community on Reddit and Facebook.
-* [VORON](https://github.com/mzbotreprap/VORON) - Seen by many as the alternative to the HyperCube, default bed is 12" aluminium tooling plate with dual Z screws and an AC heater mat, has a very detailed assembly guide, the creator participates in the community on Reddit and GitHub.
-* [FB2020 by AxMod](https://github.com/AxMod3DPrint/FB2020) - Based on several iterations of an older design called the [FuseBox by AlexY](http://www.thingiverse.com/thing:1047193), this frame has a horizontal X carriage and a diagnoal cross-brace on the frame which reportedly improves print quality. AxMod has 20 of these printers going producing commercial quantities of printed parts, the design has been very reliable for him.
+* [D-Bot by spauda01](http://www.thingiverse.com/thing:1001065) - A popular remix of the [C-Bot by cfeniak](http://www.thingiverse.com/thing:500041). Uses V-wheels on 2040 extrusion, has a very detailed assembly guide which is worth a look, the creators of both C-Bot and D-Bot participate in the D-Bot community on Reddit and Facebook.
+* [VORON](https://github.com/mzbotreprap/VORON) - Seen by many as the alternative to the HyperCube, default bed is 12" aluminium tooling plate with dual Z screws and an AC heater mat, many imperial parts so may be frustrating to build for those outside the USA, has a very detailed assembly guide, the creator participates in the Voron community on Reddit and GitHub.
+* [FB2020 by AxMod](https://github.com/AxMod3DPrint/FB2020) - Based on several iterations of an older design called the [FuseBox by AlexY](http://www.thingiverse.com/thing:1047193), this frame has a horizontal X carriage and a diagonal cross-brace on the frame which reportedly improves print quality. AxMod has 20 of these printers going producing commercial quantities of printed parts, the design has been very reliable for him.
 * Even more on my [DIY Printers](https://github.com/superjamie/lazyweb/wiki/3D-Printing-DIY-Printers) page.
