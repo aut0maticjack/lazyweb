@@ -37,8 +37,9 @@ These were mostly gathered from people on the [Hypercube CoreXY 3D Printer Group
 * [HyperCube 3D Printer: Tips & Tricks #2](https://www.youtube.com/watch?v=FXwAm_ZioNU) - Apr 25 2017
 * [Silence a Noisy 3D Printer](https://www.youtube.com/watch?v=ROFYIJ-wOGI) - Apr 30 2017
 * [THIS IS Y](https://www.youtube.com/watch?v=AKTvykTPjQw) - May 13 2017
+* [New 3D Printer - Build Log #17](https://www.youtube.com/watch?v=Xi-TEn3dXIM) - Jul 16 2017
 
-## Others Videos
+## Other Videos
 
 Artur's Lab rebuilt a Printrbot into a mini HyperCube, which has some good assembly tips:
 
@@ -47,11 +48,17 @@ Artur's Lab rebuilt a Printrbot into a mini HyperCube, which has some good assem
 * [Printrbot to Hypercube conversion part 3](https://www.youtube.com/watch?v=g5yfxfhEjJ0) - Jan 22 2017
 * [Printrbot to Hypercube conversion part 4](https://www.youtube.com/watch?v=tAwwEuFkiJU) - Jan 24 2017
 
-Artur has also done some part remixes and info on those:
+Artur has also done some part remixes:
+
+* [redesigned parts for Hypercube 3d printer by arturslab](https://www.thingiverse.com/thing:2013475)
+* [Extra goodies for Hypercube by arturslab](https://www.thingiverse.com/thing:2053969)
+
+He also provides good videos on those:
 
 * [Redesigned parts for Hypercube 3d printer](https://www.youtube.com/watch?v=MYXsmhKzDCk) - Jan 3 2017
 * [3d printed bushings for Hypercube, x carriage LEDs and extruder](https://www.youtube.com/watch?v=f6wNO6v0NKo) - Jan 4 2017
 * [new z endstop and initial printer setup for first print](https://www.youtube.com/watch?v=T5Xv6H_RaeI) - Feb 2 2017
+* [New E3D Mount](https://www.youtube.com/watch?v=T9XAfLj8WXA) - Jul 19 2017
 
 Artur has also built a larger HyperCube:
 
@@ -68,12 +75,13 @@ Bryce Standley has built a HyperCube and has made a few videos about it:
 * [How fast can the Hypercube really go?](https://www.youtube.com/watch?v=LdosTxvONI0) - Feb 25 2017
 * [My Hypercube Review! How good is it?](https://www.youtube.com/watch?v=Dp31G53UcJs) - Mar 14 2017
 
-PracticalProjects is building one:
+PracticalProjects has a video series:
 
 * [HyperCube 3D Printer Build Part 1 - Introduction](https://www.youtube.com/watch?v=a7OGYCeLw_I) - Mar 25 2017
 * [HyperCube 3D Printer Build Part 2 - Frame and Parts](https://www.youtube.com/watch?v=dF4U3HeoCt4) - Apr 17 2017
 * [HyperCube 3D Printer Build Part 3 - Mechanical Parts](https://www.youtube.com/watch?v=T2W7N6poNDI) - May 8 2017
 * [HyperCube 3D Printer Build Part 3.5](https://www.youtube.com/watch?v=or3AENGhu7w) - May 30 2017
+* [HyperCube 3D Printer Build Part 4 - Electronics and First Prints](https://www.youtube.com/watch?v=CeglH6wHJzA) - Jul 13 2017
 
 Tinkercave did a few:
 
@@ -82,6 +90,16 @@ Tinkercave did a few:
 * [Hypercube Build Upgrade and Improvements Part 1](https://www.youtube.com/watch?v=Y21V5EICl54) - Mar 11 2017
 
 There are also plenty of short clips of HyperCubes printing but I'm not going to catalog those.
+
+## Communities
+
+From most members to least:
+
+* **[Facebook - Hypercube CoreXY 3D Printer Group](https://www.facebook.com/groups/1871049783171141/) - Main group**
+* [Facebook - HyperCube 3D Printer (and any other CoreXY Printers) Support and Community](https://www.facebook.com/groups/hypercubesupport/)
+* [Thingiverse - Hypercube 3D Printer](https://www.thingiverse.com/groups/hypercube-3d-printer)
+* [Google Plus - HyperCube 3D Printer](https://plus.google.com/communities/104542201288100910747)
+* [Reddit - r/hypercubecorexy](https://www.reddit.com/r/hypercubecorexy/)
 
 ## Build Tips
 
