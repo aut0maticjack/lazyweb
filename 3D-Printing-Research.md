@@ -17,24 +17,11 @@ Use cast, not rolled. Trade name for precision cast plates is MIC6:
 
 * https://www.reddit.com/r/3Dprinting/comments/4bo4q5/stop_buying_aluminum_build_plates_buy_raw_cast/
 
-## Axial Force on Radial Bearings
+## corexy
 
-SKF provide a calculator:
-
-* http://www.skf.com/group/products/bearings-units-housings/roller-bearings/cylindrical-roller-bearings/split-cylindrical-roller-bearings/dynamic-axial-load-carrying-capacity/index.html
-
-All 608ZZ I can find have a static rating of about 1350N.
-
-A 3D printer is smooth in action so let's use `b` as 1.1 to 1.3:
-
-~~~
-1350 / 40 * 1.1 = ~30N
-1350 / 40 * 1.3 = ~25N
-~~~
-
-An apple (102g) under regular gravity exerts 1N. A Boweden X gantry weighs maybe 500g at most, so exerts 5N down.
-
-You could probably put an entire 3D printer on a 608 bearing and it would still be within rating.
+* http://www.corexy.com/
+* http://www.doublejumpelectric.com/projects/core_xy/2014-07-15-core_xy/
+* https://www.youtube.com/watch?v=8WLZ8OesMF4
 
 ## E3D V6 Extrusion Speed Limit
 
