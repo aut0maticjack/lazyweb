@@ -190,7 +190,7 @@ by n9jcv](https://www.thingiverse.com/thing:2230378)
 
 ## HyperCube Evolution Remix
 
-The HyperCube Evolution by Scott3D is a remix of the original design, adding a stronger 3030 outer frame, more options for X and Y rail sizes, 12mm Z rods for strength, a dual Z screw option for larger beds, and a parametric design which scales up easier.
+The HyperCube Evolution by Scott3D (commonly called "hevo") is a remix of the original design, adding a stronger 3030 outer frame, more options for X and Y rail sizes, 12mm Z rods for strength, a dual Z screw option for larger beds, and a parametric design which scales up easier.
 
 * [HyperCube Evolution by Scott_3D](http://www.thingiverse.com/thing:2254103)
 
@@ -204,6 +204,11 @@ The creator has also released a build guide video series:
 * [HyperCube Evolution #6 - Belt Assembly](https://www.youtube.com/watch?v=mVVZKdOpUqs) - May 7 2017
 * [HyperCube Evolution #7 - Build Platform Assembly](https://www.youtube.com/watch?v=fWTbV11DwOs) - May 7 2017
 * [HyperCube Evolution #8 - RAMPS 24v mod + "It's alive"](https://www.youtube.com/watch?v=8Nmmrp4hKeM) - May 7 2017
+
+This printer has evolved its own community and wiki beyond the scope of this guide:
+
+* https://www.facebook.com/groups/Hypercubeevolution/
+* https://hevo.wiki/
 
 ## Other Similar Printers
 
