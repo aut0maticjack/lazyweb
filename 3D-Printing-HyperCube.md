@@ -181,6 +181,9 @@ by henryarnold](http://www.thingiverse.com/thing:1950819) or using LM10LUU long 
     * [new z endstop and initial printer setup for first print by Artur's Lab](https://www.youtube.com/watch?v=T5Xv6H_RaeI)
     * [Extra goodies for Hypercube by arturslab](https://www.thingiverse.com/thing:2053969)
     * [HyperCube Z Axis Limit Switch - 8 & 10 mm Mount by henryarnold](https://www.thingiverse.com/thing:1998569)
+* There are a number of useful probe holders, such as:
+    * [BLTouch mount for HyperCube 3D Printer by bliatun](https://www.thingiverse.com/thing:2014874) - old X carriage, (Artur also has a remix of this to go with his vertical fan duct)
+    * [Hypercube 8mm Sensor Mount by mewsian](https://www.thingiverse.com/thing:2471722) - new X carriage
 
 ### Electronics
 
