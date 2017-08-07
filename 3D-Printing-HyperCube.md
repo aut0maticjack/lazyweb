@@ -83,11 +83,17 @@ PracticalProjects has a video series:
 * [HyperCube 3D Printer Build Part 3.5](https://www.youtube.com/watch?v=or3AENGhu7w) - May 30 2017
 * [HyperCube 3D Printer Build Part 4 - Electronics and First Prints](https://www.youtube.com/watch?v=CeglH6wHJzA) - Jul 13 2017
 
-Tinkercave did a few:
+Tinkercave build one and did a few videos:
 
 * [Hypercube Frame Build Log](https://www.youtube.com/watch?v=eLIFhN62GG4) - Jan 25 2017
 * [HyperCube Build Review](https://www.youtube.com/watch?v=NvVZrpWW_Hs) - Feb 5 2017
 * [Hypercube Build Upgrade and Improvements Part 1](https://www.youtube.com/watch?v=Y21V5EICl54) - Mar 11 2017
+* [3D Printer Battle: Prusa i3 MKS2 vs. My Hypercube](https://www.youtube.com/watch?v=zoCL8obFkHE) - Jul 29 2017
+* [Hypercube print quality potential - your results](https://www.youtube.com/watch?v=P4_itjfwyOk) - Aug 6 2017
+
+FugaTech has started a build series:
+
+* [HyperCube Build Part 1 (Frame)](https://www.youtube.com/watch?v=s5eXQ9m2WzY) - Aug 1 2017
 
 There are also plenty of short clips of HyperCubes printing but I'm not going to catalog those.
 
@@ -167,7 +173,7 @@ by bagwan](https://www.thingiverse.com/thing:2092237)
 
 ### Bed and Lead Screw
 
-* Tech2C has a video about motors with internal Z screws: [3D Printer stepper motor mod by Tech2C](https://www.youtube.com/watch?v=NmmFoBsSfEQ) but several have found this method to be difficult and ended up ruining the motor or screw or both.
+* Tech2C has a video about motors with internal Z screws: [3D Printer stepper motor mod by Tech2C](https://www.youtube.com/watch?v=NmmFoBsSfEQ) but several have found this method to be difficult and ended up ruining the motor or screw or both. Vance has had success putting the lead screw in boiling water to weaken the glue. You may be better to use a plastic/rubber/wood hammer, not a metal hammer.
 * Jin found this sprung Z nut holder helped her wobbly Z screw a bit: [Z_Nut_Mount_WobbleFix by syahriansyah](https://www.thingiverse.com/thing:2103550)
 * Even Tech2C comments that the 8mm Z rods are a bit flimsy. A good 10mm Z remix is: [HyperCube LM10UU Z Axis Carriage
 by henryarnold](http://www.thingiverse.com/thing:1950819) or using LM10LUU long bearings: [Hypercube LM10LUU Z carriage by diegotrap](https://www.thingiverse.com/thing:2075088)
