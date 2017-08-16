@@ -15,6 +15,7 @@ This is a wiki of useful advice I commonly give or have seen on places like Stac
 * [Extruders](3D-Printing-Extruders)
 * [Frame Stuff](3D-Printing-Frame-Stuff)
 * [Heated Beds](3D-Printing-Heated-Beds)
+* [Hotend](3D-Printing-Hotend)
 * [HyperCube](3D-Printing-HyperCube)
 * [Linear Bearings](3D-Printing-Linear-Bearings)
 * [Power Supplies](3D-Printing-Power-Supplies)
