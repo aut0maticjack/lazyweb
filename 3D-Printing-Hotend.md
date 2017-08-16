@@ -22,3 +22,20 @@ The rest is easy to find anywhere:
 * [M3 Threaded Thermistor](https://www.banggood.com/M3-Modular-Screw-on-Stud-Thermistor-Hot-End-Screw-Type-Thermistors-p-977986.html) or [Glass Thermistor](https://www.banggood.com/5Pcs-100K-1-NTC-Single-Ended-Glass-Sealed-Thermistor-Temperature-Sensor-For-3D-Printer-p-1005643.html)
 * Nozzle
 * 30mm 12V Fan
+
+## Silicone Socks
+
+* https://www.reddit.com/r/3Dprinting/comments/4gh2na/i_made_an_e3d_insulator_to_improve_print_cooling/
+* https://e3d-online.com/blog/2016/08/13/silicone-socks/
+* http://e3d-online.com/E3D-v6/Full-Kit/V6-Block-Sock-Kit
+* https://www.thingiverse.com/search/?q=e3d+mold
+* [E3D V6 Silicone Cover (Mold) / Cartridge Thermistor Version by Martin_S](https://www.thingiverse.com/thing:2405563)
+* [E3D V6 Silicone Cover (Mold) / Old Blocks Version by Martin_S](https://www.thingiverse.com/thing:1655134)
+* [e3d v6 silicone sleeves/socks mould by megablue](https://www.thingiverse.com/thing:2384586)
+* [Heater Block Silicone Rubber Sock Mold by boksbox](https://www.thingiverse.com/thing:2103847)
+* https://www.youmagine.com/designs/e3d-volcano-silicone-casting-mold
+
+You can get two-part RTV, but the red Permatex seems to give good results. The blue and grey stuff doesn't set according to one result. This is car exhaust gasket silicone, get it at the auto parts store.
+
+* https://www.permatex.com/products/gasketing/gasket-makers/permatex-high-temp-red-rtv-silicone-gasket/
+* https://www.amazon.com/Permatex-81878-Maximum-Temperature-Silicone/dp/B0002UEOPA
