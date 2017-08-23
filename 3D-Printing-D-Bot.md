@@ -48,3 +48,4 @@ etc:
 * [D-Bot Core_XY in Threes by printingSome](https://www.thingiverse.com/thing:2094263)
 * [E-Bot by tshilling](http://www.thingiverse.com/thing:1656792)
 * [J-Bot Core-XY by JonnayLin](http://www.thingiverse.com/thing:1721957)
+* https://www.reddit.com/r/dbotcorexy/comments/6v2ld2/a_bunch_of_addons_tweaks_customizations_for_the/
