@@ -64,7 +64,7 @@ Pro tip: Get slip-on alligator clips for your multimeter. Clamp ground to a 12V 
 * [Aus3D](http://stores.ebay.com.au/aus3d-shop)
     * NEMA17 - 50Ncm 1.68A - <http://www.ebay.com.au/itm/331816179183>
 * [LearCNC](http://stores.ebay.com.au/learcnc)
-    * NEMA17 - 67Ncm 1.5A - <www.ebay.com.au/itm/201006654389>
+    * NEMA17 - 67Ncm 1.5A - <http://www.ebay.com.au/itm/201006654389>
 * [Stepper Online](http://stores.ebay.com.au/au-stepperonline)
     * NEMA17 - 45Ncm 2.0A 2.2V, 59Ncm 2.0A 2.8V, 65Ncm 2.1A 3.36V
     * NEMA14 - 40Ncm 1.5A 4.2V
