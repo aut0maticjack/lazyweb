@@ -171,9 +171,7 @@ Current Sense Resistor
 0.1
 ~~~
 
-I have come to the conclusion that DRVs are a poor choice for 3D printing, I wouldn't recommend them.
-
-The drivers make the motors emit a high-pitched whine. This is due to the supply voltage (12V) being larger than the motor voltage (typically 2V to 2.8V) and the stepper driver cannot chop low voltage effectively, so does a large step between "low" and "off" which happens at an audible frequency.
+These drivers make the motors emit a high-pitched whine. This is due to the supply voltage (12V) being larger than the motor voltage (typically 2V to 2.8V) and the stepper driver cannot chop low voltage effectively, so does a large step between "low" and "off" which happens at an audible frequency.
 
 There is a circuit which can get rid of this, with ready-made PCBs sold on Aliexpress as "TL-Smoother". Make sure you get the ones with 8 diodes and not 4 diodes! The circuit is explained at:
 
@@ -202,17 +200,17 @@ Due to this sudden step in supply voltage, DRVs can cause the motors to miss ste
 
 * [DRV8825 stepper driver missing steps torture test by megablue](http://www.thingiverse.com/thing:1997411)
 
-Overall, given the intermittent success and still-poorly-understood nature of these problems, I find it hard to recommend DRVs at all.
+DRVs work flawlessly for some people and give constant problems for others. Given the intermittent success and still-poorly-understood nature of these problems, I find it hard to recommend DRVs for 3D printing.
 
 ## Trinamic TMC2100
 
 * 0.5A max constant current (no cooling)
 * 1.25A max constant current (active cooling)
 * 2.5A peak current
-* 1/16 stepping, but the chip interpolates 16x in hardware, so the motor sees 1/256 stepping
-* Best option for 8-bit boards, probably for 32-bit boards too
+* 1/16 stepping, but the chip can interpolate 16x in hardware, so the motor sees 1/256 stepping
 * Silent operation
-* Expensive, even for clones
+* Expensive, even for Chinese clones
+* Really only needed on X and Y motor, not Z or E
 
 ~~~
 Formula: V = A / (1.77 / 2.5)
@@ -233,15 +231,15 @@ Volts	Amps
 1.75    1.239
 ~~~
 
-There is a lot of misinformation about these around, I've rewritten this section three times now.
+There is a lot of misinformation about these around. As I've learnt more about TMCs, I've rewritten this section three times now. All this may be wrong so caveat emptor. Do your own research and don't spend a hundred bucks on electronics just because some self-taught guy on the internet like me said something.
 
-TMCs have a feature called **microPlyer** which takes 1/16 steps as input, and interpolates these down to 1/256 steps in hardware. This smaller effective microstep results in extremely quiet print operation, at the cost of some effective torque at the motor.
+TMCs have a feature called **microPlyer** which takes 1/16 steps as input, and interpolates these 16x down to 1/256 steps in hardware. This smaller effective microstep results in extremely quiet print operation, apparently at the cost of some effective torque at the motor.
 
-TMCs have two operating modes: **stealthChop** which is low torque and low noise, and **spreadCycle** which is high torque and a little noisier. There is a lot of knowledge out there that only spreadCycle is useful for 3D printers, but this is not true. The following research paper from Trinamic shows no effective torque difference between the two modes at 400rpm and below:
+TMCs have two operating modes: **stealthChop** which is low torque and low noise, and **spreadCycle** which is high torque and a little noisier. There is a lot of advice out there that only spreadCycle is useful for 3D printers, but this is not true. The following research paper from Trinamic shows no effective torque difference between the two modes at 400rpm and below:
 
 * https://www.trinamic.com/fileadmin/assets/Support/Appnotes/AN021-stealthChop_Performance_comparison.pdf
 
-Calculate motor RPM:
+Let's calculate effective motor RPM for 3D print speeds:
 
 ~~~
 360 degrees in a circle
@@ -258,35 +256,37 @@ Calculate motor RPM:
 2.5 RPS * 60 seconds = 150 RPM
 ~~~
 
-However, you won't be able to print very fast with an 8-bit board. TMCs tend to skip steps at high speed. It's been thought this was due to their low max torque or due to torque losses in stealthChop but that can't be true. In the comments of the following article, Stephan Watterott theorises this is caused by multistepping:
+So we're never getting to a speed where the torque advantage of spreadCycle becomes applicable. stealthChop is fine.
+
+However, you won't be able to print very fast with an 8-bit board. TMCs tend to skip steps at higher speed. It's been thought this was due to torque losses in stealthChop but that can't be true. In the comments of the following article, Stephan Watterott theorises this is caused by multistepping:
 
 * https://hackaday.com/2016/09/30/3d-printering-trinamic-tmc2130-stepper-motor-drivers-shifting-the-gears/
 
-So to print consistently with TMCs you should avoid multistepping, which means staying under about 60mm/sec with the usual setup on 8-bit Arduino (1.8deg motors, 20T pulley, 2mm belt, 1/16 step rate). 32-bit boards do not suffer such a limitation as they have a much higher step rate. I don't believe either Smoothieware or RepRapFirmware actually even do multistepping?
+So to print consistently with TMCs you should avoid multistepping, which means staying under about 60mm/sec with the usual setup (1.8deg motors, 20T pulley, 2mm belt, 1/16 step rate) on 8-bit Arduino. 32-bit boards do not suffer such a limitation as they have a much higher step rate. I don't believe either Smoothieware or RepRapFirmware actually even do multistepping?
 
-spreadCycle is entered by soldering two solder jumpers on the PCB, connecting CFG1 to ground. Some Chinese clone TMCs have this either mislabeled so you short out the chip and fry it, or don't have the IC's CFG1 actually exposed so you can never enter spreadCycle mode, but that's no big deal.
+spreadCycle is entered by soldering two solder jumpers on the PCB, connecting CFG1 to ground. Some Chinese clone TMCs have this either mislabeled so you short out the chip and fry it, or don't have the IC's CFG1 actually exposed so you can never enter spreadCycle mode, but as above we don't need it, so that's no big deal.
 
-TMCs get up to 50C at 0.55A and will reach their 150C thermal shutoff at 1A, so require through-board heatpads attached to the bottom of the IC, large heatsinks, and active cooling (fans). A fan blowing above would be fine. You could even build them into a tunnel housing with two quiet fans, one blowing air in and one blowing air out, like this:
+TMCs get up to 50C at 0.55A and will reach their 150C thermal shutoff at 1A, so require through-board heatpads attached to the bottom of the IC, large heatsinks, and active cooling (fans). A fan blowing down onto the drivers would be fine. You could even build them into a tunnel housing with two quiet fans, one blowing air in and one blowing air out, like this:
 
 ~~~
 .--------------------------------------------.
-[>>]    h h      h h      h h      h h    [>>]
-[>>]    h h      h h      h h      h h    [>>]
-[>>]  TMC2100  TMC2100  TMC2100  TMC2100  [>>]
-[>>]   |   |    |   |    |   |    |   |   [>>]
+[>>]    h h      h h                      [>>]
+[>>]    h h      h h                      [>>]
+[>>]  TMC2100  TMC2100   A4988    A4988   [>>]
+[>>]   | X |    | Y |    | Z |    | E |   [>>]
 '--------------------------------------------'
 ~~~
 
 Some cheap Chinese TMCs have no through-pad on the bottom, so cooling is much less effective. The white PCBs seem to be the good ones but this will probably vary per manufacturer. If they come with no solder pad or the chips are on top, do not buy.
 
-TMCs can apparently suffer the same high-pitched whine as DRVs due to the supply voltage difference. Maybe the diode circuit will fix this.
+TMCs can apparently suffer the same high-pitched whine as DRVs due to the supply voltage difference. Maybe the diode circuit will fix this. More research required.
 
 It's said that 1/256 microstepping results in less torque, however Tom has an explanation I don't understand for why they actually result in more effective torque:
 
 * https://www.youtube.com/watch?v=g6Bxoqr8QlY
 * https://www.youtube.com/watch?v=mYuZqx8xwTg
 
-Apparently running at 1v (0.75A) produces reliable enough torque, though needs fans blowing on the heatsinks.
+Running at 1v (0.75A) probably produces reliable enough torque in most decent motors.
 
 In summary, TMCs seem like an okay option IF:
 
