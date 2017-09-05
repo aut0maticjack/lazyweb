@@ -19,6 +19,7 @@ Some favorites in a table:
 | **FB2020** | CoreXY | 200x200x170 | 8mm rod | 8mm rod | 12mm rod | 1x screw | Bowden
 | **Funbot 8mm** | Cantilever | 165x170x120 | 8mm rod | 8mm rod | 8mm rod | 1x screw | Direct
 | **HyperCube** | CoreXY | 200x200x155 | 10mm rod | 8mm rod | 8mm rod | 1x screw | Bowden
+| **Sculptr** | Delta | 150Dx240 | Printed rod | Printed rod | 8mm rod | GT2 belt | Bowden
 | **VSlot-CoreXY** | CoreXY | 210x195x240 | V-wheel | V-wheel | 12mm rod | 1x screw | Bowden
 | **Wilson II** | Cartesian | 200x300x200 | 10mm rod | 10mm rod | 10mm rod | 2x screw | Direct
 
@@ -95,11 +96,16 @@ Some favorites in a table:
     * [Cherry Pi II](https://www.thingiverse.com/thing:298168)
         * [Cherry Pi III](https://www.thingiverse.com/thing:344408)
 * [Delta Pi](https://www.thingiverse.com/thing:53708)
-* [Kossel](http://reprap.org/wiki/Kossel) - [BOM](http://www.tridprinting.com/BOM/Kossel-Mini/)
-* [Mini Kossel V-Slot](https://www.thingiverse.com/thing:318745)
+* [**Griffin**](https://www.thingiverse.com/thing:259238)
+* [Kossel](http://reprap.org/wiki/Kossel)
+* [Mini Kossel V-Slot](https://www.thingiverse.com/thing:318745) - [BOM](http://www.tridprinting.com/BOM/Kossel-Mini/)
 * [Neutron](https://www.thingiverse.com/thing:2149660)
+* [RichRap 3DR](http://richrap.blogspot.com.au/2013/07/3dr-reprap-delta-printer-part-1-release.html)
 * [Rostock](https://www.thingiverse.com/thing:17175)
-* [Sculptr Delta MK1](https://www.thingiverse.com/thing:1444028)
+    * [Rostock Mini](https://www.thingiverse.com/thing:32850) - [Wiki](http://reprap.org/wiki/Rostock_mini)
+        * [Rostock Mini Pro](https://www.thingiverse.com/thing:318971)
+            * [Rostock Mini Pro 2](https://www.thingiverse.com/thing:1660599)
+* [**Sculptr Delta MK1**](https://www.thingiverse.com/thing:1444028)
 
 ## Other
 
