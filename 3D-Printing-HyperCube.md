@@ -109,6 +109,14 @@ From most members to least:
 
 ## Build Tips
 
+### Significant Remixes
+
+* Artur's parts improve on Tech2C's parts and solve a number of problems:
+    * [redesigned parts for Hypercube 3d printer by arturslab](https://www.thingiverse.com/thing:2013475)
+    * [Extra goodies for Hypercube by arturslab](https://www.thingiverse.com/thing:2053969)
+* Adrian's HyperCube 300 improves the design and strength of many parts, and provides a ready-made set for increasing build size easily
+    * [Hypercube 300 CoreXY by adrianm1972](https://www.thingiverse.com/thing:2517628)
+
 ### Scaling Up
 
 * Tech2C gives clear instructions on how to scale the printer up on the Thingiverse page.
