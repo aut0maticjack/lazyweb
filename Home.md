@@ -14,6 +14,7 @@ This is a wiki of useful advice I commonly give or have seen on places like Stac
 * [DIY Printers](3D-Printing-DIY-Printers)
 * [Extruders](3D-Printing-Extruders)
 * [Frame Stuff](3D-Printing-Frame-Stuff)
+* [G-Code](3D-Printing-G-Code)
 * [Heated Beds](3D-Printing-Heated-Beds)
 * [Hotend](3D-Printing-Hotend)
 * [HyperCube](3D-Printing-HyperCube)
