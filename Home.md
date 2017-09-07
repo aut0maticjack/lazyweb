@@ -13,6 +13,7 @@ This is a wiki of useful advice I commonly give or have seen on places like Stac
 * [D-Bot](3D-Printing-D-Bot)
 * [DIY Printers](3D-Printing-DIY-Printers)
 * [Extruders](3D-Printing-Extruders)
+* [Filament Properties](3D-Printing-Filament-Properties)
 * [Frame Stuff](3D-Printing-Frame-Stuff)
 * [G-Code](3D-Printing-G-Code)
 * [Heated Beds](3D-Printing-Heated-Beds)
