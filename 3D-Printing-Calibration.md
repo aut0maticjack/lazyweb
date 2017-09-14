@@ -2,7 +2,8 @@
 
 ### General Links
 
-* Tom Sanladerer - https://www.youtube.com/channel/UCb8Rde3uRL1ohROUVg46h1A
+* Tom Sanladerer's Guides - https://www.youtube.com/playlist?list=PLDJMid0lOOYnRCAdbFfzECor3EbqF8euw
+* Maker's Muse 3D Printing 101 - https://www.youtube.com/playlist?list=PLTCCNNvHC8PDR_jQy609toqq8EAfhiOOL
 * RepRap Wiki - http://reprap.org/wiki/
 
 ### Stepper Driver Current
@@ -23,13 +24,13 @@ Look up the formula for your stepper drivers. Some common ones:
 
 Basic tables for each driver are given on my [Stepper Motors and Drivers page](https://github.com/superjamie/lazyweb/wiki/3D-Printing-Stepper-Motors-and-Drivers).
 
-Set your multimeter to DC voltage (2V). Meaure voltage between negative of the power supply ground, and positive to the adjustment trimpot on the driver board. A good tip is to use multimeter clamps, so you clamp one to the negative on the power supply, and positive to your screwdriver. Then the screwdriver can measure voltage at the trimpot as you adjust it.
+Set your multimeter to DC voltage (2V). Measure voltage between DC negative of the power supply, and positive to the adjustment trimpot on the driver board. A good tip is to use multimeter clamps, so you clamp one to the negative on the power supply, and positive to your screwdriver. Then the screwdriver can measure voltage at the trimpot as you adjust it.
 
 Look up the current of your motors, set to that current or just under it. You may be able to get away with 80% less current depending on setup. If you have very powerful motors like 70Ncm you can set the motors to way less torque to keep them cool.
 
 Current and torque do not scale linearly, reducing current by 20% can reduce torque by 40% or more. If you find you're skipping motor steps *and everything else is mechanically good* then you could try increase motor current to avoid the skipped steps. If you have a mechanical problem, don't just increase stepper driver current to power through it, solve the mechanical problem properly.
 
-I find the extruder needs more torque than the motion axes. This makes more sense as it's easier to move a carriage sliding over smooth and lubricated rods/rails/wheels than it is to force millimeters of filament through a very tiny nozzle hole.
+I find the extruder needs more torque than the motion axes. This makes more sense as it's easier to move a carriage sliding over smooth and lubricated rods/rails/wheels than it is to force millimeters of filament through a very tiny nozzle hole. A geared extruder can help avoid the need for such a powerful filament motor.
 
 References:
 
@@ -107,13 +108,13 @@ TODO - make nicer
 
 tl;dr - don't try and print too fast
 
-start with XY max 250, XY accel 1000, XY jerk 1, print speed 40mm/sec
+start with XY max 250, XY accel 1000, XY jerk 4, print speed 40mm/sec
 
 work up from there
 
 accel 1500 is very good. jerk should be 10% of print speed or less
 
-different materials require different print speeds, so tune speed with PLA and just tell the slicer to print slower for other materials as required
+different materials require different print speeds, so tune speed with PLA (or whatever you print with most often)and just tell the slicer to print slower for other materials as required
 
 * https://www.thingiverse.com/thing:277394
 * [Tom Sanladerer - 3D printing guides - Tuning speeds](https://www.youtube.com/watch?v=7HsIZuj9vOs)
@@ -147,9 +148,15 @@ References:
 TODO - make nicer
 ~~~
 
-print a temperature tower, pick which looks best or gives the strongest layer adhesion or the best detail or the best bridging or whatever aspect you care about
+print a temperature tower, find one on Thingiverse
+
+change temperature as you print it, corresponding with the designs on the tower. in Cura use the TweakAtZ plugin in Postprocessing. in S3D use multiple processes covering a height range and change the temperature in each process. slic3r cannot do this directly, so you need to edit the gcode or babysit the print and tweak the temperature manually via LCD or host program
+
+once you have it printed, pick which temperature looks best or gives the strongest layer adhesion or the best detail or the best bridging or whatever aspect you care about
 
 for pla use 185c to 235c
+
+for petg use 200c to 250c
 
 * https://www.thingiverse.com/search?q=temperature+tower
 * https://www.thingiverse.com/search?q=temperature+calibration
@@ -166,19 +173,21 @@ If the filament varies by more than 0.01mm either way (eg: the average is 1.71mm
 
 ### Extrusion Flow Rate
 
-* When to Calibrate: For each filament spool, and for each extrusion width
+* When to Calibrate: For each filament spool, for each extrusion width, when changing nozzle
 
 In your slicer, set your extrusion width to your nozzle diameter or up to 120% of it. If you have a 0.4mm nozzle, then set to 0.4mm or 0.48mm or anywhere in between.
 
-Download or make a 20mm cube and print it with 1 wall and no top or bottom layers. Use "Vase Mode" if you like.
+Download or make a 20mm cube and print it with 1 wall and no top layers.
 
-Use your measuring calipers to measure the actual extrusion width. It likely won't be exactly the width you specified, so calculate an extrusion flow rate like we did:
+Using Cura's TweakAtZ or Simplify3D multiple processes, change the flow rate so the bottom 4mm print at 110%, the next 4mm above that print at 105%, the next 4mm above that at 95%, and so on. You can stretch the cube in the Z direction if you wish to use smaller steps (like 2.5%) or test more flow rates.
+
+Once this is printed, use your measuring calipers to measure the actual extrusion width at each height when the flow rate changed. It likely won't be exactly the width you specified, so calculate an extrusion flow rate similar to calculating extrusion steps:
 
 ~~~
 new_flow_rate = (width_in_slicer / actual_width) * 100
 ~~~
 
-Now set your flow rate to that number and try a print again. If you can get within 0.01mm I think that's good enough.
+Finally, set your flow rate to that number and try a single print again without Z height changes. If you can get within 0.01mm I think that's good enough.
 
 * http://print.theporto.com/posts/how-to-calibrate-extrusion-thickness/
 * http://zennmaster.com/random-things/reprap-101-calibrating-your-extruder-part-2-fine-tuning
