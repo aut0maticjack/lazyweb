@@ -76,8 +76,9 @@
 
 ### General Knowledge
 
-* [Half as Interesting](https://www.youtube.com/channel/UCuCkxoKLYO_EQ2GeFtbM_bw)
+* [Half as Interesting](https://www.youtube.com/channel/UCuCkxoKLYO_EQ2GeFtbM_bw) - same guy as Wendover
 * [It's Okay to be Smart](https://www.youtube.com/user/itsokaytobesmart) - Dr Joe Hanson
+* [Knowledge Hub](https://www.youtube.com/channel/UC2_KC8lshtCyiLApy27raYw) - same guy as Alternate History Hub
 * [Kurzgesagt - In A Nutshell](https://www.youtube.com/user/Kurzgesagt) - optimistic nihilism
 * [Lemmino](https://www.youtube.com/user/Top10Memes) - David from Sweden
 * [Planet Dolan](https://www.youtube.com/user/DDTop20)
@@ -87,11 +88,11 @@
 * [The Infographics Show](https://www.youtube.com/user/TheInfographicsShow)
 * [The Rest of Us](https://www.youtube.com/channel/UCogasD4DFxmshrBNnJNFcvg)
 * [This Place](https://www.youtube.com/user/ThisPlaceChannel)
-* [Wendover Productions](https://www.youtube.com/user/Wendoverproductions)
+* [Wendover Productions](https://www.youtube.com/user/Wendoverproductions) - same guy as Half As Interesting
 
 ### History
 
-* [Alternate History Hub](https://www.youtube.com/user/AlternateHistoryHub)
+* [Alternate History Hub](https://www.youtube.com/user/AlternateHistoryHub) - same guy as Knowledge Hub
 * [Simple History](https://www.youtube.com/channel/UC510QYlOlKNyhy_zdQxnGYw) - Daniel Turner
 * [The Great War](https://www.youtube.com/user/TheGreatWar) - Indiana Neidell, World War 1
 * [Ten Minute History](https://www.youtube.com/channel/UC22BdTgxefuvUivrjesETjg)
@@ -105,7 +106,7 @@
 * [Make Magazine](https://www.youtube.com/user/makemagazine)
 * [Primitive Technology](https://www.youtube.com/channel/UCAL3JXZSzSm8AlZyD3nQdBA) - John Plant
 * [Simone Giertz](https://www.youtube.com/channel/UC3KEoMzNz8eYnwBC34RaKCQ) - Queen of Shitty Robots
-* [Walter Sorrells](https://www.youtube.com/user/slappybuckshot) - knife making, funny
+* [Walter Sorrells](https://www.youtube.com/user/slappybuckshot) - knife/sword making, funny
 
 ### Music
 
