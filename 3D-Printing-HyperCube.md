@@ -114,7 +114,7 @@ From most members to least:
 * Artur's parts improve on Tech2C's parts and solve a number of problems:
     * [redesigned parts for Hypercube 3d printer by arturslab](https://www.thingiverse.com/thing:2013475)
     * [Extra goodies for Hypercube by arturslab](https://www.thingiverse.com/thing:2053969)
-* Adrian's HyperCube 300 improves the design and strength of many parts, and provides a ready-made set for increasing build size easily
+* Adrian's HyperCube 300 improves the design and strength of many parts, and provides a ready-made set for increasing build size to 300mm easily. Strong recommendation to use these remix parts even if using a standard 200mm bed:
     * [Hypercube 300 CoreXY by adrianm1972](https://www.thingiverse.com/thing:2517628)
 
 ### Scaling Up
@@ -122,10 +122,10 @@ From most members to least:
 * Tech2C gives clear instructions on how to scale the printer up on the Thingiverse page.
 * The [HyperCube Materials Calculator by FunkyDiver](http://funkydiver.com/hypercube-materials) makes this easier.
 * People like to talk rubbish about the cantilever bed design, but really for a 200mm or 250mm bed it's fine. For a 300mm or larger bed, two Z screws and 4 Z rods should be used. For a bed larger than 500mm, three Z screws should be used (three points define a plane).
-* It may be better to join multiple Z screws with a belt, instead of using multiple motors. If you strongly pull the build platform, you may cause one of dual motors to skip steps and get out of alignment. A belt does not have this problem. The D-Bot community has many good remixes of dual and triple belted Z screws, eg: [Three lead screws and one nema 17 motor remix for C/D/J-bot by oeyhaga](https://www.thingiverse.com/thing:2185911).
+* It may be better to join multiple Z screws with a belt, instead of using multiple motors. If you strongly pull the build platform, you may cause one of dual motors to skip steps and get out of alignment. A belt does not have this problem. The D-Bot community has many good remixes of dual and triple belted Z screws, eg: [Three lead screws and one nema 17 motor remix for C/D/J-bot by oeyhaga](https://www.thingiverse.com/thing:2185911). However, RepRapFirmware (available on Duet3D boards or Arduino Due) has the ability to level the bed using three stepper motors and tilting the plane until a bed probe detects the bed is level.
 * Over 500m bed size the HyperCube starts to become flawed, as linear shafts have a large deflection over long distances, especially heavy steel which must also carry its own weight. If you are concerned about this then look up a shaft deflection calculator, calculate the stock deflection, then the deflection resulting from your intended build. If your deflection is worse, increase rod size. You may be better to use carbon fiber hollow tube or solid rod, even on the Y axis, to avoid deflection due to the rod's own weight.
 * At 500mm+ you should be considering a design that does not use linear shafts. Good alternatives are V-slot designs such as the [D-Bot](http://www.thingiverse.com/thing:1001065), or something which uses linear rails like the [FolgerTech FT-5](https://www.folgertech.com/collections/3d-printer-full-kits/products/folger-tech-ft-5-large-scale-3d-printer-kit).
-* If you want to build a printer over 1000mm, forget raising-bed designs altogether, as a glass or alloy bed is too heavy to move. You should build a fixed-bed raising-gantry printer like the [Sub33D by sschm9](https://www.thingiverse.com/thing:1977727), or the [V24 by russiancatfood](https://www.reddit.com/r/voroncorexy/comments/6e6577/v24_aka_the_last_5_months_of_every_spare_second/) (creator of the Voron), or [this large printer by Shane Hooper](https://www.facebook.com/groups/cncbuilddesign/permalink/1573209072692391/).
+* If you want to build a printer over 1000mm, forget raising-bed designs altogether, as a glass or alloy bed is too heavy to move easily. You should build a fixed-bed raising-gantry printer like the [Sub33D by sschm9](https://www.thingiverse.com/thing:1977727), or the [V24 by russiancatfood](https://www.reddit.com/r/voroncorexy/comments/6e6577/v24_aka_the_last_5_months_of_every_spare_second/) (creator of the Voron), or [this large printer by Shane Hooper](https://www.facebook.com/groups/cncbuilddesign/permalink/1573209072692391/).
 
 ### Parts
 
@@ -141,6 +141,8 @@ From most members to least:
 * A needle or other long thin rod is useful to poke at the nuts and spin them manually if they need coaxing.
 * A dab of nail polish on screw threads helps them catch the T-nut and spin it, and acts as a weak threadlock compound.
 * A set of mini metal files has been useful for making the ends of extrusion even, and shaving down poorly-made T-nuts, and will be generally useful for tidying up prints of all sorts.
+* A long set of "antistatic tweezers" is useful for pulling ooze off the nozzle just before printing.
+* A craft blade (eg: Exacto knife) is useful for tidying blobs off parts if printing in PETG.
 
 ### Extrusions
 
@@ -163,24 +165,29 @@ From most members to least:
 ### Y Axis
 
 * 10mm rods can be used for the Y axis. The Y does not move so weight doesn't matter, any of steel or aluminium tube or carbon fiber rod/tube can be used, though larger builds may benefit from CF to prevent rod deflection due to larger steel rod weight.
-* Alternates linear shaft clamps for both 8mm and 10mm rod: [HyperCube Y_Shaft_Clamp_REMIXED
-by GofX](https://www.thingiverse.com/thing:2169166)
-* The original LM8UU XY Joiner can be used with JSM-1012 Igus bushings (same as for the X axis) with this holder: [Igus 10mm Bushing Holder for LM8LUU by superjamie](https://www.thingiverse.com/thing:2336683)
-* Or some LM10UU XY Joiners: [by mbruehl](https://www.thingiverse.com/thing:2012264) and [by erdemerciyas](https://www.thingiverse.com/thing:2393210)
+* The [HyperCube 300](https://www.thingiverse.com/thing:2517628) has the option of 10mm rods for the Y axis.
+* More clamps for both 8mm and 10mm rod: [HyperCube Y_Shaft_Clamp_REMIXED by GofX](https://www.thingiverse.com/thing:2169166)
+* If using the original LM8LUU-sized XY Joiner, it can be used with JSM-1012 Igus bushings (same as for the X axis) with this holder: [Igus 10mm Bushing Holder for LM8LUU by superjamie](https://www.thingiverse.com/thing:2336683)
+* Some more LM10UU XY Joiners: [by mbruehl](https://www.thingiverse.com/thing:2012264) and [by erdemerciyas](https://www.thingiverse.com/thing:2393210)
 
 ### Belts
 
+* Belts can be more easily tensioned with [Hypercube easy Belt tensioner by bagwan](https://www.thingiverse.com/thing:2092237)
 * The belts need to be evenly tensioned. If the frame is square and the X gantry evenly contacts the frame without belts, but does not evenly contact with belts, then the belts are not evenly tensioned.
-* Belts can be more easily tensioned with [Hypercube easy Belt tensioner
-by bagwan](https://www.thingiverse.com/thing:2092237)
+* If you move the Y carriages back and forth by hand, and the X carriage moves side to side, then the belts are not evenly tensioned.
 * Tying the X gantry to the rear of the frame with cable ties and then tightening the belts has solved this for several people.
-* I didn't like the idea of flipping the belts or having them ride on double flange bearings, so I used these idler holders:
+* How much to tension the belts is a topic of discussion. Some people have them very tight though that can kill idlers. Some people have their belts so loose they're essentially just sitting on the pulleys.
+* For now, I have mine so that I can touch the lead screw with finger pressure on the rear of a standard frame.
+* Measuring a frequency with a [sound meter app](https://play.google.com/store/apps/details?id=org.intoorbit.spectrum) is incorrect, as different lengths produce different resonance frequencies.
+* One measurement idea for belt tension is: [Belt Tension Meter by calviniba](https://www.thingiverse.com/thing:2230598) which uses a printed part and a spring from a Pilot G-2 pen, which hopefully provides a repeatable standard across different printer designs and sizes.
+* I didn't like the idea of flipping the belts or having them ride on double flange bearings, so I used these idler holders for actual toothed/smooth idler pulleys, not the advice not to buy cheap idlers:
     * [XY Joiner for GT2 16T Timing Pulleys by PurchenZuPoden](https://www.thingiverse.com/thing:2188100)
     * [XY Idler for GT2 16T/20T Timing Pulleys by PurchenZuPoden](https://www.thingiverse.com/thing:2186358)
 * Jerry found the idlers cracked for him, so designed thicker ones and used washers to shim the bearing ID: [JeSc HyperCube XY Idler T16](https://www.thingiverse.com/thing:2366999)
 
 ### Bed and Lead Screw
 
+* When assembling the bed brackets, there is no set measurement where the extrusions go. Assemble the bed H bracket with the Z carriages, then add the Z rods and bolt the rods to the frame in the center of the X axis. Then remove the middle piece, and use a spirit level (or spirit level app on your phone) to get the longer bed holders the same level as the Y axis frame pieces. Make sure the Z carriage can move to the top and bottom smoothly, you should be able to pick up the cube and tip it back and forth and have the Z axis slide easily with gravity. Finally, move the carriage to the top, add the Z nut holder to the horizontal piece, and add that horizontal piece back to the bed holders so that the lead screw is straight up and down.
 * Tech2C has a video about motors with internal Z screws: [3D Printer stepper motor mod by Tech2C](https://www.youtube.com/watch?v=NmmFoBsSfEQ) but several have found this method to be difficult and ended up ruining the motor or screw or both. Vance has had success putting the lead screw in boiling water to weaken the glue. You may be better to use a plastic/rubber/wood hammer, not a metal hammer.
 * Jin found this sprung Z nut holder helped her wobbly Z screw a bit: [Z_Nut_Mount_WobbleFix by syahriansyah](https://www.thingiverse.com/thing:2103550)
 * Even Tech2C comments that the 8mm Z rods are a bit flimsy. A good 10mm Z remix is: [HyperCube LM10UU Z Axis Carriage
@@ -195,19 +202,19 @@ by henryarnold](http://www.thingiverse.com/thing:1950819) or using LM10LUU long 
 
 ### Electronics
 
-* If buying motors from different suppliers, be aware not all motors have the same pinout at the connector. If in doubt, use a multimeter to figure out which pins are members of the same coil, then swap wires or firmware direction until the motor moves as desired.
+* If buying motors from different suppliers, be aware not all motors have the same pinout at the connector. If in doubt, use a multimeter to figure out which pins are members of the same coil, then swap wires or firmware direction until the motor moves as desired. There are additional methods located at: http://www.instructables.com/id/Find-Bipolar-Stepper-Motor-Coil-Pairs/
 * Many RAMPS boards do not ship with the stepper driver jumpers pre-installed, and need to be installed by you before you put the stepper drivers in. The normal configuration is to install all three jumpers under a stepper driver to enable 1/16 stepping mode for A4988.
 * Make sure you line up the stepper driver enable/ground pins with the same pin on the RAMPS board. Double-check each time you install a driver. Installing a driver backwards will probably fry the driver or the RAMPS or both.
-* The Y endstop doesn't hit well with some XY joiners. Other holders are around like [HyperCube Y end-stop
+* The Y endstop doesn't hit well with some XY joiners. The best Y endstop mount is in the [HyperCube 300](https://www.thingiverse.com/thing:2517628) parts list. Other holders are around like [HyperCube Y end-stop
 by imstrng](https://www.thingiverse.com/thing:2123488) or [Hypercube Y axis end stop
-by JOES_PARTS](https://www.thingiverse.com/thing:2390449)
+by JOES_PARTS](https://www.thingiverse.com/thing:2390449).
 * It may be better to use the smaller type of limit switch and mount on the extrusion: [Hypercube Improved Y Endstop
 by n9jcv](https://www.thingiverse.com/thing:2230378)
 * The X endstop doesn't hit well sometimes either, especially with larger 20T pulleys. Try: [JeSc HyperCube X-End Stop add-on by jschun](https://www.thingiverse.com/thing:2386196)
 
 ## HyperCube Evolution Remix
 
-The HyperCube Evolution by Scott3D (commonly called "hevo") is a remix of the original design, adding a stronger 3030 outer frame, more options for X and Y rail sizes, 12mm Z rods for strength, a dual Z screw option for larger beds, and a parametric design which scales up easier.
+The HyperCube Evolution by Scott3D (commonly called "Hevo") is a remix of the original design, adding a stronger 3030 outer frame, more options for X and Y rail sizes, 12mm Z rods for strength, a dual Z screw option for larger beds, and a parametric design which scales up easier.
 
 * [HyperCube Evolution by Scott_3D](http://www.thingiverse.com/thing:2254103)
 
