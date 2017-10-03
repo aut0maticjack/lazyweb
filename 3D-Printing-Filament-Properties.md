@@ -1,15 +1,15 @@
-| Property                        | PLA     | PETG   | ABS    | | PC     | Nylon 6,6 |
-|---------------------------------|---------|--------|--------|-|--------|--------|
-| Glass Transition (degrees C)    | 60      | 80     | 100    | | 150    | 50     |
-| Melt Temperature (degrees C)    | 160     | 140    | 230    | | 230    | 260    |
-| Density (g per cm cubed)        | 1.30    | 1.29   | 1.10   | | 1.20   | 1.1    |
-| Elastic Modulus (GPa)           | **3.5** | 2.2    | 2.0    | | 2.3    | 3.3    |
-| Tensile Strength (MPa)          | 50      | **53** | 41     | | 62     | 86     |
-| Tensile/Density Ratio (kn-m/kg) | 40      | **42** | 38     | | 55     | 75     |
-| Elongation at Yield (percent)   | 6%      | **140%** | 20%  | | 110%   | 46%    |
-| Flexural Modulus (GPa)          | **4.0** | 2.1    | 2.1    | | 2.3    | 2.8    |
-| Flexural Strength (MPa)         | 80      | 77     | **97** | | 92     | 110    |
-| Compressive Strength (MPa)      | 18      | **55** | 7.5    | | 86     | 73     |
+| Property                        | PLA     | PETG   | ABS    | | PC     | Nylon 6,6 | AM1800 |
+|---------------------------------|---------|--------|--------|-|--------|-----------|--------|
+| Glass Transition (degrees C)    | 60      | 80     | 100    | | 150    | 50        | 70     |
+| Melt Temperature (degrees C)    | 160     | 140    | 230    | | 230    | 260       | ?      |
+| Density (g per cm cubed)        | 1.30    | 1.29   | 1.10   | | 1.20   | 1.1       | 1.27   |
+| Elastic Modulus (GPa)           | **3.5** | 2.2    | 2.0    | | 2.3    | 3.3       | 1.9    |
+| Tensile Strength (MPa)          | 50      | **53** | 41     | | 62     | 86        | 50     |
+| Tensile/Density Ratio (kn-m/kg) | 40      | **42** | 38     | | 55     | 75        | ?      |
+| Elongation at Yield (percent)   | 6%      | **140%** | 20%  | | 110%   | 46%       | 5%     |
+| Flexural Modulus (GPa)          | **4.0** | 2.1    | 2.1    | | 2.3    | 2.8       | 2.1    |
+| Flexural Strength (MPa)         | 80      | 77     | **97** | | 92     | 110       | ?      |
+| Compressive Strength (MPa)      | 18      | **55** | 7.5    | | 86     | 73        | ?      |
 
 ### Dummies Guide
 
