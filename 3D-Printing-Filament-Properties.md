@@ -55,3 +55,4 @@ I am by no means a mechanical engineer and have only an armchair understanding o
 * PETG - http://www.matweb.com/search/datasheet.aspx?matguid=211225b2c12f48988b81c8dbac034ebe
 * N66 - http://www.matweb.com/search/DataSheet.aspx?MatGUID=a2e79a3451984d58a8a442c37a226107
 * Wikipedia and general Google searches
+* http://www.eastman.com/Pages/ProductHome.aspx?product=71100831
