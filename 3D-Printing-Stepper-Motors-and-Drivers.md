@@ -7,7 +7,7 @@ Learn how stepper motors work:
 
 Modern 3D printers usually use NEMA17 motors which are 1.7" (43.2mm) square across the face. There are larger sizes like NEMA23 and NEMA34 which are common on CNCs. There are smaller sizes like NEMA14 and NEMA11 too. The first RepRap 3D printers used NEMA14s but the most powerful ones (40Ncm) were right on the limit of what they could do well.
 
-Look up your motor's part number and pay attention to the **Step Angle**, **Holding Torque**, **Rated Current**, and **Voltage**.
+Look up your motor's part number and pay attention to the **Step Angle**, **Holding Torque**, **Rated Current**, **Voltage**, and possibly **Inductance**.
 
 3D printers need at least 35 Ncm holding torque. Generally the longer the motor the more torque it has, but not always, there are some "pancake steppers" specifically designed to be high-torque in a small light package.
 
@@ -183,7 +183,7 @@ This page also discusses noise:
 
 * http://ebldc.com/?p=187
 
-Some people say to use 4.2V motors and the whine goes away. Some people say to use higher motor voltage (24V) and this goes away. Some people cannot solve this even with the diode circuit, it seems motor inductance also plays a part?
+Some people say to use 3V or 4V motors and the whine goes away. Some people say to use higher motor supply voltage (24V) and this goes away. Some people cannot solve this even with the diode circuit, it seems motor inductance also plays a part, some people say low motor inductance (2mH) can cause the whine but high inductance (5mH) avoids it.
 
 Some people say reducing current can also prevent the noise. For boards with digipots to adjust motor current, you could set the current high when printing, and low enough to hold the Z axis up when not printing, which would at least limit the noise. G-code to do this is in the format:
 
@@ -193,12 +193,12 @@ M907 X1.0 Y1.0 Z1.0 E1.5
 
 * http://smoothieware.org/supported-g-codes
 
-Apparently using a SilentStepStick Protector may help? See:
+Apparently using a SilentStepStick Protector may help. As far as I can tell, this is just the diode circuit on a through-board. See:
 
 * http://forums.reprap.org/read.php?13,666367
 * http://www.watterott.com/en/SilentStepStick-Protector
 
-Due to this sudden step in supply voltage, DRVs can cause the motors to miss steps on the jump which affects print quality. A "salmon skin" pattern is a common result. This has the same root cause as the whine above, so can be resolved with the same methods. There are some prints where this is more visible than others, this test print is probably a good place to start:
+Due to their sudden step in supply voltage, DRVs can cause the motors to miss steps on the jump which affects print quality. A "salmon skin" pattern is a common result. This has the same root cause as the whine above, so can be resolved with the same methods. There are some prints where this is more visible than others, this test print is probably a good place to start:
 
 * [DRV8825 stepper driver missing steps torture test by megablue](http://www.thingiverse.com/thing:1997411)
 
@@ -258,7 +258,7 @@ Let's calculate effective motor RPM for 3D print speeds:
 2.5 RPS * 60 seconds = 150 RPM
 ~~~
 
-So we're never getting to a speed where the torque advantage of spreadCycle becomes applicable. stealthChop is fine.
+So we're never getting to a speed where the torque advantage of spreadCycle becomes applicable. stealthChop should be fine. Still, many people say they needed spreadCycle to avoid skipped steps.
 
 However, you won't be able to print very fast with an 8-bit board. TMCs tend to skip steps at higher speed. It's been thought this was due to torque losses in stealthChop but that can't be true. In the comments of the following article, Stephan Watterott theorises this is caused by multistepping:
 
@@ -266,7 +266,7 @@ However, you won't be able to print very fast with an 8-bit board. TMCs tend to 
 
 So to print consistently with TMCs you should avoid multistepping, which means staying under about 60mm/sec with the usual setup (1.8deg motors, 20T pulley, 2mm belt, 1/16 step rate) on 8-bit Arduino. 32-bit boards do not suffer such a limitation as they have a much higher step rate. I don't believe either Smoothieware or RepRapFirmware actually even do multistepping?
 
-spreadCycle is entered by soldering two solder jumpers on the PCB, connecting CFG1 to ground. Some Chinese clone TMCs have this either mislabeled so you short out the chip and fry it, or don't have the IC's CFG1 actually exposed so you can never enter spreadCycle mode, but as above we don't need it, so that's no big deal.
+spreadCycle is entered by soldering two solder jumpers on the PCB, connecting CFG1 to ground. Some Chinese clone TMCs have this either mislabeled so you short out the chip and fry it, or don't have the IC's CFG1 actually exposed so you can never enter spreadCycle mode.
 
 TMCs get up to 50C at 0.55A and will reach their 150C thermal shutoff at 1A, so require through-board heatpads attached to the bottom of the IC, large heatsinks, and active cooling (fans). A fan blowing down onto the drivers would be fine. You could even build them into a tunnel housing with two quiet fans, one blowing air in and one blowing air out, like this:
 
@@ -279,7 +279,7 @@ TMCs get up to 50C at 0.55A and will reach their 150C thermal shutoff at 1A, so 
 '--------------------------------------------'
 ~~~
 
-Some cheap Chinese TMCs have no through-pad on the bottom, so cooling is much less effective. The white PCBs seem to be the good ones but this will probably vary per manufacturer. If they come with no solder pad or the chips are on top, do not buy.
+Some cheap Chinese TMCs have no through-pad on the bottom, so cooling is much less effective. The white FYSETC PCBs seem to be the good ones but this will probably vary per manufacturer. If they come with no solder pad or the chips are on top, do not buy.
 
 TMCs can apparently suffer the same high-pitched whine as DRVs due to the supply voltage difference. Maybe the diode circuit will fix this. More research required.
 
@@ -287,6 +287,12 @@ It's said that 1/256 microstepping results in less torque, however Tom has an ex
 
 * https://www.youtube.com/watch?v=g6Bxoqr8QlY
 * https://www.youtube.com/watch?v=mYuZqx8xwTg
+
+Comments in Marlin seem to imply there's a ~140% increase in peak current vs RMS current:
+
+~~~
+#define AUTO_ADJUST_MAX     1300  // [mA], 1300mA_rms = 1840mA_peak
+~~~
 
 Running at 1v (0.75A) probably produces reliable enough torque in most decent motors.
 
@@ -306,7 +312,7 @@ These are a TMC2100 with some extra features, summarised on the Watterott wiki:
 
 TMC2130 has an SPI configuration interface. The most notable feature is **stallGuard2** which detects motor load detection (i.e. skipped steps) and can be used for homing. Since the [Prusa MK3](http://www.prusaprinters.org/original-prusa-i3-mk3-bloody-smart/), their Marlin fork also has mid-print stall detection and recovery.
 
-TMC2208 has a UART configuration interface. The most notable feature is **stealthChop2** which adds more acceleration to the stealthChop mode. There is no TMC2208 support in Marlin, so forget those, so there is a library if you want to write it yourself:
+TMC2208 has a UART configuration interface. The most notable feature is **stealthChop2** which adds more acceleration to the stealthChop mode. There is no TMC2208 support in Marlin, so forget those, though there is a library if you want to write it yourself:
 
 * https://github.com/MarlinFirmware/Marlin/issues/6044
 * https://github.com/teemuatlut/TMC2208Stepper
