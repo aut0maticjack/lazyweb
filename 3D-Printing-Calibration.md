@@ -216,6 +216,7 @@ If you ever have a print problem, go through these guides and try the suggestion
 * http://support.3dverkstan.se/article/23-a-visual-ultimaker-troubleshooting-guide
 * https://www.simplify3d.com/support/print-quality-troubleshooting/
 * http://deltaprintr.com/troubleshooting/
+* http://builda3dprinter.eu/information/troubleshooting-guide/
 * https://all3dp.com/1/common-3d-printing-problems-troubleshooting-3d-printer-issues/
 * http://reprap.org/wiki/Print_Troubleshooting_Pictorial_Guide
 
