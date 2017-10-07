@@ -298,6 +298,31 @@ In summary, TMCs seem like an okay option IF:
 * You're willing to print slower than your board's single-step rate (say 60mm/sec with 8-bit Arduino)
 * Your motors produce enough torque at 0.75A
 
+## Trinamic TMC2130 and TMC2208
+
+These are a TMC2100 with some extra features, summarised on the Watterott wiki:
+
+* https://github.com/watterott/SilentStepStick
+
+TMC2130 has an SPI configuration interface. The most notable feature is **stallGuard2** which detects motor load detection (i.e. skipped steps) and can be used for homing. Since the [Prusa MK3](http://www.prusaprinters.org/original-prusa-i3-mk3-bloody-smart/), their Marlin fork also has mid-print stall detection and recovery.
+
+TMC2208 has a UART configuration interface. The most notable feature is **stealthChop2** which adds more acceleration to the stealthChop mode. There is no TMC2208 support in Marlin, so forget those, so there is a library if you want to write it yourself:
+
+* https://github.com/MarlinFirmware/Marlin/issues/6044
+* https://github.com/teemuatlut/TMC2208Stepper
+
+The TMC2130 support is `HAVE_TMC2130` in `Configuration_adv.h` and uses the following library, which you can add through Arduino Library Manager:
+
+* https://github.com/teemuatlut/TMC2130Stepper
+
+The author of the libraries wrote a good usage overview on Hackaday:
+
+* https://hackaday.com/2016/09/30/3d-printering-trinamic-tmc2130-stepper-motor-drivers-shifting-the-gears/
+
+This author (unfortunately) chose to use some AUX3 pins which are also used by the EXT1/EXT2 LCD header. You could redefine some pins to operate with the AUX1 or AUX2 headers. I'm unclear how this would interact with the SPI channel to the sdcard. You may have to make some ugly adapter to use both LCD sdcard SPI and TMC2130 SPI at the same time.
+
+The FYSETC clones I have seen don't appear to have proper through-board cooling, so genuine Watterott seems to be the only option here.
+
 ## Shenzhenshi Yongfukang (Heroic) HR4988
 
 * 2A constant current
@@ -310,6 +335,8 @@ Cheap Chinese steppers available on Aliexpress, $25 for a set of 5.
 This seems too good to be true and it is. They chop extremely harshly at 1/16 and cause all sorts of noisy vibrations. If your printer sounds like a dot-matrix printer, check if you have these, as many Chinese sellers substitute HRs for proper A4988 so you can inadvertently end up with a set.
 
 Avoid.
+
+People running them at 1/128 say they are quiet though.
 
 ## Sanyo LV8729
 
