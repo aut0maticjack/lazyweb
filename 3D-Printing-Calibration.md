@@ -49,6 +49,9 @@ The correct way to determine these values is to find your motor's step angle (us
 
 The formulas are given on Triffid Hunder's calibration guide, but the Prusa Calculator makes this very easy, so just use that.
 
+* http://www.prusaprinters.org/calculator/
+* http://www.reprap.org/wiki/Triffid_Hunter's_Calibration_Guide
+
 These are your "Steps Per mm" values to be entered into the firmware, eg:
 
 ~~~
@@ -60,8 +63,6 @@ These are your "Steps Per mm" values to be entered into the firmware, eg:
 
 References:
 
-* http://www.prusaprinters.org/calculator/
-* http://www.reprap.org/wiki/Triffid_Hunter's_Calibration_Guide
 * [Tom Sanladerer - 3D printing guides: Calibration and why you might be doing it wrong](https://www.youtube.com/watch?v=Mbn1ckR86Z8)
 
 ### Extruder Steps
@@ -189,6 +190,8 @@ new_flow_rate = (width_in_slicer / actual_width) * 100
 
 Finally, set your flow rate to that number and try a single print again without Z height changes. If you can get within 0.01mm I think that's good enough.
 
+Once you've found the exact number, it can still be helpful to add 1% or 2% to that number, just to fill in tiny gaps and ensure fat overlapping extrusions. Tune as needed based on your print results.
+
 * http://print.theporto.com/posts/how-to-calibrate-extrusion-thickness/
 * http://zennmaster.com/random-things/reprap-101-calibrating-your-extruder-part-2-fine-tuning
 * https://solidoodletips.wordpress.com/2012/08/16/setting-the-flow-rate/
@@ -203,9 +206,16 @@ TODO - make nicer
 
 print some torture tests
 
-futz with the settings like print speed, retraction, coast, cooling until you get good print quality
-
 * https://www.thingiverse.com/thing:2219103
+* https://www.thingiverse.com/search?q=retraction+test
+
+futz with the settings like print speed, retraction, coast, wipe, cooling until you get good print quality
+
+be careful using large retraction numbers, you risk pulling hot molten filament up past the transition zone into the coldend, where it will rapidly solidify and cause a clog. 2mm retraction is usually enough for a good filament path with PLA. stringy filaments like PETG can use more, maybe 3mm or 4mm. the maximum retraction you should use is 5mm
+
+some filament softens more than others, so if the coldend is not well cooled then the material can compress and get wider and cause a clog that way. it's not just cheap filaments which do this, even brand name stuff has different ideal temperatures.
+
+if you want to avoid the nozzle dragging across top surfaces and leaving scars, use Z hop on retraction
 
 ## Print Quality Troubleshooting
 
@@ -226,8 +236,8 @@ Every Print
 
 * Inspect axis belts/rods/rails/slots for any random plastic pieces and remove
 * Remove any debris off print bed
-* If using build surface, clean build surface by wiping with isopropyl alcohol
-* If using adhesive (glue/hairspray), ensure material is level and there's enough on there
+* If using a dry build surface, clean the surface by wiping with 99% isopropyl alcohol
+* If using adhesive (glue/hairspray), ensure adhesive is level and there's enough on there
 * Clean boogers off nozzle as the print starts
 
 Weekly or Fortnightly
@@ -236,7 +246,7 @@ Weekly or Fortnightly
 
 Monthly or when a roll of filament runs out
 
-* Check belt tension, use a sound meter on your phone to tune around 41Hz
+* Check belt tension: https://www.thingiverse.com/thing:2230598
 * Clean rods
 * Lubricate rods/screws/bearings
 * Blow dust out of fans
