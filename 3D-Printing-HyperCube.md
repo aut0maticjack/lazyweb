@@ -180,7 +180,7 @@ From most members to least:
 * For now, I have mine so that I can touch the lead screw with finger pressure on the rear of a standard frame.
 * Measuring a frequency with a [sound meter app](https://play.google.com/store/apps/details?id=org.intoorbit.spectrum) is incorrect, as different lengths produce different resonance frequencies.
 * One measurement idea for belt tension is: [Belt Tension Meter by calviniba](https://www.thingiverse.com/thing:2230598) which uses a printed part and a spring from a Pilot G-2 pen, which hopefully provides a repeatable standard across different printer designs and sizes.
-* I didn't like the idea of flipping the belts or having them ride on double flange bearings, so I used these idler holders for actual toothed/smooth idler pulleys, not the advice not to buy cheap idlers:
+* I didn't like the idea of flipping the belts or having them ride on double flange bearings, so I used these idler holders for actual toothed/smooth idler pulleys. Note the advice not to buy cheap idlers:
     * [XY Joiner for GT2 16T Timing Pulleys by PurchenZuPoden](https://www.thingiverse.com/thing:2188100)
     * [XY Idler for GT2 16T/20T Timing Pulleys by PurchenZuPoden](https://www.thingiverse.com/thing:2186358)
 * Jerry found the idlers cracked for him, so designed thicker ones and used washers to shim the bearing ID: [JeSc HyperCube XY Idler T16](https://www.thingiverse.com/thing:2366999)
