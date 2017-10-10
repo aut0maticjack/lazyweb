@@ -212,6 +212,29 @@ by JOES_PARTS](https://www.thingiverse.com/thing:2390449).
 by n9jcv](https://www.thingiverse.com/thing:2230378)
 * The X endstop doesn't hit well sometimes either, especially with larger 20T pulleys. Try: [JeSc HyperCube X-End Stop add-on by jschun](https://www.thingiverse.com/thing:2386196)
 
+### Firmware
+
+#### Marlin
+
+* Tech2C keeps the Marlin `Configuration.h` file up to date whenever he feels like it. A new version is placed on the [Thingiverse page for the printer](http://www.thingiverse.com/thing:1752766) and a note added to the description.
+* If you wish to upgrade to a later version of Marlin, then you cannot just copy in an older `Configuration.h` file, as the config options change from time to time.
+* Instead, download a new Marlin from the [Marlin releases page](https://github.com/MarlinFirmware/Marlin/releases), get Tech2C's `Configuration.h` from Thingiverse, and open the two up in a comparison tool. A downloadable tool is [Meld](http://meldmerge.org/) and an online tool is [Text-Compare](https://text-compare.com/). Scroll down the two files together, looking for changes which are relevant to the printer such as speeds, steps, thermistors, etc. Make the same changes in the new file and save it.
+* Once you have a newly-configured Marlin, open the new firmware version in the [Arduino IDE](https://www.arduino.cc/en/Main/Software) or [PlatformIO IDE](http://platformio.org/platformio-ide) and upload to your board.
+
+#### Repetier Firmware
+
+* A configuration tool is provided: https://www.repetier.com/firmware/v092/ 
+* If you are familiar with configuring Marlin from scratch, you are better to download the Master branch from the [Repetier Firmware GitHub](https://github.com/repetier/Repetier-Firmware) as the config tool strips the useful comments from the `Configuration.h` file, and some things are explained better in the comments than the web tool.
+
+#### RepRapFirmware
+
+* A configurator tool is provided: https://configurator.reprapfirmware.org/
+* Some guidance for CoreXY: http://www.reprap.org/wiki/Configuring_RepRapFirmware_for_a_CoreXY_printer
+
+#### Smoothieware
+
+* Bjorn Liatun provides a link to his MKS SBASE config file on his Thingiverse Make: https://www.thingiverse.com/make:286737
+
 ## HyperCube Evolution Remix
 
 The HyperCube Evolution by Scott3D (commonly called "Hevo") is a remix of the original design, adding a stronger 3030 outer frame, more options for X and Y rail sizes, 12mm Z rods for strength, a dual Z screw option for larger beds, and a parametric design which scales up easier.
