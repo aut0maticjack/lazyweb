@@ -202,6 +202,11 @@ Due to their sudden step in supply voltage, DRVs can cause the motors to miss st
 
 * [DRV8825 stepper driver missing steps torture test by megablue](http://www.thingiverse.com/thing:1997411)
 
+It's also been found that some have the incorrect vref attachment to the IC, so you measure supply voltage under no load, instead of the intended vref:
+
+* Thread: https://www.facebook.com/groups/1111815785498391?view=permalink&id=1694077400605557
+* Comment: https://www.facebook.com/groups/cncbuilddesign/permalink/1694077400605557/?comment_id=1696135143733116
+
 DRVs work flawlessly for some people and give constant problems for others. Given the intermittent success and still-poorly-understood nature of these problems, I find it hard to recommend DRVs for 3D printing.
 
 ## Trinamic TMC2100
