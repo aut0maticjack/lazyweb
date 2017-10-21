@@ -177,11 +177,9 @@ If the filament varies by more than 0.01mm either way (eg: the average is 1.71mm
 
 * When to Calibrate: For each filament spool, for each extrusion width, when changing nozzle
 
-In your slicer, set your extrusion width to your nozzle diameter or up to 120% of it. If you have a 0.4mm nozzle, then set to 0.4mm or 0.48mm or anywhere in between.
+In your slicer, set your extrusion width to 100% to 120% of nozzle diameter. If you have a 0.4mm nozzle, then set to 0.4mm to 0.48mm.
 
 Download or make a 30x30x20mm cube and print it with **2 walls** and no top layers. Previously I'd said printing one wall was best, but [this page](http://www.desiquintans.com/flowrate) convinced me that two walls are better.
-
-Using Cura's TweakAtZ or Simplify3D multiple processes or Slic3r Conditional gcode, change the flow rate so the bottom 4mm print at 110%, the next 4mm above that print at 105%, the next 4mm above that at 95%, and so on. You can stretch the cube in the Z direction if you wish to use smaller steps (like 2.5%) or test more flow rates.
 
 Once this is printed, use your measuring calipers to measure the actual double-wall width at each height when the flow rate changed. It likely won't be exactly the width you specified, so calculate an extrusion flow rate similar to calculating extrusion steps:
 
@@ -189,15 +187,24 @@ Once this is printed, use your measuring calipers to measure the actual double-w
 new_flow_rate = (extrusion_width_in_slicer*2 / actual_width) * 100
 ~~~
 
+For example:
+
+~~~
+extrusion width in slicer = 0.48mm
+actual width of two walls = 1.04mm
+
+new flow rate = ( (0.48 * 2) / 1.04 ) * 100 = 92%
+~~~
+
 Finally, set your flow rate to that number and try a single print again without Z height changes. If you can get within 0.01mm I think that's good enough.
 
-Once you've found the exact number, it can still be helpful to add 1% or 2% to that number, just to fill in tiny gaps and ensure fat overlapping extrusions. Tune as needed based on your print results.
+Once you've found the exact number, it can still be helpful to add 1% or 2% to that number, just to fill in tiny gaps and ensure fat overlapping extrusions. There are probably situations where it's better to remove 1% or 2%. Tune as needed based on your print results.
 
 * http://www.desiquintans.com/flowrate
 * https://www.youtube.com/watch?v=7ls3B97IHyg
-* http://print.theporto.com/posts/how-to-calibrate-extrusion-thickness/
-* http://zennmaster.com/random-things/reprap-101-calibrating-your-extruder-part-2-fine-tuning
-* https://solidoodletips.wordpress.com/2012/08/16/setting-the-flow-rate/
+* OLD: http://print.theporto.com/posts/how-to-calibrate-extrusion-thickness/
+* OLD: http://zennmaster.com/random-things/reprap-101-calibrating-your-extruder-part-2-fine-tuning
+* OLD: https://solidoodletips.wordpress.com/2012/08/16/setting-the-flow-rate/
 
 ## Stringing, Bridging, Retraction
 
