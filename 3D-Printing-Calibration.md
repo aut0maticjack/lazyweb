@@ -14,7 +14,7 @@
 
 Power off your printer, unplug the motors, turn on the printer, and tune the drivers.
 
-When finished, power off the printer, plug the motors back in, and turn on the printer.
+When you're finished, power off the printer, plug the motors back in, and turn on the printer.
 
 Look up the formula for your stepper drivers. Some common ones:
 
@@ -115,9 +115,9 @@ work up from there
 
 accel 1500 is very good. jerk should be 10% of print speed or less
 
-different materials require different print speeds, so tune speed with PLA (or whatever you print with most often)and just tell the slicer to print slower for other materials as required
+different materials require different print speeds, so tune speed with PLA (or whatever you print with most often) and just tell the slicer to print slower for other materials as required
 
-* https://www.thingiverse.com/thing:277394
+* [Vibration ripple shadow ghosting test by orcinus](https://www.thingiverse.com/thing:277394)
 * [Tom Sanladerer - 3D printing guides - Tuning speeds](https://www.youtube.com/watch?v=7HsIZuj9vOs)
 * [Tech2C - This is Y](https://www.youtube.com/watch?v=AKTvykTPjQw)
 
@@ -133,9 +133,10 @@ Do PID Autotune of your nozzle and bed from cold. Tune under regular running con
 
 Different firmware uses different IDs for nozzle and bed:
 
-* Marlin: `E0` and `E-1`
-* Repetier: `P0` and `P3`
-* Smoothieware: `E0` and `E1`
+* Marlin: `E0` (hotend) and `E-1` (bed)
+* Repetier: `P0` (hotend) and `P3` (bed)
+* RepRapFirmware: `H1` (hotend) and `H0` (bed)
+* Smoothieware: `E0` (hotend) and `E1` (bed)
 
 References:
 
@@ -151,7 +152,7 @@ TODO - make nicer
 
 print a temperature tower, find one on Thingiverse
 
-change temperature as you print it, corresponding with the designs on the tower. in Cura use the TweakAtZ plugin in Postprocessing. in S3D use multiple processes covering a height range and change the temperature in each process. slic3r cannot do this directly, so you need to edit the gcode or babysit the print and tweak the temperature manually via LCD or host program
+change temperature as you print it, corresponding with the designs on the tower. in Cura use the TweakAtZ plugin in Postprocessing. in S3D use multiple processes covering a height range and change the temperature in each process. in Slic3r write some [conditional gcode](https://github.com/alexrj/Slic3r-Manual/blob/master/src/advanced/conditional-gcode.md) or use a [postprocessing script](https://www.thingiverse.com/thing:1579403)
 
 once you have it printed, pick which temperature looks best or gives the strongest layer adhesion or the best detail or the best bridging or whatever aspect you care about
 
@@ -178,20 +179,22 @@ If the filament varies by more than 0.01mm either way (eg: the average is 1.71mm
 
 In your slicer, set your extrusion width to your nozzle diameter or up to 120% of it. If you have a 0.4mm nozzle, then set to 0.4mm or 0.48mm or anywhere in between.
 
-Download or make a 20mm cube and print it with 1 wall and no top layers.
+Download or make a 30x30x20mm cube and print it with **2 walls** and no top layers. Previously I'd said printing one wall was best, but [this page](http://www.desiquintans.com/flowrate) convinced me that two walls are better.
 
-Using Cura's TweakAtZ or Simplify3D multiple processes, change the flow rate so the bottom 4mm print at 110%, the next 4mm above that print at 105%, the next 4mm above that at 95%, and so on. You can stretch the cube in the Z direction if you wish to use smaller steps (like 2.5%) or test more flow rates.
+Using Cura's TweakAtZ or Simplify3D multiple processes or Slic3r Conditional gcode, change the flow rate so the bottom 4mm print at 110%, the next 4mm above that print at 105%, the next 4mm above that at 95%, and so on. You can stretch the cube in the Z direction if you wish to use smaller steps (like 2.5%) or test more flow rates.
 
-Once this is printed, use your measuring calipers to measure the actual extrusion width at each height when the flow rate changed. It likely won't be exactly the width you specified, so calculate an extrusion flow rate similar to calculating extrusion steps:
+Once this is printed, use your measuring calipers to measure the actual double-wall width at each height when the flow rate changed. It likely won't be exactly the width you specified, so calculate an extrusion flow rate similar to calculating extrusion steps:
 
 ~~~
-new_flow_rate = (width_in_slicer / actual_width) * 100
+new_flow_rate = (extrusion_width_in_slicer*2 / actual_width) * 100
 ~~~
 
 Finally, set your flow rate to that number and try a single print again without Z height changes. If you can get within 0.01mm I think that's good enough.
 
 Once you've found the exact number, it can still be helpful to add 1% or 2% to that number, just to fill in tiny gaps and ensure fat overlapping extrusions. Tune as needed based on your print results.
 
+* http://www.desiquintans.com/flowrate
+* https://www.youtube.com/watch?v=7ls3B97IHyg
 * http://print.theporto.com/posts/how-to-calibrate-extrusion-thickness/
 * http://zennmaster.com/random-things/reprap-101-calibrating-your-extruder-part-2-fine-tuning
 * https://solidoodletips.wordpress.com/2012/08/16/setting-the-flow-rate/
@@ -206,8 +209,9 @@ TODO - make nicer
 
 print some torture tests
 
-* https://www.thingiverse.com/thing:2219103
+* [Ultrafast and economical stringing test by s3sebastian](https://www.thingiverse.com/thing:2219103)
 * https://www.thingiverse.com/search?q=retraction+test
+* https://www.thingiverse.com/superjamie/collections/3dp-test-calib-torture
 
 futz with the settings like print speed, retraction, coast, wipe, cooling until you get good print quality
 
