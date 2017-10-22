@@ -42,6 +42,25 @@ I am by no means a mechanical engineer and have only an armchair understanding o
 
 * Elongation: how much a stress curve rises, less means crack, more means deform out of shape
 
+## Coefficient of Friction
+
+I don't really understand this well, and there are a lot of different results from different source, but anyway, I hope this is a good table of Dynamic Coefficient of Friction vs steel:
+
+| Material        | Value |
+|-----------------|-------|
+| PTFE (Teflon)   | 0.04 to 0.05 |
+| Sintered Bronze | 0.12 |
+| Bronze          | 0.16
+| Brass           | 0.19 |
+| POM             | 0.2 |
+| PET-P           | 0.2 |
+| PET-G           | 0.22 |
+| PET             | 0.25 |
+| Nylon 6,6       | 0.26 |
+| ABS             | 0.35 |
+| PLA             | 0.38 to 0.45 |
+| PC              | 0.38 to 0.5  |
+
 ## References
 
 * https://www.makeitfrom.com/explore/material-properties-definitions
@@ -56,3 +75,8 @@ I am by no means a mechanical engineer and have only an armchair understanding o
 * N66 - http://www.matweb.com/search/DataSheet.aspx?MatGUID=a2e79a3451984d58a8a442c37a226107
 * Wikipedia and general Google searches
 * http://www.eastman.com/Pages/ProductHome.aspx?product=71100831
+* http://www.plasticsintl.com/sortable_materials.php
+* http://precisionpunch.com/plastic-materials-index/
+* http://www.plasticsintl.com/sortable_materials.php
+* https://www.curbellplastics.com/Research-Solutions/Plastic-Properties
+* https://www.kpfilms.com/en/News/_Documents/Comparative_Analysis_of_Polymer_Roll-fed_Shrink-label_Substrates.pdf.
