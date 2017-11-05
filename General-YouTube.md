@@ -25,12 +25,14 @@
 
 * [AutoMoments](https://www.youtube.com/user/TheCarMeat) - American car history
 * [Bad Obsession Motorsport](https://www.youtube.com/user/badobsessionmsport) - Project Binky
+* [Bare Metal HW](https://www.youtube.com/user/baremetalHW) - hot wheels
 * [Dogged Fabrication](https://www.youtube.com/channel/UCrK2_gqI4knOij31p_iandQ) - Project Twin VNT
 * [EngineeringExplained](https://www.youtube.com/user/EngineeringExplained) - Jason Fenske
-* [Fifth Gear](https://www.youtube.com/user/fifthgearuk)
+* [Fifth Gear](https://www.youtube.com/user/fifthgearuk) - British show
 * [Mighty Car Mods](https://www.youtube.com/user/mightycarmods) - Marty and Moog
 * [MotorTrend](https://www.youtube.com/user/MotorTrend) - Hot Rod Garage, Roadkill, etc
-* [Tom's Turbo Garage](https://www.youtube.com/user/turbomiragedude)
+* [Tim's Enthusiast Garage](https://www.youtube.com/channel/UCSHC8vHIPzE5EaYjHgx1Tmw) - Tim Neely
+* [Tom's Turbo Garage](https://www.youtube.com/user/turbomiragedude) - Tom Tharp
 
 ### Computing and Electronics
 
@@ -70,7 +72,7 @@
 * [Kinsey Burke](https://www.youtube.com/channel/UCSMJHi4vvNu-mETdZokpj8A) - Kinszilla
 * [Lazy Game Reviews](https://www.youtube.com/user/phreakindee) - Clint Basinger
 * [Metal Jesus](https://www.youtube.com/user/MetalJesusRocks) - Jason Lindsey
-* [SNES drunk](https://www.youtube.com/user/1SNESdrunk)
+* [SNES drunk](https://www.youtube.com/user/1SNESdrunk) - SNES
 * [wermy](https://www.youtube.com/channel/UCRP1Zx7B4b66ZwkB2Ov5pMw) - sudomod Game Boy Zero and MintyPi
 * [Yzzyxz](https://www.youtube.com/user/Yzzyxz) - Classic adventure game playthroughs, no commentary
 
