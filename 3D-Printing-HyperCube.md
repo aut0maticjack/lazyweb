@@ -216,6 +216,9 @@ by n9jcv](https://www.thingiverse.com/thing:2230378)
 
 #### Marlin
 
+* Tech2C's Marlin configuration does not come with an LCD enabled by default. If you just plug in your LCD, it will power on but nothing will appear on it. You need to uncomment one of the LCDs in `Configuration.h` and re-send the firmware to the board. The two most common LCD types are:
+    * `#define REPRAP_DISCOUNT_SMART_CONTROLLER` - 20x4 character display "2004" (like Tech2C uses)
+    * `#define REPRAP_DISCOUNT_FULL_GRAPHIC_SMART_CONTROLLER` - 128x64 pixel graphical display "12864" or "GLCD"
 * Tech2C keeps the Marlin `Configuration.h` file up to date whenever he feels like it. A new version is placed on the [Thingiverse page for the printer](http://www.thingiverse.com/thing:1752766) and a note added to the description.
 * If you wish to upgrade to a later version of Marlin, then you cannot just copy in an older `Configuration.h` file, as the config options change from time to time.
 * Instead, download a new Marlin from the [Marlin releases page](https://github.com/MarlinFirmware/Marlin/releases), get Tech2C's `Configuration.h` from Thingiverse, and open the two up in a comparison tool. A downloadable tool is [Meld](http://meldmerge.org/) and an online tool is [Text-Compare](https://text-compare.com/). Scroll down the two files together, looking for changes which are relevant to the printer such as speeds, steps, thermistors, etc. Make the same changes in the new file and save it.
