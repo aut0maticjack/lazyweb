@@ -10,6 +10,7 @@ This is a wiki of useful advice I commonly give or have seen on places like Stac
 
 ## 3D Printing
 
+* [Bearing Sizes](3D-Printing-Bearing-Sizes)
 * [Calibration](3D-Printing-Calibration)
 * [Control Boards and Firmware](3D-Printing-Control-Boards-and-Firmware)
 * [Delta Calibration](3D-Printing-Delta-Calibration)
