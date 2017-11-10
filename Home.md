@@ -24,6 +24,7 @@ This is a wiki of useful advice I commonly give or have seen on places like Stac
 * [Hotend](3D-Printing-Hotend)
 * [HyperCube](3D-Printing-HyperCube)
 * [Linear Bearings](3D-Printing-Linear-Bearings)
+* [Part Strength](3D-Printing-Part-Strength)
 * [Power Supplies](3D-Printing-Power-Supplies)
 * [Radial Bearings](3D-Printing-Radial-Bearings)
 * [Research](3D-Printing-Research)
