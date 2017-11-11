@@ -162,6 +162,18 @@ From most members to least:
 * Internal corner brackets which are joined together is also a good idea, such as: [Corner Bracket 3 Way for 2020 aluminum extrusion by LuisCRSousa](https://www.thingiverse.com/thing:1416715)
 * If your motors flex and cause the belt to rub on the pulley when tightened, use this to set the motor straight again: [Hypercube Motor Angle Adjustment by Bakak](https://www.thingiverse.com/thing:2036245)
 
+### Vibration
+
+* On the XYZ motors, you can use Astrosyn dampers or cork dampers to reduce motor noise and vibration
+* For the frame, there are various methods. The best I have found is anti-vibration mat for washing machines and refrigerators, easy to find on eBay and Amazon
+* CNC Kitchen found using a heavy paver stone was good: https://www.youtube.com/watch?v=OnfYA5QLA84
+* I have these [fabric floor protector anti-vibration feet](https://www.thingiverse.com/thing:2578039)
+* henryarnold has these [sports ball anti-vibration feet](https://www.thingiverse.com/thing:2051083)
+* GofX has these [spring-based anti-vibration feet](https://www.thingiverse.com/thing:1997775)
+* There are [printable vibration dampers](https://www.thingiverse.com/thing:2192613), Artur has found this design was good, but CNC Kitchen found they make things worse
+* I tried these [Tic rubber feet](https://www.bunnings.com.au/tic-22mm-white-rubber-screw-on-bumper-4-pack_p4050036) which Tech2C used for a time, but found they were too hard
+* Some people on the internet put a heavy weight like a dumbell on each corner of the frame. Just don't move the bed down onto them!
+
 ### Y Axis
 
 * 10mm rods can be used for the Y axis. The Y does not move so weight doesn't matter, any of steel or aluminium tube or carbon fiber rod/tube can be used, though larger builds may benefit from CF to prevent rod deflection due to larger steel rod weight.
