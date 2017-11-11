@@ -71,6 +71,13 @@ Pro tip: Get slip-on alligator clips for your multimeter. Clamp ground to a 12V 
     * All other sizes NEMA8 thru NEMA34
     * Pay attention, they sell a lot of motors with low current but high voltage (10V) demands
 
+Or China lol
+
+* 42HD4027-01 - 40Ncm 1.5A 3.8mH 40mm - [$16.65 ea](https://www.aliexpress.com/item/High-Quality-Nema17-Stepper-Motor-400mN-m-Min-42HD4027-1-5A-1-8degree-3D-printer-motor/32807398931.html)
+* 42SHD0217-24B - 50Ncm 1.5A 5mH 40mm - [$60 set with extra 48mm motor motor](https://www.aliexpress.com/item/5pcs-3D-Printer-Nema-17-Stepper-Motors-42SHD0404-1-7A-Motor-4pcs-42SHD0217-1-5A-CNC/32824764988.html)
+* 17HS8402 - 52Ncm 1.3A 3.2mH 48mm - [$15.72 ea](https://www.aliexpress.com/item/Free-shipping-1pcs-Nema17-Stepper-Motor-48mm-1-3a-52N-cm-Nema-17-motor-42BYGH-1/32803563953.html)
+* 17HS4401 - 40Ncm 1.7A 2.8mH 40mm - [$8.888 ea (5x $44.40)](https://www.aliexpress.com/item/5pcs-4-lead-Nema17-Stepper-Motor-42-motor-Nema-17-motor-42BYGH-40MM-1-7A-17HS4401/32376023464.html) or [9.27 ea](https://www.aliexpress.com/item/CE-certification-1pcs-4-lead-Nema17-Stepper-Motor-42-motor-Nema-17-motor-42BYGH-1-7A/32377416566.html)
+
 ## Motors I Own
 
 TEVO Tarantula ships with TEVO-branded `17HD40005-C5.18`.
