@@ -173,13 +173,14 @@ From most members to least:
 ### Belts
 
 * Belts can be more easily tensioned with [Hypercube easy Belt tensioner by bagwan](https://www.thingiverse.com/thing:2092237)
-* The belts need to be evenly tensioned. If the frame is square and the X gantry evenly contacts the frame without belts, but does not evenly contact with belts, then the belts are not evenly tensioned.
+* The belts need to be evenly tensioned.
+* If the frame is square and the X gantry evenly contacts the frame without belts, but does not evenly contact with belts, then the belts are not evenly tensioned.
+* If moving in the X direction also moves slightly in the Y direction, or vice versa, then belts may be unevenly tensioned.
 * If you move the Y carriages back and forth by hand, and the X carriage moves side to side, then the belts are not evenly tensioned.
 * Tying the X gantry to the rear of the frame with cable ties and then tightening the belts has solved this for several people.
 * How much to tension the belts is a topic of discussion. Some people have them very tight though that can kill idlers. Some people have their belts so loose they're essentially just sitting on the pulleys.
-* For now, I have mine so that I can touch the lead screw with finger pressure on the rear of a standard frame.
 * Measuring a frequency with a [sound meter app](https://play.google.com/store/apps/details?id=org.intoorbit.spectrum) is incorrect, as different lengths produce different resonance frequencies.
-* One measurement idea for belt tension is: [Belt Tension Meter by calviniba](https://www.thingiverse.com/thing:2230598) which uses a printed part and a spring from a Pilot G-2 pen, which hopefully provides a repeatable standard across different printer designs and sizes.
+* One measurement idea for belt tension is: [Belt Tension Meter by calviniba](https://www.thingiverse.com/thing:2230598) which uses a printed part and a spring from a Pilot G-2 pen. I have my belt 5.5 marks in from the long side.
 * I didn't like the idea of flipping the belts or having them ride on double flange bearings, so I used these idler holders for actual toothed/smooth idler pulleys. Note the advice not to buy cheap idlers:
     * [XY Joiner for GT2 16T Timing Pulleys by PurchenZuPoden](https://www.thingiverse.com/thing:2188100)
     * [XY Idler for GT2 16T/20T Timing Pulleys by PurchenZuPoden](https://www.thingiverse.com/thing:2186358)
