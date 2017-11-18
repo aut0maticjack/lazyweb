@@ -1,4 +1,8 @@
 ~~~sh
+# mate-calc - the best calculator
+# Not actually a PPA, just get mate-calc-common and mate-calc from the Linux Mint repos
+# http://packages.linuxmint.com/
+
 # webupd8 - Lots of different packages
 # https://launchpad.net/~nilarimogard/+archive/ubuntu/webupd8?field.series_filter=xenial
 sudo apt-add-repository ppa:nilarimogard/webupd8
@@ -73,4 +77,9 @@ sudo add-apt-repository ppa:inkscape.dev/stable
 wget -q -O - https://apt.mopidy.com/mopidy.gpg | sudo apt-key add -
 sudo wget -q -O /etc/apt/sources.list.d/mopidy.list https://apt.mopidy.com/jessie.list
 # sudo apt install mopidy mopidy-youtube
+
+# Google - Chrome and other even internet overlordship
+# https://www.google.com/linuxrepositories/
+wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+# sudo apt install google-chrome-stable
 ~~~
