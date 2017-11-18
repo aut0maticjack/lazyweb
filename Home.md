@@ -82,6 +82,7 @@ The [RetroPie Wiki](https://github.com/RetroPie/RetroPie-Setup/wiki) details alm
     * http://serverfault.com/questions/731508/how-to-implement-lacp-cross-switches
 * Network Performance Tuning [talk](https://www.youtube.com/watch?v=ZYCKSN4xf84) (and [notes](http://jbainbri.github.io/lca2016.html)) that I gave at LCA2016
 * [Real Time](Linux-Real-Time)
+* [Ubuntu PPAs](Linux-Ubuntu-PPAs)
 
 StackExchange:
 
