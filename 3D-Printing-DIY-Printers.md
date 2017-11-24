@@ -19,7 +19,7 @@ Some favorites in a table:
 | **FB2020** | CoreXY | 200x200x170 | 8mm rod | 8mm rod | 12mm rod | 1x screw | Bowden
 | **Funbot 8mm** | Cantilever | 165x170x120 | 8mm rod | 8mm rod | 8mm rod | 1x screw | Direct
 | **HyperCube** | CoreXY | 200x200x155 | 10mm rod | 8mm rod | 8mm rod | 1x screw | Bowden
-| **Sculptr** | Delta | 150Dx240 | Printed rod | Printed rod | 8mm rod | GT2 belt | Bowden
+| **Sculptr** | Delta | 150Dx240 | 8mm rod | 8mm rod | 8mm rod | GT2 belt | Bowden
 | **VSlot-CoreXY** | CoreXY | 210x195x240 | V-wheel | V-wheel | 12mm rod | 1x screw | Bowden
 | **Wilson II** | Cartesian | 200x300x200 | 10mm rod | 10mm rod | 10mm rod | 2x screw | Direct
 
@@ -81,12 +81,14 @@ Some favorites in a table:
 ## Ultimaker
 
 * [Eustathios](https://www.youmagine.com/designs/eustathios) - [GitHub](https://github.com/jasonsmit4/Eustathios)
-    * [Eustathios Spider v2](https://www.youmagine.com/designs/eustathios-spider-v2) 9 [GitHub](https://github.com/eclsnowman/Eustathios-Spider-V2)
+    * [Eustathios Spider v2](https://www.youmagine.com/designs/eustathios-spider-v2) - [GitHub](https://github.com/eclsnowman/Eustathios-Spider-V2)
     * [HercuLien](https://github.com/eclsnowman/HercuLien)
     * [Ingentis](https://www.youmagine.com/designs/ingentis-a-tantillus-variant)
         * [Tantillus](http://reprap.org/wiki/Tantillus)
             * [tantilot](https://www.youmagine.com/designs/tantilot--2)
 * [LeopardQR](https://www.thingiverse.com/thing:2423066)
+* [Troublemaker](https://www.thingiverse.com/thing:263814)
+    * [Troublemaker v2](https://www.thingiverse.com/thing:1433980)
 * [Ultimaker 2 Aluminium Extrusion](http://www.thingiverse.com/thing:811271)
     * [obo XL](http://www.thingiverse.com/thing:1233159) 
 
@@ -96,9 +98,10 @@ Some favorites in a table:
     * [Cherry Pi II](https://www.thingiverse.com/thing:298168)
         * [Cherry Pi III](https://www.thingiverse.com/thing:344408)
 * [Delta Pi](https://www.thingiverse.com/thing:53708)
+    * [damfle's delta](https://www.thingiverse.com/thing:817256)
 * [**Griffin**](https://www.thingiverse.com/thing:259238)
 * [Kossel](http://reprap.org/wiki/Kossel)
-* [Mini Kossel V-Slot](https://www.thingiverse.com/thing:318745) - [BOM](http://www.tridprinting.com/BOM/Kossel-Mini/)
+    * [**Mini Kossel V-Slot**](https://www.thingiverse.com/thing:318745)
 * [Neutron](https://www.thingiverse.com/thing:2149660) (looked into it, seems half finished)
 * [Phineas 3DP](https://www.thingiverse.com/thing:1252945)
     * [Phineas 3DP Magnet Ball Joint](https://www.thingiverse.com/thing:1416635)
@@ -108,6 +111,7 @@ Some favorites in a table:
         * [Rostock Mini Pro](https://www.thingiverse.com/thing:318971)
             * [Rostock Mini Pro 2](https://www.thingiverse.com/thing:1660599)
 * [**Sculptr Delta MK1**](https://www.thingiverse.com/thing:1444028)
+    * [XXS Delta](https://www.thingiverse.com/thing:2508671)
 
 ### Delta Build/Calibration Resources
 
