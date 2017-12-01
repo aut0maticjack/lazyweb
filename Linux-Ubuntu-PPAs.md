@@ -1,8 +1,8 @@
-~~~sh
-# mate-calc - the best calculator
-# Not actually a PPA, just get mate-calc-common and mate-calc from the Linux Mint repos
-# http://packages.linuxmint.com/
+This grew into PPAs, repos, and packages, but whatever
 
+## PPAs
+
+~~~sh
 # webupd8 - Lots of different packages
 # https://launchpad.net/~nilarimogard/+archive/ubuntu/webupd8?field.series_filter=xenial
 sudo apt-add-repository ppa:nilarimogard/webupd8
@@ -22,13 +22,6 @@ sudo apt-add-repository ppa:freecad-maintainers/freecad-stable
 # https://launchpad.net/~fengestad/+archive/ubuntu/stable?field.series_filter=xenial
 sudo apt-add-repository ppa:fengestad/stable
 # sudo apt install fs-uae fs-uae-arcade fs-uae-launcher
-
-# WINE - Windows API compatibility layer
-# https://www.winehq.org/pipermail/wine-devel/2017-March/117104.html
-wget https://dl.winehq.org/wine-builds/Release.key
-sudo apt-key add Release.key
-sudo apt-add-repository 'https://dl.winehq.org/wine-builds/ubuntu/'
-# no idea what to install
 
 # Wireshark - packet capture analysis tool
 # https://launchpad.net/~wireshark-dev/+archive/ubuntu/stable?field.series_filter=xenial
@@ -82,4 +75,32 @@ sudo wget -q -O /etc/apt/sources.list.d/mopidy.list https://apt.mopidy.com/jessi
 # https://www.google.com/linuxrepositories/
 wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
 # sudo apt install google-chrome-stable
+~~~
+
+## Repositories
+
+~~~sh
+# OpenVPN - VPN client/server
+# https://community.openvpn.net/openvpn/wiki/OpenvpnSoftwareRepos
+sudo -s
+wget -O - https://swupdate.openvpn.net/repos/repo-public.gpg|apt-key add -
+echo "deb http://build.openvpn.net/debian/openvpn/stable xenial main" > /etc/apt/sources.list.d/openvpn-aptrepo.list
+sudo apt install openvpn
+
+# WINE - Windows API compatibility layer
+# https://www.winehq.org/pipermail/wine-devel/2017-March/117104.html
+wget https://dl.winehq.org/wine-builds/Release.key
+sudo apt-key add Release.key
+sudo apt-add-repository 'https://dl.winehq.org/wine-builds/ubuntu/'
+# no idea what to install
+~~~
+
+## Packages
+
+~~~sh
+# mate-calc - the best calculator
+# Not actually a PPA, just get mate-calc-common and mate-calc from the Linux Mint repos
+# http://packages.linuxmint.com/
+wget http://packages.linuxmint.com/pool/backport/m/mate-calc/mate-calc_1.18.1-1+sonya_amd64.deb
+wget http://packages.linuxmint.com/pool/backport/m/mate-calc/mate-calc-common_1.18.1-1+sonya_all.deb
 ~~~
