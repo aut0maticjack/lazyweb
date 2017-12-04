@@ -86,23 +86,25 @@ The [TEVO Black Widow Community Guide](http://bit.ly/2k1dBoZ) says:
 
 > TEVO has officially confirmed that these are an OEM version of the previously shipped `Busheng 17HD40005-22B`.
 
-| Manufacturer | Part No       | Step Angle | Holding Torque | Current | Voltage | Weight
-|---           |---            |---         |---             |---      |---      |---
-| Busheng      | 17HD40005-22B | 1.8°       | 36Ncm          | 1.3A    | 2V      | 280g
-
-* <http://www.haoyuelectronics.com/Attachment/17HD40005-22B/>
-* <http://www.hotmcu.com/reprap-40mm-stepper-motor-p-214.html>
-
-Aus3D sells Casun `42SHD0217-24B`.
+Aus3D sells Casun `42SHD0217-24B`, and I got some off Aliexpress in a pack as well with a longer motor.
 
 The Casun website says 45Ncm but is unclear on other details. The datasheet on Aus3D says 50Ncm.
 
-| Manufacturer | Part No       | Step Angle | Holding Torque | Current | Voltage | Weight
-|---           |---            |---         |---             |---      |---      |---
-| Casun        | 42SHD0217-24B | 1.8°       | 50Ncm          | 1.5A    | 3.75V   | 240g
+Internet pictures I can find say these:
 
+| Manufacturer | Part No       | Step Angle | Holding Torque | Current | Voltage | Inductance | Length | Weight
+|---           |---            |---         |---             |---      |---      |---         |---     |---
+| Busheng      | 17HD40005-22B | 1.8°       | 36Ncm          | 1.3A    | 2V      | 3.2mH      | 40mm   | 294g
+| Casun        | 42SHD0217-24B | 1.8°       | 50Ncm          | 1.5A    | 3.75V   | 5.0mH      | 40mm   | 284g
+| Casun        | 42SHD0404-22  | 1.8°       | 52Ncm          | 1.7A    | 3.4V    | 3.8mH      | 48mm   | 331g
+
+* http://www.haoyuelectronics.com/Attachment/17HD40005-22B/
+* http://www.hotmcu.com/reprap-40mm-stepper-motor-p-214.html
 * http://www.casunmotor.com/nema-17-stepper-motor
 * http://aus3d.com.au/image/cache/catalog/products/stepper/40mmdatasheet-800x800.jpg
+* http://reprap.org/wiki/NEMA_17_Stepper_motor
+* http://g04.s.alicdn.com/kf/HTB1PpNjHFXXXXbQXXXXq6xXFXXXI/202171482/HTB1PpNjHFXXXXbQXXXXq6xXFXXXI.jpg
+* http://g01.s.alicdn.com/kf/HTB12205FpXXXXbxbFXXq6xXFXXXp/220578812/HTB12205FpXXXXbxbFXXq6xXFXXXp.jpg
 
 # Stepper Motor Drivers
 
