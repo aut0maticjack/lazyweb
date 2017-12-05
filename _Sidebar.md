@@ -1,5 +1,3 @@
-## Index
-
 ### [Home](https://github.com/superjamie/lazyweb/wiki)
 
 ## About
