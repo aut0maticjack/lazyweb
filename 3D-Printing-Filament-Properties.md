@@ -1,8 +1,8 @@
 | Property                        | PLA     | PETG   | ABS    | | PC     | Nylon 6,6 | AM1800 | PETT |
 |---------------------------------|---------|--------|--------|-|--------|-----------|--------|------|
-| Glass Transition (degrees C)    | 60      | 80     | 100    | | 150    | 50        | 70     | 68.2 |
-| Melt Temperature (degrees C)    | 160     | 140    | 230    | | 230    | 260       | ?      | 212  |
-| Density (g per cm cubed)        | 1.30    | 1.29   | 1.10   | | 1.20   | 1.1       | 1.27   | 1.13 |
+| Glass Transition (degrees C)    | 60      | 80     | 100    | | 150    | 70        | 70     | 68.2 |
+| Melt Temperature (degrees C)    | 160     | 140    | 230    | | 230    | 255       | ?      | 212  |
+| Density (g per cm cubed)        | 1.30    | 1.29   | 1.10   | | 1.20   | 1.07       | 1.27   | 1.13 |
 | Elastic Modulus (GPa)           | **3.5** | 2.2    | 2.0    | | 2.3    | 3.3       | 1.9    | ?    |
 | Tensile Strength (MPa)          | 50      | **53** | 41     | | 62     | 86        | 50     | 71   |
 | Tensile/Density Ratio (kn-m/kg) | 40      | **42** | 38     | | 55     | 75        | ?      | ?    |
@@ -84,3 +84,4 @@ I don't really understand this well, and there are a lot of different results fr
 * https://www.curbellplastics.com/Research-Solutions/Plastic-Properties
 * https://www.kpfilms.com/en/News/_Documents/Comparative_Analysis_of_Polymer_Roll-fed_Shrink-label_Substrates.pdf.
 * http://formersfarm.cafe24.com/product/t-glase-%ED%8E%98%ED%8A%B8/119/
+* http://www.polymerprocessing.com/polymers/PA66.html
