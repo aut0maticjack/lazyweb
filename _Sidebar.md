@@ -9,3 +9,7 @@ This is a wiki of useful advice I commonly give or have seen on places like Stac
 ## License
 
 Unless otherwise noted per-page, all information here is provided under [Creative Commons - Attribution - Share Alike](https://creativecommons.org/licenses/by-sa/4.0/). Anyone is more than welcome to steal this stuff, but you must give credit and you must provide others the same rights.
+
+## Money
+
+If you wish to give a financial thanks for any advice I've given you for free on the internet, don't buy me Reddit Gold or Thingiverse Tips, please instead make a donation to [Abandoned Pet Project](http://abandonedpetproject.org/donate) or an animal rescue charity in your area.
