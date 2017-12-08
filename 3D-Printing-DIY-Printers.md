@@ -19,7 +19,6 @@ Some favorites in a table:
 | **FB2020** | CoreXY | 200x200x170 | 8mm rod | 8mm rod | 12mm rod | 1x screw | Bowden
 | **Funbot 8mm** | Cantilever | 165x170x120 | 8mm rod | 8mm rod | 8mm rod | 1x screw | Direct
 | **HyperCube** | CoreXY | 200x200x155 | 10mm rod | 8mm rod | 8mm rod | 1x screw | Bowden
-| **Sculptr** | Delta | 150Dx240 | 8mm rod | 8mm rod | 8mm rod | GT2 belt | Bowden
 | **VSlot-CoreXY** | CoreXY | 210x195x240 | V-wheel | V-wheel | 12mm rod | 1x screw | Bowden
 | **Wilson II** | Cartesian | 200x300x200 | 10mm rod | 10mm rod | 10mm rod | 2x screw | Direct
 
@@ -54,6 +53,9 @@ Some favorites in a table:
 
 ## CoreXY
 
+* [AluXY](https://github.com/zelogik/AluXY) - [RepRap Forums](http://forums.reprap.org/read.php?397,297740)
+    * [RepRapXY](https://github.com/jand1122/RepRap-XY)
+        * [**VSlot-CoreXY**](https://github.com/sdavi/VSlot-CoreXY)
 * [C-Bot](http://www.openbuilds.com/builds/c-bot.1146/)
     * [**D-Bot**](http://www.thingiverse.com/thing:1001065) - [OpenBuilds](http://openbuilds.org/builds/d-bot-corexy-printer.3865/)
 * [Core-XY Cube](http://openbuilds.org/builds/core-xy-cube.3536/)
@@ -61,13 +63,11 @@ Some favorites in a table:
     * [FuseBox CoreXY 2020](http://www.thingiverse.com/thing:1247760)
     * [FuseBox 1.3 2020](http://www.thingiverse.com/thing:1247161)
         * [**FB2020 CoreXY**](http://www.thingiverse.com/thing:1313587) - [GitHub](https://github.com/AxMod3DPrint/FB2020)
-* [**HyperCube**](http://www.thingiverse.com/thing:1752766)
+* [**HyperCube**](http://www.thingiverse.com/thing:1752766) (built, it's great)
+* [**KISS**](https://www.thingiverse.com/thing:2491053)
 * [LeXY](https://www.thingiverse.com/thing:1091671)
 * [Mein Kleiner Core (MKC)](http://www.3d-druck-community.de/thread-1560.html) - [Upgrades](http://www.3d-druck-community.de/thread-9609.html)
     * [MKC MK2 - Discussion](http://www.3d-druck-community.de/thread-13608.html) - [Download](http://www.3d-druck-community.de/thread-13756.html)
-* [AluXY](https://github.com/zelogik/AluXY) - [RepRap Forums](http://forums.reprap.org/read.php?397,297740)
-    * [RepRapXY](https://github.com/jand1122/RepRap-XY)
-        * [**VSlot-CoreXY**](https://github.com/sdavi/VSlot-CoreXY)
 * [SmartrapCore](http://www.thingiverse.com/thing:651117)
     * [SmartrapCore Alu](http://www.thingiverse.com/thing:1007070)
         * [SmartrapCore XL300](http://www.thingiverse.com/thing:1361163)
@@ -99,6 +99,7 @@ Some favorites in a table:
         * [Cherry Pi III](https://www.thingiverse.com/thing:344408)
 * [Delta Pi](https://www.thingiverse.com/thing:53708)
     * [damfle's delta](https://www.thingiverse.com/thing:817256)
+* [Delta-Six](https://openbuilds.com/builds/delta-six.476/)
 * [**Griffin**](https://www.thingiverse.com/thing:259238)
 * [Kossel](http://reprap.org/wiki/Kossel)
     * [**Mini Kossel V-Slot**](https://www.thingiverse.com/thing:318745)
@@ -110,7 +111,7 @@ Some favorites in a table:
     * [Rostock Mini](https://www.thingiverse.com/thing:32850) - [Wiki](http://reprap.org/wiki/Rostock_mini)
         * [Rostock Mini Pro](https://www.thingiverse.com/thing:318971)
             * [Rostock Mini Pro 2](https://www.thingiverse.com/thing:1660599)
-* [**Sculptr Delta MK1**](https://www.thingiverse.com/thing:1444028)
+* [Sculptr Delta MK1](https://www.thingiverse.com/thing:1444028) (tried, failed)
     * [XXS Delta](https://www.thingiverse.com/thing:2508671)
 
 ### Delta Build/Calibration Resources
