@@ -57,37 +57,97 @@ TODO. for all y'all fancy inductive probe or BLTouch or IR probe users
 
 ### `G90` and `G91` - Set Positioning Mode
 
-TODO. helpful to Z hop out of the way
+~~~
+; set absolute positioning
+G90
+
+; set relative positioning
+G91
+~~~
+
+Most commonly used to move the Z axis out of the way after a print, eg:
+
+~~~
+G91     ; set relative positioning
+G1 Z+10 ; raise Z 10mm
+G90     ; set back to absolute positioning
+~~~
+
+For excitement, set your extruder to relative and start a print. Be AMAZED at the huge fat line of filament the printer can actually output when forced to! Not recommended.
 
 ### `G92` - Set Position
 
-TODO.
+~~~
+; set axis to position
+G92
+~~~
+
+Most commonly used to do a prime or retract, eg:
+
+~~~
+G92 E0       ; zero extruder
+G1 E2 F1800  ; prime 2mm
+G92 E0       ; zero extruder
+~~~
+
+~~~
+G92 E2       ; set extruder
+G1 E-2 F1800 ; retract 2mm
+G92 E0       ; zero extruder
+~~~
 
 ### `M92` - Set axis steps per unit
 
-TODO. useful when testing and tuning esteps
+~~~
+M92 X80 Y80 Z400
+M92 E420:420
+~~~
 
 ### `M104` and `M109` - Extruder Temperature Control
 
-TODO. turn extruder off after print
+~~~
+M104 S190  ; set extruder to 190C and don't wait
+M109 S190  ; set extruder to 190C and wait for it
+~~~
 
 ### `M140` and `M190` - Bed Temperature Control
 
-TODO. turn bed off after print
+~~~
+M140 S60  ; set bed to 60C and don't wait
+M190 S60  ; set bed to 60C and wait for it
+~~~
 
 ### `M106` and `M107` - Fan Control
 
-TODO. see what fan speed/noise is like, turn fan off after print
+~~~
+M106 S255  ; fan on full
+M106 S127  ; fan at 50%
+
+M106 S0    ; fan off
+M107       ; fan off
+~~~
 
 ### `M117` - Display Message
 
-TODO. `M117 PC LOAD LETTER` for lulz
+~~~
+M117 PC LOAD LETTER
+~~~
 
 ### `M119` - Get Endstop Status
 
 TODO. useful when troubleshooting endstops
 
 ### `M201` to `M204` - Speed and Acceleration Control
+
+~~~
+M201 X1500 Y1500 Z100 E10000  ; set max print acceleration
+
+M202 X1500 Y1500 Z100 E10000  ; set max travel acceleration
+
+M203 X18000 Y18000 Z300 E2700 ; set max feedrate
+
+M204 P1500 T1500              ; set default acceleration for Print and Travel
+~~~
 
 ### `M302` - Allow Cold Extrude
 
@@ -99,7 +159,11 @@ TODO. see calibration page for firmware specifics
 
 ### `M500` to `M502` - EEPROM Commands
 
-TODO. i don't use eeprom
+~~~
+M500  ; store current settings to EEPROM
+M501  ; read settings from EEPROM
+M502  ; revert to "factory settings" from firmware
+~~~
 
 ## Useful Start G-Code
 
@@ -112,15 +176,45 @@ If you have a simple printer or you prefer manual bed levelling, `G28` is all yo
 
 If you have a bed probe, you could also add the probe sequence `G29`, however if you can't be bothered waiting for your printer to manually touch 9 or 16 or 25 points of the bed before each and every print, maybe it's easier if you just do the bed probe from the LCD screen or Pronterface or OctoPrint or however you do it. Unless your printer has a very unstable bed, a manual probe should last at least a few prints before needing to be done again.
 
+~~~
+G92 E0       ; zero extruder
+G1 E2 F1800  ; prime 2mm
+G92 E0       ; zero extruder
+~~~
+
+~~~
+G0 X0 Y20 F9000   ; go to front corner
+G0 Z0.25          ; drop the bed
+G92 E0            ; zero extruder
+G1 X60 E12.5 F600 ; draw prime line
+G92 E0            ; zero extruder
+~~~
+
 ## Useful End G-Code
 
 ~~~
-M104 S0 ; hotend off
-M140 S0 ; bed off
-M107 ; fan off
-G1 X0 F3600; move carriage out of the way
+M104 S0       ; hotend off
+M140 S0       ; bed off
+M107          ; fan off
+~~~
+
+~~~
+G92 E3        ; set extruder
+G1 E-3 F1800  ; retract
+G92 E0        ; zero extruder
+~~~
+
+~~~
+G1 X0 F3600   ; move carriage out of the way
 G1 Y200 F3600 ; present print for mendels
-M84 ; motors off
+~~~
+
+~~~
+G1 X100 Y180  ; get out the way for cube frames
+~~~
+
+~~~
+M84           ; motors off
 ~~~
 
 ### References
