@@ -16,7 +16,7 @@ I don't have a high opinion of Smoothieware for the following reasons:
 
 Soft endstops means when your carriage is at 0 and you tell it to move to -10, it doesn't move there because it will crash into the frame. It also means when the carriage on your 200mm axis is at 200 and you tell it to move to 210, it doesn't move there because it will crash into the frame.
 
-Marlin has this. Repetier has this. Smoothieware does not have this. I hope you religiously remember the direction your LCD trimpot has to go in every situation, or manually level the bed 10mm inwards just to be safe.
+Marlin has this. Repetier has this. RepRapFirmware has this. Every other printer firmware has this. Smoothieware does not have this. I hope you religiously remember the direction your LCD trimpot has to go in every situation, or manually level the bed 10mm inwards just to be safe.
 
 There is the functionality to halt when an endstop is triggered, so if your endstops are at 0, your printer shuts down when you home axes with G28 before every print.
 
