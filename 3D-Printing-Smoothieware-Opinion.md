@@ -4,7 +4,9 @@
 
 Don't buy a Smoothieware-compatible board.
 
-Buy a [DuetWifi](http://duet3d.com/) if you can afford it, or a [RADDS](http://www.reprap.me/radds-v15.html) if you can't.
+If you want 32-bit right now, buy a [DuetWifi](http://duet3d.com/) if you can afford it, or buy an Arduino Due and [RADDS](http://www.reprap.me/radds-v15.html) if you can't.
+
+You could also wait until later in 2018 for Marlin 2 to release, which should support the [Re-ARM](https://www.panucatt.com/Re_ARM_for_RAMPS_p/ra1768.htm). Get a good [Premium RAMPS](https://www.tindie.com/products/staticboards/ramps-14-sb-premium/) to go with it, don't use $7 Chinese rubbish RAMPS.
 
 ## Details
 
