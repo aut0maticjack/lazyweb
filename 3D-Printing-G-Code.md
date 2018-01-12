@@ -103,6 +103,8 @@ M92 X80 Y80 Z400
 M92 E420:420
 ~~~
 
+Useful when testing different E steps settings. Syntax for multiple extruders shown above.
+
 ### `M104` and `M109` - Extruder Temperature Control
 
 ~~~
@@ -135,27 +137,44 @@ M117 PC LOAD LETTER
 
 ### `M119` - Get Endstop Status
 
-TODO. useful when troubleshooting endstops
+~~~
+M119
+~~~
+
+Example return when Z endstop is closed (i.e. carriage in middle of bed, but bed at zero):
+
+~~~
+Reporting endstop status
+x_min: open
+y_min: open
+z_min: TRIGGERED
+~~~
 
 ### `M201` to `M204` - Speed and Acceleration Control
 
 ~~~
-M201 X1500 Y1500 Z100 E10000  ; set max print acceleration
+M201 X1500 Y1500 Z100 E10000  ; set max print acceleration (mm/s/s)
 
-M202 X1500 Y1500 Z100 E10000  ; set max travel acceleration
+M202 X1500 Y1500 Z100 E10000  ; set max travel acceleration (mm/s/s)
 
-M203 X18000 Y18000 Z300 E2700 ; set max feedrate
+M203 X18000 Y18000 Z300 E2700 ; set max feedrate (mm/min)
 
-M204 P1500 T1500              ; set default acceleration for Print and Travel
+M204 P1500 T1500              ; set default acceleration for Print and Travel (mm/s/s)
 ~~~
 
 ### `M302` - Allow Cold Extrude
 
-TODO. useful when tuning esteps
+~~~
+M302 S0
+~~~
+
+Useful when tuning E steps and you're not actually feeding filament thru the nozzle.
 
 ### `M303` - PID Autotune
 
-TODO. see calibration page for firmware specifics
+See calibration page for firmware specifics:
+
+https://github.com/superjamie/lazyweb/wiki/3D-Printing-Calibration#firmware-temperature
 
 ### `M500` to `M502` - EEPROM Commands
 
@@ -164,6 +183,8 @@ M500  ; store current settings to EEPROM
 M501  ; read settings from EEPROM
 M502  ; revert to "factory settings" from firmware
 ~~~
+
+I don't use EEPROM so I don't play with these much.
 
 ## Useful Start G-Code
 
@@ -205,7 +226,7 @@ G92 E0        ; zero extruder
 ~~~
 
 ~~~
-G1 X0 F3600   ; move carriage out of the way
+G1 X0 F3600   ; move X carriage out of the way
 G1 Y200 F3600 ; present print for mendels
 ~~~
 
