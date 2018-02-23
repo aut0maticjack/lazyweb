@@ -113,7 +113,7 @@ start with XY max 250, XY accel 1000, XY jerk 4, print speed 40mm/sec
 
 work up from there
 
-accel 1500 is very good. jerk should be 10% of print speed or less
+accel 1500 and jerk 10 is very good! jerk should be 10% of print speed or less
 
 different materials require different print speeds, so tune speed with PLA (or whatever you print with most often) and just tell the slicer to print slower for other materials as required
 
@@ -138,9 +138,13 @@ Different firmware uses different IDs for nozzle and bed:
 * RepRapFirmware: `H1` (hotend) and `H0` (bed)
 * Smoothieware: `E0` (hotend) and `E1` (bed)
 
+If you find your temperatures are still not a flat line after PID tuning, you can modify by hand. The RigidTalk Wiki provides good instructions for understanding PID calculations. The RepRapWiki gives some good multipliers for changing the formulas around a bit.
+
 References:
 
 * [Tom Sanladerer - 3D printing guides - Using Marlin's PID autotune](https://www.youtube.com/watch?v=APzJfYAgFkQ)
+* [RigidWiki - PID tuning](http://rigidtalk.com/wiki/index.php?title=PID_tuning)
+* [RepRapWiki - PID Tuning](http://reprap.org/wiki/PID_Tuning)
 
 ### Filament Temperature
 
@@ -152,13 +156,13 @@ TODO - make nicer
 
 print a temperature tower, find one on Thingiverse
 
-change temperature as you print it, corresponding with the designs on the tower. in Cura use the TweakAtZ plugin in Postprocessing. in S3D use multiple processes covering a height range and change the temperature in each process. in Slic3r write some [conditional gcode](https://github.com/alexrj/Slic3r-Manual/blob/master/src/advanced/conditional-gcode.md) or use a [postprocessing script](https://www.thingiverse.com/thing:1579403)
+change temperature as you print it, corresponding with the designs on the tower. in Cura use the TweakAtZ plugin in Postprocessing. in S3D use multiple processes covering a height range and change the temperature in each process. in Slic3r use Shape Modifiers or write some [conditional gcode](https://github.com/alexrj/Slic3r-Manual/blob/master/src/advanced/conditional-gcode.md) or use a [postprocessing script](https://www.thingiverse.com/thing:1579403)
 
-once you have it printed, pick which temperature looks best or gives the strongest layer adhesion or the best detail or the best bridging or whatever aspect you care about
+once you have the tower printed, pick which temperature looks best or gives the strongest layer adhesion or the best detail or the best bridging or whatever aspect you care about. often the strongest parts will not be the best looking parts, everything is a tradeoff
 
-for pla use 185c to 235c
+for pla use range 185c to 235c
 
-for petg use 200c to 250c
+for petg use range 200c to 250c
 
 * https://www.thingiverse.com/search?q=temperature+tower
 * https://www.thingiverse.com/search?q=temperature+calibration
@@ -171,40 +175,24 @@ Being sure to keep tension on the roll so it doesn't unwind in a big mess, pull 
 
 Take note of all these measurements and find the average, this is the value you put into the slicer for filament width.
 
-If the filament varies by more than 0.01mm either way (eg: the average is 1.71mm but varies more than 1.70 and 1.72 along or around), or is larger than 1.76mm anywhere, then return it as faulty.
+If the filament varies by more than 0.02mm either way (eg: the average is 1.71mm but varies more than 1.69 and 1.73 along or around), or is larger than 1.76mm anywhere, then return the spool as faulty.
 
 ### Extrusion Flow Rate
 
 * When to Calibrate: For each filament spool, for each extrusion width, when changing nozzle
 
-In your slicer, set your extrusion width to 100% to 120% of nozzle diameter. If you have a 0.4mm nozzle, then set to 0.4mm to 0.48mm.
+In your slicer, set your extrusion width to 120% of nozzle diameter. If you have a 0.4mm nozzle, then set to 0.48mm.
 
-Download or make a 30x30x20mm cube and print it with **2 walls** and no top layers. Previously I'd said printing one wall was best, but [this page](http://www.desiquintans.com/flowrate) convinced me that two walls are better.
+Use [Desi Quintans' Flowrate calculator](http://www.desiquintans.com/flowrate) to print a two-wall shape and dial in the extrusion multiplier until you are reliably getting two walls at 2x extrusion width.
 
-Once this is printed, use your measuring calipers to measure the actual double-wall width at each height when the flow rate changed. It likely won't be exactly the width you specified, so calculate an extrusion flow rate similar to calculating extrusion steps:
+Once you've found the exact number, print Desi's shape with whatever settings you care about most. I print at 4 walls, 8 top/bottom layers, and 50% infill. I also resize the shape to 40x40x8 to make a nice-feeling filament swatch. Vary the flow rate until the top layer comes out perfectly flat and not overstuffed.
 
-~~~
-new_flow_rate = (extrusion_width_in_slicer*2 / actual_width) * 100
-~~~
+That is the ideal flow rate.
 
-For example:
-
-~~~
-extrusion width in slicer = 0.48mm
-actual width of two walls = 1.04mm
-
-new flow rate = ( (0.48 * 2) / 1.04 ) * 100 = 92%
-~~~
-
-Finally, set your flow rate to that number and try a single print again without Z height changes. If you can get within 0.01mm I think that's good enough.
-
-Once you've found the exact number, it can still be helpful to add 1% or 2% to that number, just to fill in tiny gaps and ensure fat overlapping extrusions. There are probably situations where it's better to remove 1% or 2%. Tune as needed based on your print results.
+Depending on the model and filament and other factors, it may still be helpful to add 1% or 2% to that number, just to fill in tiny gaps and ensure fat overlapping extrusions. There are probably situations where it's better to remove 1% or 2%. Tune as needed based on your print results.
 
 * http://www.desiquintans.com/flowrate
 * https://www.youtube.com/watch?v=7ls3B97IHyg
-* OLD: http://print.theporto.com/posts/how-to-calibrate-extrusion-thickness/
-* OLD: http://zennmaster.com/random-things/reprap-101-calibrating-your-extruder-part-2-fine-tuning
-* OLD: https://solidoodletips.wordpress.com/2012/08/16/setting-the-flow-rate/
 
 ## Stringing, Bridging, Retraction
 
@@ -220,13 +208,13 @@ print some torture tests
 * https://www.thingiverse.com/search?q=retraction+test
 * https://www.thingiverse.com/superjamie/collections/3dp-test-calib-torture
 
-futz with the settings like print speed, retraction, coast, wipe, cooling until you get good print quality
+futz with the settings like print speed, retraction, coast, wipe, cooling until you get good print quality.
 
-be careful using large retraction numbers, you risk pulling hot molten filament up past the transition zone into the coldend, where it will rapidly solidify and cause a clog. 2mm retraction is usually enough for a good filament path with PLA. stringy filaments like PETG can use more, maybe 3mm or 4mm. the maximum retraction you should use is 5mm
+be careful using large retraction numbers, you risk pulling hot molten filament up past the transition zone into the coldend, where it will rapidly solidify and cause a clog. 2mm retraction is usually enough for a good filament path with PLA. stringy filaments like PETG can use more, maybe 3mm or 4mm. the maximum retraction you should use is 5mm. direct drive generally needs less retraction than Bowden. using [Capricorn XS tube](http://www.captubes.com/) can help reduce the amount of retraction required.
 
 some filament softens more than others, so if the coldend is not well cooled then the material can compress and get wider and cause a clog that way. it's not just cheap filaments which do this, even brand name stuff has different ideal temperatures.
 
-if you want to avoid the nozzle dragging across top surfaces and leaving scars, use Z hop on retraction
+if you want to avoid the nozzle dragging across top surfaces and leaving scars, use Z hop on retraction.
 
 ## Print Quality Troubleshooting
 
