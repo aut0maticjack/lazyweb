@@ -288,6 +288,7 @@ by n9jcv](https://www.thingiverse.com/thing:2230378)
     * Make sure you have active cooling (heatsinks and fans) on the drivers.
     * Make sure your belts are not too tight. See the section on belt tension above.
 * If you don't want TMC21xx but want quiet drivers, consider TMC2208 or TMC2224. These have a mode called stealthChop2 developed by Trinamic specifically for 3D printers. These operate in standalone mode and can speak to Marlin over UART if desired. The TMC2224 has stealthChop2/spreadCycle selectable via a jumper, which the [Panucatt SD2224](http://www.panucatt.com/product_p/sd2224.htm) driver puts to the MS3 jumper under the driver which is handy.
+* If your bed will not heat past 40C-60C, measure the resistance of the bed. Take the wires out the controller so the bed is unpowered, and really mash your multimeter probes into the bed wires. Measure the resistance of the multimeter wires too (just join the probes) as cheap multimeters can have high resistance there and offset the measurement. A 12V bed should be between 0.6 Ohm and 1.2 Ohm. If your bed is much over 1.2 Ohms, it won't be able to get very hot, return the bed as faulty or get a new one. If your bed is more like 2.4 Ohms then it's a 24V bed. You can work out the current draw and wattage of your bed with a calculator like: https://www.rapidtables.com/calc/electric/watt-volt-amp-calculator.html
 
 ### Firmware
 
