@@ -11,12 +11,12 @@ Things meant to look good but not stand up to mechanical stress beyond everyday 
 * Top Layers: 4 to 6
 * Infill:
     * If the part can be printed without infill, don't use infill.
-    * If the part has overhanging top layers which need infill, use as little as possible. Consider using Simplify3D's multiple processes or Cura's concentric infill to reduce the amount of infill plastic used. You only need enough infill to support the top layers so they look nice.
+    * If the part has overhanging top layers which need infill, use as little as possible. Consider using Slic3r's Shape Modifiers or Cura's concentric infill or Simplify3D's multiple processes to reduce the amount of infill plastic used. You only need enough infill to support the top layers so they look nice.
 * Layer Height: Low (0.1mm) looks better but takes a long time, high (0.3mm) prints faster but looks worse
 
 ### Mechanical Parts
 
-Or more accurately, 3D printer parts. Pieces meant to hold frames and linear motion systems in place under the stress of torque applied through belts and motors.
+Or more accurately, 3D printer and CNC machine parts. Pieces meant to hold frames and linear motion systems in place under the stress of torque applied through belts and motors.
 
 * Perimeters: 4, though reduce to 3 or 2 if the part *really* doesn't print well with 4
 * Bottom Layers: 8
@@ -26,17 +26,19 @@ Or more accurately, 3D printer parts. Pieces meant to hold frames and linear mot
 
 ## General Notes
 
-* Rectangular/rectilinear infill varies the least under stress, I'd use this for stable mechanical parts.
-* Hexagon/honeycomb infill is still fairly okay, it resists stretch less and is faster to print.
+* Rectangular/rectilinear infill varies the least under bending stress, I'd use this for stable mechanical parts.
+* Hexagon/honeycomb infill is still fairly okay, it resists tension less and is faster to print.
 * The difference from low infill like 10% or 20% to high infill like 50% is drastic.
 * There is diminishing returns from 50% infill to 75% infill.
 * I don't think it's worth printing over 80% infill.
 * Adding another shell is about as good as another ~15% infill, at least at low infill rates.
 * Different blends of the same material vary greatly, so you can't make generalizations like "PETG is this strong" and "PLA is that strong". Some PLAs are stronger than some PETGs and vice versa.
 * Different colors can matter too. White pigment changes flow properties. People say black filament is often blends of other failed batches with more pigment added in so is weaker because there's less plastic. "Natural" color with no pigment is the most pure plastic and also seems easiest to print with.
-* Temperature matters, it probably results in layers adhering to each other better.
+* Temperature matters, higher temperature probably results in layers adhering to each other better.
+* Printing slower matters, again it probably results in temperature soak and layers adhering better.
 * Orientation matters, the weak point is always the layer lines.
-* I couldn't find any conclusive data on whether smaller layers or larger layers are better. Some people say their parts printed at 0.1mm are stronger, some people say their parts printed at 0.3mm are stronger.
+* Over extruding 10% or 20% will produce stronger parts, but affect visual quality and dimensional accuracy. I recommend [tuning flowrate](http://www.desiquintans.com/flowrate) then printing a box or other solid shape are your desired settings until you find the 1% iteration where the top is not overstuffed. That is the perfect flow ratio.
+* Some people say larger layers are stronger, but there is more supporting data saying smaller layers are stronger. However, going from 0.25mm to 0.1mm usually increases print time by more than double, so this was a hard sell for me.
 * To really be conclusive, you would need to build a test rig and put parts through specific mechanical tests of interest to you, like Tom Sanladerer and CNC Kitchen have done.
 
 ## References
@@ -52,3 +54,5 @@ Or more accurately, 3D printer parts. Pieces meant to hold frames and linear mot
 * [Tom Sanladerer: Filaween Playlist](https://www.youtube.com/watch?v=sJER9QYnAcw&list=PLDJMid0lOOYl8TZJV9xHznKFq5yA5ZTi2)
 * [CNC Kitchen: Strength Tests](https://www.youtube.com/watch?v=mIv507btE08&list=PLEOQTmIWJ_rncRcWmjQIvMKFAeM071CXM)
 * http://makerstoolworks.com/all-filament-is-not-created-equal/
+* http://3dprintboard.com/showthread.php?3549-Does-Layer-Height-effect-print-strength&p=95464&viewfull=1#post95464
+* [CNC Kitchen: Infill and Shells](https://www.youtube.com/watch?v=AmEaNAwFSfI)
