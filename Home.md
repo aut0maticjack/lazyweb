@@ -29,6 +29,7 @@ This is a wiki of useful advice I commonly give or have seen on places like Stac
 * [Power Supplies](3D-Printing-Power-Supplies)
 * [Radial Bearings](3D-Printing-Radial-Bearings)
 * [Research](3D-Printing-Research)
+* [Sellers and Items](3D-Printing-Sellers-and-Items)
 * [Small Printers](3D-Printing-Small-Printers)
 * [Stepper Motors and Drivers](3D-Printing-Stepper-Motors-and-Drivers)
 
