@@ -154,7 +154,7 @@ References:
 TODO - make nicer
 ~~~
 
-print a temperature tower, find one on Thingiverse
+print a temperature tower, find one on Thingiverse. i like this one: [heat tower 195C to 225C by MBTech](https://www.thingiverse.com/thing:2213410)
 
 change temperature as you print it, corresponding with the designs on the tower. in Cura use the TweakAtZ plugin in Postprocessing. in S3D use multiple processes covering a height range and change the temperature in each process. in Slic3r use Shape Modifiers or write some [conditional gcode](https://github.com/alexrj/Slic3r-Manual/blob/master/src/advanced/conditional-gcode.md) or use a [postprocessing script](https://www.thingiverse.com/thing:1579403)
 
