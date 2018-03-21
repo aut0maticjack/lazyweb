@@ -211,6 +211,7 @@ From most members to least:
 * Printed/polymer bushings are not suitable for cantilever loads like the Z axis, even with 4 rods there is still a risk of tipping and sticking. Use metal linear bearings on the Z rods. They do not move fast enough to make noise anyway.
 * Bronze sintered bushings are not suitable for use on carbon fiber tube. The metal bushing is harder than the fibreglass resin which binds the CF together. The bushing needs to be softer than the shaft it runs on.
 * If buying Igus RJM/RJUM/RJZM, be aware that not all are the exact same size as their LMxUU equivalents: https://github.com/superjamie/lazyweb/wiki/3D-Printing-Bearing-Sizes
+* Make sure you are buying LMxUU Japanese Metric bearings, not LMExUU European Metric bearings. European Metric have different outer dimensions (longer/wider) and will not fit in places designed for Japanese Metric.
 
 ### Y Axis
 
