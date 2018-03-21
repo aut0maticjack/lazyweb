@@ -102,7 +102,12 @@ Carl has a good 5-minute overview of his machine:
 
 * [HyperCube - Quick Tour](https://www.youtube.com/watch?v=3YEMd3YB-iY) - Jan 17 2018
 
-There are also plenty of short 30-second clips of HyperCubes printing but I'm not going to catalog those.
+Adrian has started an assembly series for the HyperCube 300:
+
+* [Building the Hypercube 300 Part 1: Build Plate Frame](https://www.youtube.com/watch?v=guPuisDdAKk) - Mar 7 2018
+* [Building the Hypercube 300 Part 2: The Frame](https://www.youtube.com/watch?v=a9tBw_LXsXw) - Mar 15 2018
+* [Building the Hypercube 300 Part 3: Assembling the Z carriages](https://www.youtube.com/watch?v=dp9-La0EDDk) - Mar 19 2018
+* [Building the Hypercube 300 Part 4: Assembling the Z rods and tuning the print bed frame](https://www.youtube.com/watch?v=wqIDuLfXSLU) - Mar 19 2018
 
 ## Communities
 
@@ -134,7 +139,7 @@ From most members to least:
 * It may be better to join multiple Z screws with a belt, instead of using multiple motors. If you strongly pull the build platform, you may cause one of dual motors to skip steps and get out of alignment. A belt does not have this problem. The D-Bot community has many good remixes of dual and triple belted Z screws, eg: [Three lead screws and one nema 17 motor remix for C/D/J-bot by oeyhaga](https://www.thingiverse.com/thing:2185911). However, RepRapFirmware (available on Duet3D boards or Arduino Due) has the ability to level the bed using three stepper motors and tilting the plane until a bed probe detects the bed is level.
 * Over 500m bed size the HyperCube starts to become flawed, as linear shafts have a large deflection over long distances, especially heavy steel which must also carry its own weight. If you are concerned about this then look up a shaft deflection calculator, calculate the stock deflection, then the deflection resulting from your intended build. If your deflection is worse, increase rod size. You may be better to use carbon fiber hollow tube or solid rod, even on the Y axis, to avoid deflection due to the rod's own weight.
 * At 500mm+ you should be considering a design that does not use linear shafts. Good alternatives are V-slot designs such as the [D-Bot](http://www.thingiverse.com/thing:1001065), or something which uses linear rails like the [Voron V2](https://github.com/mzbotreprap/VORON) or [FolgerTech FT-5](https://www.folgertech.com/collections/3d-printer-full-kits/products/folger-tech-ft-5-large-scale-3d-printer-kit).
-* If you want to build a printer over 1000mm, forget raising-bed designs altogether, as a glass or alloy bed is too heavy to move easily. You should build a fixed-bed raising-gantry printer like the [Sub33D by sschm9](https://www.thingiverse.com/thing:1977727), or the [Voron V2](https://github.com/mzbotreprap/VORON), or [this large printer by Shane Hooper](https://www.facebook.com/groups/cncbuilddesign/permalink/1573209072692391/).
+* If you want to build a printer over 1000mm, forget raising-bed designs altogether, as a glass or alloy bed is too heavy to move easily. You should build a fixed-bed raising-gantry printer like the [Voron V2](https://github.com/mzbotreprap/VORON), or the [Sub33D by sschm9](https://www.thingiverse.com/thing:1977727), or [this large printer by Shane Hooper](https://www.facebook.com/groups/cncbuilddesign/permalink/1573209072692391/).
 
 ### Parts
 
@@ -271,7 +276,16 @@ by henryarnold](http://www.thingiverse.com/thing:1950819) or using LM10LUU long 
 
 ### Electronics
 
-* If buying motors from different suppliers, be aware not all motors have the same pinout at the connector. If in doubt, use a multimeter to figure out which pins are members of the same coil, then swap wires or firmware direction until the motor moves as desired. There are additional methods located at: http://www.instructables.com/id/Find-Bipolar-Stepper-Motor-Coil-Pairs/
+* Some basic electrical safety with power supplies and wires should be observed:
+    * **Do not use an LED-style power supply without the green earth wire connected. It is a lethal electrocution hazard. Do not risk your life, or the lives of others, for your 3D printer.**
+    * Do not screw bare wires into an LED-style power supply, always use a fork or ring terminal crimped onto the wire. The wires should be big enough that you need to use a 2.5mm or 3mm crimp terminal.
+    * Do not allow the AC power wires and the DC power wires to touch, even through their insulation. These wires should be kept separate from each other and fastened so they cannot move.
+    * There are many designs for printable [power supply cover on Thingiverse](https://www.thingiverse.com/search?q=power supply cover) which keep the wire terminals separate, some even integrate an IEC plug with a switch and fuse for extra electrical safety, and to avoid the wires moving and breaking over time.
+    * If you are uncomfortable wiring an LED-style power supply to the AC mains power and don't understand how to use a multimeter to hook up an IEC power socket, then hire a licensed electrician to do it for you. Don't just follow pictures on the internet, there are different styles/colors of power supply and power socket and power wire, you can't just use Google Images and Facebook/forum posts for this.
+    * Use *at least* 16AWG wire for the DC hotend and *at least* 14AWG wire for the DC heated bed. You can calculate your exact wire requirements on a calculator such as: https://www.powerstream.com/Wire_Size.htm
+    * Any wire which moves should be stranded core, not solid core, as solid core will break over time. Silicone-insulated wire is best for moving wires as the silicone has high temperature resistance and low friction against the wire strands inside. Silicone wire is commonly sold by remote control hobby and automotive stores.
+* If your LCD sometimes gets corrupted text, this could be caused by static electricity building up in the frame due to the movement of belts and pulleys. You can avoid this by grounding the frame. Unplug the printer at the wall, add a ring or fork terminal to each end of a wire, connect one end to the metal frame (you could use a corner bracket) and the other end to the green AC Earth terminal of the power supply (NOT to the powered A/N terminals). Before plugging the printer back in, confirm with a multimeter that various points around the frame frame all have continuity to the ground wire. If your extrusions do not touch or your have printed corners, you may need to use a few points with T-nuts which bite into the frame, or wire hooked to a sanded-off patch on the frame, to get through the aluminium anodizing/oxide coating to provide a good electrical join.
+* If buying stepper motors from different suppliers, be aware not all motors have the same pinout at the connector. If in doubt, use a multimeter to figure out which pins are members of the same coil, then swap wires or firmware direction until the motor moves as desired. There are additional methods located at: http://www.instructables.com/id/Find-Bipolar-Stepper-Motor-Coil-Pairs/
 * Many RAMPS boards do not ship with the stepper driver jumpers pre-installed, and need to be installed by you before you put the stepper drivers in. The normal configuration is to install all three jumpers under a stepper driver to enable 1/16 stepping mode for A4988.
 * Make sure you line up the stepper driver enable/ground pins with the same pin on the RAMPS board. Double-check each time you install a driver. Installing a driver backwards will probably fry the driver or the RAMPS or both.
 * The Y endstop doesn't hit well with some XY joiners. The best Y endstop mount is in the [HyperCube 300](https://www.thingiverse.com/thing:2517628) parts list. Other holders are around like [HyperCube Y end-stop
