@@ -278,6 +278,7 @@ by henryarnold](http://www.thingiverse.com/thing:1950819) or using LM10LUU long 
 
 * Some basic electrical safety with power supplies and wires should be observed:
     * **Do not use an LED-style power supply without the green earth wire connected. It is a lethal electrocution hazard. Do not risk your life, or the lives of others, for your 3D printer.**
+    * Buy a cheap [outlet tester](https://www.bunnings.com.au/deta-power-outlet-tester-plug_p4420488) and confirm your power outlets are actually grounded, especially if you live in an older house which may not have originally had grounded outlets installed.
     * Do not screw bare wires into an LED-style power supply, always use a fork or ring terminal crimped onto the wire. The wires should be big enough that you need to use a 2.5mm or 3mm crimp terminal.
     * Do not allow the AC power wires and the DC power wires to touch, even through their insulation. These wires should be kept separate from each other and fastened so they cannot move.
     * There are many designs for printable [power supply cover on Thingiverse](https://www.thingiverse.com/search?q=power supply cover) which keep the wire terminals separate, some even integrate an IEC plug with a switch and fuse for extra electrical safety, and to avoid the wires moving and breaking over time.
