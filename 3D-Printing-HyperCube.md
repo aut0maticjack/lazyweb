@@ -129,6 +129,7 @@ From most members to least:
 * Adrian's HyperCube 300 improves the design and strength of many parts, and provides a ready-made set for increasing build size to 300mm easily. Strong recommendation to use these remix parts even if using a standard 200mm bed:
     * [Hypercube 300 CoreXY by adrianm1972](https://www.thingiverse.com/thing:2517628)
     * [Hypercube 300 Light X Carriage by adrianm1972](https://www.thingiverse.com/thing:2781309)
+    * [Hypercube 300 Assembly Tool - Alignment Gauges](https://www.thingiverse.com/thing:2796070)
 
 ### Scaling Up
 
