@@ -66,6 +66,7 @@ There is a way to make a "universal adapter" with another Arduino, which would t
 I'm not the only one:
 
 * https://www.reddit.com/r/voroncorexy/comments/6e1jj1/looking_for_recommendations_on_32_bit_boards/
+* https://www.facebook.com/groups/cncbuilddesign/permalink/1894095017270460/
 
 You can also search for opinions on the [3D Printer Builder/Designer](https://www.facebook.com/groups/cncbuilddesign/) Facebook Group where there are plenty of other people who've been disappointed by Smoothieware and describe it as "under-developed" and "inferior".
 
