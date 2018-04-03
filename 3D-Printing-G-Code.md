@@ -186,6 +186,22 @@ M502  ; revert to "factory settings" from firmware
 
 I don't use EEPROM so I don't play with these much.
 
+### `M115` and `M503` - Firmware Info and Report Settings
+
+Used to get the current configuration in your firmware. Useful if you're upgrading a firmware on an old printer and don't have the original config file.
+
+### `M600` - Filament Change
+
+Lets you change filament. You can pass XYZ parameters to move the nozzle to a particular spot.
+
+~~~
+M600 X0 Y20 Z5 ; move to X0 Y20 and lift 5, pause and wait for filament change
+~~~
+
+### `M665` - Delta Calibration
+
+This lets you enter in delta parameters like rod/radius/tower offsets. You are supposed to use this with `G33` to do the delta auto calibration. I would also like to try this manually with the [least squares calculator](http://www.escher3d.com/pages/wizards/wizarddelta.php).
+
 ## Useful Start G-Code
 
 ~~~
@@ -195,7 +211,7 @@ G29 ; if you have a Z probe
 
 If you have a simple printer or you prefer manual bed levelling, `G28` is all you need in your start G-Code. In fact, if you're willing to home before you start printing, you don't really even need that, but it's a good idea to keep it in. It doesn't take long.
 
-If you have a bed probe, you could also add the probe sequence `G29`, however if you can't be bothered waiting for your printer to manually touch 9 or 16 or 25 points of the bed before each and every print, maybe it's easier if you just do the bed probe from the LCD screen or Pronterface or OctoPrint or however you do it. Unless your printer has a very unstable bed, a manual probe should last at least a few prints before needing to be done again.
+If you have a bed probe, you could also add the probe sequence `G29`, however if you can't be bothered waiting for your printer to manually touch 9 or 16 or 25 points of the bed before each and every print, maybe it's easier if you just do the bed probe from the LCD screen or Pronterface or OctoPrint or however you do it. You can do that each power on, or you can save it to EEPROM. Unless your printer has a very unstable bed, a manual probe should last at least a few prints before needing to be done again. A good printer should last at least a month before needing a new probe.
 
 ~~~
 G92 E0       ; zero extruder
@@ -232,6 +248,10 @@ G1 Y200 F3600 ; present print for mendels
 
 ~~~
 G1 X100 Y180  ; get out the way for cube frames
+~~~
+
+~~~
+G28 ; get out the way for deltas, homes carriages to the top
 ~~~
 
 ~~~
