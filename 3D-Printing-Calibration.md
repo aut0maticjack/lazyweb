@@ -156,13 +156,16 @@ TODO - make nicer
 
 print a temperature tower, find one on Thingiverse. i like this one: [heat tower 195C to 225C by MBTech](https://www.thingiverse.com/thing:2213410)
 
-change temperature as you print it, corresponding with the designs on the tower. in Cura use the TweakAtZ plugin in Postprocessing. in S3D use multiple processes covering a height range and change the temperature in each process. in Slic3r use Shape Modifiers or write some [conditional gcode](https://github.com/alexrj/Slic3r-Manual/blob/master/src/advanced/conditional-gcode.md) or use a [postprocessing script](https://www.thingiverse.com/thing:1579403)
+change temperature as you print it, corresponding with the design of the tower:
+* in Slic3r use Shape Modifiers, or write some [conditional gcode](https://github.com/alexrj/Slic3r-Manual/blob/master/src/advanced/conditional-gcode.md), or use a [postprocessing script](https://www.thingiverse.com/thing:1579403)
+* in Cura use the TweakAtZ plugin in Extensions, Post Processing, Modify G-Code ([video](https://www.youtube.com/watch?v=Wkegh9WRaxs))
+* in S3D use multiple processes covering a height range and change the temperature in each process
 
 once you have the tower printed, pick which temperature looks best or gives the strongest layer adhesion or the best detail or the best bridging or whatever aspect you care about. often the strongest parts will not be the best looking parts, everything is a tradeoff
 
 for pla use range 185c to 235c
 
-for petg use range 200c to 250c
+for petg use range 205c to 265c
 
 * https://www.thingiverse.com/search?q=temperature+tower
 * https://www.thingiverse.com/search?q=temperature+calibration
