@@ -108,6 +108,8 @@ Adrian has started an assembly series for the HyperCube 300:
 * [Building the Hypercube 300 Part 2: The Frame](https://www.youtube.com/watch?v=a9tBw_LXsXw) - Mar 15 2018
 * [Building the Hypercube 300 Part 3: Assembling the Z carriages](https://www.youtube.com/watch?v=dp9-La0EDDk) - Mar 19 2018
 * [Building the Hypercube 300 Part 4: Assembling the Z rods and tuning the print bed frame](https://www.youtube.com/watch?v=wqIDuLfXSLU) - Mar 19 2018
+* [Building the Hypercube 300 Part 5: Finishing the assembly of the Z axis parts](https://www.youtube.com/watch?v=SjtP1dfC3VY) - Apr 3 2018
+* [Building the Hypercube 300 Part 6: Mounting the Y Axis Rods and XY Stepper Motors](https://www.youtube.com/watch?v=JTXog3Ytg_0) - Apr 6 2018
 
 ## Communities
 
@@ -139,7 +141,7 @@ From most members to least:
 * People like to talk rubbish about the cantilever bed design, but really for a 200mm or 250mm bed it's fine. For a 300mm or larger bed, two Z screws and 4 Z rods should be used. For a bed larger than 500mm, three Z screws should be used (three points define a plane).
 * It may be better to join multiple Z screws with a belt, instead of using multiple motors. If you strongly pull the build platform, you may cause one of dual motors to skip steps and get out of alignment. A belt does not have this problem. The D-Bot community has many good remixes of dual and triple belted Z screws, eg: [Three lead screws and one nema 17 motor remix for C/D/J-bot by oeyhaga](https://www.thingiverse.com/thing:2185911). However, RepRapFirmware (available on Duet3D boards or Arduino Due) has the ability to level the bed using three stepper motors and tilting the plane until a bed probe detects the bed is level.
 * Over 500m bed size the HyperCube starts to become flawed, as linear shafts have a large deflection over long distances, especially heavy steel which must also carry its own weight. If you are concerned about this then look up a shaft deflection calculator, calculate the stock deflection, then the deflection resulting from your intended build. If your deflection is worse, increase rod size. You may be better to use carbon fiber hollow tube or solid rod, even on the Y axis, to avoid deflection due to the rod's own weight.
-* At 500mm+ you should be considering a design that does not use linear shafts. Good alternatives are V-slot designs such as the [D-Bot](http://www.thingiverse.com/thing:1001065), or something which uses linear rails like the [Voron V2](https://github.com/mzbotreprap/VORON) or [FolgerTech FT-5](https://www.folgertech.com/collections/3d-printer-full-kits/products/folger-tech-ft-5-large-scale-3d-printer-kit).
+* At 500mm+ you should be considering a design that does not use linear shafts. Good alternatives are V-slot designs such as the [KISS](https://www.thingiverse.com/thing:2491053), [V-King](https://github.com/RoyBerntsenDesign/V-King), [D-Bot](http://www.thingiverse.com/thing:1001065), or something which uses linear rails like the [Voron V2](https://github.com/mzbotreprap/VORON) or [FolgerTech FT-5](https://www.folgertech.com/collections/3d-printer-full-kits/products/folger-tech-ft-5-large-scale-3d-printer-kit).
 * If you want to build a printer over 1000mm, forget raising-bed designs altogether, as a glass or alloy bed is too heavy to move easily. You should build a fixed-bed raising-gantry printer like the [Voron V2](https://github.com/mzbotreprap/VORON), or the [Sub33D by sschm9](https://www.thingiverse.com/thing:1977727), or [this large printer by Shane Hooper](https://www.facebook.com/groups/cncbuilddesign/permalink/1573209072692391/).
 
 ### Parts
@@ -338,9 +340,20 @@ by n9jcv](https://www.thingiverse.com/thing:2230378)
 So you've built your machine, it heats/moves/extrudes. How do you get those picture-perfect prints that everyone else seems to brag about?
 
 * Calibration Guide: https://github.com/superjamie/lazyweb/wiki/3D-Printing-Calibration
-* [Slic3r Dev](https://dl.slic3r.org/dev/) and [Cura v3](https://ultimaker.com/en/products/ultimaker-cura-software): https://drive.google.com/open?id=1qbblyuI3SDUVRG5qDXqahLk9Be68_yL3
-* Simplify3D v4.0: https://drive.google.com/open?id=1LLWv0scTfxsMvKUW6mCxx-RMZCHaYkDA
-* Suggested generic start and finish G-code are listed at: https://github.com/superjamie/lazyweb/wiki/3D-Printing-G-Code
+
+Adrian Martinez, David Siles, and myself tuned the following slicer profiles for PLA and PETG:
+
+* Slic3r Dev (not old 1.2.9 or Prusa Edition)
+    * [Download Slic3r Dev here](https://dl.slic3r.org/dev/)
+    * Profiles: https://drive.google.com/open?id=1qbblyuI3SDUVRG5qDXqahLk9Be68_yL3
+* Cura 3 and later
+    * [Download Cura here](https://ultimaker.com/en/products/ultimaker-cura-software)
+    * Profiles: https://drive.google.com/open?id=1HzeImwoOpCyjjoGC7HcBD_CuawpDs2vB
+* Simplify3D 4.0
+    * [Buy Simplify3D here](https://www.simplify3d.com/)
+    * Profiles: https://drive.google.com/open?id=1LLWv0scTfxsMvKUW6mCxx-RMZCHaYkDA
+
+I don't think S3D is worth the US$150 price tag anymore. The open source slicers are now producing equal or superior results and have more features. Everyone has an opinion on slicers so just use what works for you. Any slicer is only as good as the time you put into it.
 
 ## HyperCube Evolution Remix
 
@@ -368,8 +381,9 @@ This printer has evolved its own community and wiki beyond the scope of this gui
 
 Here's a list of a few other corexy-extrusion printers you maybe interested in looking at:
 
+* [KISS by beginjd](https://www.thingiverse.com/thing:2491053) and [V-King by Pro3D](https://github.com/RoyBerntsenDesign/V-King) are both corexy designs which use V-slot and V-wheels on 2020 extrusion. The KISS started as a HyperCube modification and is described as a collection of ideas, no complete BOM or documentation. The V-King is the evolution of that idea into a fully documented open source printer with BOM and firmware provided.
+* [D-Bot by spauda01](http://www.thingiverse.com/thing:1001065) - A popular remix of the [C-Bot by cfeniak](http://www.thingiverse.com/thing:500041). Uses V-wheels on 2040 extrusion. Has a detailed assembly guide which is worth a look. The creators of both C-Bot and D-Bot participate in the D-Bot community on Reddit and Facebook. A good selection of remix parts is detailed on [AK Eric's 2017 Redux blog post](http://www.akeric.com/blog/?p=4266) and the [SpiffBot by spiffcow](https://www.thingiverse.com/thing:1629139).
+* [VORON](https://github.com/mzbotreprap/VORON) - The most popular alternative to the HyperCube, the old V1 and V1.5 bed is 9" aluminium tooling plate with dual Z screws and an AC heater mat, many imperial parts so may be frustrating to build for those outside the USA. Has a detailed assembly guide. The creator participates in the Voron community on Reddit and GitHub. The VORON V2 changes the design to all linear guides with a fixed bed and raising XY gantry.
+* [FB2020 by AxMod](https://github.com/AxMod3DPrint/FB2020) - Based on several iterations of an older design called the [FuseBox by AlexY](http://www.thingiverse.com/thing:1047193), this frame has a horizontal X carriage and a diagonal cross-brace on the frame which reportedly improves print quality. AxMod has 20 of these printers going producing commercial quantities of printed parts. The design has been very reliable for him.
 * [S.T.E.V.E. by CompRevTech](http://www.thingiverse.com/thing:2146430) - Designed by Adam around the same time Tech2C was designing the HyperCube. Ends up similar but with a few differences, such as direct drive and an AC bed. Two detailed YouTube series about its design and building.
-* [D-Bot by spauda01](http://www.thingiverse.com/thing:1001065) - A popular remix of the [C-Bot by cfeniak](http://www.thingiverse.com/thing:500041). Uses V-wheels on 2040 extrusion, has a very detailed assembly guide which is worth a look, the creators of both C-Bot and D-Bot participate in the D-Bot community on Reddit and Facebook. A good selection of remix parts is detailed on [AK Eric's 2017 Redux blog post](http://www.akeric.com/blog/?p=4266) and the [SpiffBot by spiffcow](https://www.thingiverse.com/thing:1629139).
-* [VORON](https://github.com/mzbotreprap/VORON) - Seen by many as the alternative to the HyperCube, default V1 and V1.5 bed is 9" aluminium tooling plate with dual Z screws and an AC heater mat, many imperial parts so may be frustrating to build for those outside the USA, has a very detailed assembly guide, the creator participates in the Voron community on Reddit and GitHub. The V2 changes the design to all linear guides with a fixed bed and raising XY gantry.
-* [FB2020 by AxMod](https://github.com/AxMod3DPrint/FB2020) - Based on several iterations of an older design called the [FuseBox by AlexY](http://www.thingiverse.com/thing:1047193), this frame has a horizontal X carriage and a diagonal cross-brace on the frame which reportedly improves print quality. AxMod has 20 of these printers going producing commercial quantities of printed parts, the design has been very reliable for him.
 * Even more on my [DIY Printers](https://github.com/superjamie/lazyweb/wiki/3D-Printing-DIY-Printers) page.
