@@ -140,21 +140,32 @@ From most members to least:
 * The old [HyperCube Materials Calculator by FunkyDiver](http://funkydiver.com/hypercube-materials) is here too.
 * People like to talk rubbish about the cantilever bed design, but really for a 200mm or 250mm bed it's fine. For a 300mm or larger bed, two Z screws and 4 Z rods should be used. For a bed larger than 500mm, three Z screws should be used (three points define a plane).
 * It may be better to join multiple Z screws with a belt, instead of using multiple motors. If you strongly pull the build platform, you may cause one of dual motors to skip steps and get out of alignment. A belt does not have this problem. The D-Bot community has many good remixes of dual and triple belted Z screws, eg: [Three lead screws and one nema 17 motor remix for C/D/J-bot by oeyhaga](https://www.thingiverse.com/thing:2185911). However, RepRapFirmware (available on Duet3D boards or Arduino Due) has the ability to level the bed using three stepper motors and tilting the plane until a bed probe detects the bed is level.
-* Over 500m bed size the HyperCube starts to become flawed, as linear shafts have a large deflection over long distances, especially heavy steel which must also carry its own weight. If you are concerned about this then look up a shaft deflection calculator, calculate the stock deflection, then the deflection resulting from your intended build. If your deflection is worse, increase rod size. You may be better to use carbon fiber hollow tube or solid rod, even on the Y axis, to avoid deflection due to the rod's own weight.
+* Over 500m bed size the HyperCube starts to become flawed, as the linear shafts on XY have a large deflection over long distances, especially heavy steel which must also carry its own weight. If you are concerned about this then look up a shaft deflection calculator, calculate the stock deflection, then the deflection resulting from your intended build. If your deflection is worse, increase rod size. You may be better to use carbon fiber hollow tube or solid rod, even on the Y axis, to avoid deflection due to the rod's own weight.
 * At 500mm+ you should be considering a design that does not use linear shafts. Good alternatives are V-slot designs such as the [KISS](https://www.thingiverse.com/thing:2491053), [V-King](https://github.com/RoyBerntsenDesign/V-King), [D-Bot](http://www.thingiverse.com/thing:1001065), or something which uses linear rails like the [Voron V2](https://github.com/mzbotreprap/VORON) or [FolgerTech FT-5](https://www.folgertech.com/collections/3d-printer-full-kits/products/folger-tech-ft-5-large-scale-3d-printer-kit).
-* If you want to build a printer over 1000mm, forget raising-bed designs altogether, as a glass or alloy bed is too heavy to move easily. You should build a fixed-bed raising-gantry printer like the [Voron V2](https://github.com/mzbotreprap/VORON), or the [Sub33D by sschm9](https://www.thingiverse.com/thing:1977727), or [this large printer by Shane Hooper](https://www.facebook.com/groups/cncbuilddesign/permalink/1573209072692391/).
+* If you want to build a printer over 1000mm, forget falling-bed designs altogether, as a large glass or aluminium bed is too heavy to move easily. You should build a fixed-bed raising-gantry printer like the [Voron V2](https://github.com/mzbotreprap/VORON) or [Sub33D by sschm9](https://www.thingiverse.com/thing:1977727) or [this large printer by Shane Hooper](https://www.facebook.com/groups/cncbuilddesign/permalink/1573209072692391/).
 
 ### Parts
 
-* Corners - I found the Suleve corners on the BOM to be rubbish. Of the 5 bags I bought, 3 bags were so badly made they were useless. Here is a printable internal corner bracket of the same 20x20x17 dimensions: [20mm Suleve Corner for 2020 Extrusion (HyperCube) by superjamie](https://www.thingiverse.com/thing:2379295). Users suggest printing this in an inflexible filament like PLA or PC instead of a more flexible filament like PETG or ABS.
+* Corners - I found the Suleve corners on the BOM to be rubbish. Of the 5 bags I bought, 3 bags were so badly made they were useless. Here is a printable internal corner bracket of the same 20x20x17 dimensions: [20mm Suleve Corner for 2020 Extrusion (HyperCube) by superjamie](https://www.thingiverse.com/thing:2379295). Users suggest printing this in an inflexible filament like PLA or PC or Nylon instead of a more flexible filament like PETG or ABS.
 * Nuts - Likewise I found the T-nuts specified on the BOM to be poor quality. Many needed to be filed down on the curve where they are supposed to rotate, or on the top edge furthest from the curve. 5% to 10% of the nuts were just too thick to fit in the extrusion slot or were drilled and tapped at an angle and had to be thrown away. Order at least one extra bag of nuts.
 * Screws - The M5x8mm screws are only used to fasten the Suleve corners to the frame. The M5x10mm screws are used for all printed components, as the printed components are thicker. Recommended to order at least one extra bag of M5x10 if you're the kind of person who likes to tinker and add stuff to their printer.
 * Carbon fiber tube/rod - Many on the HyperCube Facebook group have purchased their extrusion from [HaoZhong Carbon Fiber on eBay](https://stores.ebay.com/HaoZhong-Carbon-Fiber-Tube). The size is not always guaranteed exact, and varies from 9.95mm to 10.15mm, but the variance within a single tube is less than 0.01mm so is good for plastic/polymer bushings. You can buy 10x8mm tube, or 10x6mm tube (better), or solid 10mm rod (maybe better for larger builds). Look down the categories on their eBay store as they sometimes have different shipping deals to different areas: https://stores.ebay.com/HaoZhong-Carbon-Fiber-Tube
-* **Carbon fiber safety note** - The sharp tiny fragments made by abrading carbon fiber are inert and easily inhaled. In extreme cases, they stick in your lungs forever and cause long-term scarring, just like asbestos. If you are cutting CF yourself: Do it outside. Wear a disposable respirator. Wear disposable gloves. Tape over the cut, then and cut through the tape. Vacuum well afterwards and empty the vac immediately. Don't sand or grind as this creates much finer particles than a hacksaw does.
+* If you have a local carbon fiber vendor, try give them a call or email and say you want to use their rods as linear shafts and need as close to 10.00mm as possible. Some vendors will go through their parts with measuring calipers and try find the exact rods you need. [Carbon Fiber Australia](www.carbonfiber.com.au/) have done this for a few people.
+* **Carbon fiber safety note** - The sharp tiny fragments made by abrading carbon fiber are inert and easily inhaled. In extreme cases, they stick in your lungs forever and cause long-term scarring just like asbestos: [Pulmonary_fibrosis](https://en.wikipedia.org/wiki/Pulmonary_fibrosis). If you are cutting CF yourself:
+    * Do it outdoors.
+    * Have any wind blowing away from your face, not towards you.
+    * Wear a disposable respirator.
+    * Wear disposable gloves.
+    * Tape over the cut, then cut through the tape.
+    * Vacuum well afterwards and empty the vac immediately, before you take your respirator off.
+    * Don't sand or grind as this creates much finer particles than a hacksaw.
 * Imperial rods - If you're in a place where getting 10mm metric rod for the X axis is difficult, there are several remixes on Thingiverse of X carriages and XY joiners and holders which suit 3/8" (9.525mm) rod or 8mm rod, both of which are more readily available, at least in the USA.
-* Print Settings - For your printer parts, you want at least 3 perimeters, at least 6 top and bottom layers, at least 25% infill. I print at 4 perimeters, 8 top/bottom layers, and 50% infill. Any more than 75% infill is pointless. You may wish to print mechanical parts a tiny bit (from 2C up to 10C) hotter than your "visual best" settings to encourage better layer adhesion, but not so much it ruins bridges or screw holes.
-* Material - PETG and ABS are fine for all 3D printer parts. Anything which flexes such as the Z rod clamps and Y rod clamps will likely crack over time if made from PLA. The rest of the printer is fine being PLA, including the X carriage and fan duct if you have a silicone sock or other hotend protection.
-* Buying - Various aluminium extrusion sellers on Aliexpress sell pre-cut HyperCube extrusions, and most do custom orders if you want a different size machine. [Zyltech](https://www.zyltech.com/) sell pre-cut extrusions and pre-gathered parts kits for the original Tech2C design and Adrian's HyperCube 300, this seller gets generally good reviews for quality and support if a part arrives bent/faulty. The HyperCube is provided by Tech2C under a non-commercial license, so producing commercial quantities of HyperCube parts is not allowed, however Tech2C recommends people look on 3DHubs when they need parts sets printed and he can't do it himself. Zyltech have gotten Tech2C's permission to use his printer design in a commercial capacity.
+* Print Settings - For your printer parts, you want at least 3 perimeters, at least 6 top and bottom layers, at least 25% infill. I print at 4 perimeters, 8 top/bottom layers, and 50% infill. Any more than 75% infill is pointless. You may wish to print mechanical parts a tiny bit (from 2C up to 10C) hotter than your "visual best" settings to encourage better layer adhesion, but not so much it ruins bridges or screw holes. Smaller layer height is stronger than larger layer height, but increases print time dramatically. Tech2C's recommended 0.25mm layers have been fine.
+* Mirroring - It is not necessary to mirror any of the Tech2C parts, they all print as-is. If you like, you can mirror two of the four `Bed_Support` and `Z_Shaft_Clamp` parts so they look nicer left to right. This is just a cosmetic choice, it makes no mechanical difference.
+* Material - PETG and ABS are fine for all 3D printer parts. If made from PLA, anything which flexes such as the Z rod clamps and Y rod clamps will likely crack over time. The rest of the printer is fine being PLA, including the X carriage and fan duct if you have a silicone sock or kapton/cotton pad or other hotend insulation.
+* Buying - Various aluminium extrusion sellers on Aliexpress sell pre-cut HyperCube extrusions. Most extrusion sellers do custom orders if you want a different size machine.
+* The HyperCube is provided by Tech2C under a non-commercial license, so producing commercial quantities of HyperCube STL parts is not allowed, however Tech2C recommends people look on 3DHubs when they need parts sets printed and he can't do it himself.
+* [Zyltech](https://www.zyltech.com/) sell pre-cut extrusions and pre-gathered parts kits for the original Tech2C design and for a slightly-modified HyperCube 300. This seller gets generally good reviews for quality and they provide good support if a part arrives bent/faulty. Zyltech have gotten Tech2C's permission to use his printer design in a commercial capacity.
 
 ### Tools
 
@@ -165,12 +176,13 @@ From most members to least:
 * A set of mini metal files has been useful for making the ends of extrusion even, and shaving down poorly-made T-nuts, and will be generally useful for tidying up prints of all sorts.
 * A long set of "antistatic tweezers" is useful for pulling ooze off the nozzle just before printing.
 * A craft blade (eg: Exacto knife) is useful for tidying blobs off parts if printing in PETG.
+* Modify a paint scraper [as detailed here by Devin from Make Anything](https://www.youtube.com/watch?v=3IIykPgWTRQ) to get parts off the bed.
 
 ### Extrusions
 
 * The BOM specifies **Type 6** T-slot extrusion which has a 6mm slot in the middle, so accepts M5 screws. Some people end up buying Type 5 extrusion which as a 4.8mm hole which only accepts M4 screws. You can just buy M4 screws and T-nuts instead of M5, or this remix resizes all holes to accept M4: [HyperCube 3D Printer M4 Variant by Zargony](https://pinshape.com/items/35851-3d-printed-hypercube-3d-printer-m4-variant)
 * Adam who built the S.T.E.V.E. 3D Printer made his own printed roll nuts which go into Type 5 extrusion: [A Tale of two Nuts by C.R.T](https://www.youtube.com/watch?v=de9rScS7VGY)
-* Make sure all your extrusions are the same length, and are flat on the ends. The D-Bot Facebook group suggest extrusions should be within 1/64" (0.4mm) of each other. I got mine down to half that and checked with a feeler gauge. A metal file can be used to adjust. Even a small file cuts through the soft aluminium quickly so be careful. Don't use power tools like an angle grinder, they take off material too quickly and heat up the extrusion too much. A fixed-table belt sander (as used by [Chris from Clickspring](https://www.youtube.com/channel/UCworsKCR-Sx6R6-BnIjS2MA)) may be more appropriate.
+* Make sure all your extrusions are the same length, and are flat on the ends. The D-Bot Facebook group suggest extrusions should be within 1/64" (0.4mm) of each other. I got mine down to half that and checked with a feeler gauge. A metal file can be used to adjust. Even a small file cuts through the soft aluminium quickly so be careful. Don't use power tools like an angle grinder, they take off material too quickly and heat up the extrusion too much. A belt sander with a 90 degree table would make this a lot easier!
 * I measured my extrusions by standing them all on their end, clamping another piece of extrusion each side so they were square, and using a straightedge or another piece of extrusion across the top.
 * Consider adding another 75mm or 100mm onto your Z extrusions so you can put stuff underneath like the control board and power supply. I didn't order this but ended up using a longer Z screw from Tevo, so I flipped the Z motor mount and designed some feet to lift the frame, you could resize these feet if more space is required: [HyperCube Leg Extension by superjamie](https://www.thingiverse.com/thing:2379397)
 
@@ -183,7 +195,7 @@ From most members to least:
 * Additional corner brackets on the outside of the extrusions can help line the frame up, such as the corner supplied in: [HyperCube extensions/modifications by Golkun](https://www.thingiverse.com/thing:2150132)
 * Adrian supplies this tool which can be used to align extrusions in a similar way: [Hypercube 300 Assembly Tool - Alignment Gauge by adrianm1972](https://www.thingiverse.com/thing:2796070)
 * Internal corner brackets which are joined together is also a good idea, such as: [Corner Bracket 3 Way for 2020 aluminum extrusion by LuisCRSousa](https://www.thingiverse.com/thing:1416715)
-* If your motors flex and cause the belt to rub on the pulley when tightened, use this to set the motor straight again: [Hypercube Motor Angle Adjustment by Bakak](https://www.thingiverse.com/thing:2036245)
+* Over time, if your motor mounts flex or sag and cause the belt to rub on the pulley when tightened, use this to set the motor straight again: [Hypercube Motor Angle Adjustment by Bakak](https://www.thingiverse.com/thing:2036245)
 
 ### Vibration
 
@@ -199,21 +211,22 @@ From most members to least:
 
 ### Bearings/Bushings
 
-* Most LMxUU bearings from China are cheap rattly garbage. If you don't like bearing noise, forget using these.
+* Most LMxUU bearings from China are cheap rattly garbage. Strong recommendation not to use $1 Chinese bearings due to the noise, play, tendency to stick, and possibility to cause artifacts along the axis as the balls inside move around.
 * One alternative is to buy good linear bearings like Nippon Bearing. These are typically more expensive than the Chinese ones (like $30 each) but are also much smoother and quieter.
 * Many of us are printing at least the X bushings in PLA or PETG or Nylon. Where your X rods are too big/small for the Igus JSM bushing, this is one of the few options left:
     * [HyperCube X Bushing (mightynozzle Igus design) by superjamie](https://www.thingiverse.com/thing:2630603)
     * [X and Y bushings for Hypercube by arturslab](https://www.thingiverse.com/thing:2013503)
 * You can also print the Y bushings if you like:
+    * [X and Y bushings for Hypercube by arturslab](https://www.thingiverse.com/thing:2013503)
     * [Customizable Linear Bushing / Bearing - IGUS like by mightynozzle](https://www.thingiverse.com/thing:2202854)
     * [Printable LM8UU bushing v3 by triffid_hunter](https://www.thingiverse.com/thing:16813)
     * [HyperCube 300](https://www.thingiverse.com/thing:2517628) has a Y bushing integrated into the bearing cap.
 * To size the inner of the bushing properly, vary the inner diameter of the bushing until it fits your specific printer and your specific rod. Do small test prints 8mm tall until you get within 0.1mm of your rod size. Then use full-height prints to dial down to the exact 0.01mm size where the bushing grips the rod and won't fall with gravity anymore. Use that size as the ideal bushing for your specific rod/printer/filament combination.
 * When printing Y bushings, make sure the outer diameter is 0.2mm smaller than the bushing clamp, so that the clamp doesn't crush down on the printed bushing and deform it out of shape. The bushing should be a little loose in the housing, then you can wrap it in teflon plumber's tape so the clamp grips the soft tape and not the bushing body.
 * When you get the bushing size ideal for your machine, print at least two spare sets so you can make the printer work again when the first set wear out, because you might need your printer to be working well to make more precise parts so the printer can work well again.
-* Printed/polymer bushings are not suitable for cantilever loads like the Z axis, even with 4 rods there is still a risk of tipping and sticking. Use metal linear bearings on the Z rods. They do not move fast enough to make noise anyway.
+* Printed/polymer bushings are not suitable for cantilever loads like the Z axis, even with 4 rods there is still a risk of tipping and sticking. Use good metal linear bearings on the Z rods. They do not move fast enough to make noise anyway.
 * Bronze sintered bushings are not suitable for use on carbon fiber tube. The metal bushing is harder than the fibreglass resin which binds the CF together. The bushing needs to be softer than the shaft it runs on.
-* If buying Igus RJM/RJUM/RJZM, be aware that not all are the exact same size as their LMxUU equivalents: https://github.com/superjamie/lazyweb/wiki/3D-Printing-Bearing-Sizes
+* If buying Igus RJM/RJUM/RJZM, be aware that not all are the exact same size as their LMxUU equivalents. If buying Igus bushing to replace LMxUU, get the right size and get the ones in the aluminium sleeve. Part numbers here: https://github.com/superjamie/lazyweb/wiki/3D-Printing-Bearing-Sizes
 * Make sure you are buying LMxUU Japanese Metric bearings, not LMExUU European Metric bearings. European Metric have different outer dimensions (longer/wider) and will not fit in places designed for Japanese Metric.
 
 ### Y Axis
@@ -226,19 +239,19 @@ From most members to least:
 
 ### Belts
 
-* Belts can be more easily tensioned with [Hypercube easy Belt tensioner by bagwan](https://www.thingiverse.com/thing:2092237). Set your belts to about 5 marks in from the long side. I am running 5.5, Vance is running 4.5.
-* The belts need to be evenly tensioned.
+* Belts can be more easily tensioned with [Hypercube easy Belt tensioner by bagwan](https://www.thingiverse.com/thing:2092237).
+* The belts need to be evenly tensioned. You should not have one belt a different tension to the other belt.
 * If the frame is square and the X gantry evenly contacts the frame without belts, but does not evenly contact with belts, then the belts are not evenly tensioned.
-* If moving in the X direction also moves slightly in the Y direction, or vice versa, then belts may be unevenly tensioned.
-* If you move the Y carriages back and forth by hand, and the X carriage moves side to side, then the belts are not evenly tensioned.
+* If moving in the X direction also moves slightly in the Y direction, then the belts are not evenly tensioned.
+* If you move the Y carriages back and forth and the X carriage moves side to side, then the belts are not evenly tensioned.
 * Tying the X gantry to the rear of the frame with cable ties and then tightening the belts has solved this for several people.
-* How much to tension the belts is a topic of discussion. Some people have them very tight though that can kill idlers. Some people have their belts so loose they're essentially just sitting on the pulleys.
+* To measure belt tension, use the [Belt Tension Meter by calviniba](https://www.thingiverse.com/thing:2230598) which uses a printed part and a spring from a Pilot G-2 pen. Set your belts to about 5 marks in from the long side. I am running 5.5, Vance is running 4.5.
 * Measuring a frequency with a [sound meter app](https://play.google.com/store/apps/details?id=org.intoorbit.spectrum) is incorrect, as different lengths produce different resonance frequencies.
-* One measurement idea for belt tension is: [Belt Tension Meter by calviniba](https://www.thingiverse.com/thing:2230598) which uses a printed part and a spring from a Pilot G-2 pen. I have my belt 5.5 marks in from the long side.
 * I didn't like the idea of flipping the belts or having them ride on double flange bearings, so I used these idler holders for actual toothed/smooth idler pulleys. Note the advice not to buy cheap idlers:
     * [XY Joiner for GT2 16T Timing Pulleys by PurchenZuPoden](https://www.thingiverse.com/thing:2188100)
     * [XY Idler for GT2 16T/20T Timing Pulleys by PurchenZuPoden](https://www.thingiverse.com/thing:2186358)
-* Jerry found the idlers cracked for him, so designed thicker ones and used washers to shim the bearing ID: [JeSc HyperCube XY Idler T16](https://www.thingiverse.com/thing:2366999)
+* The Aliexpress seller [Powge](https://www.aliexpress.com/store/702327) is known to be a good reliable source of toothed and untoothed idler pulleys.
+* Jerry found the Tech2C idlers cracked for him, so designed thicker ones and used washers to shim the bearing ID: [JeSc HyperCube XY Idler T16](https://www.thingiverse.com/thing:2366999)
 
 ### Bed and Lead Screw
 
@@ -255,8 +268,8 @@ by henryarnold](http://www.thingiverse.com/thing:1950819) or using LM10LUU long 
     * [BLTouch mount for HyperCube 3D Printer by bliatun](https://www.thingiverse.com/thing:2014874) - old X carriage, (Artur also has a remix of this to go with his vertical fan duct)
     * [Hypercube 8mm Sensor Mount by mewsian](https://www.thingiverse.com/thing:2471722) - new X carriage
 * Make sure the lead screw is riding on the motor shaft to prevent the spring coupler from carrying the weight of the bed and Z carriage.
-* In general the spring coupler is not a good idea as they can unwind/wind/bounce under fast movement or changing load. Ideally use a "plum coupler" or "spider coupler", these have red rubber in the middle and are a more solid design. You can also get metal couplers which have some flex but aren't a spring, these work well. You can also get universal joints and solid couplers, but these may lead to increased Z wobble as they will amplify even the slightest imperfection in the Z screw.
-* Success has also been reported with this printable coupler: [Self-centering tapered-thread Z-axis coupling [v2] by loco](https://www.thingiverse.com/thing:602481)
+* Using a spring coupler on Z is not a good idea as they can unwind/wind/bounce under fast movement or changing load. Ideally use a "plum coupler" or "spider coupler", these have red rubber in the middle and are a more solid design. You can also get metal couplers which have some flex but aren't a spring which work well. You can also get universal joints and solid couplers, but these may lead to increased Z wobble as they will amplify even the slightest imperfection in the Z screw.
+* Success has been reported with this printable coupler: [Self-centering tapered-thread Z-axis coupling [v2] by loco](https://www.thingiverse.com/thing:602481)
 * Several people have found that supporting the Z screw on a radial bearing instead of the motor shaft has fixed wobble/vibration artifacts in their prints: [Hypercube Bearing Supported Z Axis Leadscrew Motor Mount by butchja](https://www.thingiverse.com/thing:2780754) (before anyone says it, it's [perfectly fine](https://github.com/superjamie/lazyweb/wiki/3D-Printing-Radial-Bearings) to use radial bearings in this way)
 * If your coupler is extremely wobbly and off-center, you may have been supplied a 6.35mm coupler for a NEMA23 motor, not a 5mm coupler for a NEMA17 motor.
 
@@ -269,9 +282,9 @@ by henryarnold](http://www.thingiverse.com/thing:1950819) or using LM10LUU long 
 
 ### Bowden Extruder
 
-* Tech2C's bowden extruder with the MK7 gear is fine for most people.
+* Tech2C's bowden extruder with the MK7 gear is fine for most people. The Tech2C extruder is actually just a MK7 remix of [Compact Bowden Extruder by schlotzz](https://www.thingiverse.com/thing:275593) which uses a MK8 gear.
 * If you find your printer extrudes fine into air, but won't extrude into the hotend, ensure your filament gear screw is tight, ensure the bowden tube is not crushed and allows filament through smoothly and without restriction, ensure the stepper driver has enough current that the motor does not skip.
-* It is recommended to print a clip for the tube connector so that the tube cannot move up and down. For an E3D collar mount you can print: [Bowden Tube Clip by walter](https://www.thingiverse.com/thing:936611). A small cable tie will also work in a pinch.
+* It is recommended to print a clip for the tube connector so that the tube cannot move up and down. E3D sell these as [Collet Clips](https://e3d-online.com/collet-clips). For E3D you can also print [Bowden Tube Clip by walter](https://www.thingiverse.com/thing:936611). A small cable tie or thin wire will also work in a pinch.
 * If you want to print flexible filament (yes, you can print flexible with Bowden) an extruder with a very constrained filament path is required. Ideally the gear and bearing should only be needed to press against the filament to drive it. There should be very tight clearance between the filament guides and the gear.
 * The most popular commercial geared extruder is the [E3D Titan](https://e3d-online.com/titan-extruder), which can be mounted with a bracket such as: [Titan/Drakon/NSTT mount by superjamie](https://www.thingiverse.com/thing:2565427)
 * A list of printable extruders such as the Drakon and NSTT is located at: https://github.com/superjamie/lazyweb/wiki/3D-Printing-Extruders
@@ -286,20 +299,20 @@ by henryarnold](http://www.thingiverse.com/thing:1950819) or using LM10LUU long 
     * Do not screw bare wires into an LED-style power supply, always use a fork or ring terminal crimped onto the wire. The wires should be big enough that you need to use a 2.5mm or 3mm crimp terminal.
     * Do not allow the AC power wires and the DC power wires to touch, even through their insulation. These wires should be kept separate from each other and fastened so they cannot move.
     * There are many designs for printable [power supply cover on Thingiverse](https://www.thingiverse.com/search?q=power supply cover) which keep the wire terminals separate, some even integrate an IEC plug with a switch and fuse for extra electrical safety, and to avoid the wires moving and breaking over time.
-    * If you are uncomfortable wiring an LED-style power supply to the AC mains power and don't understand how to use a multimeter to hook up an IEC power socket, then hire a licensed electrician to do it for you. Don't just follow pictures on the internet, there are different styles/colors of power supply and power socket and power wire, you can't just use Google Images and Facebook/forum posts for this.
+    * If you are uncomfortable wiring an LED-style power supply to the AC mains power and don't understand how to use a multimeter to hook up an IEC power socket, then hire a licensed electrician to do it for you. Don't just follow pictures on the internet. There are different styles/colors of power supply and power socket and power wire. You can't just use Google Images and Facebook/forum posts for this.
     * Use *at least* 16AWG wire for the DC hotend and *at least* 14AWG wire for the DC heated bed. You can calculate your exact wire requirements on a calculator such as: https://www.powerstream.com/Wire_Size.htm
     * Any wire which moves should be stranded core, not solid core, as solid core will break over time. Silicone-insulated wire is best for moving wires as the silicone has high temperature resistance and low friction against the wire strands inside. Silicone wire is commonly sold by remote control hobby and automotive stores.
 * If your LCD sometimes gets corrupted text, this could be caused by static electricity building up in the frame due to the movement of belts and pulleys. You can avoid this by grounding the frame. Unplug the printer at the wall, add a ring or fork terminal to each end of a wire, connect one end to the metal frame (you could use a corner bracket) and the other end to the green AC Earth terminal of the power supply (NOT to the powered A/N terminals). Before plugging the printer back in, confirm with a multimeter that various points around the frame frame all have continuity to the ground wire. If your extrusions do not touch or your have printed corners, you may need to use a few points with T-nuts which bite into the frame, or wire hooked to a sanded-off patch on the frame, to get through the aluminium anodizing/oxide coating to provide a good electrical join.
 * If buying stepper motors from different suppliers, be aware not all motors have the same pinout at the connector. If in doubt, use a multimeter to figure out which pins are members of the same coil, then swap wires or firmware direction until the motor moves as desired. There are additional methods located at: http://www.instructables.com/id/Find-Bipolar-Stepper-Motor-Coil-Pairs/
 * Many RAMPS boards do not ship with the stepper driver jumpers pre-installed, and need to be installed by you before you put the stepper drivers in. The normal configuration is to install all three jumpers under a stepper driver to enable 1/16 stepping mode for A4988.
 * Make sure you line up the stepper driver enable/ground pins with the same pin on the RAMPS board. Double-check each time you install a driver. Installing a driver backwards will probably fry the driver or the RAMPS or both.
-* The Y endstop doesn't hit well with some XY joiners. The best Y endstop mount is in the [HyperCube 300](https://www.thingiverse.com/thing:2517628) parts list. Other holders are around like [HyperCube Y end-stop
+* The Y endstop doesn't hit well with some XY joiners. Another Y endstop mount is in the [HyperCube 300](https://www.thingiverse.com/thing:2517628) parts list. Other holders are around like [HyperCube Y end-stop
 by imstrng](https://www.thingiverse.com/thing:2123488) or [Hypercube Y axis end stop
 by JOES_PARTS](https://www.thingiverse.com/thing:2390449).
 * It may be better to use the smaller type of limit switch and mount on the extrusion: [Hypercube Improved Y Endstop
 by n9jcv](https://www.thingiverse.com/thing:2230378)
 * The X endstop doesn't hit well sometimes either, especially with larger 20T pulleys. Try: [JeSc HyperCube X-End Stop add-on by jschun](https://www.thingiverse.com/thing:2386196)
-* If you cook the connectors on your $4 Chinese RAMPS, consider getting an external bed MOSFET like the MKS one, and a [StaticBoard Premium RAMPS](https://www.tindie.com/products/staticboards/ramps-14-sb-premium/) or an all-in-one like the MKS GEN or GEN_L.
+* If you cook the connectors on your $4 Chinese RAMPS, consider getting an [external bed MOSFET like this MKS one](https://www.aliexpress.com/store/product/3Dprinter-heat-control-MKS-MOSFET-for-heated-bed-printer-head-MOS-30A/1047297_32405884519.html), and a [StaticBoard Premium RAMPS](https://www.tindie.com/products/staticboards/ramps-14-sb-premium/) or an all-in-one board like the [MKS GEN](https://www.aliexpress.com/store/product/4-layers-PCB-controller-board-MKS-Gen-V1-4-integrated-mainboard-compatible-Ramps1-4-Mega2560-R3/1047297_32810883738.html) or [MKS GEN_L](https://www.aliexpress.com/store/product/controller-PCB-board-MKS-Gen-L-V1-0-integrated-mainboard-compatible-Ramps1-4-Mega2560-R3-support/1047297_32802151924.html).
 * If you have a very noisy machine during XY movement and A4988 drivers, make sure you have not been supplied HR4988 drivers by the seller, these chop very noisily at 1/16: https://www.reddit.com/r/3Dprinting/comments/75w22r/psa_hr4988_drivers_cause_noise_and_vibration/
 * If using TMC2100 or TMC2130 and you get skipping XY steps:
     * Make sure you are running in spreadCycle mode. The default stealthChop mode is not strong enough for most people.
@@ -353,7 +366,7 @@ Adrian Martinez, David Siles, and myself tuned the following slicer profiles for
     * [Buy Simplify3D here](https://www.simplify3d.com/)
     * Profiles: https://drive.google.com/open?id=1LLWv0scTfxsMvKUW6mCxx-RMZCHaYkDA
 
-I don't think S3D is worth the US$150 price tag anymore. The open source slicers are now producing equal or superior results and have more features. Everyone has an opinion on slicers so just use what works for you. Any slicer is only as good as the time you put into it.
+I don't think S3D is worth the US$150 price tag anymore. The open source slicers are now producing equal or superior results and have more features. Everyone has an opinion on slicers so just use what works for you. Any slicer is only as good as the time you put into it, just because the default settings are rubbish with your printer does not mean the slicer is bad.
 
 ## HyperCube Evolution Remix
 
