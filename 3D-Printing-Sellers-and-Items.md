@@ -80,6 +80,7 @@ Non-3D Printer Stuff
 * [Delta Corners - Micromake](https://www.aliexpress.com/item/Micromake-3D-Printer-Vertax-Set/32655642031.html) - injection molded
 * [Delta Corners - SWMaker](https://www.aliexpress.com/item/Colorful-all-metal-3D-Kossel-printer-2020-aluminum-alloy-delta-angle-corner-kit-Kossel-corner-kit/32787024606.html) - aluminium
 * [Gates GT2 RF 6mm belt - HKSupport](https://www.ebay.com/itm/2M-GATES-6mm-2GT-GT2-RF-Fiber-Glass-Reinforced-Rubber-Timing-Belt-for-3D-Printer/141938661911)
+* [MKS GEN](https://www.aliexpress.com/store/product/4-layers-PCB-controller-board-MKS-Gen-V1-4-integrated-mainboard-compatible-Ramps1-4-Mega2560-R3/1047297_32810883738.html)
 * [**MKS GEN_L**](https://www.aliexpress.com/store/product/controller-PCB-board-MKS-Gen-L-V1-0-integrated-mainboard-compatible-Ramps1-4-Mega2560-R3-support/1047297_32802151924.html) - good cheap 8-bit control board
 * [MOSFET - MKS](https://www.aliexpress.com/store/product/3Dprinter-heat-control-MKS-MOSFET-for-heated-bed-printer-head-MOS-30A/1047297_32405884519.html) - probably the same as the Tevo one
 * [**MOSFET - Tevo**](https://www.aliexpress.com/item/3D-Printer-parts-heating-controller-MKS-MOSFET-for-heat-bed-extruder-MOS-module-exceed-30A-support/32789089967.html) - this is the one I have
