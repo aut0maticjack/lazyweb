@@ -1,4 +1,5 @@
-Places and things to buy. Bold are items I have personally had good experience with.
+* **Bold** - sellers/items I have personally had good experience with
+* Non-bold - sellers/items I have only heard are good, or are just generally large/well-known
 
 ## Sellers
 
@@ -6,26 +7,27 @@ Aliexpress - China
 
 * [3DSWay](https://www.aliexpress.com/store/1948493) - general 3D printer parts
 * [AnyCubic](https://www.aliexpress.com/store/1182157) - delta stuff
-* [Ali Brother](https://www.aliexpress.com/store/709519) - the Griffin guide lists these as good silicon heaters
-* [BST Automation](https://www.aliexpress.com/store/314742) - Ciaran says their linear guides are good
+* [Ali Brother](https://www.aliexpress.com/store/709519) - the Griffin guide says good silicon heaters
+* [BST Automation](https://www.aliexpress.com/store/314742) - good linear guides
 * [DuoWeSi](https://www.aliexpress.com/store/2882163) - general 3D printer and CNC parts
-* [FYSETC](https://www.aliexpress.com/store/2498059) - stepper drivers which at least work most of the time
-* [IdeaFormer](https://www.aliexpress.com/store/2949167) - many parts, kapton tape
+* [FYSETC](https://www.aliexpress.com/store/2498059) - stepper drivers which work most of the time
+* [HongYi Automation](https://www.aliexpress.com/store/822038) - integrated lead screw motors, packed well
+* [IdeaFormer](https://www.aliexpress.com/store/2949167) - general 3D printer parts, kapton tape
 * [linkcnc](https://www.aliexpress.com/store/834897) - general 3D printer and CNC parts
 * [Keenovo](https://www.aliexpress.com/store/210086) - silicon heaters
 * [**MakerBase (aka MKS)**](https://www.aliexpress.com/store/1047297) - control boards
 * [MicroMake](https://www.aliexpress.com/store/2128317) - delta stuff
-* [**Powge**](https://www.aliexpress.com/store/702327) - bearings, pulleys, idlers
-* [Reprap "Official" Store](https://www.aliexpress.com/store/1051583) - lots of 3D printer parts
-* [SWMaker (aka Queen Yuki)](https://www.aliexpress.com/store/2412069) - delta bits, apparently good vendor
+* [**Powge**](https://www.aliexpress.com/store/702327) - bearings, pulleys, idlers. GREAT customer service
+* [Reprap "Official" Store](https://www.aliexpress.com/store/1051583) - general 3D printer parts
+* [SWMaker (aka Queen Yuki)](https://www.aliexpress.com/store/2412069) - general 3D printer parts, apparently good customer service
 * [Wantai Motor](https://www.aliexpress.com/store/603041) - stepper motors
 * [YuYong 3DMaker](https://www.aliexpress.com/store/1711438) - v-slot, v-wheels, extrusion plates, openbuilds clones
-* [**Xinlong Factory (aka Xinfact)**](https://www.aliexpress.com/store/123598) - aluminium extrusion, V-wheels
+* [**Xinlong Factory (Xinfact)**](https://www.aliexpress.com/store/123598) - aluminium extrusion, V-wheels
 
 eBay - Int'l
 
 * [Antclabs](http://www.ebay.com.au/usr/antclabs2016) - genuine BLTouch
-* [HaoZhong](http://stores.ebay.com.au/HaoZhong-Carbon-Fiber-Tube) - carbon fiber tube/rod
+* [**HaoZhong**](http://stores.ebay.com.au/HaoZhong-Carbon-Fiber-Tube) - carbon fiber tube/rod
 * [HKSupport](http://stores.ebay.com.au/HKSupport) - genuine Gates GT2 RF belt
 * [PowerNex TW](http://stores.ebay.com.au/PowerNex-TW) - genuine Mean Well power supplies
 
@@ -41,14 +43,14 @@ Also on a separate list: [Australian Sellers](3D-Printing-Australian-Sellers)
 * [**DNK Systems**](http://stores.ebay.com.au/DNKSystems) - genuine BuildTak
 * [eshop1may](https://stores.ebay.com.au/eshop1may) - china stuff, but at least it's cheap and local
 * [eshop5may](https://stores.ebay.com.au/eshop5may) - china stuff, but at least it's cheap and local
-* [**Layr3D**](http://stores.ebay.com.au/Layr3d-Printing) - all sorts of parts, genuine PEI
+* [**Layr3D**](http://stores.ebay.com.au/Layr3d-Printing) - general 3D printer parts, genuine PEI
 * [**Kingdom3D**](https://www.kingdom3d.com.au/) - eSun filament
 * [**Lateral Design**](http://stores.ebay.com.au/LateralDesign) - rods and bearings
-* [**LearCNC**](http://stores.ebay.com.au/learcnc) - all sorts of parts
+* [**LearCNC**](http://stores.ebay.com.au/learcnc) - general 3D printer parts, good quality
 * [**MakerMates**](http://stores.ebay.com.au/makermates/) - V-slot, other parts
-* [Maker Store](https://www.ebay.com.au/usr/maker_store_au) - V-slot, openbuilds stuff
+* [Maker Store](https://www.ebay.com.au/usr/maker_store_au) - V-slot, OpenBuilds stuff
 * [**Mid North Coast Components**](https://www.ebay.com.au/usr/mid_nth_coast_components) - reasonably cheap fasteners
-* [Plate Sales Tas](http://stores.ebay.com.au/Platesales-Tas) - random aluminium cuts
+* [Plate Sales Tas](http://stores.ebay.com.au/Platesales-Tas) - random aluminium plate
 * [**Plaig Bearings**](http://stores.ebay.com.au/Plaig-Bearings) - radial bearings
 * [Stepper Online](http://stores.ebay.com.au/au-stepperonline) - stepper motors
 * [**SydDIYShop**](http://stores.ebay.com.au/zshe4454) - extrusion, rods, bearings
@@ -64,9 +66,12 @@ USA
 
 Europe
 
-* [Duet3D](http://www.duet3d.com/) - genuine Duet3D
-* [E3D](http://e3d-online.com/) - genuine E3D (duh)
-* [OozNest](http://ooznest.co.uk/) - all sorts of parts
+* [Duet3D](http://www.duet3d.com/) (UK) - genuine Duet3D
+* [**E3D**](http://e3d-online.com/) (UK) - genuine E3D (duh)
+* [**OozNest**](http://ooznest.co.uk/) (UK) - general 3D printer parts
+* [reprap.me](http://www.reprap.me/) (Denmark) - general 3D printer parts, Due and RADDS
+* [**StaticBoards**](https://www.tindie.com/stores/staticboards/) (Spain) - Premium RAMPS and other stuff
+* [Watterott](http://www.watterott.com/?action=change_lang&new_lang=en&page=index) (Germany) - good stepper drivers
 
 Non-3D Printer Stuff
 
@@ -103,7 +108,7 @@ Aliexpress Sellers
 * [Tevo](https://www.aliexpress.com/store/2010004) - TEVO TARANTULA BEST 3D PRINTER 2017
 * [TriangleLab](https://www.aliexpress.com/store/1654223) - useless "smoothers" with 4 diodes, crap titan clones
 
-Jerks - Do Not Buy
+## Jerks - Do Not Buy
 
 * GearBest - the whole site, avoid it, avoid anyone shilling affiliate links
 * Sintron - useless crap which doesn't work
