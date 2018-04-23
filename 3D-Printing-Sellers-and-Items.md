@@ -15,6 +15,7 @@ Aliexpress - China
 * [IdeaFormer](https://www.aliexpress.com/store/2949167) - general 3D printer parts, kapton tape
 * [linkcnc](https://www.aliexpress.com/store/834897) - general 3D printer and CNC parts
 * [Keenovo](https://www.aliexpress.com/store/210086) - silicon heaters
+* [Kulon](https://kulon.aliexpress.com/store/1982643) - genuine Mean Well power supplies apparently
 * [**MakerBase (aka MKS)**](https://www.aliexpress.com/store/1047297) - control boards
 * [MicroMake](https://www.aliexpress.com/store/2128317) - delta stuff
 * [**Powge**](https://www.aliexpress.com/store/702327) - bearings, pulleys, idlers. GREAT customer service
