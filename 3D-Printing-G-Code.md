@@ -176,6 +176,10 @@ See calibration page for firmware specifics:
 
 https://github.com/superjamie/lazyweb/wiki/3D-Printing-Calibration#firmware-temperature
 
+### `M420` - Bed Level State
+
+http://marlinfw.org/docs/gcode/M420.html
+
 ### `M500` to `M502` - EEPROM Commands
 
 ~~~
