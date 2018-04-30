@@ -83,6 +83,7 @@ Non-3D Printer Stuff
 ## Items
 
 * [BigTreeTech RAMPS 1.6](https://www.aliexpress.com/item/Bigtreetech-Ramps-1-5-upgrade-base-on-Ramps-1-4-3D-control-panel-mainboard-Reprap-Mendel/32822208144.html) - interesting
+* [ChinaTak](https://www.ebay.com.au/itm/Reusable-3D-Printer-Heated-Bed-Build-Surface-Sticker-200-220-250-300mm/332356334991) - BuildTak clone which Craig, Andrew, and Ciaran are using
 * [Delta Corners - Micromake](https://www.aliexpress.com/item/Micromake-3D-Printer-Vertax-Set/32655642031.html) - injection molded
 * [Delta Corners - SWMaker](https://www.aliexpress.com/item/Colorful-all-metal-3D-Kossel-printer-2020-aluminum-alloy-delta-angle-corner-kit-Kossel-corner-kit/32787024606.html) - aluminium
 * [Gates GT2 RF 6mm belt - HKSupport](https://www.ebay.com/itm/2M-GATES-6mm-2GT-GT2-RF-Fiber-Glass-Reinforced-Rubber-Timing-Belt-for-3D-Printer/141938661911)
