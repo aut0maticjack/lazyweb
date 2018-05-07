@@ -73,8 +73,55 @@ http://bukito3d.com/
 http://www.thingiverse.com/thing:2149685
 
 * Build Volume: 170 x 160 x 130
-* Open source design
 * Cantilever arm based around 12mm Z rod and 8mm other rods
+* Open source design
 
 Look at the "distant" direct-drive with the motor on one end, joined by a rod to the filament gear on the other end!
 
+However, after the other [Atom3D Neuron delta](https://www.thingiverse.com/thing:2149660) was such a misrepresented design, I no longer trust this either.
+
+## 3DR Delta by RichRap
+
+http://richrap.github.io/3DR-Delta-Printer/
+
+* Build Volume not set, but Richard's is: 65D x 187
+* Delta with 6mm rods and 2020 extrusion towers
+* Open source
+
+Richard has a good video about it here: https://www.youtube.com/watch?v=11PVy4AUbeQ
+
+## xxs Delta by Hatsyflatsy
+
+https://www.thingiverse.com/thing:2508671
+
+* Delta with printed base, doable on 220mm bed
+* Build volume: 80D x 126
+
+Remix of the [Sculptr MK1](https://www.thingiverse.com/thing:1444028) which I tried to build and failed.
+
+## TW Mini Cube by TezDesign
+
+https://www.thingiverse.com/thing:1060267
+
+* Build Volume: 130 x 130 x 100
+* Proper corexy cube frame on 2020 extrusion
+
+## Cranestyle Mini
+
+https://github.com/whosawhatsis/cranestyle-mini
+
+* Cantilever arm
+* Open Source
+* Google Plus community: https://plus.google.com/communities/103389833072046557497
+
+Original is not yet well documented. Walter Hsiao built a modified one here: http://thrinter.com/cranestyle-mini-guideways-version/
+
+## nanoCUBE by varykap
+
+https://www.thingiverse.com/thing:555606
+
+* Build Volume: 130 x 140 x 140
+* 2020 extrusion corexy
+* Outer dimensions 280mm cube
+
+Not that well documented but seems okay.
