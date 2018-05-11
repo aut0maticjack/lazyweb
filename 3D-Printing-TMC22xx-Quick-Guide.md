@@ -18,10 +18,10 @@ These drivers take input signal like 1/16 stepping and divide it in hardware dow
 
 ### What am I missing out on?
 
-* TMC2100/TMC2130 have stallGuard2 which does sensorless homing (and skip step detection in Prusa Marlin).
-* TMC2208/TMC2224 don't have stallGuard at all.
+* TMC2130 have stallGuard2 which does sensorless homing (and skip step detection in Prusa Marlin) if you use the SPI interface.
+* TMC2208/TMC2224 don't have stallGuard at all. (nor does TMC2100)
 
-I don't care for the stallGuard feature. If you want sensorless homing then don't use 22xx drivers. Instead, get 24V power (hotend, fans, modified Arduino or other control board, heatbed, etc) and run 21xx in spreadCycle mode.
+I don't care for the stallGuard feature. If you want sensorless homing then don't use 22xx drivers. Instead, get 24V power (hotend, fans, modified Arduino or other control board, heatbed, etc) and run 2132 in spreadCycle mode with SPI wires.
 
 ## Product Pages
 
