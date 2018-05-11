@@ -33,6 +33,7 @@ This is a wiki of useful advice I commonly give or have seen on places like Stac
 * [Sellers and Items](3D-Printing-Sellers-and-Items)
 * [Small Printers](3D-Printing-Small-Printers)
 * [Stepper Motors and Drivers](3D-Printing-Stepper-Motors-and-Drivers)
+* [TMC22xx Quick Guide](3D-Printing-TMC22xx-Quick-Guide)
 
 ## Raspberry Pi
 
