@@ -36,7 +36,7 @@ I don't care for the stallGuard feature. If you want sensorless homing then don'
 ### Prepare driver
 
 * If you need to solder pins to your driver, the IC goes on the bottom (facing the control board) as picured above. The heatsink goes on top (away from the control board). The driver is cooled through the PCB, not through the IC cap.
-* If your driver has PCB color over the cooling pad (silkscreen aka solder mask) then don't worry about it. This affects cooling ability less than 5%.
+* If your driver has PCB color (silkscreen aka solder mask) over the cooling pad then don't worry about it. This affects cooling ability less than 5%.
 * Wipe top of driver with isopropyl alcohol
 * Add heatsink so it covers the through-pad (the little grid of circles showing where the IC is)
 * You need heatsinks and a fan blowing hot air away from the heatsink. Do not use these drivers without both heatsink and fan. They will shut down if they reach 150C internally.
