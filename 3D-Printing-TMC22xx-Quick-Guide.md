@@ -127,7 +127,9 @@ You need to invert the motor direction for the X and Y drivers.
 
 * On TMC2224, the MS3 pin controls stealthChop2 (off) or spreadCycle (on).
 * TMC2208 does not have spreadCycle selection without the UART interface.
-* Don't use these drivers on Z or E. These axes benefit from more torque and don't move fast enough to make noise with regular drivers anyway. I think you should run Z at 1/4 stepping [to get more holding torque](http://www.designfax.net/cms/dfx/opens/enews/20140819DFX/MICROMOsteppingChart2.jpg).
+* If you have a Mendel or cube (cartesian, corexy, Ultimaker, etc) then use these drivers on X and Y.
+* Don't use these drivers on Z or E. The Z and E axes benefit from more torque and don't move fast enough to make noise with regular drivers anyway. I think you should run Z at 1/4 stepping [to get more holding torque](http://www.designfax.net/cms/dfx/opens/enews/20140819DFX/MICROMOsteppingChart2.jpg).
+* If you have a delta then use these drivers on X and Y and Z.
 
 ### References
 
