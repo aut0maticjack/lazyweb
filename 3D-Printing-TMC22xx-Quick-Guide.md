@@ -37,15 +37,15 @@ I don't care for the stallGuard feature. If you want sensorless homing then don'
 
 * If you need to solder pins to your driver, the IC goes on the bottom (facing the control board) as picured above. The heatsink goes on top (away from the control board). The driver is cooled through the PCB, not through the IC cap.
 * If your driver has PCB color (silkscreen aka solder mask) over the cooling pad then don't worry about it. This affects cooling ability less than 5%.
-* Wipe top of driver with isopropyl alcohol
-* Add heatsink so it covers the through-pad (the little grid of circles showing where the IC is)
+* Wipe top of driver with isopropyl alcohol.
+* Add heatsink so it covers the through-pad (the little grid of circles showing where the IC is).
 * You need heatsinks and a fan blowing hot air away from the heatsink. Do not use these drivers without both heatsink and fan. They will shut down if they reach 150C internally and they will reach that temperature if you don't cool them.
 
 ### Install Driver
 
-* Power off printer
-* Unplug X and Y motors
-* Remove old driver (A4988 or DRV8825)
+* Power off printer.
+* Unplug X and Y motors.
+* Remove old driver (A4988 or DRV8825).
 * Set jumpers as follows:
 
 | Driver and Stepping | MS1 | MS2 | MS3 |
@@ -55,12 +55,13 @@ I don't care for the stallGuard feature. If you want sensorless homing then don'
 | 2224 1/32 stepping  |  On |  On | Off |
 
 * Orient new driver (TMC22xx) the correct way. Use the `EN`/`DIR`/`GND` markings on the driver and the control board.
-* Plug new driver in
-* Power on printer
+* Plug new driver in.
+* Power on printer.
 
 ### Configure Driver
 
-* Use vref hole on board and power supply ground to measure vref
+* Use your multimeter in DC voltage mode, set to 2V if you have that sort of meter.
+* Use vref hole on board and power supply ground to measure vref.
 
 ~~~
 |   Top    |
@@ -71,7 +72,8 @@ I don't care for the stallGuard feature. If you want sensorless homing then don'
          '--- vref
 ~~~
 
-* Turn trimpot to set vref
+* Turn trimpot to set vref.
+* If the trimpot is on the underside of the board and you turn it through a hole in the PCB, use a ceramic non-conductive screwdriver, do not use a conductive metal screwdriver.
 * Formula is:
     * TMC2208: `vref = current * 1/3`
     * TMC2224: `vref = current / 2`
@@ -81,9 +83,9 @@ I don't care for the stallGuard feature. If you want sensorless homing then don'
 * Maximum values to use, but try to use as far under these as you can:
     * TMC2208: `1.82V = 1.4A`
     * TMC2224: `1.0V = 2.0A`
-* Power off printer
-* Plug X and Y motors in
-* Power on printer
+* Power off printer.
+* Plug X and Y motors in.
+* Power on printer.
 
 ### Configure Firmware
 
@@ -91,22 +93,22 @@ You need to invert the motor direction for the X and Y drivers.
 
 * Marlin or Repetier Firmware
     * Open `Configuration.h`
-    * Change `INVERT_X_DIR` and `INVERT_Y_DIR` to the opposite of what they are now
-    * Upload firmware to the control board
+    * Change `INVERT_X_DIR` and `INVERT_Y_DIR` to the opposite of what they are now.
+    * Upload firmware to the control board.
 * RepRapFirmware
-    * Set `M569 P0 Sx` and `M569 P1 Sx` to the opposite of what they are now, either `S0` or `S1`
+    * Set `M569 P0 Sx` and `M569 P1 Sx` to the opposite of what they are now, either `S0` or `S1`.
 * Smoothieware
     * Invert `alpha_dir_pin` and `beta_dir_pin` with a `!` like `0.1!`
-    * [Feel sorry for yourself that you use Smoothieware](https://github.com/superjamie/lazyweb/wiki/3D-Printing-Smoothieware-Opinion)
-    * [See if Marlin 32-bit will run on your board soon](https://github.com/MarlinFirmware/Marlin/issues/7076)
+    * [Feel sorry for yourself that you use Smoothieware](https://github.com/superjamie/lazyweb/wiki/3D-Printing-Smoothieware-Opinion).
+    * [See if Marlin 32-bit will run on your board soon](https://github.com/MarlinFirmware/Marlin/issues/7076).
 
 #### Test
 
-* Slowly move X/Y to the middle of their travel by hand
-* Have your finger on the reset button just in case
-* Home printer with `G28`
-* If movement is unexpected, press reset and troubleshoot
-* If all works well, do some test moves and prints
+* Slowly move X/Y to the middle of their travel by hand.
+* Have your finger on the reset button just in case.
+* Home printer with `G28`.
+* If movement is unexpected, press reset and troubleshoot.
+* If all works well, do some test moves and prints.
 
 ### Troubleshooting
 
@@ -119,12 +121,12 @@ You need to invert the motor direction for the X and Y drivers.
     * Power off
     * Plug motors in
     * Power on
-* Don't turn the vref trimpot with the motors plugged in
+* Don't turn the vref trimpot with the motors plugged in. If you accidentally set the driver too high and the motors are activated, you risk damaging the motor, driver, and other electronics.
 
 ### Additional
 
-* On TMC2224, the MS3 pin controls stealthChop2 (off) or spreadCycle (on)
-* TMC2208 does not have spreadCycle selection without the UART interface
+* On TMC2224, the MS3 pin controls stealthChop2 (off) or spreadCycle (on).
+* TMC2208 does not have spreadCycle selection without the UART interface.
 * Don't use these drivers on Z or E. These axes benefit from more torque and don't move fast enough to make noise with regular drivers anyway. I think you should run Z at 1/4 stepping [to get more holding torque](http://www.designfax.net/cms/dfx/opens/enews/20140819DFX/MICROMOsteppingChart2.jpg).
 
 ### References
