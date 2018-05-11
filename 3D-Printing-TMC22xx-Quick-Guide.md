@@ -13,7 +13,7 @@ These drivers take input signal like 1/16 stepping and divide it in hardware dow
 * TMC2100/TMC2130 have stealthChop1 mode which is not strong enough for many 3D printers.
 * The alternative is spreadCycle mode which causes most motors to whine with 12V power. 24V power is needed to avoid this.
 * TMC2208/TMC2224 have stealthChop2 mode which is stronger and designed for 3D printers.
-* TMC2208/TMC2224 operate in standalone mode, there is no need to hook up SPI wires. There is a UART interface supported in Marlin 1.1.7 and RepRapFirmware if you wish to use it but there is no need.
+* TMC2208/TMC2224 operate in standalone mode, there is no need to hook up SPI wires. There is a UART interface supported in Marlin 1.1.7 and RepRapFirmware if you wish to use it but there is no need. (TMC21xx also have standalone mode)
 * TMC2224 have stealthChop2/spreadCycle selection using the MS3 jumper.
 
 ### What am I missing out on?
