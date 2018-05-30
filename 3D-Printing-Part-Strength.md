@@ -28,6 +28,7 @@ Or more accurately, 3D printer and CNC machine parts. Pieces meant to hold frame
 
 * Rectangular/rectilinear infill varies the least under bending stress, I'd use this for stable mechanical parts.
 * Hexagon/honeycomb infill is still fairly okay, it resists tension less and is faster to print.
+* Rectilinear aligned to the force direction is strongest, 3D honeycomb is next best, rectilinear at 45 degrees to force direction is next weakest. Seems 3D honeycomb is the best all-rounder.
 * The difference from low infill like 10% or 20% to high infill like 50% is drastic.
 * There is diminishing returns from 50% infill to 75% infill.
 * I don't think it's worth printing over 80% infill.
@@ -56,3 +57,4 @@ Or more accurately, 3D printer and CNC machine parts. Pieces meant to hold frame
 * http://makerstoolworks.com/all-filament-is-not-created-equal/
 * http://3dprintboard.com/showthread.php?3549-Does-Layer-Height-effect-print-strength&p=95464&viewfull=1#post95464
 * [CNC Kitchen: Infill and Shells](https://www.youtube.com/watch?v=AmEaNAwFSfI)
+* https://engineerdog.com/2015/09/02/mechanical-testing-3d-printed-parts-results-and-recommendations/
