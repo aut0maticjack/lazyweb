@@ -75,7 +75,7 @@ I don't care for the stallGuard feature. If you want sensorless homing then don'
 * Turn trimpot to set vref.
 * If the trimpot is on the underside of the board and you turn it through a hole in the PCB, use a ceramic non-conductive screwdriver, do not use a conductive metal screwdriver.
 * Formula is:
-    * TMC2208: `vref = current * 1/3`
+    * TMC2208: `vref = current * 1.3`
     * TMC2224: `vref = current / 2`
 * I use these but your printer might need different:
     * TMC2208: `0.915V = 0.7A`
