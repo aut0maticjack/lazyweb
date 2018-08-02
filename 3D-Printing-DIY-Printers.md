@@ -25,6 +25,7 @@ Some favorites in a table:
 ## Cantliever
 
 * [Indie i2](http://openbuilds.org/builds/indie-i2.1976/)
+* [C3Dt](https://www.thingiverse.com/thing:2966923)
 * [CraneBot](http://www.openbuilds.com/builds/cranebot.1849/)
 * [D-Bot](http://www.instructables.com/id/The-D-Bot-My-Self-Made-Reprap/?ALLSTEPS)
 * [**Funbot 8mm Version**](http://www.thingiverse.com/thing:1040094)
