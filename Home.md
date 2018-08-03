@@ -22,6 +22,7 @@ This is a wiki of useful advice I commonly give or have seen on places like Stac
 * [Filament Properties](3D-Printing-Filament-Properties)
 * [Frame Stuff](3D-Printing-Frame-Stuff)
 * [G-Code](3D-Printing-G-Code)
+* [Heatbed MOSFET](3D-Printing-Heatbed-MOSFET)
 * [Heated Beds](3D-Printing-Heated-Beds)
 * [Hotend](3D-Printing-Hotend)
 * [HyperCube](3D-Printing-HyperCube)
