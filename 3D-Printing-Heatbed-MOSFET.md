@@ -87,3 +87,22 @@ If I needed a new bed MOSFET, I would buy one of the MKS or Tevo ones, as they a
 
 It is worth the extra 10 bucks to avoid your house burning down.
 
+### Can I use a relay?
+
+Maybe.
+
+If it's a relay which goes "click" as it turns off and on, this is no good as it's a mechanical relay and can't switch fast enough for the rapid signal that comes from the control board.
+
+If it's a Solid State Relay (SSR) which is designed to switch DC current using a DC signal, then yes that could be used. Make sure it is rated for switching more than your bed current on the load side.
+
+Make sure you buy a good quality relay from a good electronics supplier like RS or Farnell, not a cheap fake relay from some dodgy foreign-sourced eBay or Amazon or Aliexpress seller.
+
+Big Clive found this dangerous DC-AC counterfeit relay which was poorly made and actually rated for half what was written on the outside: https://www.youtube.com/watch?v=DxEhxjvifyY
+
+### How about AC/mains heatbed?
+
+I don't think hobbyists should use AC power for their heatbed, as it can be dangerous if setup wrong.
+
+Sure, DC power can be dangerous too, but the power supply fuse and circuit provides some protection around this and I think AC has potential to be more harmful.
+
+If you want to setup an AC mains heatbed then do the certification which electricians are required to do in your area so they can legally touch mains power. Then you should know how to setup the bed safely without killing yourself or someone else around you.
