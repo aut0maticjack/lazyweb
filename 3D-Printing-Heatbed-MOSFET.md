@@ -49,7 +49,7 @@ An external MOSFET is the board pictured here, with some suggested purchase link
 
 (*I am not affiliated with either of these companies, they are just ones I have had good personal experience with*)
 
-This board contains large connectors to the supply voltage, a transistor which can switch a large load, a heatsink to cool that transistor, and a smaller wire connector to accept bed switching signal from the 3D printer control board.
+This board contains large connectors to the supply voltage and the heatbed, a transistor which can switch a large load, a heatsink to cool that transistor, and a smaller wire connector to accept bed switching signal from the 3D printer control board.
 
 The small signal current between the external MOSFET and the control board's heatbed connector ensures the load on the board transistor is low, so does not exceed the current of the bed connector, and does not cause the board transistor to heat excessively (or really at all).
 
