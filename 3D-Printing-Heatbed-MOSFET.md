@@ -28,7 +28,7 @@ You can work out the expected temperature rise.
 
 When switching a 4A (12V 48W) hotend current, this transistor will raise 20 degrees C above ambient temperature, that's fine.
 
-However, when switching a 27A (12V 200W) bed current, this transistor will raise **about 350 degrees C** above ambient temperature!
+However, when switching a 17A (12V 200W) bed current, this transistor will raise **about 350 degrees C** above ambient temperature!
 
 That's well beyond the failure temperature of the component, beyond the holding temperature of the solder, and beyond the melt temperature of the surrounding components.
 
