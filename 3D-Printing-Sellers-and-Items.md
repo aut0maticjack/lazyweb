@@ -7,13 +7,13 @@ Aliexpress - China
 
 * [3DSWay](https://www.aliexpress.com/store/1948493) - general 3D printer parts
 * [AnyCubic](https://www.aliexpress.com/store/1182157) - delta stuff
-* [Ali Brother](https://www.aliexpress.com/store/709519) - the Griffin guide says good silicon heaters
-* [BST Automation](https://www.aliexpress.com/store/314742) - good linear guides
+* [Ali Brother](https://www.aliexpress.com/store/709519) - the [Griffin guide](http://griffinprinter.org/Griffin%20OS/index.php?topic=10.0) says good silicon heaters
+* [BST Automation](https://www.aliexpress.com/store/314742) - Ciaran says good linear guides
 * [DuoWeSi](https://www.aliexpress.com/store/2882163) - general 3D printer and CNC parts
-* [FYSETC](https://www.aliexpress.com/store/2498059) - stepper drivers which work most of the time
+* [**FYSETC**](https://www.aliexpress.com/store/2498059) - stepper drivers which work most of the time
 * [HongYi Automation](https://www.aliexpress.com/store/822038) - integrated lead screw motors, packed well
-* [IdeaFormer](https://www.aliexpress.com/store/2949167) - general 3D printer parts, kapton tape
-* [linkcnc](https://www.aliexpress.com/store/834897) - general 3D printer and CNC parts
+* [**IdeaFormer**](https://www.aliexpress.com/store/2949167) - general 3D printer parts, kapton tape
+* [**linkcnc**](https://www.aliexpress.com/store/834897) - general 3D printer and CNC parts
 * [Keenovo](https://www.aliexpress.com/store/210086) - silicon heaters
 * [Kulon](https://kulon.aliexpress.com/store/1982643) - genuine Mean Well power supplies apparently
 * [**MakerBase (aka MKS)**](https://www.aliexpress.com/store/1047297) - control boards
@@ -44,7 +44,7 @@ Also on a separate list: [Australian Sellers](3D-Printing-Australian-Sellers)
 * [**DNK Systems**](http://stores.ebay.com.au/DNKSystems) - genuine BuildTak
 * [eshop1may](https://stores.ebay.com.au/eshop1may) - china stuff, but at least it's cheap and local
 * [eshop5may](https://stores.ebay.com.au/eshop5may) - china stuff, but at least it's cheap and local
-* [**Layr3D**](http://stores.ebay.com.au/Layr3d-Printing) - general 3D printer parts, genuine PEI
+* [**Layr3D**](http://stores.ebay.com.au/Layr3d-Printing) - general 3D printer parts, genuine PEI, shut down?
 * [**Kingdom3D**](https://www.kingdom3d.com.au/) - eSun filament
 * [**Lateral Design**](http://stores.ebay.com.au/LateralDesign) - rods and bearings
 * [**LearCNC**](http://stores.ebay.com.au/learcnc) - general 3D printer parts, good quality
@@ -83,24 +83,26 @@ Non-3D Printer Stuff
 ## Items
 
 * [BigTreeTech RAMPS 1.6](https://www.aliexpress.com/item/Bigtreetech-Ramps-1-5-upgrade-base-on-Ramps-1-4-3D-control-panel-mainboard-Reprap-Mendel/32822208144.html) - interesting
-* [ChinaTak](https://www.ebay.com.au/itm/Reusable-3D-Printer-Heated-Bed-Build-Surface-Sticker-200-220-250-300mm/332356334991) - BuildTak clone which Craig, Andrew, and Ciaran are using
-* [Delta Corners - Micromake](https://www.aliexpress.com/item/Micromake-3D-Printer-Vertax-Set/32655642031.html) - injection molded
-* [Delta Corners - SWMaker](https://www.aliexpress.com/item/Colorful-all-metal-3D-Kossel-printer-2020-aluminum-alloy-delta-angle-corner-kit-Kossel-corner-kit/32787024606.html) - aluminium
-* [Gates GT2 RF 6mm belt - HKSupport](https://www.ebay.com/itm/2M-GATES-6mm-2GT-GT2-RF-Fiber-Glass-Reinforced-Rubber-Timing-Belt-for-3D-Printer/141938661911)
+* [**Capricorn XS**](https://www.filastruder.com/collections/e3d-spare-parts-and-accessories/products/capricorn-ptfe-tubing?variant=45539850511) - Small ID PTFE tube, **strong recommend**
+* [**ChinaTak**](https://www.ebay.com.au/itm/Reusable-3D-Printer-Heated-Bed-Build-Surface-Sticker-200-220-250-300mm/332356334991) - BuildTak clone which Craig, Andrew, and Ciaran are using
+* [Delta Corners - Micromake](https://www.aliexpress.com/item/Micromake-3D-Printer-Vertax-Set/32655642031.html) - Injection molded
+* [Delta Corners - SWMaker](https://www.aliexpress.com/item/Colorful-all-metal-3D-Kossel-printer-2020-aluminum-alloy-delta-angle-corner-kit-Kossel-corner-kit/32787024606.html) - Aluminium
+* [Gates GT2 RF 6mm belt - HKSupport](https://www.ebay.com/itm/2M-GATES-6mm-2GT-GT2-RF-Fiber-Glass-Reinforced-Rubber-Timing-Belt-for-3D-Printer/141938661911) - Genuine apparently
 * [MKS GEN](https://www.aliexpress.com/store/product/4-layers-PCB-controller-board-MKS-Gen-V1-4-integrated-mainboard-compatible-Ramps1-4-Mega2560-R3/1047297_32810883738.html)
-* [**MKS GEN_L**](https://www.aliexpress.com/store/product/controller-PCB-board-MKS-Gen-L-V1-0-integrated-mainboard-compatible-Ramps1-4-Mega2560-R3-support/1047297_32802151924.html) - good cheap 8-bit control board
-* [MOSFET - MKS](https://www.aliexpress.com/store/product/3Dprinter-heat-control-MKS-MOSFET-for-heated-bed-printer-head-MOS-30A/1047297_32405884519.html) - probably the same as the Tevo one
-* [**MOSFET - Tevo**](https://www.aliexpress.com/item/3D-Printer-parts-heating-controller-MKS-MOSFET-for-heat-bed-extruder-MOS-module-exceed-30A-support/32789089967.html) - this is the one I have
-* [PEI for LulzBot TAZ](https://core-electronics.com.au/lulzbot-taz-pei-sheet.html) - genuine in Australia
+* [**MKS GEN_L**](https://www.aliexpress.com/store/product/controller-PCB-board-MKS-Gen-L-V1-0-integrated-mainboard-compatible-Ramps1-4-Mega2560-R3-support/1047297_32802151924.html) - Good cheap 8-bit control board
+* [MOSFET - MKS](https://www.aliexpress.com/store/product/3Dprinter-heat-control-MKS-MOSFET-for-heated-bed-printer-head-MOS-30A/1047297_32405884519.html) - Probably the same as the Tevo one
+* [**MOSFET - Tevo**](https://www.aliexpress.com/item/3D-Printer-parts-heating-controller-MKS-MOSFET-for-heat-bed-extruder-MOS-module-exceed-30A-support/32789089967.html) - I have this
+* [PEI for LulzBot TAZ](https://core-electronics.com.au/lulzbot-taz-pei-sheet.html) - Only(?) genuine PEI in Australia
 * [**StaticBoards Premium RAMPS**](https://www.tindie.com/products/staticboards/ramps-14-sb-premium/)
 * [Stepper motor set](https://www.aliexpress.com/item/5pcs-3D-Printer-Nema-17-Stepper-Motors-42SHD0404-1-7A-Motor-4pcs-42SHD0217-1-5A-CNC/32824764988.html) - I have these 4 on my HyperCube
-* [V-wheel Delrin](https://www.aliexpress.com/item/Solid-V-wheel-Kit-for-V-Slot/32315153844.html) - lot of 20 from Xinfact
-* [V-wheel PC](https://www.aliexpress.com/item/Poly-Carbonate-Solid-V-wheel-Kit-for-V-Slot/32315197095.html) - lot of 20 from Xinfact
-* [Worm Gear](https://www.aliexpress.com/item/1M-20T-reduction-ratio-1-20-copper-worm-hole-5MM-metal-worm-reducer-transmission-parts/32317054520.html) - used in the KISS belted Z
+* [Teflonto TL-Feeder Tube](https://www.aliexpress.com/store/product/1M-PTFE-Tube-Teflon-PiPe-to-TL-Feeder-J-head-hotend-RepRap-Rostock-Bowden-Extruder-1/1654223_32811240720.html) - Inferior TriangleLab clone of Capricorn tube
+* [V-wheel Delrin](https://www.aliexpress.com/item/Solid-V-wheel-Kit-for-V-Slot/32315153844.html) - Lot of 20 from Xinfact
+* [V-wheel PC](https://www.aliexpress.com/item/Poly-Carbonate-Solid-V-wheel-Kit-for-V-Slot/32315197095.html) - Lot of 20 from Xinfact
+* [**Worm Gear**](https://www.aliexpress.com/item/1M-20T-reduction-ratio-1-20-copper-worm-hole-5MM-metal-worm-reducer-transmission-parts/32317054520.html) - Used in the [KISS](https://www.thingiverse.com/thing:2491053) and [V-King](https://github.com/RoyBerntsenDesign/V-King) belted Z
 
 ## Low Tier
 
-* [Banggood](http://banggood.com/) - low quality dropshipping of parts that sometimes work
+* [Banggood](http://banggood.com/) - Low quality dropshipping of parts that sometimes work but often don't
 
 Aliexpress Sellers
 
@@ -109,7 +111,7 @@ Aliexpress Sellers
 * [BigTreeTech](https://www.aliexpress.com/store/228623) - mediocre electronics
 * [Creality](https://www.aliexpress.com/store/2846085) - CREALITY CR-10 BEST 3D PRINTER 2018
 * [Tevo](https://www.aliexpress.com/store/2010004) - TEVO TARANTULA BEST 3D PRINTER 2017
-* [TriangleLab](https://www.aliexpress.com/store/1654223) - useless "smoothers" with 4 diodes, crap titan clones
+* [TriangleLab](https://www.aliexpress.com/store/1654223) - useless "smoothers" with only 4 diodes, crap Titan clones
 
 ## Jerks - Do Not Buy
 
