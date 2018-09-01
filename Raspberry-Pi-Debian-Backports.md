@@ -26,9 +26,9 @@ Debian contributors take some packages from the next in-development version (cal
 
 Debian maintain repositories for the Raspberry Pi's 32-bit architecture (called `armhf`) so we can often use Debian packages directly on the Raspberry Pi's Raspbian.
 
-You can browse the Jessie Backports package list at:
+You can browse the Stretch Backports package list at:
 
-* https://packages.debian.org/jessie-backports/
+* https://packages.debian.org/stretch-backports/
 
 ## WARNING
 
@@ -42,9 +42,10 @@ I've had more success using Backports on Pi 2/3 with their ARMv7 architecture, t
 
 ## Installation
 
-Add the two Debian package signing keys:
+Add the Debian package signing keys:
 
 ~~~
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E0B11894F66AEC98
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 7638D0442B90D010
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 8B48AD6246925553
 ~~~
@@ -52,7 +53,7 @@ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 8B48AD6246925553
 Add the Backports repository:
 
 ~~~
-echo 'deb http://httpredir.debian.org/debian jessie-backports main contrib non-free' | sudo tee -a /etc/apt/sources.list.d/jessie-backports.list
+echo 'deb http://httpredir.debian.org/debian stretch-backports main contrib non-free' | sudo tee -a /etc/apt/sources.list.d/debian-backports.list
 ~~~
 
 Update your package lists:
@@ -68,7 +69,7 @@ Package repositories can have priority over one another, and Backports is automa
 You need to specifically tell apt to use Backports like:
 
 ~~~
-sudo apt-get -t jessie-backports install packagename
+sudo apt-get -t stretch-backports install packagename
 ~~~
 
 ## Example - youtube-dl
@@ -110,8 +111,12 @@ Success!
 If you're a GPG nerd or want a different way to install the keys, you can also:
 
 ~~~
+# Debian Archive Automatic Signing Key (9/stretch) <ftpmaster@debian.org>
+gpg --keyserver pgpkeys.mit.edu --recv-key E0B11894F66AEC98
+gpg -a --export E0B11894F66AEC98 | sudo apt-key add -
+
 # Debian Archive Automatic Signing Key (8/jessie) <ftpmaster@debian.org>
-gpg --keyserver pgpkeys.mit.edu --recv-key  7638D0442B90D010
+gpg --keyserver pgpkeys.mit.edu --recv-key 7638D0442B90D010
 gpg -a --export 7638D0442B90D010 | sudo apt-key add -
 
 # Debian Archive Automatic Signing Key (7.0/wheezy) <ftpmaster@debian.org>
