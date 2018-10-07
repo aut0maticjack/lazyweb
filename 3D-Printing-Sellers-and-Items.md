@@ -25,6 +25,10 @@ Aliexpress - China
 * [YuYong 3DMaker](https://www.aliexpress.com/store/1711438) - v-slot, v-wheels, extrusion plates, openbuilds clones
 * [**Xinlong Factory (Xinfact)**](https://www.aliexpress.com/store/123598) - aluminium extrusion, V-wheels
 
+Alibaba - China Wholesale
+
+* [Shenzhen Jinbo Hao Technology](https://www.alibaba.com/product-detail/high-quality-3d-printing-filament-for_60635089247.html) - good PLA (and PETG) filament, minimum order quantity 20kg, freight US$140 for 20kg
+
 eBay - Int'l
 
 * [Antclabs](http://www.ebay.com.au/usr/antclabs2016) - genuine BLTouch
@@ -87,6 +91,7 @@ Non-3D Printer Stuff
 * [**ChinaTak**](https://www.ebay.com.au/itm/Reusable-3D-Printer-Heated-Bed-Build-Surface-Sticker-200-220-250-300mm/332356334991) - BuildTak clone which Craig, Andrew, and Ciaran are using
 * [Delta Corners - Micromake](https://www.aliexpress.com/item/Micromake-3D-Printer-Vertax-Set/32655642031.html) - Injection molded
 * [Delta Corners - SWMaker](https://www.aliexpress.com/item/Colorful-all-metal-3D-Kossel-printer-2020-aluminum-alloy-delta-angle-corner-kit-Kossel-corner-kit/32787024606.html) - Aluminium
+* [Gates GT2 RF belt - DForce](https://www.alibaba.com/product-detail/high-quality-3d-printing-filament-for_60635089247.html) - Genuine Japanese-made Gates belt
 * [Gates GT2 RF 6mm belt - HKSupport](https://www.ebay.com/itm/2M-GATES-6mm-2GT-GT2-RF-Fiber-Glass-Reinforced-Rubber-Timing-Belt-for-3D-Printer/141938661911) - Genuine apparently
 * [MKS GEN](https://www.aliexpress.com/store/product/4-layers-PCB-controller-board-MKS-Gen-V1-4-integrated-mainboard-compatible-Ramps1-4-Mega2560-R3/1047297_32810883738.html)
 * [**MKS GEN_L**](https://www.aliexpress.com/store/product/controller-PCB-board-MKS-Gen-L-V1-0-integrated-mainboard-compatible-Ramps1-4-Mega2560-R3-support/1047297_32802151924.html) - Good cheap 8-bit control board
