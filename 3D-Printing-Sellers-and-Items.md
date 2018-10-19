@@ -92,7 +92,7 @@ Non-3D Printer Stuff
 * [Delta 2020 Injection Molded Corners - Micromake](https://www.aliexpress.com/item/Micromake-3D-Printer-Vertax-Set/32655642031.html)
 * [Delta 2020 Metal Corners - SWMaker](https://www.aliexpress.com/item/Colorful-all-metal-3D-Kossel-printer-2020-aluminum-alloy-delta-angle-corner-kit-Kossel-corner-kit/32787024606.html)
 * [Delta 2040 Metal Corners - SWMaker](https://www.aliexpress.com/item/Funssor-2040-aluminum-profile-frame-Bottom-Top-vertex-metal-angle-corners-for-DIY-Kossel-XXL-3D/32823300793.html)
-* [Gates GT2 RF belt - DForce](https://www.alibaba.com/product-detail/high-quality-3d-printing-filament-for_60635089247.html) - Genuine Japanese-made Gates belt
+* [Gates GT2 RF belt - DForce](https://www.aliexpress.com/item/GATES-LL-2GT-UNITTA-3D-printer-gear-synchronous-belt-GT2-Width-6MM-9MM-High-quality-wear/32847442138.html) - Genuine Japanese-made Gates belt
 * [Gates GT2 RF 6mm belt - HKSupport](https://www.ebay.com/itm/2M-GATES-6mm-2GT-GT2-RF-Fiber-Glass-Reinforced-Rubber-Timing-Belt-for-3D-Printer/141938661911) - Genuine apparently
 * [MKS GEN](https://www.aliexpress.com/store/product/4-layers-PCB-controller-board-MKS-Gen-V1-4-integrated-mainboard-compatible-Ramps1-4-Mega2560-R3/1047297_32810883738.html)
 * [**MKS GEN_L**](https://www.aliexpress.com/store/product/controller-PCB-board-MKS-Gen-L-V1-0-integrated-mainboard-compatible-Ramps1-4-Mega2560-R3-support/1047297_32802151924.html) - Good cheap 8-bit control board
