@@ -26,7 +26,7 @@ Mostly things nobody tells you or which are nontrivial to figure out yourself.
 * The PSP game location is `ux0:/pspemu/PSP/GAME/`
     * Example: `ux0:/pspemu/PSP/GAME/Wipeout/EBOOT.pbp`
 * The PSP ISO/CSO location is `ux0:/pspemu/ISO`
-    * Example: `ux0:/pspemu/PSP/GAME/Tactics Ogre.iso`
+    * Example: `ux0:/pspemu/ISO/Tactics Ogre.iso`
 * Don't make file names too long or Adrenaline will say **Corrupted Data**
 * Use [Adrenaline Bubble Manager](https://github.com/ONElua/AdrenalineBubbleManager) to put PSP game shortcuts in the Vita Live Area so you don't have to launch Adrenaline to play
 
