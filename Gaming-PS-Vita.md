@@ -41,6 +41,7 @@ Mostly things nobody tells you or which are nontrivial to figure out yourself.
 * Most native emulators are not as good as RetroArch. Get the latest from: https://buildbot.libretro.com/stable/
 * SNES - Use RetroArch cores `snes9x2005` or `snes9x2010`, the most recent snes9x has performance problems for me
 * OutRun - Use [Cannonball](https://github.com/rsn8887/cannonball/releases)
+* PSX - Adrenaline uses the Vita's built in PSX emulator to play games. When a PSX game doesn't work with 6.60 or 6.61 (eg: on a PSP the game needed POPSLoader 5.00 or 3.xx to run) then the game will not run on Vita. You can use RetroArch's PSX emulation to try instead: [reference](https://www.reddit.com/r/vitahacks/comments/8xt7gd/adrenaline_and_popsloader/)
 
 ## Links
 
