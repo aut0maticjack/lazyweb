@@ -68,8 +68,10 @@
 
 ### Food
 
+* [Adam Liaw](https://www.youtube.com/channel/UC9TM3Lrth8MQjHrttZJZiEw) - Aussie Malaysian celeb chef
 * [Alex French Guy Cooking](https://www.youtube.com/user/FrenchGuyCooking) - funny, all sorts of cooking
 * [Asian at Home with Seonkyoung Longest](https://www.youtube.com/user/SeonkyoungLongest) - Korean, Japanese, Chinese
+* [Dumpling Sisters](https://www.youtube.com/channel/UC__QnZctmizPLK22sqH_qTQ)
 
 ### Gaming
 
@@ -80,13 +82,17 @@
 * [Daniel from SL](https://www.youtube.com/user/CaramelHoteI) - hilarious game griefing
 * [dfortae](https://www.youtube.com/user/dfortae) - Darryl Fortae, DOS game reviews
 * [DidYouKnowGaming](https://www.youtube.com/user/DYKGaming)
+* [Displaced Gamers](https://www.youtube.com/channel/UCWoSKWs8h6lFdiEDAjuIfpA) - best retro game guy
 * [Killian Experience](https://www.youtube.com/channel/UCjdQaSJCYS4o2eG93MvIwqg) - hilarious garbage reviews
 * [Kinsey Burke](https://www.youtube.com/channel/UCSMJHi4vvNu-mETdZokpj8A) - Kinszilla
 * [Lazy Game Reviews](https://www.youtube.com/user/phreakindee) - Clint Basinger
 * [Metal Jesus](https://www.youtube.com/user/MetalJesusRocks) - Jason Lindsey
-* [minimme](https://www.youtube.com/channel/UCPIBtu2SBuW_VFHwKwDOtYg) - funny Australian guy
+* [minimme](https://www.youtube.com/channel/UCPIBtu2SBuW_VFHwKwDOtYg) - funny Australian guy, foot reveals
+* [oddheader](https://www.youtube.com/channel/UCIcR5StUvA7_pPHoAFLmZaA) - video game secrets and leftovers
 * [Sseth Tzeentach](https://www.youtube.com/user/SsethTzeentach) - you're in for a treat
 * [SNES drunk](https://www.youtube.com/user/1SNESdrunk) - SNES
+* [stanburdman](https://www.youtube.com/channel/UCV7Y-h68Ik6uurQ8QB3HVUg) - funny good reviews
+* [Super Derek](https://www.youtube.com/channel/UC6luZwzy3OLDCs1-f4IdePg) - so many RPGs
 * [wermy](https://www.youtube.com/channel/UCRP1Zx7B4b66ZwkB2Ov5pMw) - sudomod Game Boy Zero and MintyPi
 * [Yzzyxz](https://www.youtube.com/user/Yzzyxz) - Classic adventure game playthroughs, no commentary
 
@@ -99,6 +105,7 @@
 * [Kurzgesagt - In A Nutshell](https://www.youtube.com/user/Kurzgesagt) - optimistic nihilism
 * [Lemmino](https://www.youtube.com/user/Top10Memes) - David from Sweden
 * [OverSimplified](https://www.youtube.com/user/Webzwithaz)
+* [Plainly Difficult](https://www.youtube.com/channel/UCb0MyY46T9ZYOzDHkYnIoXg)
 * [Planet Dolan](https://www.youtube.com/user/DDTop20)
 * [Real Engineering](https://www.youtube.com/channel/UCR1IuLEqb6UEA_zQ81kwXfg)
 * [RealLifeLore](https://www.youtube.com/channel/UCP5tjEmvPItGyLhmjdwP7Ww)
@@ -107,18 +114,21 @@
 * [The Rest of Us](https://www.youtube.com/channel/UCogasD4DFxmshrBNnJNFcvg)
 * [This Place](https://www.youtube.com/user/ThisPlaceChannel)
 * [Wendover Productions](https://www.youtube.com/user/Wendoverproductions) - same guy as Half As Interesting
+* [Zepherus](https://www.youtube.com/channel/UC-x0TtqNsBBQAQzFLnKZHnw)
 
 ### History
 
 * [Alternate History Hub](https://www.youtube.com/user/AlternateHistoryHub) - same guy as Knowledge Hub
+* [Epimetheus](https://www.youtube.com/channel/UCp9ZtilfKJds0iWytR_pnOQ) - short history of old empires
 * [Simple History](https://www.youtube.com/channel/UC510QYlOlKNyhy_zdQxnGYw) - Daniel Turner
 * [The Great War](https://www.youtube.com/user/TheGreatWar) - Indiana Neidell, World War 1
+* [The History Guy](The History Guy: History Deserves to Be Remembered) - well made short videos of lesser-known events
 * [Ten Minute History](https://www.youtube.com/channel/UC22BdTgxefuvUivrjesETjg)
 
 ### Making
 
 * [April Wilkerson](https://www.youtube.com/user/AprilWilkersonDIY) - woodworking
-* [Clickspring](https://www.youtube.com/channel/UCworsKCR-Sx6R6-BnIjS2MA) - metal fabrication
+* [Clickspring](https://www.youtube.com/channel/UCworsKCR-Sx6R6-BnIjS2MA) - clockwork and metal fabrication
 * [Green Beetle](https://www.youtube.com/channel/UCUC_LrU2GpyOvUXAk_wrhbQ) - knife making
 * [Jimmy DiResta](https://www.youtube.com/user/jimmydiresta) - too popular
 * [Make Anything](https://www.youtube.com/channel/UCVc6AHfGw9b2zOE_ZGfmsnw) - Devin Montes
@@ -126,7 +136,7 @@
 * [Peter Sripol](https://www.youtube.com/channel/UC7yF9tV4xWEMZkel7q8La_w) - RC stuff
 * [Primitive Technology](https://www.youtube.com/channel/UCAL3JXZSzSm8AlZyD3nQdBA) - John Plant
 * [Simone Giertz](https://www.youtube.com/channel/UC3KEoMzNz8eYnwBC34RaKCQ) - Queen of Shitty Robots
-* [Tom Stanton](https://www.youtube.com/channel/UC67gfx2Fg7K2NSHqoENVgwA) - RC stuff
+* [Tom Stanton](https://www.youtube.com/channel/UC67gfx2Fg7K2NSHqoENVgwA) - RC and engineering stuff
 * [This Old Tony](https://www.youtube.com/user/featony) - metal fabrication
 * [Walter Sorrells](https://www.youtube.com/user/slappybuckshot) - knife/sword making, funny
 
@@ -142,6 +152,7 @@
 * [engineerguy](https://www.youtube.com/user/engineerguyvideo) - Bill Hammack
 * [Minute Physics](https://www.youtube.com/user/minutephysics)
 * [Physics Girl](https://www.youtube.com/user/physicswoman) - Dianna Cowern
+* [Primal Space](https://www.youtube.com/channel/UClZbmi9JzfnB2CEb0fG8iew)
 * [Questions for Science](https://www.youtube.com/user/TheYoungTurds1)
 * [Scott Manley](https://www.youtube.com/user/szyzyg) - a lot of video games like KSP, some science
 * [The Slow-Mo Guys](https://www.youtube.com/user/theslowmoguys) - Gavin Free and Dan Gruchy
