@@ -122,7 +122,7 @@
 * [Epimetheus](https://www.youtube.com/channel/UCp9ZtilfKJds0iWytR_pnOQ) - short history of old empires
 * [Simple History](https://www.youtube.com/channel/UC510QYlOlKNyhy_zdQxnGYw) - Daniel Turner
 * [The Great War](https://www.youtube.com/user/TheGreatWar) - Indiana Neidell, World War 1
-* [The History Guy](The History Guy: History Deserves to Be Remembered) - well made short videos of lesser-known events
+* [The History Guy](https://www.youtube.com/channel/UC4sEmXUuWIFlxRIFBRV6VXQ) - well made short videos of lesser-known events
 * [Ten Minute History](https://www.youtube.com/channel/UC22BdTgxefuvUivrjesETjg)
 
 ### Making
