@@ -62,6 +62,7 @@ The [RetroPie Wiki](https://github.com/RetroPie/RetroPie-Setup/wiki) details alm
 ## Gaming
 
 * [Android Games](Gaming-Android-Games)
+* [Android Visual Novels](Gaming-Android-Visual-Novels)
 * [Fantasy Computers](Gaming-Fantasy-Computers)
 * [FTL-likes](Gaming-FTL-likes)
 * [Making a Custom Teensy3 HID Joystick](Gaming-Making-a-Custom-Teensy3-HID-Joystick)
