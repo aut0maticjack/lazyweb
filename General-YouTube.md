@@ -27,10 +27,11 @@
 
 * [AutoMoments](https://www.youtube.com/user/TheCarMeat) - American car history
 * [Bad Obsession Motorsport](https://www.youtube.com/user/badobsessionmsport) - Project Binky
-* [Bare Metal HW](https://www.youtube.com/user/baremetalHW) - hot wheels
 * [Dogged Fabrication](https://www.youtube.com/channel/UCrK2_gqI4knOij31p_iandQ) - Project Twin VNT
+* [Doug DeMuro](https://www.youtube.com/channel/UCsqjHFMB_JYTaEnf_vmTNqg) - The Doug Score
 * [EngineeringExplained](https://www.youtube.com/user/EngineeringExplained) - Jason Fenske
 * [Fifth Gear](https://www.youtube.com/user/fifthgearuk) - British show
+* [Fuzzy Dice Projects](https://www.youtube.com/user/FuzzyDicePimp) - smart dude who'll fix anything
 * [Mighty Car Mods](https://www.youtube.com/user/mightycarmods) - Marty and Moog
 * [MotorTrend](https://www.youtube.com/user/MotorTrend) - Hot Rod Garage, Roadkill, etc
 * [Tim's Enthusiast Garage](https://www.youtube.com/channel/UCSHC8vHIPzE5EaYjHgx1Tmw) - Tim Neely
@@ -45,6 +46,7 @@
 * [N-O-D-E](https://www.youtube.com/channel/UCvrLvII5oxSWEMEkszrxXEA) - security and projects
 * [Obsolete Geek](https://www.youtube.com/user/robivy64) - Rob Ivy
 * [Phil's Computer Lab](https://www.youtube.com/user/philscomputerlab) - retro PCs
+* [TechLead](https://www.youtube.com/channel/UC4xKdmAXFh4ACyhpiQ_3qBw) - opinionated ex-Googler who hates Google
 * [The 8-Bit Guy](https://www.youtube.com/user/adric22) - David Murray
 
 ### Culture
@@ -72,6 +74,8 @@
 * [Alex French Guy Cooking](https://www.youtube.com/user/FrenchGuyCooking) - funny, all sorts of cooking
 * [Asian at Home with Seonkyoung Longest](https://www.youtube.com/user/SeonkyoungLongest) - Korean, Japanese, Chinese
 * [Dumpling Sisters](https://www.youtube.com/channel/UC__QnZctmizPLK22sqH_qTQ)
+* [Food Wishes](https://www.youtube.com/user/foodwishes) - chef John
+* [Souped Up Recipes](https://www.youtube.com/channel/UC3HjB3X8jeENm46HCkI0Inw) - cute Asian girl
 
 ### Gaming
 
@@ -83,18 +87,27 @@
 * [dfortae](https://www.youtube.com/user/dfortae) - Darryl Fortae, DOS game reviews
 * [DidYouKnowGaming](https://www.youtube.com/user/DYKGaming)
 * [Displaced Gamers](https://www.youtube.com/channel/UCWoSKWs8h6lFdiEDAjuIfpA) - best retro game guy
+* [DOS Nostalgia](https://www.youtube.com/user/dosnostalgic) - Anatoly Shashkin
+* [Gaming Historian](https://www.youtube.com/user/HDGamingHD)
 * [Killian Experience](https://www.youtube.com/channel/UCjdQaSJCYS4o2eG93MvIwqg) - hilarious garbage reviews
 * [Kinsey Burke](https://www.youtube.com/channel/UCSMJHi4vvNu-mETdZokpj8A) - Kinszilla
-* [Lazy Game Reviews](https://www.youtube.com/user/phreakindee) - Clint Basinger
+* [Lazy Game Reviews](https://www.youtube.com/user/phreakindee) - Clint Basinger, DOS gamer
 * [Metal Jesus](https://www.youtube.com/user/MetalJesusRocks) - Jason Lindsey
 * [minimme](https://www.youtube.com/channel/UCPIBtu2SBuW_VFHwKwDOtYg) - funny Australian guy, foot reveals
+* [Modern Vintage Gamer](https://www.youtube.com/user/jimako123) - Australian but good content sometimes
 * [oddheader](https://www.youtube.com/channel/UCIcR5StUvA7_pPHoAFLmZaA) - video game secrets and leftovers
+* [PushingUpRoses](https://www.youtube.com/user/pushinguproses) - Sarah Wilson, DOS adventure gamer
 * [Sseth Tzeentach](https://www.youtube.com/user/SsethTzeentach) - you're in for a treat
 * [SNES drunk](https://www.youtube.com/user/1SNESdrunk) - SNES
 * [stanburdman](https://www.youtube.com/channel/UCV7Y-h68Ik6uurQ8QB3HVUg) - funny good reviews
 * [Super Derek](https://www.youtube.com/channel/UC6luZwzy3OLDCs1-f4IdePg) - so many RPGs
 * [wermy](https://www.youtube.com/channel/UCRP1Zx7B4b66ZwkB2Ov5pMw) - sudomod Game Boy Zero and MintyPi
 * [Yzzyxz](https://www.youtube.com/user/Yzzyxz) - Classic adventure game playthroughs, no commentary
+
+### Gardening
+
+* [suburban homestead](https://www.youtube.com/channel/UCcpWQjpQJ465FYJEx2DuDFA) - gigantic hipster with good garden
+* 
 
 ### General Knowledge
 
@@ -104,11 +117,14 @@
 * [Knowledge Hub](https://www.youtube.com/channel/UC2_KC8lshtCyiLApy27raYw) - same guy as Alternate History Hub
 * [Kurzgesagt - In A Nutshell](https://www.youtube.com/user/Kurzgesagt) - optimistic nihilism
 * [Lemmino](https://www.youtube.com/user/Top10Memes) - David from Sweden
+* [Mustard](https://www.youtube.com/channel/UC1ZBQ-F-yktYD4m5AzM6pww) - mostly war/tech stuff I guess
 * [OverSimplified](https://www.youtube.com/user/Webzwithaz)
 * [Plainly Difficult](https://www.youtube.com/channel/UCb0MyY46T9ZYOzDHkYnIoXg)
 * [Planet Dolan](https://www.youtube.com/user/DDTop20)
+* [PolyMatter](https://www.youtube.com/channel/UCgNg3vwj3xt7QOrcIDaHdFg)
 * [Real Engineering](https://www.youtube.com/channel/UCR1IuLEqb6UEA_zQ81kwXfg)
 * [RealLifeLore](https://www.youtube.com/channel/UCP5tjEmvPItGyLhmjdwP7Ww)
+* [Sam O'Nella Academy](https://www.youtube.com/channel/UC1DTYW241WD64ah5BFWn4JA)
 * [Second Thought](https://www.youtube.com/channel/UCJm2TgUqtK1_NLBrjNQ1P-w)
 * [The Infographics Show](https://www.youtube.com/user/TheInfographicsShow)
 * [The Rest of Us](https://www.youtube.com/channel/UCogasD4DFxmshrBNnJNFcvg)
@@ -120,6 +136,7 @@
 
 * [Alternate History Hub](https://www.youtube.com/user/AlternateHistoryHub) - same guy as Knowledge Hub
 * [Epimetheus](https://www.youtube.com/channel/UCp9ZtilfKJds0iWytR_pnOQ) - short history of old empires
+* [Mark Felton Productions](https://www.youtube.com/channel/UCfCKvREB11-fxyotS1ONgww) - good mostly war history
 * [Simple History](https://www.youtube.com/channel/UC510QYlOlKNyhy_zdQxnGYw) - Daniel Turner
 * [The Great War](https://www.youtube.com/user/TheGreatWar) - Indiana Neidell, World War 1
 * [The History Guy](https://www.youtube.com/channel/UC4sEmXUuWIFlxRIFBRV6VXQ) - well made short videos of lesser-known events
@@ -128,16 +145,22 @@
 ### Making
 
 * [April Wilkerson](https://www.youtube.com/user/AprilWilkersonDIY) - woodworking
+* [Bare Metal HW](https://www.youtube.com/user/baremetalHW) - hot wheels
 * [Clickspring](https://www.youtube.com/channel/UCworsKCR-Sx6R6-BnIjS2MA) - clockwork and metal fabrication
 * [Green Beetle](https://www.youtube.com/channel/UCUC_LrU2GpyOvUXAk_wrhbQ) - knife making
+* [Jakarta Diecast Project](https://www.youtube.com/channel/UC5QtJAXO631Ry0WUQuMzfHg) - the BEST hot wheels mods
 * [Jimmy DiResta](https://www.youtube.com/user/jimmydiresta) - too popular
 * [Make Anything](https://www.youtube.com/channel/UCVc6AHfGw9b2zOE_ZGfmsnw) - Devin Montes
 * [Make Magazine](https://www.youtube.com/user/makemagazine)
+* [Matchbox Garage](https://www.youtube.com/user/juggalo7979) - not bad
+* [my mechanics](https://www.youtube.com/channel/UCMrMVIBtqFW6O0-MWq26gqw) - best restorations
+* [Odd Tinkering](https://www.youtube.com/channel/UCf_suVrG2dA5BTjJhNLwthQ) - okay restorations
 * [Peter Sripol](https://www.youtube.com/channel/UC7yF9tV4xWEMZkel7q8La_w) - RC stuff
 * [Primitive Technology](https://www.youtube.com/channel/UCAL3JXZSzSm8AlZyD3nQdBA) - John Plant
 * [Simone Giertz](https://www.youtube.com/channel/UC3KEoMzNz8eYnwBC34RaKCQ) - Queen of Shitty Robots
 * [Tom Stanton](https://www.youtube.com/channel/UC67gfx2Fg7K2NSHqoENVgwA) - RC and engineering stuff
 * [This Old Tony](https://www.youtube.com/user/featony) - metal fabrication
+* [TysyTube Restoration](https://www.youtube.com/channel/UCIGEtjevANE0Nqain3EqNSg) - okay restorations
 * [Walter Sorrells](https://www.youtube.com/user/slappybuckshot) - knife/sword making, funny
 
 ### Music
@@ -150,7 +173,9 @@
 * [Astrum](https://www.youtube.com/user/astrumspace) - space
 * [Curious Droid](https://www.youtube.com/channel/UC726J5A0LLFRxQ0SZqr2mYQ) - Paul Shillito
 * [engineerguy](https://www.youtube.com/user/engineerguyvideo) - Bill Hammack
+* [Fully Charged Show](https://www.youtube.com/user/fullychargedshow) - Kryten and electric vehicles
 * [Minute Physics](https://www.youtube.com/user/minutephysics)
+* [ParallaxNick](https://www.youtube.com/channel/UC0QdW-H7_l0zh_CoNhlwoBw)
 * [Physics Girl](https://www.youtube.com/user/physicswoman) - Dianna Cowern
 * [Primal Space](https://www.youtube.com/channel/UClZbmi9JzfnB2CEb0fG8iew)
 * [Questions for Science](https://www.youtube.com/user/TheYoungTurds1)
