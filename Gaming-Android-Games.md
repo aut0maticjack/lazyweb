@@ -16,6 +16,7 @@ Games I like, roughly in tiers, then alphabetical within the tiers
 * [Bullet Hell Monday](https://play.google.com/store/apps/details?id=com.msykit.Stg1u) - bullet hell shmup
 * [Caves](https://play.google.com/store/apps/details?id=thirty.six.dev.underworld) - roguelike
 * [CLARC](https://play.google.com/store/apps/details?id=com.GoldenTricycle.ClarcPrem) - isometric strategy
+* [Flow Water](https://play.google.com/store/apps/details?id=com.Frasinapp.waterfountain) - 3D Pipe Dream
 * [Full Steam Ahead](https://play.google.com/store/apps/details?id=air.com.aardman.ssgreatbritain.fullsteamahead) - boat building
 * [Hiversaires](https://apkpure.com/hiversaires/com.underscorediscovery.Hiversaires) - black & white textless puzzle adv
 * [Horror in the Dark](https://play.google.com/store/apps/details?id=nz.co.karmicshift.horror) and [all his games](https://play.google.com/store/apps/developer?id=Karmic+Shift+Studios) - lovecraft text adventures
@@ -31,6 +32,7 @@ Games I like, roughly in tiers, then alphabetical within the tiers
 * [Solitaire: Decked Out](https://play.google.com/store/apps/details?id=com.devsisters.SolitaireDeckedOut) - klondike rpg, addictive!
 * [Space Trader](https://play.google.com/store/apps/details?id=com.brucelet.spacetrader) - elite space trading
 * [Star Jumper](https://play.google.com/store/apps/details?id=com.dmdsoftware.starjumper) - FTL clone
+* [Sushi Tile](https://play.google.com/store/apps/details?id=com.hwdot.sushitile) - mahjongg
 * [Tents and Trees](https://play.google.com/store/apps/details?id=com.frozax.tentsandtrees) - logic puzzle
 * [The Silent Age](https://play.google.com/store/apps/details?id=dk.houseonfire.android.thesilentage) - graphic adventure
 * [Tiny Dangerous Dungeons](https://play.google.com/store/apps/details?id=com.adventureislands.tinydd) - metroidvania
