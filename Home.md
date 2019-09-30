@@ -8,6 +8,47 @@ This is a wiki of useful advice I commonly give or have seen on places like Stac
 * [Tech Entertainment](General-Tech-Entertainment)
 * [YouTube](General-YouTube)
 
+## Gaming
+
+* [Android Games](Gaming-Android-Games)
+* [Android Visual Novels](Gaming-Android-Visual-Novels)
+* [Fantasy Computers](Gaming-Fantasy-Computers)
+* [FTL-likes](Gaming-FTL-likes)
+* [Making a Custom Teensy3 HID Joystick](Gaming-Making-a-Custom-Teensy3-HID-Joystick)
+* [Text Adventures](Gaming-Text-Adventures)
+* [PS Vita](Gaming-PS-Vita)
+* [Solar Winds](Gaming-Solar-Winds)
+
+## Emulation
+
+* [Boot-to-DOSBox](Boot-to-DOSBox) - Instructions for creating a persistent DOSBox LiveUSB
+* [Emu Gen Wiki](http://emulation.gametechwiki.com/) - [backup](https://emulation.miraheze.org/)
+* [MAME Clones Worth Playing](MAME-Clones-Worth-Playing)
+* [MAME Version Notes](MAME-Version-Notes)
+
+## RetroPie
+
+The [RetroPie Wiki](https://github.com/RetroPie/RetroPie-Setup/wiki) details almost anything you'd want to know.
+
+* [DOSBox Notes](RetroPie-DOSBox-Notes)
+* [DOSBox One Must Fall 2097](RetroPie-DOSBox-OMF2097)
+* [Game Controller USB Power Database](Game-Controller-USB-Power-Database)
+
+## Raspberry Pi
+
+* [3.5mm Audio Hiss](Raspberry-Pi-3.5mm-Audio-Hiss)
+* [Clustering](Raspberry-Pi-Clustering)
+* [Cooling](Raspberry-Pi-Cooling)
+* [Custom Controller Input](Raspberry-Pi-Custom-Controller-Input)
+* [Debian Backports](Raspberry-Pi-Debian-Backports)
+* [Display Auto Switching](Raspberry-Pi-Display-Auto-Switching)
+* [GPIO](Raspberry-Pi-GPIO)
+* [Handhelds](Raspberry-Pi-Handhelds) and custom arcade machines
+* [Power](Raspberry-Pi-Power)
+* [USB Hubs](http://elinux.org/RPi_Powered_USB_Hubs)
+* [VPN Router](https://gist.github.com/superjamie/ac55b6d2c080582a3e64)
+* [x86 on Pi](x86-on-Pi)
+
 ## 3D Printing
 
 * [Australian Sellers](3D-Printing-Australian-Sellers)
@@ -36,53 +77,12 @@ This is a wiki of useful advice I commonly give or have seen on places like Stac
 * [Stepper Motors and Drivers](3D-Printing-Stepper-Motors-and-Drivers)
 * [TMC22xx Quick Guide](3D-Printing-TMC22xx-Quick-Guide)
 
-## Raspberry Pi
-
-* [3.5mm Audio Hiss](Raspberry-Pi-3.5mm-Audio-Hiss)
-* [Clustering](Raspberry-Pi-Clustering)
-* [Cooling](Raspberry-Pi-Cooling)
-* [Custom Controller Input](Raspberry-Pi-Custom-Controller-Input)
-* [Debian Backports](Raspberry-Pi-Debian-Backports)
-* [Display Auto Switching](Raspberry-Pi-Display-Auto-Switching)
-* [GPIO](Raspberry-Pi-GPIO)
-* [Handhelds](Raspberry-Pi-Handhelds) and custom arcade machines
-* [Power](Raspberry-Pi-Power)
-* [USB Hubs](http://elinux.org/RPi_Powered_USB_Hubs)
-* [VPN Router](https://gist.github.com/superjamie/ac55b6d2c080582a3e64)
-* [x86 on Pi](x86-on-Pi)
-
-## RetroPie
-
-The [RetroPie Wiki](https://github.com/RetroPie/RetroPie-Setup/wiki) details almost anything you'd want to know.
-
-* [DOSBox Notes](RetroPie-DOSBox-Notes)
-* [DOSBox One Must Fall 2097](RetroPie-DOSBox-OMF2097)
-* [Game Controller USB Power Database](Game-Controller-USB-Power-Database)
-
-## Gaming
-
-* [Android Games](Gaming-Android-Games)
-* [Android Visual Novels](Gaming-Android-Visual-Novels)
-* [Fantasy Computers](Gaming-Fantasy-Computers)
-* [FTL-likes](Gaming-FTL-likes)
-* [Making a Custom Teensy3 HID Joystick](Gaming-Making-a-Custom-Teensy3-HID-Joystick)
-* [Text Adventures](Gaming-Text-Adventures)
-* [PS Vita](Gaming-PS-Vita)
-* [Solar Winds](Gaming-Solar-Winds)
-
 ## FightSticks
 
 * Arcade Encoders
 * [Mad Catz SE Wiring](Mad-Catz-SE-Wiring)
 * [Preventing SOCD on common ground PCB using 7400 NAND gates](http://forums.shoryuken.com/discussion/147393/guide-preventing-socd-on-any-common-ground-pcb-by-using-7400-chips/p1)
 * [Slagcoin](http://slagcoin.com/joystick/introduction.html)
-
-## Emulation
-
-* [Boot-to-DOSBox](Boot-to-DOSBox) - Instructions for creating a persistent DOSBox LiveUSB
-* [Emu Gen Wiki](http://emulation.gametechwiki.com/) - [backup](https://emulation.miraheze.org/)
-* [MAME Clones Worth Playing](MAME-Clones-Worth-Playing)
-* [MAME Version Notes](MAME-Version-Notes)
 
 ## Linux
 
