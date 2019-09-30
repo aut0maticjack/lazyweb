@@ -21,6 +21,7 @@ Games I like, roughly in tiers, then alphabetical within the tiers
 * [Hiversaires](https://apkpure.com/hiversaires/com.underscorediscovery.Hiversaires) - black & white textless puzzle adv
 * [Horror in the Dark](https://play.google.com/store/apps/details?id=nz.co.karmicshift.horror) and [all his games](https://play.google.com/store/apps/developer?id=Karmic+Shift+Studios) - lovecraft text adventures
 * [League of Evil](https://play.google.com/store/apps/details?id=com.noodlecake.leagueofevil) - rapid platformer
+* [Mr Bullet - Spy Puzzles](https://play.google.com/store/apps/details?id=com.lionstudios.mrbullet)
 * [One Thousand Lies](https://play.google.com/store/apps/details?id=keinart.otl) - visual novel
 * [OPUS: Rocket of Whispers](https://play.google.com/store/apps/details?id=com.sigono.heaven01) - resource gathering adventure
 * [Rebuild 3: Gangs of Deadsville](https://play.google.com/store/apps/details?id=air.com.sarahnorthway.rebuild3) - isometric zombie management
