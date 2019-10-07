@@ -1,23 +1,3 @@
-### 3D Printing
-
-* [3D Printing Nerd](https://www.youtube.com/channel/UC_7aK9PpYTqt08ERh1MewlQ) - Joel Telling
-* [Artur's Lab](https://www.youtube.com/channel/UC8Kh4ug_aRQPjeidIsYawFA) - Artur J'ski
-* [Bryce Standley](https://www.youtube.com/channel/UCRvDNuWAtzaZARrFaFAgUCg)
-* [CHEP 3D Printing](https://www.youtube.com/user/beginnerelectronics) - Chuck Hellebuyck
-* [CNC Kitchen](https://www.youtube.com/channel/UCiczXOhGpvoQGhOL16EZiTg) - Stefan Hermann
-* [C.R.T](https://www.youtube.com/channel/UCIi0sokRP7JKU-f0HHIhicw) - Adam Meadows, creator of S.T.E.V.E
-* [FugaTech](https://www.youtube.com/user/fuganater987) - Shane Fuga
-* [Ivan Miranda](https://www.youtube.com/channel/UCF3cDM_hQMtIEJvEW1BZugg)
-* [Maker's Muse](https://www.youtube.com/user/TheMakersMuse) - Angus Deveson
-* [Naomi 'SexyCyborg' Wu](https://www.youtube.com/c/SexyCyborg) - rad maker from China
-* [RCLifeOn](https://www.youtube.com/user/RcLifeOnSimon) - Simon from Sweden
-* [Richard Horne](https://www.youtube.com/user/RichRap2011) - RichRap
-* [Scott 3D](https://www.youtube.com/channel/UCSsDLXiBMSJVbn3lPDxhe3Q) - creator of HyperCube Evolution
-* [Tech2C](https://www.youtube.com/channel/UC_scf0U4iSELX22nC60WDSg) - Chris Cotton, creator of HyperCube
-* [Think Making](https://www.youtube.com/channel/UCP3C4lgdnERHfpbGE0mZobw)
-* [TinkerCave](https://www.youtube.com/user/MoOdyDeluXe) - Werner
-* [Tom Sanladerer](https://www.youtube.com/user/ThomasSanladerer)
-
 ### Animals
 
 * [Hope for Paws](https://www.youtube.com/user/eldad75) - Eldad Hagar
@@ -48,6 +28,7 @@
 * [Phil's Computer Lab](https://www.youtube.com/user/philscomputerlab) - retro PCs
 * [TechLead](https://www.youtube.com/channel/UC4xKdmAXFh4ACyhpiQ_3qBw) - opinionated ex-Googler who hates Google
 * [The 8-Bit Guy](https://www.youtube.com/user/adric22) - David Murray
+* [This Does Not Compute](https://www.youtube.com/channel/UCEp20NgOZHmgWdbQdHSxgjw) - some okay retro vids
 
 ### Culture
 
@@ -58,12 +39,18 @@
 
 ### Entertainment
 
+* [AlternateHistoryHub](https://www.youtube.com/channel/UClfEht64_NrzHf8Y0slKEjw) - what if scenarios
+* [Barely Sociable](https://www.youtube.com/channel/UC9PIn6-XuRKZ5HmYeu46AIw) - internet mysteries
 * [Bright Sun Films](https://www.youtube.com/user/BrightSunGaming) - Abandoned places
 * [CCTube](https://www.youtube.com/user/CrashCarTube) - car crashes
 * [Criminally Listed](https://www.youtube.com/channel/UCs3iFCPtX0gzkKxCrobO4ig) - unsolved crimes
 * [Dashcam Owners Australia](https://www.youtube.com/user/DashCamOwnersAustral)
 * [FailArmy](https://www.youtube.com/user/failarmy)
+* [FakeLifeLore](https://www.youtube.com/channel/UC-vzYTutOl2ZFq6KcT9F0HA) - exploring fiction
+* [heavy casefiles](https://www.youtube.com/channel/UCZx7pjncNRxyOaLvLRqe1Pw) - unsolved crimes
 * [HyperDrive](https://www.youtube.com/channel/UCPBIyhZKfSCb9Wex291cquA) - some good movie lists
+* [Merc](https://www.youtube.com/channel/UCzwEJTQa7wl0AboBYbrKr1A) - unsolved crimes
+* [Nexpo](https://www.youtube.com/channel/UCpFFItkfZz1qz5PpHpqzYBw) - internet mysteries
 * [The Gregory Brothers](https://www.youtube.com/user/schmoyoho) - Auto-Tune the News
 * [Wisecrack](https://www.youtube.com/user/thugnotes) - thug notes
 * [Vox](https://www.youtube.com/user/voxdotcom) - some good stuff, too American
@@ -72,6 +59,7 @@
 
 * [Adam Liaw](https://www.youtube.com/channel/UC9TM3Lrth8MQjHrttZJZiEw) - Aussie Malaysian celeb chef
 * [Alex French Guy Cooking](https://www.youtube.com/user/FrenchGuyCooking) - funny, all sorts of cooking
+* [America's Test Kitchen](https://www.youtube.com/channel/UCxAS_aK7sS2x_bqnlJHDSHw) - some good science-based tests and experiments
 * [Asian at Home with Seonkyoung Longest](https://www.youtube.com/user/SeonkyoungLongest) - Korean, Japanese, Chinese
 * [Dumpling Sisters](https://www.youtube.com/channel/UC__QnZctmizPLK22sqH_qTQ)
 * [Food Wishes](https://www.youtube.com/user/foodwishes) - chef John
@@ -81,15 +69,19 @@
 
 * [A Jolly Wangcore](https://www.youtube.com/channel/UCQEnQfezywrAwkHWX_Uo_Qg) - crap hilarious mods
 * [Bolloxed](https://www.youtube.com/user/bolloxedballs) - Half-Life and Source engine playthroughs, no commentary
+* [Cannot Be Tamed](https://www.youtube.com/channel/UCzwyF_IcyMP86ilsmKD1Pcw) - Pam here to talk about retro video games
 * [Classic Game Room](https://www.youtube.com/user/InecomCompany) - Mark Bussler, retro gaming
 * [CGR Undertow](https://www.youtube.com/user/CGRundertow) - Derek Buck
 * [Daniel from SL](https://www.youtube.com/user/CaramelHoteI) - hilarious game griefing
+* [DariaPlaysRPGs](https://www.youtube.com/channel/UCZ697qvWdKOUmXuvslxNzPg) - RPG reviews
+* [decino](https://www.youtube.com/channel/UCJ8V9aiz50m6NVn0ix5v8RQ) - Doom analysis
 * [dfortae](https://www.youtube.com/user/dfortae) - Darryl Fortae, DOS game reviews
 * [DidYouKnowGaming](https://www.youtube.com/user/DYKGaming)
 * [Displaced Gamers](https://www.youtube.com/channel/UCWoSKWs8h6lFdiEDAjuIfpA) - best retro game guy
 * [DOS Nostalgia](https://www.youtube.com/user/dosnostalgic) - Anatoly Shashkin
 * [Gaming Historian](https://www.youtube.com/user/HDGamingHD)
 * [Killian Experience](https://www.youtube.com/channel/UCjdQaSJCYS4o2eG93MvIwqg) - hilarious garbage reviews
+* [Kelsey Lewin](https://www.youtube.com/channel/UCVfhjBPhPY41aHm4DAR4M6Q) - obscure Japanese retro collecting
 * [Kinsey Burke](https://www.youtube.com/channel/UCSMJHi4vvNu-mETdZokpj8A) - Kinszilla
 * [Lazy Game Reviews](https://www.youtube.com/user/phreakindee) - Clint Basinger, DOS gamer
 * [Metal Jesus](https://www.youtube.com/user/MetalJesusRocks) - Jason Lindsey
@@ -106,35 +98,43 @@
 
 ### Gardening
 
-* [suburban homestead](https://www.youtube.com/channel/UCcpWQjpQJ465FYJEx2DuDFA) - gigantic hipster with good garden
-* 
+* [eat your garden australia](https://www.youtube.com/channel/UCDC_RVt_z4wX_P6F9aeMN9w) - Richo from South East Qld
+* [Home & Garden](https://www.youtube.com/channel/UCbxbwh7MV5YOJ2HMzAu2zDg) - Vietnamese with subtitles
+* [MI gardener](https://www.youtube.com/channel/UCVGVbOl6F5rGF4wSYS6Y5yQ) - very US-centric but okay
+* [Self Sufficient Me](https://www.youtube.com/channel/UCJZTjBlrnDHYmf0F-eYXA3Q) - Mark from South East Qld
+* [Suburban Homestead](https://www.youtube.com/channel/UCcpWQjpQJ465FYJEx2DuDFA) - gigantic hipster with good garden
 
 ### General Knowledge
 
 * [Facts in Motion](https://www.youtube.com/channel/UCoanlfeXEit_vI83VlE709A) - Roman from Germany
-* [Half as Interesting](https://www.youtube.com/channel/UCuCkxoKLYO_EQ2GeFtbM_bw) - same guy as Wendover
+* [GreyBeam Productions](https://www.youtube.com/channel/UCGOGHdjWWzlm0XgWZ2522Cg) - short fact stories 
+* [Half as Interesting](https://www.youtube.com/channel/UCuCkxoKLYO_EQ2GeFtbM_bw) - Sam from Wendover
 * [It's Okay to be Smart](https://www.youtube.com/user/itsokaytobesmart) - Dr Joe Hanson
 * [Knowledge Hub](https://www.youtube.com/channel/UC2_KC8lshtCyiLApy27raYw) - same guy as Alternate History Hub
 * [Kurzgesagt - In A Nutshell](https://www.youtube.com/user/Kurzgesagt) - optimistic nihilism
 * [Lemmino](https://www.youtube.com/user/Top10Memes) - David from Sweden
-* [Mustard](https://www.youtube.com/channel/UC1ZBQ-F-yktYD4m5AzM6pww) - mostly war/tech stuff I guess
+* [Machine Thinking](https://www.youtube.com/channel/UCfsznjef2zGJnrCRQBXqo6Q) - engineering history
+* [Mustard](https://www.youtube.com/channel/UC1ZBQ-F-yktYD4m5AzM6pww) - mostly war/tech stuff
 * [OverSimplified](https://www.youtube.com/user/Webzwithaz)
 * [Plainly Difficult](https://www.youtube.com/channel/UCb0MyY46T9ZYOzDHkYnIoXg)
 * [Planet Dolan](https://www.youtube.com/user/DDTop20)
-* [PolyMatter](https://www.youtube.com/channel/UCgNg3vwj3xt7QOrcIDaHdFg)
+* [PolyMatter](https://www.youtube.com/channel/UCgNg3vwj3xt7QOrcIDaHdFg) - CHINA
 * [Real Engineering](https://www.youtube.com/channel/UCR1IuLEqb6UEA_zQ81kwXfg)
 * [RealLifeLore](https://www.youtube.com/channel/UCP5tjEmvPItGyLhmjdwP7Ww)
-* [Sam O'Nella Academy](https://www.youtube.com/channel/UC1DTYW241WD64ah5BFWn4JA)
+* [Sam O'Nella Academy](https://www.youtube.com/channel/UC1DTYW241WD64ah5BFWn4JA) - lol yes
 * [Second Thought](https://www.youtube.com/channel/UCJm2TgUqtK1_NLBrjNQ1P-w)
+* [SideNote](https://www.youtube.com/channel/UCRvWwMPr2SmSG7rXXzeEUdA)
 * [The Infographics Show](https://www.youtube.com/user/TheInfographicsShow)
 * [The Rest of Us](https://www.youtube.com/channel/UCogasD4DFxmshrBNnJNFcvg)
 * [This Place](https://www.youtube.com/user/ThisPlaceChannel)
-* [Wendover Productions](https://www.youtube.com/user/Wendoverproductions) - same guy as Half As Interesting
+* [Wendover Productions](https://www.youtube.com/user/Wendoverproductions) - Sam from Half As Interesting
+* [What I've Learned](https://www.youtube.com/channel/UCqYPhGiB9tkShZorfgcL2lA) - interesting vids about health/brain/fitness
 * [Zepherus](https://www.youtube.com/channel/UC-x0TtqNsBBQAQzFLnKZHnw)
 
 ### History
 
 * [Alternate History Hub](https://www.youtube.com/user/AlternateHistoryHub) - same guy as Knowledge Hub
+* [Drachinifel](https://www.youtube.com/channel/UC4mftUX7apmV1vsVXZh7RTw) - WW2 battleships
 * [Epimetheus](https://www.youtube.com/channel/UCp9ZtilfKJds0iWytR_pnOQ) - short history of old empires
 * [Mark Felton Productions](https://www.youtube.com/channel/UCfCKvREB11-fxyotS1ONgww) - good mostly war history
 * [Simple History](https://www.youtube.com/channel/UC510QYlOlKNyhy_zdQxnGYw) - Daniel Turner
@@ -150,6 +150,7 @@
 * [Green Beetle](https://www.youtube.com/channel/UCUC_LrU2GpyOvUXAk_wrhbQ) - knife making
 * [Jakarta Diecast Project](https://www.youtube.com/channel/UC5QtJAXO631Ry0WUQuMzfHg) - the BEST hot wheels mods
 * [Jimmy DiResta](https://www.youtube.com/user/jimmydiresta) - too popular
+* [LADB Restoration](https://www.youtube.com/channel/UC6rj8dZbPn4Oz4FIam4b9Iw) - okay restorations
 * [Make Anything](https://www.youtube.com/channel/UCVc6AHfGw9b2zOE_ZGfmsnw) - Devin Montes
 * [Make Magazine](https://www.youtube.com/user/makemagazine)
 * [Matchbox Garage](https://www.youtube.com/user/juggalo7979) - not bad
@@ -175,10 +176,38 @@
 * [engineerguy](https://www.youtube.com/user/engineerguyvideo) - Bill Hammack
 * [Fully Charged Show](https://www.youtube.com/user/fullychargedshow) - Kryten and electric vehicles
 * [Minute Physics](https://www.youtube.com/user/minutephysics)
-* [ParallaxNick](https://www.youtube.com/channel/UC0QdW-H7_l0zh_CoNhlwoBw)
+* [ParallaxNick](https://www.youtube.com/channel/UC0QdW-H7_l0zh_CoNhlwoBw) - awesome space stuff
 * [Physics Girl](https://www.youtube.com/user/physicswoman) - Dianna Cowern
 * [Primal Space](https://www.youtube.com/channel/UClZbmi9JzfnB2CEb0fG8iew)
 * [Questions for Science](https://www.youtube.com/user/TheYoungTurds1)
+* [SciShow](https://www.youtube.com/channel/UCZYTClx2T1of7BRZ86-8fow)
 * [Scott Manley](https://www.youtube.com/user/szyzyg) - a lot of video games like KSP, some science
+* [SpaceX](https://www.youtube.com/channel/UCtI0Hodo5o5dUb67FeUjDeA) - the actual guys who launch the rockets
 * [The Slow-Mo Guys](https://www.youtube.com/user/theslowmoguys) - Gavin Free and Dan Gruchy
 * [Vintage Space](https://www.youtube.com/channel/UCw95T_TgbGHhTml4xZ9yIqg) - Amy Shira Teitel, Apollo-era stuff
+
+### Tiny Houses
+
+* [Living Big in a Tiny House](https://www.youtube.com/user/livingbigtinyhouse) - Bryce from NZ, houses all over the world
+* [The Modern Home Project](https://www.youtube.com/channel/UCnoUKype0fVkWtCleYWBT1w) - shipping container house in California
+
+
+### 3D Printing
+
+* [3D Printing Nerd](https://www.youtube.com/channel/UC_7aK9PpYTqt08ERh1MewlQ) - Joel Telling
+* [Artur's Lab](https://www.youtube.com/channel/UC8Kh4ug_aRQPjeidIsYawFA) - Artur J'ski
+* [Bryce Standley](https://www.youtube.com/channel/UCRvDNuWAtzaZARrFaFAgUCg)
+* [CHEP 3D Printing](https://www.youtube.com/user/beginnerelectronics) - Chuck Hellebuyck
+* [CNC Kitchen](https://www.youtube.com/channel/UCiczXOhGpvoQGhOL16EZiTg) - Stefan Hermann
+* [C.R.T](https://www.youtube.com/channel/UCIi0sokRP7JKU-f0HHIhicw) - Adam Meadows, creator of S.T.E.V.E
+* [FugaTech](https://www.youtube.com/user/fuganater987) - Shane Fuga
+* [Ivan Miranda](https://www.youtube.com/channel/UCF3cDM_hQMtIEJvEW1BZugg)
+* [Maker's Muse](https://www.youtube.com/user/TheMakersMuse) - Angus Deveson
+* [Naomi 'SexyCyborg' Wu](https://www.youtube.com/c/SexyCyborg) - rad maker from China
+* [RCLifeOn](https://www.youtube.com/user/RcLifeOnSimon) - Simon from Sweden
+* [Richard Horne](https://www.youtube.com/user/RichRap2011) - RichRap
+* [Scott 3D](https://www.youtube.com/channel/UCSsDLXiBMSJVbn3lPDxhe3Q) - creator of HyperCube Evolution
+* [Tech2C](https://www.youtube.com/channel/UC_scf0U4iSELX22nC60WDSg) - Chris Cotton, creator of HyperCube
+* [Think Making](https://www.youtube.com/channel/UCP3C4lgdnERHfpbGE0mZobw)
+* [TinkerCave](https://www.youtube.com/user/MoOdyDeluXe) - Werner
+* [Tom Sanladerer](https://www.youtube.com/user/ThomasSanladerer)
