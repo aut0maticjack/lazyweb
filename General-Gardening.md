@@ -40,7 +40,7 @@ Raised bed gardening solves that by letting you add your own good soil and contr
 * [Self Sufficient Me video about raised beds in small spaces](https://www.youtube.com/watch?v=Nh0ol-eAN2U)
 * [Self Sufficient Me video about Birdies wicking bed](https://www.youtube.com/watch?v=RAy8gd_Omd4)
 
-You can also grow some stuff in pots depending on what it is. Herbs and small edibles are fine in 20L to 50L pots. Dwarf fruit trees want at least 50L, preferably 75L or even 100L.
+You can also grow some stuff in pots depending on what it is. Herbs are fine in 10L to 20L pots. Small edibles like tomatoes are fine in 20L to 50L pots. Dwarf fruit trees want at least 50L, preferably 75L or even 100L.
 
 ## Info
 
