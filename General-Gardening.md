@@ -44,7 +44,7 @@ You can also grow some stuff in pots depending on what it is. Herbs are fine in 
 
 ## Info
 
-* [Queensland Gardening Pages](http://www.queenslandgardening.com/) - Messy organisation but good info. The [calendar](http://www.queenslandgardening.com/calender.html) is my favorite page.
+* [Queensland Gardening Pages](http://www.queenslandgardening.com/) - Messy organisation but good. The [calendar](http://www.queenslandgardening.com/calender.html) is useful.
 * Companion Planting - some plants help (or hinder) other plants growth:
     - <https://thumbnails-visually.netdna-ssl.com/the-ultimate-guide-to-companion-planting_5330a18970e25_w1500.png>
     - <http://www.savvyhousekeeping.com/wp-content/uploads/2013/06/Companion-Planting-FTFA.jpg>
