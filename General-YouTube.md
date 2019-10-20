@@ -99,6 +99,7 @@
 ### Gardening
 
 * [eat your garden australia](https://www.youtube.com/channel/UCDC_RVt_z4wX_P6F9aeMN9w) - Richo from South East Qld
+* [Epic Gardening](https://www.youtube.com/user/EpicGardening) - Kevin in California
 * [Home & Garden](https://www.youtube.com/channel/UCbxbwh7MV5YOJ2HMzAu2zDg) - Vietnamese with subtitles
 * [MI gardener](https://www.youtube.com/channel/UCVGVbOl6F5rGF4wSYS6Y5yQ) - very US-centric but okay
 * [Self Sufficient Me](https://www.youtube.com/channel/UCJZTjBlrnDHYmf0F-eYXA3Q) - Mark from South East Qld
