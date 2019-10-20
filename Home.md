@@ -4,6 +4,7 @@ This is a wiki of useful advice I commonly give or have seen on places like Stac
 
 ## General
 
+* [Gardening](General-Gardening)
 * [Podcasts](General-Podcasts)
 * [Tech Entertainment](General-Tech-Entertainment)
 * [YouTube](General-YouTube)
