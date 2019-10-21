@@ -50,6 +50,32 @@ The [RetroPie Wiki](https://github.com/RetroPie/RetroPie-Setup/wiki) details alm
 * [VPN Router](https://gist.github.com/superjamie/ac55b6d2c080582a3e64)
 * [x86 on Pi](x86-on-Pi)
 
+## Tech
+
+* [Android Apps](Tech-Android-Apps)
+
+## Linux
+
+* Bonding and LACP
+    * http://unix.stackexchange.com/questions/82569/bonds-vs-aggregators/172232#172232
+    * http://unix.stackexchange.com/questions/81633/rhel-5-complex-port-bonding/168545#168545
+    * http://serverfault.com/questions/731508/how-to-implement-lacp-cross-switches
+* Network Performance Tuning [talk](https://www.youtube.com/watch?v=ZYCKSN4xf84) (and [notes](http://jbainbri.github.io/lca2016.html)) that I gave at LCA2016
+* [Real Time](Linux-Real-Time)
+* [Ubuntu PPAs](Linux-Ubuntu-PPAs)
+
+StackExchange:
+
+* [My ServerFault answers](http://serverfault.com/users/122677/suprjami?tab=answers&sort=votes)
+* [My superuser.com answers](http://superuser.com/users/136766/suprjami?tab=answers&sort=votes)
+* [My Unix & Linux answers](http://unix.stackexchange.com/users/39229/suprjami?tab=answers&sort=votes)
+
+## FightSticks
+
+* [Mad Catz SE Wiring](Mad-Catz-SE-Wiring)
+* [Preventing SOCD on common ground PCB using 7400 NAND gates](http://forums.shoryuken.com/discussion/147393/guide-preventing-socd-on-any-common-ground-pcb-by-using-7400-chips/p1)
+* [Slagcoin](http://slagcoin.com/joystick/introduction.html)
+
 ## 3D Printing
 
 * [Australian Sellers](3D-Printing-Australian-Sellers)
@@ -78,27 +104,3 @@ The [RetroPie Wiki](https://github.com/RetroPie/RetroPie-Setup/wiki) details alm
 * [Stepper Motors and Drivers](3D-Printing-Stepper-Motors-and-Drivers)
 * [TMC22xx Quick Guide](3D-Printing-TMC22xx-Quick-Guide)
 
-## FightSticks
-
-* Arcade Encoders
-* [Mad Catz SE Wiring](Mad-Catz-SE-Wiring)
-* [Preventing SOCD on common ground PCB using 7400 NAND gates](http://forums.shoryuken.com/discussion/147393/guide-preventing-socd-on-any-common-ground-pcb-by-using-7400-chips/p1)
-* [Slagcoin](http://slagcoin.com/joystick/introduction.html)
-
-## Linux
-
-* Bonding and LACP
-    * http://unix.stackexchange.com/questions/82569/bonds-vs-aggregators/172232#172232
-    * http://unix.stackexchange.com/questions/81633/rhel-5-complex-port-bonding/168545#168545
-    * http://serverfault.com/questions/731508/how-to-implement-lacp-cross-switches
-* Network Performance Tuning [talk](https://www.youtube.com/watch?v=ZYCKSN4xf84) (and [notes](http://jbainbri.github.io/lca2016.html)) that I gave at LCA2016
-* [Real Time](Linux-Real-Time)
-* [Ubuntu PPAs](Linux-Ubuntu-PPAs)
-
-StackExchange:
-
-* [My ServerFault answers](http://serverfault.com/users/122677/suprjami?tab=answers&sort=votes)
-* [My superuser.com answers](http://superuser.com/users/136766/suprjami?tab=answers&sort=votes)
-* [My Unix & Linux answers](http://unix.stackexchange.com/users/39229/suprjami?tab=answers&sort=votes)
-
-## Networking
