@@ -12,6 +12,7 @@ Some experiences with gardening in south east Queensland.
 ## Failures
 
 * Basil - Either goes yellow or black and dies. No idea what I'm doing wrong.
+* Garlic - Too hot and humid for summer. Try again at start of winter.
 
 ## Trying
 
@@ -59,5 +60,6 @@ These places post their trees, so you aren't limited to just what's around you.
 
 * [Daley's Fruit Tree Nursery](https://www.daleysfruit.com.au/) - Kyogle NSW
 * [Fruit Tree Lane](https://fruittreelane.com.au/) - Helidon (near Toowoombah) QLD
+* [JA's Herb Nursery](https://www.jasherbnursery.com/) - Taromeo (west of Caboolture) QLD
 * [Lush Plants](https://www.lushplants.com.au/) - Bundaberg QLD
 * [Yalca Fruit Trees](https://www.yalcafruittrees.com.au/) - Nathalia (near Shepparton/Echuca) VIC
