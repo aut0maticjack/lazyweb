@@ -1,6 +1,6 @@
 # Android Apps
 
-Current as of Oct 2019
+As of Oct 2019.
 
 * [AdAway](https://f-droid.org/en/packages/org.adaway/) - block ads with hosts file
 * [ADM](https://play.google.com/store/apps/details?id=com.dv.adm) - download manager
@@ -8,10 +8,13 @@ Current as of Oct 2019
 * [Android System WebView](https://play.google.com/store/apps/details?id=com.google.android.webview) - update this
 * [AnLinux](https://play.google.com/store/apps/details?id=exa.lnx.a) - run Linux distros with Termux PRoot
 * [Audiobooks](https://play.google.com/store/apps/details?id=sanity.freeaudiobooks)
+* [BusyBox](https://play.google.com/store/apps/details?id=stericson.busybox) - update this if rooted
 * [Chrome](https://play.google.com/store/apps/details?id=com.android.chrome) - botnet web browser
 * [ClockSync](https://play.google.com/store/apps/details?id=ru.org.amip.ClockSync) - NTP time sync
+* [Coastline](https://play.google.com/store/apps/details?id=com.rumsunrise.coastline) - simple plain text editor
 * [Collage Maker Pic Grid](https://play.google.com/store/apps/details?id=com.lyrebirdstudio.collage)
 * [Compass](https://play.google.com/store/apps/details?id=com.simplywerx.compass2d)
+* [Dark Mode](https://play.google.com/store/apps/details?id=systems.maju.darkmode) - tricks supporting apps into dark mode
 * [DiskUsage](https://play.google.com/store/apps/details?id=com.google.android.diskusage) - find where your space went
 * [Droidentify](https://play.google.com/store/apps/details?id=de.onyxbits.droidentify) - stuff about your phone
 * [DS file](https://play.google.com/store/apps/details?id=com.synology.DSfile) - Synology NAS file manager
@@ -28,6 +31,7 @@ Current as of Oct 2019
 * [iA Writer](https://play.google.com/store/apps/details?id=net.ia.iawriter) - Markdown editor with Dropbox sync
 * [JuiceSSH](https://play.google.com/store/apps/details?id=com.sonelli.juicessh) - SSH client and tunnel
 * [Keepass2Android](https://play.google.com/store/apps/details?id=keepass2android.keepass2android)
+* [Kernel Adiutor](https://play.google.com/store/apps/details?id=com.grarak.kerneladiutor) - set kernel params like CPU governor
 * [Kore](https://play.google.com/store/apps/details?id=org.xbmc.kore) - Kodi (XBMC) remote control
 * [Level](https://play.google.com/store/apps/details?id=fr.avianey.level) - spirit bubble level
 * [Lightning](https://play.google.com/store/apps/details?id=acr.browser.lightning) - lightweight web browser
@@ -44,6 +48,7 @@ Current as of Oct 2019
 * [Photo Widget-7](https://play.google.com/store/apps/details?id=com.style_7.photo_widget_7) - launcher widget with just a picture, no nonsense
 * [PhotoSuite](https://play.google.com/store/apps/details?id=com.mobisystems.msgs) - image editor
 * [Podcast Addict](https://play.google.com/store/apps/details?id=com.bambuna.podcastaddict)
+* [QuickShortcutMaker](https://play.google.com/store/apps/details?id=com.sika524.android.quickshortcut)
 * [Random Number](https://play.google.com/store/apps/details?id=com.saranomy.randomnumber)
 * [reddit is fun](https://play.google.com/store/apps/details?id=com.andrewshu.android.reddit)
 * [Ruler](https://play.google.com/store/apps/details?id=fr.ecp.ruler.app)
