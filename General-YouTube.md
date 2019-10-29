@@ -45,6 +45,7 @@
 * [CCTube](https://www.youtube.com/user/CrashCarTube) - car crashes
 * [Criminally Listed](https://www.youtube.com/channel/UCs3iFCPtX0gzkKxCrobO4ig) - unsolved crimes
 * [Dashcam Owners Australia](https://www.youtube.com/user/DashCamOwnersAustral)
+* [Dark Curiosities](https://www.youtube.com/channel/UCnsPZRQlFiMGOB0ferEvzdA) - crimes
 * [FailArmy](https://www.youtube.com/user/failarmy)
 * [FakeLifeLore](https://www.youtube.com/channel/UC-vzYTutOl2ZFq6KcT9F0HA) - exploring fiction
 * [heavy casefiles](https://www.youtube.com/channel/UCZx7pjncNRxyOaLvLRqe1Pw) - unsolved crimes
