@@ -21,7 +21,7 @@ Some experiences with gardening in south east Queensland.
 * Blueberries - From Bunnings, four different Southern Highbush varieties
 * Avocado - Still sprouting from seed [like this](https://www.youtube.com/watch?v=TDd_QU9Crmk)
 
-## Info
+## Good YouTubers
 
 * [Self Sufficient Me](https://www.youtube.com/channel/UCJZTjBlrnDHYmf0F-eYXA3Q) - Mark in Bellmere Qld, heaps of fantastic info and same climate
 * [eatyourgarden](https://www.youtube.com/channel/UCDC_RVt_z4wX_P6F9aeMN9w) - Richo in South East Qld, some good info on soil care and preparation
@@ -53,6 +53,7 @@ You can also grow some stuff in pots depending on what it is. Herbs are fine in 
     - <http://www.gaiasorganicgardens.com.au/wp-content/uploads/sites/4/2017/09/Companion-Planting-Guide-site.jpg>
     - <https://thumbnails-visually.netdna-ssl.com/companion-planting_526e8b285156b_w1500.png>
     - <https://www.windowbox.com/blog/wp-content/uploads/2015/08/Companion-Planting-Chart-WB.jpg>
+* [Coffee Grounds as mulch scientific research paper](https://www.sgaonline.org.au/using-coffee-grounds-in-the-garden/)
 
 ## Nurseries
 
