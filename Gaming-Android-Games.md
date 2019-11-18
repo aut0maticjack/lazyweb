@@ -18,6 +18,7 @@ Games I like, roughly in tiers, then alphabetical within the tiers
 * [CLARC](https://play.google.com/store/apps/details?id=com.GoldenTricycle.ClarcPrem) - isometric strategy
 * [Flow Water](https://play.google.com/store/apps/details?id=com.Frasinapp.waterfountain) - 3D Pipe Dream
 * [Full Steam Ahead](https://play.google.com/store/apps/details?id=air.com.aardman.ssgreatbritain.fullsteamahead) - boat building
+* [Good Knight Story](https://play.google.com/store/apps/details?id=com.turbochilli.gks) - funny tile matching battles
 * [Hiversaires](https://apkpure.com/hiversaires/com.underscorediscovery.Hiversaires) - black & white textless puzzle adv
 * [Horror in the Dark](https://play.google.com/store/apps/details?id=nz.co.karmicshift.horror) and [all his games](https://play.google.com/store/apps/developer?id=Karmic+Shift+Studios) - lovecraft text adventures
 * [League of Evil](https://play.google.com/store/apps/details?id=com.noodlecake.leagueofevil) - rapid platformer
