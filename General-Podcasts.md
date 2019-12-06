@@ -19,6 +19,7 @@ Roughly sorted into these cateories:
 
 * [Fork Bomb](https://forkbomb.podbean.com/) - old technology, retro computers, video games
 * [Hanselminutes](https://hanselminutes.com/) - new technology, programming, software development
+* [Retrobits](http://www.retrobits.com/) - old technology, retro computers, history
 * [Roguelike Radio](http://www.roguelikeradio.com/) - roguelike video games, programming, retro computers
 * [Sleepwalkers](https://www.sleepwalkerspodcast.com/) - surveillance, privacy, technology, modern society
 * [The Upper Memory Block](http://umbcast.com/) - dos and pre-winxp era video games, retro computers
