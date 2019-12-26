@@ -13,6 +13,7 @@ This is a wiki of useful advice I commonly give or have seen on places like Stac
 
 * [Android Games](Gaming-Android-Games)
 * [Android Visual Novels](Gaming-Android-Visual-Novels)
+* [Azur Lane](Gaming-Azur-Lane)
 * [Fantasy Computers](Gaming-Fantasy-Computers)
 * [FTL-likes](Gaming-FTL-likes)
 * [Making a Custom Teensy3 HID Joystick](Gaming-Making-a-Custom-Teensy3-HID-Joystick)
