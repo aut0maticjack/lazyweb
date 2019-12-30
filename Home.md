@@ -51,6 +51,12 @@ The [RetroPie Wiki](https://github.com/RetroPie/RetroPie-Setup/wiki) details alm
 * [VPN Router](https://gist.github.com/superjamie/ac55b6d2c080582a3e64)
 * [x86 on Pi](x86-on-Pi)
 
+External
+
+* [eLinux - config.txt](https://elinux.org/RPiconfig)
+* [eLinux - Transfer system disk from SD card to hard disk](https://elinux.org/Transfer_system_disk_from_SD_card_to_hard_disk)
+* [eLinux - Verified Peripherals](https://elinux.org/RPi_VerifiedPeripherals)
+
 ## Tech
 
 * [Android Apps](Tech-Android-Apps)
