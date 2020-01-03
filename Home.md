@@ -69,6 +69,7 @@ External
     * http://unix.stackexchange.com/questions/81633/rhel-5-complex-port-bonding/168545#168545
     * http://serverfault.com/questions/731508/how-to-implement-lacp-cross-switches
 * Network Performance Tuning [talk](https://www.youtube.com/watch?v=ZYCKSN4xf84) (and [notes](http://jbainbri.github.io/lca2016.html)) that I gave at LCA2016
+* [Handy Software](Linux-Handy-Software)
 * [Real Time](Linux-Real-Time)
 * [Ubuntu PPAs](Linux-Ubuntu-PPAs)
 
