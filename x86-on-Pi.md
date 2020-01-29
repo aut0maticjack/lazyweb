@@ -1,3 +1,9 @@
+# I do not have Exagear for sale
+
+**Update:** It's January 2020. I know Eltechs have gone away. I don't have an Exagear license to sell. Please do not email me asking to buy Exagear from me.
+
+----
+
 ### tl;dr
 
 Try this free Pi 2 Raspbian Wheezy image with x86 Wine preinstalled, it runs about the speed of a 300MHz PC, I don't think it supports Pi 3 as-is but I haven't tried:
