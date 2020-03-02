@@ -2,6 +2,7 @@ Games I like, roughly in tiers, then alphabetical within the tiers
 
 ## Best Tier
 
+* [Azur Lane](https://play.google.com/store/apps/details?id=com.YoStarEN.AzurLane) - warship girl gacha
 * [Hoplite](https://play.google.com/store/apps/details?id=com.magmafortress.hoplite) - roguelike
 * [Little Stars for Little Wars 2](https://play.google.com/store/apps/details?id=com.mkarpenko.lsflw2) - real time strategy
 
@@ -10,7 +11,6 @@ Games I like, roughly in tiers, then alphabetical within the tiers
 * [Alto's Adventure](https://play.google.com/store/apps/details?id=com.noodlecake.altosadventure) - skiing and flipping
 * [Antiyoy](https://play.google.com/store/apps/details?id=yio.tro.antiyoy.android) - risk with random maps
 * [Archmage](https://play.google.com/store/apps/details?id=ru.freecode) - simple card strategy
-* [Azur Lane](https://play.google.com/store/apps/details?id=com.YoStarEN.AzurLane) - warship girl gacha
 * [Battle of Polytopia](https://play.google.com/store/apps/details?id=air.com.midjiwan.polytopia) - turn-based isometric strategy
 * [Blocky Roads](https://play.google.com/store/apps/details?id=com.crescentmoongames.blocky_roads) - driving fun
 * [Bullet Hell Monday](https://play.google.com/store/apps/details?id=com.msykit.Stg1u) - bullet hell shmup
@@ -24,6 +24,8 @@ Games I like, roughly in tiers, then alphabetical within the tiers
 * [League of Evil](https://play.google.com/store/apps/details?id=com.noodlecake.leagueofevil) - rapid platformer
 * [One Thousand Lies](https://play.google.com/store/apps/details?id=keinart.otl) - visual novel
 * [OPUS: Rocket of Whispers](https://play.google.com/store/apps/details?id=com.sigono.heaven01) - resource gathering adventure
+* [Parks Landscapes](https://play.google.com/store/apps/details?id=com.andreasabbatini.parkslandscapes) - logic puzzles
+* [Parks Seasons](https://play.google.com/store/apps/details?id=com.andreasabbatini.parksseasons) - logic puzzles
 * [Rebuild 3: Gangs of Deadsville](https://play.google.com/store/apps/details?id=air.com.sarahnorthway.rebuild3) - isometric zombie management
 * [Riptide GP 2](https://play.google.com/store/apps/details?id=com.vectorunit.red) - wipeout clone
 * [Riptide GP 3: Renegade](https://play.google.com/store/apps/details?id=com.vectorunit.silver.googleplay) - wipeout clone
