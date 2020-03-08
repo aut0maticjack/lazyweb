@@ -42,9 +42,40 @@ Films which explore computing or technology or related concepts in some way.
 * [Retrobits](http://retrobits.libsyn.org/) - Really early vintage computing
 * [Upper Memory Block](http://umbcast.com/) - DOS Games
 
+## Books
+
+* [Accidental Empires by Robert X Cringely (1996)](https://www.goodreads.com/book/show/27652.Accidental_Empires)
+* [Code by Charles Petzold (2000)](https://www.goodreads.com/book/show/44882.Code)
+* [Countdown to Zero Day by Kim Zetter (2014)](https://www.goodreads.com/book/show/18465875-countdown-to-zero-day)
+* [Dealers of Lightning by Michael Hiltzik (2000)](https://www.goodreads.com/book/show/1101290.Dealers_of_Lightning)
+* [Fire in the Valley by Paul Frieberger (1999)](https://www.goodreads.com/book/show/1427580.Fire_in_the_Valley)
+* [Free as in Freedom by Sam Williams (2002)](https://www.goodreads.com/book/show/658332.Free_as_in_Freedom)
+* [Ghost in the Wires by Kevin Mitnick (2011)](https://www.goodreads.com/book/show/10256723-ghost-in-the-wires)
+* [Hackers by Steven Levy (2001)](https://www.goodreads.com/book/show/56829.Hackers)
+* [Hard Drive by Wallace and Erickson (1993)](https://www.goodreads.com/book/show/41611.Hard_Drive)
+* [How the Internet Happened by Brian McCullough (2018)](https://www.goodreads.com/book/show/38212134-how-the-internet-happened)
+* [iWoz by Steve Wozniak (2007)](https://www.goodreads.com/book/show/798635.iWoz)
+* [Infinite Loop by Michael Malone (1999)](https://www.goodreads.com/book/show/500489.Infinite_Loop)
+* [In the Beginning... Was the Command Line by Neal Stephenson (1999)](https://www.goodreads.com/book/show/18937.In_the_Beginning_Was_the_Command_Line)
+* [Just for Fun by Linus Torvalds (2002)](https://www.goodreads.com/book/show/160171.Just_for_Fun)
+* [Masters of Doom by David Kushner (2004)](https://www.goodreads.com/book/show/222146.Masters_of_Doom)
+* [My Tiny Life by Julian Dibbell (1999)](https://www.goodreads.com/book/show/345040.My_Tiny_Life)
+* [On The Edge by Brian Bagnall (2006)](https://www.goodreads.com/book/show/412006.On_the_Edge)
+* [Return to the Little Kingdom by Michael Moritz](https://www.goodreads.com/book/show/6937258-return-to-the-little-kingdom)
+* [Soul of a New Machine by Tracy Kidder](https://www.goodreads.com/book/show/7090.The_Soul_of_a_New_Machine)
+* [Technopoly by Neil Postman](https://www.goodreads.com/book/show/79678.Technopoly)
+* [The Cathedral and the Bazaar by Eric S Raymond (1999)](https://www.goodreads.com/book/show/134825.The_Cathedral_the_Bazaar)
+* [The Dream Machine by Michael Waldrop (2002)](https://www.goodreads.com/book/show/722412.The_Dream_Machine)
+* [The Idea Factory by Jon Gertner (2012)](https://www.goodreads.com/book/show/11797471-the-idea-factory)
+* [The Master Switch by Tim Wu (2010)](https://www.goodreads.com/book/show/8201080-the-master-switch)
+* [What the Dormouse Said by John Markoff (2006)](https://www.goodreads.com/book/show/725789.What_the_Dormouse_Said)
+* [Where Wizards Stay Up Late by Katie Hafner (2003)](https://www.goodreads.com/book/show/281818.Where_Wizards_Stay_Up_Late)
+
 ## More Lists
 
 * https://github.com/watson/awesome-computer-history
 * http://wiki.ucc.asn.au/MovieNight
 * http://www.imdb.com/list/ls008887137/
 * http://www.imdb.com/list/ls003146877
+* https://www.goodreads.com/list/show/13430.Silicon_Valley_History
+* https://www.goodreads.com/list/show/11027.Essential_Computer_History_and_Information_Revolution_Books
