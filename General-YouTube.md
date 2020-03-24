@@ -1,5 +1,6 @@
 ### Animals
 
+* [AnimalWonders Montana](https://www.youtube.com/user/Anmlwndrs) - Kemosabe the Coendou
 * [Hope for Paws](https://www.youtube.com/user/eldad75) - Eldad Hagar
 * [Vet Ranch](https://www.youtube.com/user/VetRanch) - Dr Matt Carriker
 
@@ -8,6 +9,7 @@
 * [11' 8"](https://www.youtube.com/channel/UCXX0RWOIBjt4o3ziHu-6a5A) - that bridge
 * [AutoMoments](https://www.youtube.com/user/TheCarMeat) - American car history
 * [Aging Wheels](https://www.youtube.com/channel/UC1lIHn3KlcJimyxsVugP4uw) - Robert Dunn's weird microcars (also [Under Dunn](https://www.youtube.com/channel/UCMABHak-OpZbC7k3HT2P5yQ))
+* [Artur Tussik](https://www.youtube.com/user/tussik01) - Russian panel beater
 * [Bad Obsession Motorsport](https://www.youtube.com/user/badobsessionmsport) - Project Binky
 * [Dogged Fabrication](https://www.youtube.com/channel/UCrK2_gqI4knOij31p_iandQ) - Project Twin VNT
 * [Doug DeMuro](https://www.youtube.com/channel/UCsqjHFMB_JYTaEnf_vmTNqg) - The Doug Score
@@ -180,6 +182,7 @@
 * [Odd Tinkering](https://www.youtube.com/channel/UCf_suVrG2dA5BTjJhNLwthQ) - okay restorations
 * [Peter Sripol](https://www.youtube.com/channel/UC7yF9tV4xWEMZkel7q8La_w) - RC stuff
 * [Primitive Technology](https://www.youtube.com/channel/UCAL3JXZSzSm8AlZyD3nQdBA) - John Plant
+* [Project Farm](https://www.youtube.com/channel/UC2rzsm1Qi6N1X-wuOg_p0Ng) - random reviews and experiments
 * [Simone Giertz](https://www.youtube.com/channel/UC3KEoMzNz8eYnwBC34RaKCQ) - Queen of Shitty Robots
 * [Tom Stanton](https://www.youtube.com/channel/UC67gfx2Fg7K2NSHqoENVgwA) - RC and engineering stuff
 * [This Old Tony](https://www.youtube.com/user/featony) - metal fabrication
