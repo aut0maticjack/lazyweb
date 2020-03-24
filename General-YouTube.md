@@ -5,13 +5,16 @@
 
 ### Cars
 
+* [11' 8"](https://www.youtube.com/channel/UCXX0RWOIBjt4o3ziHu-6a5A) - that bridge
 * [AutoMoments](https://www.youtube.com/user/TheCarMeat) - American car history
+* [Aging Wheels](https://www.youtube.com/channel/UC1lIHn3KlcJimyxsVugP4uw) - Robert Dunn's weird microcars (also [Under Dunn](https://www.youtube.com/channel/UCMABHak-OpZbC7k3HT2P5yQ))
 * [Bad Obsession Motorsport](https://www.youtube.com/user/badobsessionmsport) - Project Binky
 * [Dogged Fabrication](https://www.youtube.com/channel/UCrK2_gqI4knOij31p_iandQ) - Project Twin VNT
 * [Doug DeMuro](https://www.youtube.com/channel/UCsqjHFMB_JYTaEnf_vmTNqg) - The Doug Score
 * [EngineeringExplained](https://www.youtube.com/user/EngineeringExplained) - Jason Fenske
 * [Fifth Gear](https://www.youtube.com/user/fifthgearuk) - British show
 * [Fuzzy Dice Projects](https://www.youtube.com/user/FuzzyDicePimp) - smart dude who'll fix anything
+* [Gingium](https://www.youtube.com/channel/UCrEUTzd1W__Y5Sb5vSbuZ5g) - Caleb with the Rally Miata, etc
 * [Mighty Car Mods](https://www.youtube.com/user/mightycarmods) - Marty and Moog
 * [MotorTrend](https://www.youtube.com/user/MotorTrend) - Hot Rod Garage, Roadkill, etc
 * [Tim's Enthusiast Garage](https://www.youtube.com/channel/UCSHC8vHIPzE5EaYjHgx1Tmw) - Tim Neely
@@ -20,6 +23,7 @@
 ### Computing and Electronics
 
 * [Big Clive](https://www.youtube.com/user/bigclivedotcom)
+* [Bisqwit](https://www.youtube.com/channel/UCKTehwyGCKF-b2wo0RKwrcg) - old coding and such
 * [ExplainingComputers](https://www.youtube.com/user/explainingcomputers) - Christopher Barnatt
 * [Great Scott](https://www.youtube.com/user/greatscottlab)
 * [MickMake](https://www.youtube.com/channel/UC7GMT3ohvYEAJFDenzj9EMQ)
@@ -27,6 +31,7 @@
 * [Obsolete Geek](https://www.youtube.com/user/robivy64) - Rob Ivy
 * [Phil's Computer Lab](https://www.youtube.com/user/philscomputerlab) - retro PCs
 * [TechLead](https://www.youtube.com/channel/UC4xKdmAXFh4ACyhpiQ_3qBw) - opinionated ex-Googler who hates Google
+* [Technology Connections](https://www.youtube.com/channel/UCy0tKL1T7wFoYcxCe0xjN6Q) - great consumer tech, [extras channel](https://www.youtube.com/channel/UClRwC5Vc8HrB6vGx6Ti-lhA)
 * [The 8-Bit Guy](https://www.youtube.com/user/adric22) - David Murray
 * [This Does Not Compute](https://www.youtube.com/channel/UCEp20NgOZHmgWdbQdHSxgjw) - some okay retro vids
 
@@ -40,21 +45,33 @@
 ### Entertainment
 
 * [AlternateHistoryHub](https://www.youtube.com/channel/UClfEht64_NrzHf8Y0slKEjw) - what if scenarios
+* [Atrocity Guide](https://www.youtube.com/channel/UCn8OYopT9e8tng-CGEWzfmw) - internet phenomena
 * [Barely Sociable](https://www.youtube.com/channel/UC9PIn6-XuRKZ5HmYeu46AIw) - internet mysteries
 * [Bright Sun Films](https://www.youtube.com/user/BrightSunGaming) - Abandoned places
 * [CCTube](https://www.youtube.com/user/CrashCarTube) - car crashes
+* [Cold Case Detective](https://www.youtube.com/channel/UCdjslyNQupPSFxK_mSPcG-g) - unsolved crimes
 * [Criminally Listed](https://www.youtube.com/channel/UCs3iFCPtX0gzkKxCrobO4ig) - unsolved crimes
 * [Dashcam Owners Australia](https://www.youtube.com/user/DashCamOwnersAustral)
 * [Dark Curiosities](https://www.youtube.com/channel/UCnsPZRQlFiMGOB0ferEvzdA) - crimes
+* [Debunk File](https://www.youtube.com/channel/UClOZrlu8d0dOocblzEBHoYA) - internet phenomena
 * [FailArmy](https://www.youtube.com/user/failarmy)
 * [FakeLifeLore](https://www.youtube.com/channel/UC-vzYTutOl2ZFq6KcT9F0HA) - exploring fiction
+* [Fredrik Knudsen](https://www.youtube.com/channel/UCbWcXB0PoqOsAvAdfzWMf0w) - internet phenomena
 * [heavy casefiles](https://www.youtube.com/channel/UCZx7pjncNRxyOaLvLRqe1Pw) - unsolved crimes
 * [HyperDrive](https://www.youtube.com/channel/UCPBIyhZKfSCb9Wex291cquA) - some good movie lists
+* [Internet Historian](https://www.youtube.com/channel/UCR1D15p_vdP3HkrH8wgjQRw) - internet phenomena and lulz
+* [Jelle's Marble Runs](https://www.youtube.com/channel/UCYJdpnjuSWVOLgGT9fIzL0g) - marble sports!
+* [Kirsty Skye](https://www.youtube.com/channel/UCnbZI7Tf_9iiVIJvplHTDKQ) - unsolved crimes
 * [Merc](https://www.youtube.com/channel/UCzwEJTQa7wl0AboBYbrKr1A) - unsolved crimes
 * [Nexpo](https://www.youtube.com/channel/UCpFFItkfZz1qz5PpHpqzYBw) - internet mysteries
 * [The Gregory Brothers](https://www.youtube.com/user/schmoyoho) - Auto-Tune the News
 * [Wisecrack](https://www.youtube.com/user/thugnotes) - thug notes
 * [Vox](https://www.youtube.com/user/voxdotcom) - some good stuff, too American
+
+### Fitness
+
+* [Athelan-X](https://www.youtube.com/user/JDCav24) - Jeff Cavalier
+* [Sophie Jayne](https://www.youtube.com/channel/UCXVVwb-CgnwYkhlfn9X4Z-Q)
 
 ### Food
 
@@ -63,12 +80,12 @@
 * [America's Test Kitchen](https://www.youtube.com/channel/UCxAS_aK7sS2x_bqnlJHDSHw) - some good science-based tests and experiments
 * [Asian at Home with Seonkyoung Longest](https://www.youtube.com/user/SeonkyoungLongest) - Korean, Japanese, Chinese
 * [Dumpling Sisters](https://www.youtube.com/channel/UC__QnZctmizPLK22sqH_qTQ)
-* [Food Wishes](https://www.youtube.com/user/foodwishes) - chef John
+* [Food Wishes](https://www.youtube.com/user/foodwishes) - Chef John from foodwishes dot com
 * [Souped Up Recipes](https://www.youtube.com/channel/UC3HjB3X8jeENm46HCkI0Inw) - cute Asian girl
 
 ### Gaming
 
-* [A Jolly Wangcore](https://www.youtube.com/channel/UCQEnQfezywrAwkHWX_Uo_Qg) - crap hilarious mods
+* [A Jolly Wangcore](https://www.youtube.com/channel/UCQEnQfezywrAwkHWX_Uo_Qg) - crap hilarious mods ([2nd Channel](https://www.youtube.com/channel/UCGfWSU7Pqu4-WMqJorOSrsQ))
 * [Bolloxed](https://www.youtube.com/user/bolloxedballs) - Half-Life and Source engine playthroughs, no commentary
 * [Cannot Be Tamed](https://www.youtube.com/channel/UCzwyF_IcyMP86ilsmKD1Pcw) - Pam here to talk about retro video games
 * [Classic Game Room](https://www.youtube.com/user/InecomCompany) - Mark Bussler, retro gaming
@@ -90,6 +107,7 @@
 * [Modern Vintage Gamer](https://www.youtube.com/user/jimako123) - Australian but good content sometimes
 * [oddheader](https://www.youtube.com/channel/UCIcR5StUvA7_pPHoAFLmZaA) - video game secrets and leftovers
 * [PushingUpRoses](https://www.youtube.com/user/pushinguproses) - Sarah Wilson, DOS adventure gamer
+* [Rycluse](https://www.youtube.com/channel/UCMaXILBKmpooPmk4WapsoKA) - video game analysis
 * [Sseth Tzeentach](https://www.youtube.com/user/SsethTzeentach) - you're in for a treat
 * [SNES drunk](https://www.youtube.com/user/1SNESdrunk) - SNES
 * [stanburdman](https://www.youtube.com/channel/UCV7Y-h68Ik6uurQ8QB3HVUg) - funny good reviews
@@ -123,7 +141,7 @@
 * [Planet Dolan](https://www.youtube.com/user/DDTop20)
 * [PolyMatter](https://www.youtube.com/channel/UCgNg3vwj3xt7QOrcIDaHdFg) - CHINA
 * [Real Engineering](https://www.youtube.com/channel/UCR1IuLEqb6UEA_zQ81kwXfg)
-* [RealLifeLore](https://www.youtube.com/channel/UCP5tjEmvPItGyLhmjdwP7Ww)
+* [RealLifeLore](https://www.youtube.com/channel/UCP5tjEmvPItGyLhmjdwP7Ww) and [2nd channel](https://www.youtube.com/channel/UCqmD_a5YIbB5Brt_V04zLRQ)
 * [Sam O'Nella Academy](https://www.youtube.com/channel/UC1DTYW241WD64ah5BFWn4JA) - lol yes
 * [Second Thought](https://www.youtube.com/channel/UCJm2TgUqtK1_NLBrjNQ1P-w)
 * [SideNote](https://www.youtube.com/channel/UCRvWwMPr2SmSG7rXXzeEUdA)
@@ -150,6 +168,7 @@
 * [April Wilkerson](https://www.youtube.com/user/AprilWilkersonDIY) - woodworking
 * [Bare Metal HW](https://www.youtube.com/user/baremetalHW) - hot wheels
 * [Clickspring](https://www.youtube.com/channel/UCworsKCR-Sx6R6-BnIjS2MA) - clockwork and metal fabrication
+* [DIY Perks](https://www.youtube.com/channel/UCUQo7nzH1sXVpzL92VesANw) - computer and tech mods
 * [Green Beetle](https://www.youtube.com/channel/UCUC_LrU2GpyOvUXAk_wrhbQ) - knife making
 * [Jakarta Diecast Project](https://www.youtube.com/channel/UC5QtJAXO631Ry0WUQuMzfHg) - the BEST hot wheels mods
 * [Jimmy DiResta](https://www.youtube.com/user/jimmydiresta) - too popular
@@ -157,7 +176,7 @@
 * [Make Anything](https://www.youtube.com/channel/UCVc6AHfGw9b2zOE_ZGfmsnw) - Devin Montes
 * [Make Magazine](https://www.youtube.com/user/makemagazine)
 * [Matchbox Garage](https://www.youtube.com/user/juggalo7979) - not bad
-* [my mechanics](https://www.youtube.com/channel/UCMrMVIBtqFW6O0-MWq26gqw) - best restorations
+* [my mechanics](https://www.youtube.com/channel/UCMrMVIBtqFW6O0-MWq26gqw) - best restorations ([2nd Channel](https://www.youtube.com/channel/UC4EQCwfH54ieNPswtXh5K0w))
 * [Odd Tinkering](https://www.youtube.com/channel/UCf_suVrG2dA5BTjJhNLwthQ) - okay restorations
 * [Peter Sripol](https://www.youtube.com/channel/UC7yF9tV4xWEMZkel7q8La_w) - RC stuff
 * [Primitive Technology](https://www.youtube.com/channel/UCAL3JXZSzSm8AlZyD3nQdBA) - John Plant
@@ -170,6 +189,7 @@
 ### Music
 
 * [Casie Mod](https://www.youtube.com/channel/UCrxpe0rl1vO1XuK2a-HgL8g) - synth mixes
+* [NewSovietWave](https://www.youtube.com/channel/UC3KZ8qlL5IDYlR6oxQOrQ9Q) - synth mixes
 * [Sequencer](https://www.youtube.com/user/Feanaron) - synth mixes
 
 ### Science
@@ -184,16 +204,23 @@
 * [Primal Space](https://www.youtube.com/channel/UClZbmi9JzfnB2CEb0fG8iew)
 * [Questions for Science](https://www.youtube.com/user/TheYoungTurds1)
 * [SciShow](https://www.youtube.com/channel/UCZYTClx2T1of7BRZ86-8fow)
+* [SciShow Space](https://www.youtube.com/channel/UCrMePiHCWG4Vwqv3t7W9EFg)
 * [Scott Manley](https://www.youtube.com/user/szyzyg) - a lot of video games like KSP, some science
 * [SpaceX](https://www.youtube.com/channel/UCtI0Hodo5o5dUb67FeUjDeA) - the actual guys who launch the rockets
 * [The Slow-Mo Guys](https://www.youtube.com/user/theslowmoguys) - Gavin Free and Dan Gruchy
 * [Vintage Space](https://www.youtube.com/channel/UCw95T_TgbGHhTml4xZ9yIqg) - Amy Shira Teitel, Apollo-era stuff
 
+### Self Improvement
+
+* [AsapSCIENCE](https://www.youtube.com/user/AsapSCIENCE)
+* [Freedom in Thought](https://www.youtube.com/channel/UCd6Za0CXVldhY8fK8eYoIuw)
+* [Thomas Frank](https://www.youtube.com/user/electrickeye91)
+* [What I've Learned](https://www.youtube.com/channel/UCqYPhGiB9tkShZorfgcL2lA)
+
 ### Tiny Houses
 
 * [Living Big in a Tiny House](https://www.youtube.com/user/livingbigtinyhouse) - Bryce from NZ, houses all over the world
 * [The Modern Home Project](https://www.youtube.com/channel/UCnoUKype0fVkWtCleYWBT1w) - shipping container house in California
-
 
 ### 3D Printing
 
