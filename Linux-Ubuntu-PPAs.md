@@ -43,6 +43,13 @@ https://launchpad.net/~inkscape.dev/+archive/ubuntu/stable?field.series_filter=b
     sudo add-apt-repository ppa:inkscape.dev/stable
     sudo apt install inkscape
 
+### Krita - paint program
+
+https://launchpad.net/~kritalime/+archive/ubuntu/ppa?field.series_filter=bionic
+
+    sudo add-apt-repository ppa:kritalime/ppa
+    sudo apt install krita
+
 ### OpenXcom - turn-based strategy game
 
 This has a "stable" but the project doesn't have much stable/milestone activity:
