@@ -76,6 +76,13 @@ https://launchpad.net/~libretro/+archive/ubuntu/testing?field.series_filter=bion
 
     sudo add-apt-repository ppa:libretro/testing
 
+### Transmission - Torrent Client
+
+https://launchpad.net/~transmissionbt/+archive/ubuntu/ppa?field.series_filter=bionic
+
+    sudo add-apt-repository ppa:transmissionbt/ppa
+    sudo apt install transmission-cli transmission-common transmission-daemon
+
 ### UNetBootin - LiveUSB creator
 
 https://launchpad.net/~gezakovacs/+archive/ubuntu/ppa?field.series_filter=bionic
