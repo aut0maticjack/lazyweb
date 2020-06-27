@@ -11,6 +11,22 @@ https://launchpad.net/~otto-kesselgulasch/+archive/ubuntu/gimp?field.series_filt
     sudo add-apt-repository ppa:otto-kesselgulasch/gimp
     sudo apt install gimp
 
+### Mesa - 3D stuff
+
+https://launchpad.net/~kisak/+archive/ubuntu/kisak-mesa?field.series_filter=focal
+
+    sudo add-apt-repository ppa:kisak/kisak-mesa
+    sudo apt update
+
+To remove:
+
+    sudo apt install ppa-purge
+    sudo ppa-purge ppa:kisak/kisak-mesa
+
+If this breaks, alternative "stable" repo at:
+
+ https://launchpad.net/~kisak/+archive/ubuntu/turtle/?field.series_filter=focal
+
 ### RetroArch - multi-platform emulator frontend and framework
 
 https://launchpad.net/~libretro/+archive/ubuntu/stable?field.series_filter=focal
