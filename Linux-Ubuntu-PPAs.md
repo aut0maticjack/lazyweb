@@ -27,6 +27,13 @@ If this breaks, alternative "stable" repo at:
 
  https://launchpad.net/~kisak/+archive/ubuntu/turtle/?field.series_filter=focal
 
+### Mozilla - Firefox ESR
+
+https://launchpad.net/~mozillateam/+archive/ubuntu/ppa?field.series_filter=focal
+
+    sudo add-apt-repository ppa:mozillateam/ppa
+    sudo apt install firefox-esr
+
 ### RetroArch - multi-platform emulator frontend and framework
 
 https://launchpad.net/~libretro/+archive/ubuntu/stable?field.series_filter=focal
