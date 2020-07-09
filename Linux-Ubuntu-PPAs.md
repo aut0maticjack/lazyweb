@@ -11,6 +11,13 @@ https://launchpad.net/~otto-kesselgulasch/+archive/ubuntu/gimp?field.series_filt
     sudo add-apt-repository ppa:otto-kesselgulasch/gimp
     sudo apt install gimp
 
+### KeePassXC - password manager
+
+https://launchpad.net/~phoerious/+archive/ubuntu/keepassxc?field.series_filter=focal
+
+    sudo add-apt-repository ppa:phoerious/keepassxc
+    sudo apt install keepassxc
+
 ### Mesa - 3D stuff
 
 https://launchpad.net/~kisak/+archive/ubuntu/kisak-mesa?field.series_filter=focal
