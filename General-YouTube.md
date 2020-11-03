@@ -40,7 +40,7 @@
 
 ### Crime, Missing Persons, Mysteries
 
-* [Barely Sociable](https://www.youtube.com/channel/UC9PIn6-XuRKZ5HmYeu46AIw) - internet mysteries
+* [Barely Sociable](https://www.youtube.com/channel/UC9PIn6-XuRKZ5HmYeu46AIw) - internet mysteries, [second channel](https://www.youtube.com/channel/UCgmI-uiLLAg--vDe7FFdekA)
 * [Brief Case](https://www.youtube.com/c/BriefCaseOfficial) - true crimes
 * [Cold Case Detective](https://www.youtube.com/channel/UCdjslyNQupPSFxK_mSPcG-g) - unsolved crimes
 * [Criminally Listed](https://www.youtube.com/channel/UCs3iFCPtX0gzkKxCrobO4ig) - unsolved crimes
