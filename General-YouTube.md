@@ -187,6 +187,7 @@
 * [April Wilkerson](https://www.youtube.com/user/AprilWilkersonDIY) - woodworking
 * [Bare Metal HW](https://www.youtube.com/user/baremetalHW) - hot wheels
 * [Clickspring](https://www.youtube.com/channel/UCworsKCR-Sx6R6-BnIjS2MA) - clockwork and metal fabrication
+* [Dashner Design & Restoration](https://www.youtube.com/c/DashnerDesignRestoration) - mid-century wood furniture restoration
 * [DIY Perks](https://www.youtube.com/channel/UCUQo7nzH1sXVpzL92VesANw) - computer and tech mods
 * [Green Beetle](https://www.youtube.com/channel/UCUC_LrU2GpyOvUXAk_wrhbQ) - knife making
 * [HomeMadeModern](https://www.youtube.com/user/HomeMadeModern) - Ben Uyeda, also made shipping container tiny home
