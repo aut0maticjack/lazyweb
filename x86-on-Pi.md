@@ -4,7 +4,7 @@
 
 ----
 
-### tl;dr
+### tl;dr - September 2016
 
 Try this free Pi 2 Raspbian Wheezy image with x86 Wine preinstalled, it runs about the speed of a 300MHz PC, I don't think it supports Pi 3 as-is but I haven't tried:
 
@@ -117,7 +117,7 @@ I thought this is what ExaGear does as well, but Vadim from Eltechs [read this p
 
 ----
 
-### Exagear Review
+### Exagear Review - October 2016
 
 After seeing this page on Reddit, Exagear's CEO Vadim Gimpelson said the above was correct except that they don't use qemu, they use their own x86 emulation layer. He [offered me](https://www.reddit.com/r/raspberry_pi/comments/546ecl/5_great_pieces_of_software_that_you_use_on_your/d8im4ad/) a free Exagear trial key, which is something they'd been doing on Twitter lately as well. I got a license for a Pi 3 and gave it a shot.
 
