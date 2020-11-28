@@ -56,6 +56,14 @@ https://launchpad.net/~libretro/+archive/ubuntu/testing?field.series_filter=foca
 
 Probably better to install cores thru the web downloader.
 
+### PCSX2 - PlayStation 2 Emulator
+
+https://launchpad.net/~pcsx2-team/+archive/ubuntu/pcsx2-daily?field.series_filter=focal
+
+    sudo dpkg --add-architecture i386
+    sudo add-apt-repository ppa:pcsx2-team/pcsx2-daily
+    sudo apt install pcsx2
+
 ### Transmission - Torrent Client
 
 https://launchpad.net/~transmissionbt/+archive/ubuntu/ppa?field.series_filter=focal
