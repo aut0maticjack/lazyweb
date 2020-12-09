@@ -56,13 +56,23 @@ https://launchpad.net/~libretro/+archive/ubuntu/testing?field.series_filter=foca
 
 Probably better to install cores thru the web downloader.
 
-### PCSX2 - PlayStation 2 Emulator
+### PCSX2 - PlayStation 2 emulator
 
 https://launchpad.net/~pcsx2-team/+archive/ubuntu/pcsx2-daily?field.series_filter=focal
 
     sudo dpkg --add-architecture i386
     sudo add-apt-repository ppa:pcsx2-team/pcsx2-daily
     sudo apt install pcsx2
+
+### PPSSPP - PlayStation Portable emulator
+
+https://launchpad.net/~xuzhen666/+archive/ubuntu/ppsspp?field.series_filter=focal
+
+    sudo add-apt-repository ppa:xuzhen666/ppsspp
+    sudo apt-get update
+    sudo apt install ppsspp
+
+Get the fonts from [Sony's 6.61 firmware](http://de01.psp.update.playstation.org/update/psp/image/eu/2014_1212_6be8878f475ac5b1a499b95ab2f7d301/EBOOT.PBP) and put in the `flash0/font` directory.
 
 ### Transmission - Torrent Client
 
