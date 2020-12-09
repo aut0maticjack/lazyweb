@@ -69,7 +69,6 @@ https://launchpad.net/~pcsx2-team/+archive/ubuntu/pcsx2-daily?field.series_filte
 https://launchpad.net/~xuzhen666/+archive/ubuntu/ppsspp?field.series_filter=focal
 
     sudo add-apt-repository ppa:xuzhen666/ppsspp
-    sudo apt-get update
     sudo apt install ppsspp
 
 Get the fonts from [Sony's 6.61 firmware](http://de01.psp.update.playstation.org/update/psp/image/eu/2014_1212_6be8878f475ac5b1a499b95ab2f7d301/EBOOT.PBP) and put in the `flash0/font` directory.
