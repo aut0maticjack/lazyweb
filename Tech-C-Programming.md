@@ -17,6 +17,11 @@ Building
 * <https://raw.githubusercontent.com/superjamie/snippets/master/Makefile>
 * <https://raw.githubusercontent.com/superjamie/snippets/master/Makefile-simple>
 
+Arguments
+
+* [GNU getopt](https://www.gnu.org/software/libc/manual/html_node/Getopt.html)
+* [docopt - Command-line interface description language](http://docopt.org/)
+
 Learning
 
 * [Learn C The Hard Way](https://learncodethehardway.org/c/)
