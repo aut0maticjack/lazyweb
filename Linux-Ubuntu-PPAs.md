@@ -11,6 +11,13 @@ https://launchpad.net/~otto-kesselgulasch/+archive/ubuntu/gimp?field.series_filt
     sudo add-apt-repository ppa:otto-kesselgulasch/gimp
     sudo apt install gimp
 
+### git - Distributed Version Control System
+
+https://launchpad.net/~git-core/+archive/ubuntu/ppa?field.series_filter=focal
+
+    sudo add-apt-repository ppa:git-core/ppa
+    sudo apt install git
+
 ### KeePassXC - password manager
 
 https://launchpad.net/~phoerious/+archive/ubuntu/keepassxc?field.series_filter=focal
