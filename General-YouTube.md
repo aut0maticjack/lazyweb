@@ -16,9 +16,12 @@
 * [EngineeringExplained](https://www.youtube.com/user/EngineeringExplained) - Jason Fenske
 * [Fifth Gear](https://www.youtube.com/user/fifthgearuk) - British show
 * [Fuzzy Dice Projects](https://www.youtube.com/user/FuzzyDicePimp) - smart dude who'll fix anything
+* [Geoffrey Croker](https://www.youtube.com/c/GeoffreyCroker) - Land Rover, lathes, etc
 * [Gingium](https://www.youtube.com/c/GingiumGG) - Caleb with the Rally Miata, etc
 * [Mighty Car Mods](https://www.youtube.com/user/mightycarmods) - Marty and Moog
 * [MotorTrend](https://www.youtube.com/user/MotorTrend) - Hot Rod Garage, Roadkill, etc
+* [Ronald Finger](https://www.youtube.com/hackmandude12) - Fiero and others
+* [SuperFastMatt](https://www.youtube.com/c/SuperfastMatt) - 
 * [Tim's Enthusiast Garage](https://www.youtube.com/channel/UCSHC8vHIPzE5EaYjHgx1Tmw) - Tim Neely
 * [Tom's Turbo Garage](https://www.youtube.com/user/turbomiragedude) - Tom Tharp
 
@@ -27,6 +30,7 @@
 * [Adrian's Digital Basement](https://www.youtube.com/c/adriansdigitalbasement) - microcomputer fixing
 * [Big Clive](https://www.youtube.com/user/bigclivedotcom)
 * [Bisqwit](https://www.youtube.com/channel/UCKTehwyGCKF-b2wo0RKwrcg) - old coding and such
+* [ElectroBOOM](https://www.youtube.com/c/Electroboom) - omg lol
 * [ExplainingComputers](https://www.youtube.com/c/explainingcomputers) - Christopher Barnatt
 * [Great Scott](https://www.youtube.com/user/greatscottlab)
 * [MickMake](https://www.youtube.com/channel/UC7GMT3ohvYEAJFDenzj9EMQ)
@@ -41,6 +45,7 @@
 ### Crime, Missing Persons, Mysteries
 
 * [Barely Sociable](https://www.youtube.com/channel/UC9PIn6-XuRKZ5HmYeu46AIw) - internet mysteries, [second channel](https://www.youtube.com/channel/UCgmI-uiLLAg--vDe7FFdekA)
+* [Brick Immortar](https://www.youtube.com/c/BrickImmortar) - building collapses
 * [Brief Case](https://www.youtube.com/c/BriefCaseOfficial) - true crimes
 * [Cold Case Detective](https://www.youtube.com/channel/UCdjslyNQupPSFxK_mSPcG-g) - unsolved crimes
 * [Criminally Listed](https://www.youtube.com/channel/UCs3iFCPtX0gzkKxCrobO4ig) - unsolved crimes
@@ -64,6 +69,7 @@
 * [AlternateHistoryHub](https://www.youtube.com/channel/UClfEht64_NrzHf8Y0slKEjw) - what-if scenarios
 * [Atrocity Guide](https://www.youtube.com/channel/UCn8OYopT9e8tng-CGEWzfmw) - internet phenomena
 * [Bright Sun Films](https://www.youtube.com/user/BrightSunGaming) - Abandoned places
+* [BritMonkey](https://www.youtube.com/c/BritMonkey) - UK centric sometimes
 * [CCTube](https://www.youtube.com/user/CrashCarTube) - car crashes
 * [Critikal](https://www.youtube.com/user/penguinz0) - Charlie's amusing social commentary
 * [Dashcam Owners Australia](https://www.youtube.com/user/DashCamOwnersAustral)
@@ -72,6 +78,7 @@
 * [Fredrik Knudsen](https://www.youtube.com/c/FredrikKnudsen) - internet phenomena
 * [HyperDrive](https://www.youtube.com/channel/UCPBIyhZKfSCb9Wex291cquA) - some good movie lists
 * [Internet Historian](https://www.youtube.com/channel/UCR1D15p_vdP3HkrH8wgjQRw) - internet phenomena and lulz
+* [Internet Historian - Incognito Mode](https://www.youtube.com/c/InternetHistorianIncognitoMode)
 * [Jelle's Marble Runs](https://www.youtube.com/c/JellesMarbleRuns) - marble sports!
 * [The Gregory Brothers](https://www.youtube.com/user/schmoyoho) - Auto-Tune the News
 * [Wisecrack](https://www.youtube.com/user/thugnotes) - thug notes
@@ -85,10 +92,12 @@
 ### Food and Cooking
 
 * [Adam Liaw](https://www.youtube.com/channel/UC9TM3Lrth8MQjHrttZJZiEw) - Aussie Malaysian celeb chef
+* [Adam Ragusea](https://www.youtube.com/user/aragusea)
 * [Alex French Guy Cooking](https://www.youtube.com/c/FrenchGuyCooking) - funny, all sorts of cooking
 * [America's Test Kitchen](https://www.youtube.com/channel/UCxAS_aK7sS2x_bqnlJHDSHw) - some good science-based tests and experiments
 * [Asian at Home with Seonkyoung Longest](https://www.youtube.com/user/SeonkyoungLongest) - Korean, Japanese, Chinese
 * [Dumpling Sisters](https://www.youtube.com/channel/UC__QnZctmizPLK22sqH_qTQ)
+* [Ethan Chlebowski](https://www.youtube.com/c/CookwithE) - good general useful stuff
 * [Food Wishes](https://www.youtube.com/c/foodwishes) - Chef John from foodwishes dot com
 * [Glen & Friends Cooking](https://www.youtube.com/c/legourmettv) - nice Canadian couple
 * [Souped Up Recipes](https://www.youtube.com/channel/UC3HjB3X8jeENm46HCkI0Inw) - cute Asian girl
@@ -96,9 +105,10 @@
 
 ### Gaming
 
+* [10 Minute Gameplay](https://www.youtube.com/c/10minGameplay1) - good list videos
 * [A Jolly Wangcore](https://www.youtube.com/c/ajollywanker) - crap hilarious mods ([2nd Channel](https://www.youtube.com/channel/UCGfWSU7Pqu4-WMqJorOSrsQ))
 * [Bolloxed](https://www.youtube.com/user/bolloxedballs) - Half-Life and Source engine playthroughs, no commentary
-* [Briansfield](https://www.youtube.com/c/Bransfield2000) - hilarious sarcastic British guy
+* [Bransfield](https://www.youtube.com/c/Bransfield2000) - hilarious sarcastic British guy
 * [Cannot Be Tamed](https://www.youtube.com/c/Cannotbetamed1) - Pam here to talk about retro video games
 * [Classic Game Room](https://www.youtube.com/user/InecomCompany) - Mark Bussler, retro gaming
 * [CGR Undertow](https://www.youtube.com/user/CGRundertow) - Derek Buck
@@ -117,6 +127,7 @@
 * [Metal Jesus](https://www.youtube.com/user/MetalJesusRocks) - Jason Lindsey
 * [minimme](https://www.youtube.com/channel/UCPIBtu2SBuW_VFHwKwDOtYg) - funny Australian guy, foot reveals
 * [Modern Vintage Gamer](https://www.youtube.com/user/jimako123) - Australian but good content sometimes
+* [MrAtomicDuck](https://www.youtube.com/c/MrAtomicDuck) - Project Zomboid
 * [oddheader](https://www.youtube.com/channel/UCIcR5StUvA7_pPHoAFLmZaA) - video game secrets and leftovers
 * [PushingUpRoses](https://www.youtube.com/user/pushinguproses) - Sarah Wilson, DOS adventure gamer
 * [Rycluse](https://www.youtube.com/channel/UCMaXILBKmpooPmk4WapsoKA) - video game analysis
@@ -141,9 +152,9 @@
 
 ### General Knowledge
 
-* [Biographics](https://www.youtube.com/c/Biographics) - Simon Whistler biographies
+* [Artifexian](https://www.youtube.com/c/Artifexian) - world building
+* [BioArk](https://www.youtube.com/channel/UCVkgJKL07bSQ1b54Pnz186Q) same as RealLifeLore
 * [Facts in Motion](https://www.youtube.com/channel/UCoanlfeXEit_vI83VlE709A) - Roman from Germany
-* [Geographics](https://www.youtube.com/channel/UCHKRfxkMTqiiv4pF99qGKIw) - Simon Whistler places
 * [Great Big Move](https://www.youtube.com/c/TheGreatBigMove) - old ships
 * [GreyBeam Productions](https://www.youtube.com/channel/UCGOGHdjWWzlm0XgWZ2522Cg) - short fact stories 
 * [Half as Interesting](https://www.youtube.com/channel/UCuCkxoKLYO_EQ2GeFtbM_bw) - Sam from Wendover
@@ -151,8 +162,8 @@
 * [Kurzgesagt - In A Nutshell](https://www.youtube.com/user/Kurzgesagt) - optimistic nihilism
 * [Lemmino](https://www.youtube.com/c/LEMMiNO) - David from Sweden
 * [Machine Thinking](https://www.youtube.com/channel/UCfsznjef2zGJnrCRQBXqo6Q) - engineering history
-* [Megaprojects](https://www.youtube.com/channel/UC0woBco6Dgcxt0h8SwyyOmw) - Simon Whistler just doesn't stop
 * [Mustard](https://www.youtube.com/channel/UC1ZBQ-F-yktYD4m5AzM6pww) - mostly war/tech stuff
+* [Ordinary Things](https://www.youtube.com/c/OrdinaryThings) - where ordinary things are explained
 * [OverSimplified](https://www.youtube.com/user/Webzwithaz)
 * [Plainly Difficult](https://www.youtube.com/c/PlainlyDifficult) - nuclear disasters
 * [Planet Dolan](https://www.youtube.com/user/DDTop20)
@@ -162,7 +173,6 @@
 * [Sam O'Nella Academy](https://www.youtube.com/channel/UC1DTYW241WD64ah5BFWn4JA) - lol yes
 * [Second Thought](https://www.youtube.com/channel/UCJm2TgUqtK1_NLBrjNQ1P-w)
 * [SideNote](https://www.youtube.com/channel/UCRvWwMPr2SmSG7rXXzeEUdA)
-* [Side Projects](https://www.youtube.com/channel/UC3Wn3dABlgESm8Bzn8Vamgg) - Simon Whistler random
 * [The Infographics Show](https://www.youtube.com/user/TheInfographicsShow)
 * [The Rest of Us](https://www.youtube.com/channel/UCogasD4DFxmshrBNnJNFcvg)
 * [This Place](https://www.youtube.com/user/ThisPlaceChannel)
@@ -184,6 +194,7 @@
 
 ### Making
 
+* [Advoko Makes](https://www.youtube.com/c/Advoko) - Russian guy in the middle of nowhere
 * [April Wilkerson](https://www.youtube.com/user/AprilWilkersonDIY) - woodworking
 * [Bare Metal HW](https://www.youtube.com/user/baremetalHW) - hot wheels
 * [Clickspring](https://www.youtube.com/channel/UCworsKCR-Sx6R6-BnIjS2MA) - clockwork and metal fabrication
@@ -242,6 +253,21 @@
 * [Freedom in Thought](https://www.youtube.com/channel/UCd6Za0CXVldhY8fK8eYoIuw)
 * [Thomas Frank](https://www.youtube.com/user/electrickeye91)
 * [What I've Learned](https://www.youtube.com/channel/UCqYPhGiB9tkShZorfgcL2lA)
+
+### Simon Whistler
+
+This guy just doesn't stop!
+
+* [Biographics](https://www.youtube.com/c/Biographics)
+* [Business Blaze](https://www.youtube.com/channel/UCYY5GWf7MHFJ6DZeHreoXgw)
+* [Casual Criminalist](https://www.youtube.com/channel/UCp1tsmksyf6TgKFMdt8-05Q)
+* [Geographics](https://www.youtube.com/channel/UCHKRfxkMTqiiv4pF99qGKIw)
+* [Highlight History](https://www.youtube.com/channel/UCnb-VTwBHEV3gtiB9di9DZQ)
+* [Into the Shadows](https://www.youtube.com/channel/UCf-U0uPVQZtcqXUWa_Hl4Mw)
+* [Megaprojects](https://www.youtube.com/channel/UC0woBco6Dgcxt0h8SwyyOmw)
+* [Side Projects](https://www.youtube.com/channel/UC3Wn3dABlgESm8Bzn8Vamgg)
+* [Today I Found Out](https://www.youtube.com/user/TodayIFoundOut)
+* [xplrd](https://www.youtube.com/channel/UCVH8lH7ZLDUe_d9mZ3dlyYQ)
 
 ### Tiny Houses
 
