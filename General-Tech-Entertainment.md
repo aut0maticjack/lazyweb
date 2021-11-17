@@ -4,6 +4,7 @@ Tech-related entertainment I have enjoyed.
 
 Mostly early computer history.
 
+* [AT&T Archives: The UNIX Operating System (1982)](https://www.youtube.com/watch?v=tc4ROCJYbm0) - Brian Kernighan, Dennis Ritchie, Ken Thompson
 * [Triumph of the Nerds (1996)](http://www.imdb.com/title/tt0115398/) - Cringely three-parter on the Altair, IBM PC, Apple, and Microsoft
 * [Code Rush (2000)](https://www.youtube.com/watch?v=4Q7FTjhvZ7Y) - Netscape and open source
 * [Revolution OS (2001)](https://www.youtube.com/watch?v=jw8K460vx1c) - Linux and Open Source
