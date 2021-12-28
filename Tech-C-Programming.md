@@ -11,6 +11,7 @@ Here are some useful/interesting/insightful resources which I always refer back 
     * [Encapsulation in C](https://ejrh.wordpress.com/2011/04/29/encapsulation-in-c/)
     * [Method Polymorphism in C](https://ejrh.wordpress.com/2011/09/10/method-polymorphism-in-c/)
     * [Namespaces in C](https://ejrh.wordpress.com/2012/01/24/namespaces-in-c/)
+* [Seventeen steps to safer C code by Thomas Honold](https://www.embedded.com/seventeen-steps-to-safer-c-code/)
 
 Building
 
@@ -46,3 +47,10 @@ Rust
 
 * [Rust By Example](https://doc.rust-lang.org/stable/rust-by-example/)
 * [The Rust Programming Language](https://doc.rust-lang.org/book/)
+
+DOS
+
+* <https://delorie.com/djgpp/>
+* <https://github.com/andrewwutw/build-djgpp>
+* <https://pdcurses.org/>
+* <https://github.com/msikma/allegro-4.2.2-xc>
