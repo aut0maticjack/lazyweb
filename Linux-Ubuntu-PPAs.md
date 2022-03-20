@@ -101,6 +101,13 @@ https://launchpad.net/~wireshark-dev/+archive/ubuntu/stable?field.series_filter=
     sudo apt-add-repository ppa:wireshark-dev/stable
     sudo apt install wireshark
 
+### Zim - desktop wiki
+
+https://launchpad.net/~jaap.karssenberg/+archive/ubuntu/zim?field.series_filter=focal
+
+    sudo add-apt-repository ppa:jaap.karssenberg/zim
+    sudo apt install zim
+
 ## Repositories
 
 ### Mopidy - MPD-compatible music daemon
