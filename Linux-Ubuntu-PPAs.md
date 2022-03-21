@@ -16,7 +16,14 @@ https://launchpad.net/~otto-kesselgulasch/+archive/ubuntu/gimp?field.series_filt
 https://launchpad.net/~git-core/+archive/ubuntu/ppa?field.series_filter=focal
 
     sudo add-apt-repository ppa:git-core/ppa
-    sudo apt install git
+    sudo apt install git git-email
+
+### Inkscape - vector graphics editor
+
+https://launchpad.net/~inkscape.dev/+archive/ubuntu/stable?field.series_filter=focal
+
+    sudo add-apt-repository ppa:inkscape.dev/stable
+    sudo apt install inkscape
 
 ### KeePassXC - password manager
 
@@ -24,6 +31,13 @@ https://launchpad.net/~phoerious/+archive/ubuntu/keepassxc?field.series_filter=f
 
     sudo add-apt-repository ppa:phoerious/keepassxc
     sudo apt install keepassxc
+
+### Krita - photo editor
+
+https://launchpad.net/~kritalime/+archive/ubuntu/ppa?field.series_filter=focal
+
+    sudo add-apt-repository ppa:kritalime/ppa
+    sudo apt-get install krita
 
 ### Mesa - 3D stuff
 
