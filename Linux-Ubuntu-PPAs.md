@@ -2,7 +2,7 @@ This grew into PPAs, repos, and packages, but whatever.
 
 Current to version: **Ubuntu 22.04 (jammy)**
 
-## PPAs
+# PPAs
 
 ### Firefox - web browser
 
@@ -136,7 +136,9 @@ https://launchpad.net/~jaap.karssenberg/+archive/ubuntu/zim?field.series_filter=
     sudo add-apt-repository ppa:jaap.karssenberg/zim
     sudo apt install zim
 
-## Other Repositories
+----
+
+# Repositories
 
 ### Mopidy - MPD-compatible music daemon
 
@@ -164,7 +166,9 @@ https://wiki.winehq.org/Ubuntu
     sudo apt update
     sudo apt install --install-recommends winehq-stable
 
-## Other Packages
+----
+
+# Packages
 
 ### HakuNeko S - manga downloader
 
