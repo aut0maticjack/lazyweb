@@ -1,6 +1,6 @@
 This grew into PPAs, repos, and packages, but whatever.
 
-Current to version: **Ubuntu 20.04 (focal)**
+Current to version: **Ubuntu 22.04 (jammy)**
 
 ## PPAs
 
