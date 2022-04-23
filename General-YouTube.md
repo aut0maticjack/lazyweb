@@ -123,6 +123,7 @@
 * [Killian Experience](https://www.youtube.com/channel/UCjdQaSJCYS4o2eG93MvIwqg) - hilarious garbage reviews
 * [Kelsey Lewin](https://www.youtube.com/channel/UCVfhjBPhPY41aHm4DAR4M6Q) - obscure Japanese retro collecting
 * [Kinsey Burke](https://www.youtube.com/channel/UCSMJHi4vvNu-mETdZokpj8A) - Kinszilla
+* [Lady Decade](https://youtube.com/c/LadyDecade) - funny British lady
 * [Lazy Game Reviews](https://www.youtube.com/c/Lazygamereviews) - Clint Basinger, DOS gamer ([2nd Channel](https://www.youtube.com/c/LGRBlerbs))
 * [Metal Jesus](https://www.youtube.com/user/MetalJesusRocks) - Jason Lindsey
 * [minimme](https://www.youtube.com/channel/UCPIBtu2SBuW_VFHwKwDOtYg) - funny Australian guy, foot reveals
