@@ -161,10 +161,12 @@ https://www.spotify.com/au/download/linux/
 https://wiki.winehq.org/Ubuntu
 
     sudo dpkg --add-architecture i386
-    wget -O - https://dl.winehq.org/wine-builds/winehq.key | sudo apt-key add -
-    sudo add-apt-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ focal main' 
+    wget -nc https://dl.winehq.org/wine-builds/winehq.key
+    sudo mv winehq.key /usr/share/keyrings/winehq-archive.key    
+    wget -nc https://dl.winehq.org/wine-builds/ubuntu/dists/jammy/winehq-jammy.sources
+    sudo mv winehq-jammy.sources /etc/apt/sources.list.d/
     sudo apt update
-    sudo apt install --install-recommends winehq-stable
+    sudo apt install --install-recommends winehq-devel
 
 ----
 
