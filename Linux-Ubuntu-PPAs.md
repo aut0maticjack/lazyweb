@@ -25,13 +25,6 @@ Then
     sudo apt update
     sudo apt install firefox
 
-### GIMP - GNU Image Manipulation Program
-
-https://launchpad.net/~otto-kesselgulasch/+archive/ubuntu/gimp?field.series_filter=focal
-
-    sudo add-apt-repository ppa:otto-kesselgulasch/gimp
-    sudo apt install gimp
-
 ### git - Distributed Version Control System
 
 https://launchpad.net/~git-core/+archive/ubuntu/ppa?field.series_filter=jammy
@@ -52,13 +45,6 @@ https://launchpad.net/~phoerious/+archive/ubuntu/keepassxc?field.series_filter=j
 
     sudo add-apt-repository ppa:phoerious/keepassxc
     sudo apt install keepassxc
-
-### Krita - photo editor
-
-https://launchpad.net/~kritalime/+archive/ubuntu/ppa?field.series_filter=focal
-
-    sudo add-apt-repository ppa:kritalime/ppa
-    sudo apt-get install krita
 
 ### Mesa - 3D stuff
 
@@ -124,14 +110,14 @@ https://launchpad.net/~gezakovacs/+archive/ubuntu/ppa?field.series_filter=focal
 
 ### Wireshark - packet capture analysis tool
 
-https://launchpad.net/~wireshark-dev/+archive/ubuntu/stable?field.series_filter=focal
+https://launchpad.net/~wireshark-dev/+archive/ubuntu/stable?field.series_filter=jammy
 
     sudo apt-add-repository ppa:wireshark-dev/stable
     sudo apt install wireshark
 
 ### Zim - desktop wiki
 
-https://launchpad.net/~jaap.karssenberg/+archive/ubuntu/zim?field.series_filter=focal
+https://launchpad.net/~jaap.karssenberg/+archive/ubuntu/zim?field.series_filter=jammy
 
     sudo add-apt-repository ppa:jaap.karssenberg/zim
     sudo apt install zim
@@ -181,6 +167,12 @@ https://sourceforge.net/projects/hakuneko/
 AppImages of nightlies on the website:
 
 https://openxcom.org/git-builds/
+
+### Krita - photo editor
+
+AppImages:
+
+https://krita.org/en/download/krita-desktop/
 
 ### RetroArch - emulators
 
