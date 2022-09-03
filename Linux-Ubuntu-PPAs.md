@@ -46,6 +46,14 @@ https://launchpad.net/~phoerious/+archive/ubuntu/keepassxc?field.series_filter=j
     sudo add-apt-repository ppa:phoerious/keepassxc
     sudo apt install keepassxc
 
+
+### Lutris - game launcher
+
+https://launchpad.net/~lutris-team/+archive/ubuntu/lutris?field.series_filter=jammy
+
+    sudo add-apt-repository ppa:lutris-team/lutris
+    sudo apt install lutris
+
 ### Mesa - 3D stuff
 
 https://launchpad.net/~kisak/+archive/ubuntu/kisak-mesa?field.series_filter=jammy
