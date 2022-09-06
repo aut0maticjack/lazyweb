@@ -61,6 +61,8 @@ The vimrc file (stored at `~/.vimrc`) is your settings file. It controls the beh
 
 You'll find many people's settings files on the internet, but here are some things I like in mine.
 
+I suggest to keep vimrc small. Every time mine gets more than a page of terminal text (maximized), I trim it down to stuff I don't really need.
+
 ### General Behaviour
 
 ~~~vim
