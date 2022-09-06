@@ -62,6 +62,7 @@ External
 * [Android Apps](Tech-Android-Apps)
 * [C Programming](Tech-C-Programming)
 * [Containers](Tech-Containers)
+* [Vim](Vim)
 
 ## Linux
 
