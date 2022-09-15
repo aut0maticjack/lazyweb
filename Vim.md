@@ -104,7 +104,7 @@ colorscheme solarized
 
 ### Stop Using the Arrow Keys
 
-Pepeatedly pressing the arrow keys to navigate is an anti-pattern. To force yourself to learn motions, disable the arrow keys:
+Repeatedly pressing the arrow keys to navigate is an anti-pattern. To force yourself to learn motions, disable the arrow keys:
 
 ~~~vim
 " unmap arrow keys
