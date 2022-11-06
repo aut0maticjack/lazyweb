@@ -4,6 +4,7 @@ Here are some useful/interesting/insightful resources which I always refer back 
 
 * [How to C in 2016](https://matt.sh/howto-c)
 * [Linux Kernel coding style](https://www.kernel.org/doc/Documentation/process/coding-style.rst) and [linuxsty.vim](https://github.com/vivien/vim-linux-coding-style)
+* [Programming Articles by Adam Tornhill](https://www.adamtornhill.com/articles.htm)
 * [Google C++ Style Guide - Names and Order of Includes](https://google.github.io/styleguide/cppguide.html#Names_and_Order_of_Includes)
 
 Other things I liked:
