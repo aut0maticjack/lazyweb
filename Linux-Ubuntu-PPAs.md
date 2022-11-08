@@ -46,6 +46,15 @@ https://launchpad.net/~phoerious/+archive/ubuntu/keepassxc?field.series_filter=j
     sudo add-apt-repository ppa:phoerious/keepassxc
     sudo apt install keepassxc
 
+### Linux Mint xapps
+
+Great tidy non-desktop-specific tools made by Linux Mint devs
+
+https://launchpad.net/~kelebek333/+archive/ubuntu/mint-tools?field.series_filter=jammy
+
+    sudo add-apt-repository ppa:kelebek333/mint-tools
+    sudo apt install bulky  # bulk renamer
+    sudo apt install xed    # text editor
 
 ### Lutris - game launcher
 
