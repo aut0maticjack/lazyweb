@@ -10,4 +10,4 @@ Unless otherwise noted per-page, all information here is provided under [Creativ
 
 ## Money
 
-If you wish to give a financial thanks for any advice, please don't buy me Reddit Gold or Thingiverse Tips, instead make a donation to [Abandoned Pet Project](http://abandonedpetproject.org/donate) or an animal rescue charity in your area.
+If you wish to give a financial thanks for any advice, please don't buy me things like Reddit Gold or Thingiverse Tips, instead make a donation to [Abandoned Pet Project](http://abandonedpetproject.org/donate) or an animal rescue charity in your area.
