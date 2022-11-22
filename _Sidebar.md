@@ -10,4 +10,4 @@ Unless otherwise noted per-page, all information here is provided under [Creativ
 
 ## Money
 
-If you wish to give a financial thanks for any advice, please do not give me anything. Instead, make a donation to an animal rescue charity or environmental charity in your area.
+If you wish to give a financial thanks for any advice, please do not send me anything. Instead, make a donation to an animal rescue charity or environmental charity in your area.
