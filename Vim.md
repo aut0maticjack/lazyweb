@@ -225,6 +225,32 @@ map <Leader>= mmgg=G`m
 
 I know I said not to use many plugins, but these are the few I do use:
 
+### vim-sneak
+
+<https://github.com/justinmk/vim-sneak>
+
+You'll learn the motions `f` to go "forward" to text (or `F` to do the opposite direction), and `t` to change/delete "to" something (or `T` to do the opposite direction).
+
+Following our first example again:
+
+~~~
+    █printf("Hello, world!\n");
+~~~
+
+I could move to the open bracket with `f(` meaning "forward to first open bracket".
+
+I could also change the word `printf` with `ct(` meaning "change to open brace".
+
+However, when you have multiple possible matches it becomes a little more difficult to move exactly where you want.
+
+sneak adds motions `s` (forward) and `S` (back) which match **two** characters.
+
+So again with our example, say I wanted to move to the `ll` in "Hello", sneak lets me type `sll`.
+
+It also brings up a third highlighted jump if you have multiple matches at two letters.
+
+This is so good it should be part of Vim!
+
 ### buftabline
 
 <https://github.com/ap/vim-buftabline>
