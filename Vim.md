@@ -28,6 +28,7 @@ The following pages discuss this well with details:
 
 * [Learn Vim Progressively - Yann Esposito](https://yannesposito.com/Scratch/en/blog/Learn-Vim-Progressively/)
 * [How To Learn Vim: A Four Week Plan - Pete Jang](https://peterxjang.com/blog/how-to-learn-vim-a-four-week-plan.html)
+* [Vim Command Workflow - Max Shen](https://m4xshen.me/posts/vim-command-workflow/)
 
 You could also watch the Vimcasts and gradually integrate the useful tips into your workflow. Scroll to the bottom of the page for the first one and work your way up:
 
