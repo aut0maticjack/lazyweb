@@ -50,11 +50,19 @@ If you don't know what a command, option, or setting within Vim does, get help w
 
 ## Environment
 
-You'll find many "distributions" of Vim like Janus, spf13, or Spacemacs (which is actually Emacs setup to behave like Vim) but I recommend not using these.
+You'll find many "distributions" of Vim like SpaceVim, LazyVim, Janus, spf13, or Spacemacs (which is actually Emacs setup to behave like Vim) but I recommend not using these.
 
 They fill Vim with settings and plugins that often defeat the intention of the editor. Plus it's a pain to have to setup new stuff on every system you interact with.
 
 It is better to learn Vim fundamentals with few modifications first, then once you are familiar with Vim as an editor, pick few plugins (if any) to enchance your workflow even more.
+
+### Vim or Neovim?
+
+As a beginner, there is no huge difference between recent Vim 8 or 9 and Neovim.
+
+This page is written to work with either. I'm running Neovim but my config still works fine, even with old Vim 7.
+
+However, if you choose Neovim, be sure to setup its config file as per: [`:help nvim-from-vim`](https://neovim.io/doc/user/nvim.html#nvim-from-vim)
 
 ## vimrc
 
@@ -62,39 +70,42 @@ The vimrc file (stored at `~/.vimrc`) is your settings file. It controls the beh
 
 You'll find many people's settings files on the internet, but here are some things I like in mine.
 
-I suggest to keep vimrc small. Every time mine gets more than a page of terminal text (maximized), I trim it down to stuff I don't really need.
+I suggest to keep vimrc small. Every time mine gets more than a page or two of terminal text (maximized), I trim it down to stuff I don't really need.
 
 ### General Behaviour
 
 ~~~vim
 """ general
-set autoindent      " indent the same amount as the previous line on CR
-set cindent         " C-style indenting
-set hidden          " allow moving to another buffer without saving
-set hlsearch        " highlight search results
-set incsearch       " incremental search as you type
-set linebreak       " don't wrap text in the middle of a word
-set listchars=tab:>\ ,eol:$,trail:-,extends:>,precedes:<,nbsp:+ " based on vim-sensible
-set modeline        " enable modelines
-set noerrorbells    " BEEP (mostly useful for DOS Vim)
-set number          " show line numbers
-set scrolloff=1     " number of lines to keep visible when scrolling
-set title           " show title in console
-set smarttab        " tab on blankline inserts a shiftwidth, backspace deletes a shifwidth
-set splitbelow      " start splits below the current window
-set splitright      " start splits to the right of the current window
-set wildmenu        " command autocompletion menu
-syntax enable       " enable syntax highlighting
+set autoindent       " indent the same amount as the previous line on CR
+set cindent          " C-style indenting
+set noerrorbells     " BEEP (for DOS vim)
+set nofoldenable     " disable folding
+set formatoptions-=c " stop comments wrapping at textwidth (:help fo-table)
+set hidden           " allow moving to another buffer without saving
+set hlsearch         " highlight search results
+set incsearch        " incremental search as you type
+set linebreak        " don't wrap text in the middle of a word
+set listchars=tab:>\ ,eol:$,trail:-,extends:>,precedes:<,nbsp:+ "
+set modeline         " https://vim.fandom.com/wiki/Modeline_magic
+set number           " show line numbers
+set relativenumber   " enable hybrid line numbers
+set scrolloff=1      " number of lines to keep visible when scrolling
+set title            " show title in console
+set smarttab         " tab on blank line inserts a shiftwidth, backspace deletes
+set splitbelow       " start splits below the current window
+set splitright       " start splits to the right of the current window
+set wildmenu         " command autocompletion menu (try :color <Tab> to see)
 
-set expandtab       " expand tabs to spaces
-set tabstop=4       " consider 4 spaces to be a tab
-set shiftwidth=4    " when < or > shifting, move to 4-space boundaries
-set softtabstop=-1  " when halfway thru spacing and hit tab, end at 4 space gaps (-1 = use shiftwidth)
+set expandtab        " expand tabs to spaces
+set tabstop=4        " consider 4 spaces to be a tab
+set shiftwidth=4     " when < or > shifting, move to 4-space boundaries
+" when halfway thru spacing and you hit tab, end at (shiftwidth) gaps
+if has('softtabstop') | set softtabstop=-1 | endif
 ~~~
 
 ### Theme
 
-I use Solarized Dark for everything:
+I use [Solarized Dark](https://github.com/altercation/vim-colors-solarized) for everything:
 
 ~~~vim
 """ theme
@@ -119,18 +130,22 @@ inoremap <Left> <NOP>
 inoremap <Right> <NOP>
 ~~~
 
+Once you are ready for full immersion and want repeated presses of the `hjkl` directions disabled too, try [vim-hardtime](https://github.com/takac/vim-hardtime).
+
 ### Disable Mouse
 
 I don't want the mouse to be active in my terminal Vim sessions:
 
 ~~~vim
 " disable mouse
-autocmd BufEnter * set mouse=
+set mouse=           " disable mouse
 ~~~
 
 ### Graphical Copy/Paste
 
-However, it is sometimes useful to interact with the clipboard. Editing big swathes of browser text area in Vim is particularly helpful. These rely on the presence of `xclip` command:
+Vim yanks and pastes work in its own set of clipboard-like things called "registers".
+
+However, it is useful to interact with the sysetm clipboard. Editing big swathes of browser text area in Vim is particularly helpful. These rely on the presence of `xclip` command:
 
 ~~~vim
 " graphical copypaste (requires xclip)
@@ -145,9 +160,19 @@ Now you can:
 * Paste from the GUI clipboard with `:xp`
 * Highlight with Visual mode and copy to GUI clipboard with `:xc`
 
+If you're running very recent Vim or Neovim, you don't even need this, you can just yank and paste to/from the system clipboard directly:
+
+~~~vim
+if has("unnamedplus")
+    set clipboard=unnamedplus
+else
+    set clipboard=unnamed
+endif
+~~~
+
 ### Statusline
 
-There are many statusline plugins - powerline, lightline, airline - but I don't find any of them necessary. The below is a sufficient emulation of vim-airline for my needs.
+There are many statusline plugins - powerline, lightline, airline - but I don't find any of them necessary. The below is a sufficient emulation of airline for my needs.
 
 Note, this could easily be done all in one big command, but annotating it out over multiple additions to `statusline+=` makes human maintenance easier
 
@@ -175,10 +200,12 @@ set statusline+=\ \:\ %{&ft}
 " space, pipe, space, min-3-width percent through file in lines
 set statusline+=\ \:\ %2p%%
 " space, pipe, space, min-4-width line number
-set statusline+=\ \:\ %3l 
+set statusline+=\ \:\ %3l
 " colon, min-2-character left-aligned virtual column number, space
 set statusline+=:%-2v\ "
 ~~~
+
+I've actually published this as a plugin if you prefer that: <https://github.com/superjamie/zeroline.vim>
 
 ### Filetypes
 
@@ -202,33 +229,82 @@ augroup END
 The leader key is the backslash `\` by default, and can be used for shortcuts:
 
 ~~~vim
-" remove highlights
-nnoremap <leader>h :nohl<CR>:match none<CR>:call clearmatches()<CR> :<Esc>
+" clear last search pattern, removing search highlights
+nnoremap <leader>h :let @/ = ""<cr>
 " toggle list characters
 nnoremap <leader>l :set list!<CR>:set list?<CR>
 " toggle line numbers
-nnoremap <leader>n :set number!<CR>:set number?<CR>
+nnoremap <leader>n :set relativenumber!<CR>:set number!<CR>
 " toggle paste mode
 nnoremap <Leader>p :set paste!<CR>:set paste?<CR>
 " toggle relative line numbers
-nnoremap <leader>r :set relativenumber!<CR>:set relativenumber?<CR>
-" reload config
-nnoremap <leader>v :source ~/.vimrc<CR>
+nnoremap <leader><leader> :set relativenumber!<CR>
 " remove trailing whitespace through whole document
 nnoremap <leader>w :%s/\s\+$//<CR>:match<CR>:nohl<CR> :<Esc>
 " re-indent whole file (mm creates mark m, gg=G indents, tick m goes to mark m
 map <Leader>= mmgg=G`m
 ~~~
 
+### Splits
+
+You can split windows with `Ctrl+w` then `v` (vertical split) and/or `Ctrl+w` then `s` (split horizontal).
+
+Move around splits with `Ctrl+w` and one of the `hjkl` directions, or switch to the next split quickly with `Ctrl+w` twice.
+
+Close a split with `Ctrl+w` then `q` or even `:q`. Close all *other* splits with `Ctrl+w` then `o` or `:only`
+
+### Buffers
+
+You can open multiple files in Vim, and those files are stored in "bufffers".
+
+Your current window displays a view of a buffer, and you can switch back and forth to other buffers.
+
+Here are some handy keybinds for using bufffers:
+
+~~~vim
+" display list of buffers
+noremap <leader>b :buffers<cr>
+" close current buffer without closing split, switches to b# (previous buffer)
+nnoremap <leader>B :b#<bar>bd#<CR>
+" from vim-unimpaired
+noremap [b :bprev<CR>
+noremap ]b :bnext<CR>
+noremap [B :bfirst<CR>
+noremap ]B :blast<CR>
+~~~
+
+If you'd like to learn more about Vim's concepts of Window, Buffer, Tab, check:
+
+<https://vim.fandom.com/wiki/Buffers>
+
+~~~
+:help window
+
+Summary:
+   A buffer is the in-memory text of a file.
+   A window is a viewport on a buffer.
+   A tab page is a collection of windows.
+~~~
+
+I don't use tabs.
+
 ----
 
 ## Plugins
 
-I know I said not to use many plugins, but these are the few I do use:
+I know I said not to use many plugins, but these are the few I do use.
+
+You will see mention of "plugin managers" like Pathogen or Vundle, but you don't need these anymore, Vim has native plugin management now.
+
+Add plugins into `~/.vim/pack/NAME/start/` where `NAME` is your name or a group of plugins or just `plugins` if you aren't fussed.
+
+You can use the `~/.vim/pack/NAME/opt/` directory for plugins which don't load automatically, you can add them later during runtime with `:packadd plugin-name`
 
 ### vim-sneak
 
 <https://github.com/justinmk/vim-sneak>
+
+My number one plugin and the only thing I really insist on having with me.
 
 You'll learn the motions `f` to go "forward" to text (or `F` to do the opposite direction), and `t` to change/delete "to" something (or `T` to do the opposite direction).
 
@@ -256,61 +332,60 @@ This is so good it should be part of Vim!
 
 <https://github.com/ap/vim-buftabline>
 
-When opening multiple files, this places the files in a horizontal numbered list at the top of the screen.
-
-If you'd like to learn more about Vim's concepts of Window, Buffer, Tab, check:
-
-<https://vim.fandom.com/wiki/Buffers>
-
-~~~
-:help window
-
-Summary:
-   A buffer is the in-memory text of a file.
-   A window is a viewport on a buffer.
-   A tab page is a collection of windows.
-~~~
-
-This plugin moves the bufferlist into the tabline.
+When opening multiple files, this places the files in a horizontal numbered list at the top of the screen, just like tabs in other editors.
 
 ### Fugitive
 
 <https://github.com/tpope/vim-fugitive>
 
-Adds git capabilities to Vim. I don't use this to make commits (maybe I should look into that). My job is almost entirely to read code and understand the history of a commit. Fugitive's `:Git blame` view is great for this.
+Adds git capabilities to Vim.
 
-### GNU Global's gtags-cscope
+Most common commands can be prefixed with `:Git` (or just `:G`) such as `log` or `diff` or `add` or `commit`, it picks up all your aliases in `~/.gitconfig` too.
 
-I use the source code tagging system [GNU Global](https://www.gnu.org/software/global/) to generate source code tags (it's much better than ctags), and this ships with a plugin that improves on the old `vim-cscope`:
+It also adds Vim-awareness to these. For example, the `log` or `log --oneline` opens the log in a buffer which you can navigate. Press `o` to open a full commit in a new split, or `Enter` to use the log window. Go back/forward with `Ctrl+o` and `Ctrl+i` (Vim's native history).
 
-<https://cvs.savannah.gnu.org/viewvc/global/global/gtags-cscope.vim?revision=1.14&view=markup>
+My job is almost entirely to read code and understand the history of a commit. Fugitive's `:Git blame` view is great for this! Particularly how it lets you re-blame on a parent commit with `~` key.
 
-There's a bit of history there, this assumes familiarity with cscope concepts:
+### polyglot
 
-* symbol global definition
-* symbol usage
-* symbol callers
-* extended regex search
+<https://github.com/sheerun/vim-polyglot>
 
-It creates Vim commands for these:
+The built-in syntax highlighting is pretty good, but it can be better.
 
-* `:cs f g SYMBOL`
-* `:cs f s SYMBOL`
-* `:cs f c SYMBOL`
-* `:cs f e PATTERN`
+This adds lots of better syntax highlighting, and it only loads when needed so it doesn't slow down Vim for filetypes you never use.
 
-It creates leader actions for these when you're on a keyword:
+### Language Server Protocol (LSP)
 
-* Ctrl + leader + g
-* Ctrl + leader + s
-* Ctrl + leader + c
-* Ctrl + leader + e
+A bit beyond the scope of this document, but if you're a programmer and want fancy language awareness like a real IDE, this provides it.
 
-This is MUCH quicker than constantly hopping in and out of cscope, and lets you use Vim's native jump list commands to navigate older (**Ctrl+o**) and newer (**Ctrl+i**) as you read. See `:help jump-motions`
+I have found [`vim-lsp`](https://github.com/prabirshrestha/vim-lsp) to be the easiest to get working.
+
+Look around for the best language server for your programming languages, try a few, there are many listed in [vim-lsp-settings](https://github.com/mattn/vim-lsp-settings).
+
+For C programming I use [ccls](https://github.com/MaskRay/ccls/wiki/vim-lsp).
+
+The suggested keybinds are pretty good and very Vim-like. I change the hover scroll because I use `Ctrl+f` to go forward, and I add a rename on `F2`:
+
+```vim
+    nmap <buffer> gd <plug>(lsp-definition)
+    nmap <buffer> gs <plug>(lsp-document-symbol-search)
+    nmap <buffer> gS <plug>(lsp-workspace-symbol-search)
+    nmap <buffer> gr <plug>(lsp-references)
+    nmap <buffer> gi <plug>(lsp-implementation)
+    nmap <buffer> gt <plug>(lsp-type-definition)
+    nmap <buffer> <leader>rn <plug>(lsp-rename)
+    nmap <buffer> [g <plug>(lsp-previous-diagnostic)
+    nmap <buffer> ]g <plug>(lsp-next-diagnostic)
+    nmap <buffer> K <plug>(lsp-hover)
+    nnoremap <buffer> <expr><c-k> lsp#scroll(+4)  "" changed
+    nnoremap <buffer> <expr><c-j> lsp#scroll(-4)  "" changed
+    nmap <buffer> gD <plug>{lsp-declaration)  "" added
+    nmap <buffer> <f2> <plug>(lsp-rename)  "" added
+```
 
 ----
 
-## Favorite Tips and Tricks
+## Other Favorite Tips and Tricks
 
 ### z Commands
 
@@ -357,7 +432,7 @@ C:
 
 I have things I'd like to get better at with Vim too
 
-### Registers 
+### Registers
 
 * https://www.brianstorti.com/vim-registers/
 * https://www.tutorialspoint.com/vim/vim_registers.htm
