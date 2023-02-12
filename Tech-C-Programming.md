@@ -61,3 +61,61 @@ DOS
 * <https://github.com/andrewwutw/build-djgpp>
 * <https://pdcurses.org/>
 * <https://github.com/msikma/allegro-4.2.2-xc>
+
+## Vim
+
+### vim-lsp
+
+<https://github.com/prabirshrestha/vim-lsp>
+
+This is rad for everything except the kernel.
+
+I use the [ccls](https://github.com/MaskRay/ccls/wiki/vim-lsp) language server, and generate `compile_commands.json` with 
+
+```vim
+    setlocal signcolumn=no
+    if exists('+tagfunc') | setlocal tagfunc=lsp#tagfunc | endif
+    nmap <buffer> gd <plug>(lsp-definition)
+    nmap <buffer> gs <plug>(lsp-document-symbol-search)
+    nmap <buffer> gS <plug>(lsp-workspace-symbol-search)
+    nmap <buffer> gr <plug>(lsp-references)
+    nmap <buffer> gi <plug>(lsp-implementation)
+    nmap <buffer> gt <plug>(lsp-type-definition)
+    nmap <buffer> <leader>R <plug>(lsp-rename)
+    nmap <buffer> [g <plug>(lsp-previous-diagnostic)
+    nmap <buffer> ]g <plug>(lsp-next-diagnostic)
+    nmap <buffer> K <plug>(lsp-hover)
+    nnoremap <buffer> <expr><c-k> lsp#scroll(+4)
+    nnoremap <buffer> <expr><c-j> lsp#scroll(-4)
+    nmap <buffer> <f2> <plug>(lsp-rename)
+```
+
+### GNU Global's gtags-cscope
+
+For the Linux kernel, I use the source code tagging system [GNU Global](https://www.gnu.org/software/global/) to generate source code tags (it's much better than ctags), and this ships with a plugin that improves on the old `vim-cscope`:
+
+<https://cvs.savannah.gnu.org/viewvc/global/global/gtags-cscope.vim?revision=1.14&view=markup>
+
+There's a bit of history there, this assumes familiarity with cscope concepts:
+
+* symbol global definition
+* symbol usage
+* symbol callers
+* extended regex search
+
+It creates Vim commands for these:
+
+* `:cs f g SYMBOL`
+* `:cs f s SYMBOL`
+* `:cs f c SYMBOL`
+* `:cs f e PATTERN`
+
+It creates leader actions for these when you're on a keyword:
+
+* Ctrl + leader + g
+* Ctrl + leader + s
+* Ctrl + leader + c
+* Ctrl + leader + e
+
+This is MUCH quicker than constantly hopping in and out of cscope, and lets you use Vim's native jump list commands to navigate older (**Ctrl+o**) and newer (**Ctrl+i**) as you read. See `:help jump-motions`
+
