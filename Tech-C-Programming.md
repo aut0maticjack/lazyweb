@@ -70,7 +70,11 @@ DOS
 
 This is rad for everything except the kernel.
 
-I use the [ccls](https://github.com/MaskRay/ccls/wiki/vim-lsp) language server, and generate `compile_commands.json` with 
+I use the [ccls](https://github.com/MaskRay/ccls/wiki/vim-lsp) language server, I've found it better than clangd.
+
+I generate `compile_commands.json` with [bear](https://github.com/rizsotto/Bear) like `bear -- make`
+
+Key bindings:
 
 ```vim
     setlocal signcolumn=no
@@ -79,7 +83,7 @@ I use the [ccls](https://github.com/MaskRay/ccls/wiki/vim-lsp) language server, 
     nmap <buffer> gs <plug>(lsp-document-symbol-search)
     nmap <buffer> gS <plug>(lsp-workspace-symbol-search)
     nmap <buffer> gr <plug>(lsp-references)
-    nmap <buffer> gi <plug>(lsp-implementation)
+    nmap <buffer> gi <plug>(lsp-implementation)  " doesn't seem to do anything for C
     nmap <buffer> gt <plug>(lsp-type-definition)
     nmap <buffer> <leader>R <plug>(lsp-rename)
     nmap <buffer> [g <plug>(lsp-previous-diagnostic)
