@@ -22,7 +22,7 @@ If you want to change the text inside the quotes, you could:
 * Keyboard method: Use the arrow keys (maybe Ctrl+arrow to jump words), move the cursor to the H, press the Delete key 13 times (or hold Shift and highlight right, perhaps with Ctrl+arrow to jump words), and start typing. This is undesirable as it requires pressing lots of keys, it takes your arrow-key hand away from the alphanumeric typing keys, different editors might have different behaviour highlighting words and interpreting special characters (the set `()"\`) as parts of words.
 * Vim method: Press three keys, `c`hange `i`nside `"` (quotes), and start typing your replacement. This is desirable as it says what you actually wanted to do, behaves consistently and expectedly, and takes very few keypresses to achieve so you can be more productive overall.
 
-This methodology is embodied well in this famous StackOverflow answer: [Your problem with Vim is that you don't grok vi](https://stackoverflow.com/a/1220118/1422582).
+This methodology is embodied well in this famous StackOverflow answer: [Your problem with Vim is that you don't grok vi.](https://stackoverflow.com/a/1220118/1422582)
 
 Just like any workflow, Vim requires making small changes to learn. Like learning any other skill, you start out as a slow uncomfortable clumsy beginner, but with practice you can develop proficiency, speed, and more abilities.
 
@@ -124,6 +124,8 @@ colorscheme slate
 
 You can find themes on [vimcolorschemes](https://vimcolorschemes.com/). Some popular ones are [gruvbox](https://github.com/morhetz/gruvbox), [everforest](https://github.com/sainnhe/everforest), and [onedark](https://vimcolorschemes.com/joshdick/onedark.vim).
 
+If you find your theme looks bad, you might need to `set termguicolors` (some themes needs this, some don't), or make sure your [terminal supports truecolor](https://unix.stackexchange.com/questions/404414/print-true-color-24-bit-test-pattern), or [override `Tc` in tmux](https://stackoverflow.com/questions/41783367/tmux-tmux-true-color-is-not-working-properly).
+
 ### Stop Using the Arrow Keys
 
 Repeatedly pressing the arrow keys to navigate is an anti-pattern. To force yourself to learn motions, disable the arrow keys:
@@ -155,7 +157,7 @@ set mouse=           " disable mouse
 
 Vim yanks and pastes work in its own set of clipboard-like things called "registers".
 
-However, it is useful to interact with the sysetm clipboard. Editing big swathes of browser text area in Vim is particularly helpful. These rely on the presence of `xclip` command:
+However, it is useful to interact with the system clipboard. Editing big swathes of browser text area in Vim is particularly helpful. These rely on the presence of `xclip` command:
 
 ~~~vim
 " graphical copypaste (requires xclip)
@@ -182,7 +184,7 @@ endif
 
 ### Statusline
 
-There are many statusline plugins - powerline, lightline, airline - but I don't find any of them necessary. The below is a sufficient emulation of airline for my needs.
+There are many statusline plugins - [powerline](https://github.com/powerline/powerline), [lightline](https://github.com/itchyny/lightline.vim), [airline](https://github.com/vim-airline/vim-airline) - but I don't find any of them necessary. The below is a sufficient emulation of lightline for my needs.
 
 Note, this could easily be done all in one big command, but annotating it out over multiple additions to `statusline+=` makes human maintenance easier
 
