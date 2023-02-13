@@ -383,6 +383,20 @@ The suggested keybinds are pretty good and very Vim-like. I change the hover scr
     nmap <buffer> <f2> <plug>(lsp-rename)  "" added
 ```
 
+### Auto-Completion
+
+Vim has auto-completion of words in the current file with `Ctrl+n`. This works in any filetype, even plain text.
+
+When using LSP (technically, when using something which sets `omnifunc`) you can open the Omni auto-completion menu in Insert Mode with `Ctrl+x Ctrl+o`.
+
+If you want `Tab` to autocomplete like a normal IDE, install the [supertab](https://github.com/ervandew/supertab) plugin, then in the same place as the above LSP keybinds, add:
+
+```vim
+    if exists("loaded_supertab") | call SuperTabSetDefaultCompletionType("<c-x><c-o>") | endif
+```
+
+See `:help ins-completion` for a larger explanation of Vim's auto-complete capabilities and the entire separate `Ctrl-x` sub-mode of Insert Mode.
+
 ----
 
 ## Other Favorite Tips and Tricks
