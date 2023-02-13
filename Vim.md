@@ -182,7 +182,6 @@ Note, this could easily be done all in one big command, but annotating it out ov
 """ statusline
 set laststatus=2    " always show the statusline
 set showmode        " show mode line ---INSERT---
-hi ModeMsg cterm=NONE ctermfg=White
 " initialise to blank
 set statusline=
 " space, buffer number surrounded by [square braces]
