@@ -122,6 +122,8 @@ If you can't be bothered setting all that up and just want default Vim to not lo
 colorscheme slate
 ~~~
 
+You can find themes on [vimcolorschemes](https://vimcolorschemes.com/). Some popular ones are [gruvbox](https://github.com/morhetz/gruvbox), [everforest](https://github.com/sainnhe/everforest), and [onedark](https://vimcolorschemes.com/joshdick/onedark.vim).
+
 ### Stop Using the Arrow Keys
 
 Repeatedly pressing the arrow keys to navigate is an anti-pattern. To force yourself to learn motions, disable the arrow keys:
