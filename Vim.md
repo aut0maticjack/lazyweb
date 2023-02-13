@@ -116,6 +116,12 @@ set background=dark
 colorscheme solarized
 ~~~
 
+If you can't be bothered setting all that up and just want default Vim to not look so bad, consider the `slate` color scheme. This is a nice theme and looks the same in 256-color terminals and truecolor terminals, so you don't have to apply terminal hacks or mess around with truecolor in tmux or anything else like that:
+
+~~~vim
+colorscheme slate
+~~~
+
 ### Stop Using the Arrow Keys
 
 Repeatedly pressing the arrow keys to navigate is an anti-pattern. To force yourself to learn motions, disable the arrow keys:
