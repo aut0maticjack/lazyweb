@@ -22,6 +22,8 @@ If you want to change the text inside the quotes, you could:
 * Keyboard method: Use the arrow keys (maybe Ctrl+arrow to jump words), move the cursor to the H, press the Delete key 13 times (or hold Shift and highlight right, perhaps with Ctrl+arrow to jump words), and start typing. This is undesirable as it requires pressing lots of keys, it takes your arrow-key hand away from the alphanumeric typing keys, different editors might have different behaviour highlighting words and interpreting special characters (the set `()"\`) as parts of words.
 * Vim method: Press three keys, `c`hange `i`nside `"` (quotes), and start typing your replacement. This is desirable as it says what you actually wanted to do, behaves consistently and expectedly, and takes very few keypresses to achieve so you can be more productive overall.
 
+This methodology is embodied well in this famous StackOverflow answer: [Your problem with Vim is that you don't grok vi](https://stackoverflow.com/a/1220118/1422582).
+
 Just like any workflow, Vim requires making small changes to learn. Like learning any other skill, you start out as a slow uncomfortable clumsy beginner, but with practice you can develop proficiency, speed, and more abilities.
 
 The following pages discuss this well with details:
