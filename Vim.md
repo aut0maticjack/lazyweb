@@ -264,6 +264,8 @@ Move around splits with `Ctrl+w` and one of the `hjkl` directions, or switch to 
 
 Close a split with `Ctrl+w` then `q` or even `:q`. Close all *other* splits with `Ctrl+w` then `o` or `:only`
 
+If you find you've opened a split in the wrong horizontal/vertical orientation, you can move splits around with `Ctrl+w` then the `HJKL` direction keys (capitals, so use `Shift`)
+
 ### Buffers
 
 You can open multiple files in Vim, and those files are stored in "bufffers".
@@ -450,6 +452,29 @@ C:
 ~~~c
 /* vim: set cindent noexpandtab tabstop=8 shiftwidth=8 softtabstop=8: */
 ~~~
+
+### Terminal Mode
+
+If you regularly copy/paste things to/from terminals, you don't need a separate terminal window, recent Vim and Neovim have a terminal buffer type.
+
+Enter it with `:terminal`.
+
+You can open a terminal in a split with `:split +terminal` or `:vert split +terminal`
+
+If this is a thing you do all the time, you might like these keybinds:
+
+```vim
+nnoremap <leader>t :vsp +term<cr>
+nnoremap <leader>T :sp +term<cr>
+```
+
+### Temporary Normal Mode
+
+If you're in Insert Mode and you need to run just one quick command in Normal Mode, you can press `Ctrl+o` to temporarily exit Insert.
+
+The mode print down the bottom will change from `-- INSERT --` to `-- (insert) --` to show you the mode change.
+
+If you do something which takes you away from the current buffer, you stay in Normal mode.
 
 ----
 
