@@ -1,8 +1,8 @@
-This grew into PPAs, repos, and packages, but whatever.
+This grew into PPAs, repos, packages, and now Flatpaks, but whatever.
 
 Current to version: **Ubuntu 22.04 (jammy)**
 
-# PPAs
+## PPAs
 
 ### Firefox - web browser
 
@@ -24,6 +24,13 @@ Then
     sudo add-apt-repository ppa:mozillateam/ppa
     sudo apt update
     sudo apt install firefox
+
+### Flatpak - Application packaging (not a sandbox)
+
+https://launchpad.net/~flatpak/+archive/ubuntu/stable?field.series_filter=jammy
+
+    sudo add-apt-repository ppa:flatpak/stable
+    sudo apt install flatpak
 
 ### git - Distributed Version Control System
 
@@ -94,14 +101,6 @@ https://launchpad.net/~libretro/+archive/ubuntu/testing?field.series_filter=jamm
 
 Probably better to install cores thru the web downloader.
 
-### PCSX2 - PlayStation 2 emulator
-
-https://launchpad.net/~pcsx2-team/+archive/ubuntu/pcsx2-daily?field.series_filter=jammy
-
-    sudo dpkg --add-architecture i386
-    sudo add-apt-repository ppa:pcsx2-team/pcsx2-daily
-    sudo apt install pcsx2
-
 ### PPSSPP - PlayStation Portable emulator
 
 https://launchpad.net/~xuzhen666/+archive/ubuntu/ppsspp?field.series_filter=jammy
@@ -141,7 +140,7 @@ https://launchpad.net/~jaap.karssenberg/+archive/ubuntu/zim?field.series_filter=
 
 ----
 
-# Repositories
+## Repositories
 
 ### Mopidy - MPD-compatible music daemon
 
@@ -194,7 +193,7 @@ https://wiki.winehq.org/Ubuntu
 
 ----
 
-# Packages
+## Packages
 
 ### HakuNeko S - manga downloader
 
@@ -229,3 +228,101 @@ https://launchpad.net/~kisak/+archive/ubuntu/kisak-mesa
 ### Ubuntu Kernel
 
 https://kernel.ubuntu.com/~kernel-ppa/mainline/
+
+----
+
+## Flatpak
+
+### Flatseal - permissions manager
+
+https://flathub.org/apps/details/com.github.tchx84.Flatseal
+
+    flatpak install flathub com.github.tchx84.Flatseal
+
+### Spotify - music
+
+https://flathub.org/apps/details/com.spotify.Client
+
+    flatpak install flathub com.spotify.Client
+
+----
+
+## Flatpak Games
+
+### dosbox-staging - MS-DOS emulator
+
+https://flathub.org/apps/details/io.github.dosbox-staging
+
+    flatpak install flathub io.github.dosbox-staging
+
+### DOSBox-X - MS-DOS emulator
+
+https://flathub.org/apps/details/com.dosbox_x.DOSBox-X
+
+    flatpak install flathub com.dosbox_x.DOSBox-X
+
+### DuckStation - the best PSX emulator
+
+https://flathub.org/apps/details/org.duckstation.DuckStation
+
+    flatpak install flathub org.duckstation.DuckStation
+
+### Gargoyle - interactive fiction player
+
+https://flathub.org/apps/details/io.github.garglk.Gargoyle
+
+    flatpak install flathub io.github.garglk.Gargoyle
+
+### Lutris - game runner
+
+https://flathub.org/apps/details/net.lutris.Lutris
+
+    flatpak install flathub net.lutris.Lutris
+
+### mGBA - GBA emulator
+
+https://flathub.org/apps/details/io.mgba.mGBA
+
+    flatpak install flathub io.mgba.mGBA
+
+### OpenRA - real time strategy
+
+https://flathub.org/apps/details/net.openra.OpenRA
+
+    flatpak install flathub net.openra.OpenRA
+
+### OpenTTD - train anoraks
+
+https://flathub.org/apps/details/org.openttd.OpenTTD
+
+    flatpak install flathub org.openttd.OpenTTD
+
+### OpenTyrian - shooter
+
+https://flathub.org/apps/details/com.github.opentyrian.OpenTyrian
+
+    flatpak install flathub com.github.opentyrian.OpenTyrian
+
+### PCSX2 - PlayStation 2 emulator
+
+https://flathub.org/apps/details/net.pcsx2.PCSX2
+
+    flatpak install flathub net.pcsx2.PCSX2
+
+### PPSSPP - PlayStation Portable emulator
+
+https://flathub.org/apps/details/org.ppsspp.PPSSPP
+
+    flatpak install flathub org.ppsspp.PPSSPP
+
+### RetroArch - multi emulator
+
+https://flathub.org/apps/details/org.libretro.RetroArch
+
+    flatpak install flathub org.libretro.RetroArch
+
+### ScummVM - adventure games
+
+https://flathub.org/apps/details/org.scummvm.ScummVM
+
+    flatpak install flathub org.scummvm.ScummVM
