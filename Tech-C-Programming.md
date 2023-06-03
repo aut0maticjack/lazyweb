@@ -39,6 +39,11 @@ Networking
 
 * [Beej's Guide to Network Programming](http://beej.us/guide/bgnet/)
 
+Numbers
+
+* <https://float.exposed/>
+* <https://integer.exposed/>
+
 SDL
 
 * [SDL Wiki](https://wiki.libsdl.org/)
