@@ -39,10 +39,11 @@ Networking
 
 * [Beej's Guide to Network Programming](http://beej.us/guide/bgnet/)
 
-Numbers
+Numbers/Memory
 
 * <https://float.exposed/>
 * <https://integer.exposed/>
+* <https://memory-spy.wizardzines.com/>
 
 SDL
 
