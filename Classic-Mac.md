@@ -181,13 +181,13 @@ Most Mac software you'll find is in one (or more) of these file formats:
 
 On DOS and other OSes we're used to associating a file with an application by its extension, like a `.txt` is a text file to open with the text editor, a `.doc` is a document to open with a word processor, a `.png` is an image to open with a graphics program, etc. Mac OS doesn't work that way.
 
-Mac OS has a hidden set of "metadata" about a file, such as its type and what application it should be opened with. This is called the file's "[Resource Fork](https://en.wikipedia.org/wiki/Resource_fork)".
+Mac OS has a hidden set of "metadata" about a file, such as its type and what application it should be opened with (it also stores other stuff like icons, graphics, dialog windows, etc). This is called the file's "[Resource Fork](https://en.wikipedia.org/wiki/Resource_fork)".
 
 Unfortunately, only Mac's HFS and HFS+ filesystems have support for this metadata. There is no standard way to represent a Resource Fork to non-Mac systems with non-HFS filesystems, such as every other computer in existence.
 
 So if you copy files out of the emulator using Mini vMac's **ExportFl** or Basilisk's Unix drive, you risk losing that metadata.
 
-The solution is to put a file in one of the above container formats (`bin`/`hqx`/`sit`) and name that container with the appropriate extension. So if you compress a Mac program into a BinHex file, then call the resulting file `MyProgram.hqx`. The vast majority of Mac software you download from the internet will be in one (or two, or more) of these formats. It's not incommon to download something like `program.img.bin.sit` which is a disk image, in a MacBinary file, compressed with StuffIt.
+The solution is to put a file in one of the above container formats (`bin`/`hqx`) and name that container with the appropriate extension. So if you compress a Mac program into a BinHex file, then call the resulting file `MyProgram.hqx`. The vast majority of Mac software you download from the internet will be in one (or two, or more) of these formats. It's not incommon to download something like `program.img.bin.sit` which is a disk image, in a MacBinary file, compressed with StuffIt.
 
 ### StuffIt Expander
 
@@ -272,6 +272,7 @@ There are even some games which were released on other platforms but are arguabl
 
 Some games were later ported elsewhere, but released first on the Mac:
 
+* [Myst](https://macintoshgarden.org/games/myst) - the famous flick-screen puzzle adventure started on the Mac, as a HyperCard stack
 * [SimCity](https://macintoshgarden.org/games/simcity) - I never expected it to look this great in black-and-white
 * [Balance of Power](https://macintoshgarden.org/games/balance-of-power) and [1990 Edition](https://macintoshgarden.org/games/balance-of-power-the-1990-edition) - cold war geopolitical simulator by Chris Crawford
 * [Exile: Escape from the Pit](https://macintoshgarden.org/games/exile-escape-from-the-pit) - fantastic RPG which I later played on Windows, remade (twice) as the modern [Avernum](https://store.steampowered.com/app/208400/Avernum_Escape_From_the_Pit/) series
