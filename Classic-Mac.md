@@ -24,7 +24,7 @@ Read the history of these from 128K to Mac II, but focus will be on the **Mac Pl
 
 ### Operating System 1.0 to 6.0.x
 
-The operating system from 1.0 to 6.0 was called "System Software" and typically was not installed on a hard drive until maybe 6.0.x. The original Mac 128K and 512K didn't even have a hard drive. Instead, you'd boot the system from the OS floppy and then eject it, inserting another floppy to run an application.
+The operating system from 1.0 to 6.0 was called "System Software" and typically was not installed on a hard drive until maybe 6.0.x. The original Mac 128K and 512K didn't even have a hard drive in their original form (but you could get aftermarket ones). Instead, you'd boot the system from the OS floppy and then eject it, inserting another floppy to run an application.
 
 It might seem weird to eject the operating system disk, but the "ROM" of the Mac was not a simple "BIOS" like we think of in a DOS computer. Depending on model, the ROM held a subset of the operating system API like GUI window drawing routines. This would be like Microsoft releasing their own computer and putting half of the Windows API in the BIOS.
 
@@ -34,15 +34,17 @@ Another way programs ran was to boot from their own floppy, which had a subset o
 
 * <https://en.wikipedia.org/wiki/System_7>
 
-The operating system from 7.0 onwards was called "Mac OS" and the last version with support for the original 68k hardware was 7.5.5 (later 7.6 required newer "[32-bit clean](https://en.wikipedia.org/wiki/32-bit_clean)" 68k systems).
+These operating system versions were still called "System Software" and were the last version with support for the original 68k hardware with 7.5.5.
 
-As far as I can tell, Mac OS 7 was always (or almost) installed on hard drives.
+As of 7.6 the name changed to "Mac OS" and required newer "[32-bit clean](https://en.wikipedia.org/wiki/32-bit_clean)" 68k systems to run.
+
+As far as I can tell, System 7 was always (or almost) installed on hard drives.
 
 This brought several architectural changes to the OS such as virtual memory, "System Extensions" which are like drivers so you could install support for a specific thing, aliases which are like symlinks on Linux, drag-and-drop of documents onto applications.
 
 The install/upgrade paths for these are:
 
-* 7.0: Install from system 7.0.1 floppies, apply System 7.0.1 Tune-Up 1.1.1
+* 7.0: Install from System 7.0.1 floppies, apply System 7.0.1 Tune-Up 1.1.1
 * 7.1: Install from System 7.1 floppies, apply System 7.1 System Update 3.0
 * 7.5: Install from System 7.1 floppies, apply System 7.5.3 upgrade, apply System 7.5.5 upgrade
 
@@ -300,7 +302,7 @@ These caught my eye as possibly interesting:
 
 Mac OS is very customisable. If one has the programming skill it seems possible to change almost any aspect.
 
-The components to do this were called "INITs" up to System 6, and "System Extensions" on Mac OS 7+.
+The components to do this were called "INITs" up to System 6, and "System Extensions" on System 7+.
 
 There are also Control Panel Devices (aka "CDEVs") which add things into the system Control Panel.
 
