@@ -61,6 +61,7 @@ External
 
 * [Android Apps](Tech-Android-Apps)
 * [C Programming](Tech-C-Programming)
+* [Classic Macintosh](Classic-Mac) - Apple computers with 68k CPU
 * [Vim](Vim)
 
 ## Linux
