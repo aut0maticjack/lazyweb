@@ -266,13 +266,23 @@ There are even some games which were released on other platforms but are arguabl
 * [The Fool's Errand](https://macintoshgarden.org/games/the-fools-errand) - puzzle game inspired by real-life treasure hunts like [Masquerade](https://en.wikipedia.org/wiki/Masquerade_(book)), also made on the Mac first, then ported to DOS/Amiga which traded high resolution for more colours
 * [The Manhole](https://macintoshgarden.org/games/the-manhole) - famous puzzle game made with HyperCard, by the Millers who would go on to write Myst
 
+#### Mac-first Games
+
+Some games were later ported elsewhere, but released first on the Mac:
+
+* [SimCity](https://macintoshgarden.org/games/simcity) - I never expected it to look this great in black-and-white
+* [Balance of Power](https://macintoshgarden.org/games/balance-of-power) and [1990 Edition](https://macintoshgarden.org/games/balance-of-power-the-1990-edition) - cold war geopolitical simulator by Chris Crawford
+* [Exile: Escape from the Pit](https://macintoshgarden.org/games/exile-escape-from-the-pit) - fantastic RPG which I later played on Windows, remade (twice) as the modern [Avernum](https://store.steampowered.com/app/208400/Avernum_Escape_From_the_Pit/) series
+* [Hidden Agenda](https://macintoshgarden.org/games/hidden-agenda) - another political strategy, even ported to DOS in black-and-white
+
 #### Mac-interesting Games
 
 There are games we're probably more used to playing elsewhere which saw release on the Mac:
 
-* [SimCity](https://macintoshgarden.org/games/simcity) - this looks GREAT on the black-and-white screen, also released on the Mac first
 * Space Quest [1](https://macintoshgarden.org/games/space-quest-1-original), [2](https://macintoshgarden.org/games/space-quest-2), [3](https://macintoshgarden.org/games/space-quest-3) - I'm so used to these on DOS EGA, it's a real trip to see them in black-and-white
 * [Loom](https://macintoshgarden.org/games/loom) - I always associated this game with being coloruful, again strange to see in black-and-white
+* [Starflight](https://macintoshgarden.org/games/starflight) - this great open-world sci-fi RPG was everywhere wasn't it?
+* [Where in Europe is Carmen Sandiego?](https://macintoshgarden.org/games/where-in-europe-carmen-sandiego) - I played a lot of this on DOS in CGA, higher res B&W is arguably better
 
 #### More Research Required
 
@@ -284,6 +294,7 @@ These caught my eye as possibly interesting:
 * [The Dungeon of Doom](https://macintoshgarden.org/games/the-dungeon-of-doom) and [The Dungeon Revealed](https://macintoshgarden.org/games/the-dungeon-revealed) - tile-based roguelikes
 * [Voyager](https://macintoshgarden.org/apps/voyager-the-interactive-desktop-planetarium) and [Voyager II](https://macintoshgarden.org/apps/voyager-ii) - interactive planetariums
 * Jaunt Trooper [Mission Thunderbolt](https://macintoshgarden.org/games/mission-thunderbolt) and [Mission Firestorm](https://macintoshgarden.org/games/jaunttrooper-mission-firestorm) - a remake of a mainframe roguelike called Doomsday 2000
+* [Beyond Cyberpunk: A Do-It-Yourself Guide to the Future](https://macintoshgarden.org/apps/beyond-cyberpunk-a-do-it-yourself-guide-the-future) - a cyberpunk manifesto in HyperCard on five floppies?
 
 ## OS Tinkering
 
