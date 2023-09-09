@@ -375,6 +375,7 @@ If you want to write in C for the Mac today, the nicest tools seem to be the Ret
 
 * <https://github.com/autc04/Retro68>
 * <https://www.toughdev.com/content/2017/03/exploring-retro68-gcc-based-sdk-for-68k-macintoshes/>
+* <https://henlin.net/2021/12/03/a-simplified-guide-to-development-using-retro68-and-pce-macplus/>
 
 ### Pascal
 
