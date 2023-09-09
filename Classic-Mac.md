@@ -47,7 +47,8 @@ The install/upgrade paths for these are:
 * 7.0: Install from System 7.0.1 floppies, apply System 7.0.1 Tune-Up 1.1.1
 * 7.1: Install from System 7.1 floppies, apply System 7.1 System Update 3.0
 * 7.5: Install from System 7.1 floppies, apply System 7.5.3 upgrade, apply System 7.5.5 upgrade  
-       OR Install from System 7.5.3 floppies (16 disks), apply System 7.5.5 upgrade
+       OR Install from System 7.5.3 floppies (16 disks), apply System 7.5.5 upgrade  
+       OR [Install from System 7.5.3 NetInstall using another disk image](https://www.savagetaylor.com/2018/09/02/setting-up-your-vintage-classic-68k-macintosh-installing-the-full-version-of-system-7-5-5-or-6-0-8/), apply System 7.5.5 upgrade
 
 ### Which to Choose?
 
