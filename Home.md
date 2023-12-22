@@ -74,6 +74,7 @@ External
 * [Handy Software](Linux-Handy-Software)
 * [Real Time](Linux-Real-Time)
 * [Ubuntu PPAs](Linux-Ubuntu-PPAs)
+* [AMD RX 6000/7000 on Debian Bookworm](Linux-AMD-Debian-Bookworm)
 
 StackExchange:
 
