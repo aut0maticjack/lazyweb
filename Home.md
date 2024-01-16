@@ -88,6 +88,11 @@ StackExchange:
 * [Preventing SOCD on common ground PCB using 7400 NAND gates](http://forums.shoryuken.com/discussion/147393/guide-preventing-socd-on-any-common-ground-pcb-by-using-7400-chips/p1)
 * [Slagcoin](http://slagcoin.com/joystick/introduction.html)
 
+## Cars
+
+* [Cars-General](General)
+* [Cars-MX5](Mazda MX5 Miata) - focus on NA Mk1 (1989-1997)
+
 ## 3D Printing
 
 * [Australian Sellers](3D-Printing-Australian-Sellers)
