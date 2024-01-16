@@ -90,8 +90,8 @@ StackExchange:
 
 ## Cars
 
-* [Cars-General](General)
-* [Cars-MX5](Mazda MX5 Miata) - focus on NA Mk1 (1989-1997)
+* [General](Cars-General)
+* [Mazda MX5 Miata](Cars-MX5) - focus on NA Mk1 (1989-1997)
 
 ## 3D Printing
 
