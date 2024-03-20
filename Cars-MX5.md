@@ -28,7 +28,7 @@ Focus on first generation NA/Mk1 (1989-1997) unless otherwise specified.
 | Mazda (Showa) 91-93 | 154 lbf / 2.75 kgf | 97 lbf / 1.73 kgf | [Fatcat](https://web.archive.org/web/20130903094019/http://www.fatcatmotorsports.com/FRC_1_6NA/FCM_MSDS_1_6NA.htm) |
 | Flyin Miata (old rear bind) | 342 lbf / 6.11 kgf | 228 lbf / 4.07 kgf | Fatcat |
 | Flyin Miata (2006 redesign) | 318 lbf / 5.68 kgf | 233 lbf / 4.16 kgf | Fatcat, [FM](https://flyinmiata.com/products/na-flyin-miata-springs) |
-| Eibach E5517-140 Kit<br>(F5517001 front, F5517002 rear) | 296.5 lbf / 3.42 kgf / -25mm | 177.01 lbf / 2.04 kgf / -25mm | [Eibach](https://www.eibachshop.co.uk/products/eibach-pro-kit-lowering-springs-e5517-140), Rates via email: 33.5 N/mm & 20 N/mm |
+| Eibach E5517-140 Kit<br>(F5517001 front, F5517002 rear) | 296.5 lbf / 3.42 kgf / -25-30mm | 177.01 lbf / 2.04 kgf / -25-30mm | [Eibach](https://www.eibachshop.co.uk/products/eibach-pro-kit-lowering-springs-e5517-140), Rates via email: 33.5 N/mm & 20 N/mm, [Mania](https://mx5mania.com.au/products/eibach-spring-kit-na-1989-1997-pro-kit) |
 | H&R Race 61-0383 | 240-270 lbf / 4.29-4.82 kgf / -38mm | 220-260 lbf / 3.93-4.64 kgf / -38mm | [Good Win Racing](https://www.good-win-racing.com/Mazda-Performance-Part/61-0383.html) |
 | Tein S-Tech | 235 lbf / 4.2 kgf / -19mm | 168 lbf / 3 kgf / -29 mm | [Fab9](https://fab9tuning.com/tein-lowering-springs/) |
 | Espelir Super Downsus ESM-058 | 213 lbf / 3.8 kgf / -32-37 mm | 179 lb / 3.2 kgf / -27-32 mm | RHDJapan |
