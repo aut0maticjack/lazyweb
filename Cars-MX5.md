@@ -35,3 +35,4 @@ Focus on first generation NA/Mk1 (1989-1997) unless otherwise specified.
 | RSR Down Series M020D | 196 lbf / 3.5 kgf / -30-35 mm | 140 lbf / 2.5 kgf / -15-25 mm | [RHDJapan](https://www.rhdjapan.com/rs-r-down-series-coil-spring-suspension-full-set-na6ce-na8c.html) |
 | Pedders<br>(lower 2332 front, 2333 rear) | 189.83 lbf / 3.39 kgf / -25mm | 167.43 lbf / 2.99 kgf / -25mm | Pedders |
 | Pedders<br>(std height, 7332 front, 7333 rear) | 187.0 lbf / 3.34 kgf | 99.1 lbf / 1.77 kgf | [Pedders](https://shop.pedders.com.au/v/mazda-mx-5-na-1-6-na6c-1989-1993-petrol-convertible/c/all) |
+| H&R 29839-1 | ??? / -35-40mm | ??? -35-40mm | [OzRacer](https://www.ozracer.com.au/products/35mm-lowering-sport-springs-for-the-mazda-mx-5-na), [H&R](https://www.h-r.com/en/article/?articlenr=29839-1&datasuppliernr=5060)
