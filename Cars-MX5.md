@@ -30,7 +30,7 @@ Focus on first generation NA/Mk1 (1989-1997) unless otherwise specified.
 | Flyin Miata (2006 redesign) | 318 lbf / 5.68 kgf | 233 lbf / 4.16 kgf | Fatcat, [FM](https://flyinmiata.com/products/na-flyin-miata-springs) |
 | Eibach E5517-140 Kit<br>(F5517001 front, F5517002 rear) | 296.5 lbf / 3.42 kgf / -25mm | 177.01 lbf / 2.04 kgf / -25mm | [Eibach](https://www.eibachshop.co.uk/products/eibach-pro-kit-lowering-springs-e5517-140), Rates via email: 33.5 N/mm & 20 N/mm |
 | H&R Race 61-0383 | 240-270 lbf / 4.29-4.82 kgf / -38mm | 220-260 lbf / 3.93-4.64 kgf / -38mm | [Good Win Racing](https://www.good-win-racing.com/Mazda-Performance-Part/61-0383.html) |
-| Tein | 235 lbf / 4.2 kgf / -19mm | 168 lbf / 3 kgf / -29 mm | [Fab9](https://fab9tuning.com/tein-lowering-springs/) |
+| Tein S-Tech | 235 lbf / 4.2 kgf / -19mm | 168 lbf / 3 kgf / -29 mm | [Fab9](https://fab9tuning.com/tein-lowering-springs/) |
 | Espelir Super Downsus ESM-058 | 213 lbf / 3.8 kgf / -32-37 mm | 179 lb / 3.2 kgf / -27-32 mm | RHDJapan |
 | King Springs (progressive rate)<br>(KMFL-52 front, KMRL-53 rear) | 165-215 lbf / 2.95-3.84 kgf / -30mm | 105-160 lbf / 1.87 to 2.85 kgf / -30mm | King Springs |
 | RSR Down Series M020D | 196 lbf / 3.5 kgf / -30-35 mm | 140 lbf / 2.5 kgf / -15-25 mm | [RHDJapan](https://www.rhdjapan.com/rs-r-down-series-coil-spring-suspension-full-set-na6ce-na8c.html) |
