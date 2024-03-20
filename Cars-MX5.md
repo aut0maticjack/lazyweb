@@ -39,4 +39,14 @@ Focus on first generation NA/Mk1 (1989-1997) unless otherwise specified.
 | Racing Beat Street | 157 lbf / -8.5mm | 106 lbf / -25mm | [Good Win Racing](https://www.good-win-racing.com/Mazda-Performance-Part/61-1664.html) |
 | H&R Sport 29839-1 | ??? / -35-40mm | ??? -35-40mm | [OzRacer](https://www.ozracer.com.au/products/35mm-lowering-sport-springs-for-the-mazda-mx-5-na), [H&R](https://www.h-r.com/en/article/?articlenr=29839-1&datasuppliernr=5060)
 
-* https://5xracing.com/pt-3308-miata-spring-rate-guide.html
+### 5X Racing DIY Bilstein
+
+https://5xracing.com/pt-3308-miata-spring-rate-guide.html
+
+| Name | Front Rate | Rear Rate |
+|------|------------|-----------|
+| Street Touring | 350 lbf / 6.25 kgf | 275 lbf / 4.91 kgf |
+| Sport Touring | 400 lbf / 7.14 kgf | 325 lbf / 5.80 kgf |
+| Dual Purpose | 450 lbf / 8.04 kgf | 375 lbf / 6.70 kgf |
+| Track Day | 550 lbf / 9.82 kgf | 400 lbf / 7.14 kgf |
+| Race | 600 lbf 10.71 kgf | 450 lbf / 8.04 kgf |
