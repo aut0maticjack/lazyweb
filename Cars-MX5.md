@@ -25,20 +25,20 @@ Focus on first generation NA/Mk1 (1989-1997) unless otherwise specified.
 
 * https://www.norwestsuspension.com/convert-spring-rates
 
-| Name | Front Rate | Rear Rate | Source |
+| Name | Front Rate & Height | Rear Rate & Height | Source |
 |------|------------|-----------|--------|
-| Flyin Miata (old rear bind) | 342 lbf / 6.12 kgf | 228 lbf / 4.08 kgf | Fatcat |
-| Flyin Miata (2006 redesign) | 318 lbf / 5.69 kgf | 233 lbf / 4.17 kgf | Fatcat, [FM](https://flyinmiata.com/products/na-flyin-miata-springs) |
-| H&R Race | 240-270 lbf / 4.30-4.83 kgf / -38mm | 220-260 lbf / 3.94-4.66 kgf / -38mm | [Good Win Racing](https://www.good-win-racing.com/Mazda-Performance-Part/61-0383.html) |
-| H&R Sport 29839-1 | 257 lbf / 4.59 kgf -35-40mm | 211 lbf / 3.77 kgf -35-40mm | [OzRacer](https://www.ozracer.com.au/products/35mm-lowering-sport-springs-for-the-mazda-mx-5-na), [H&R](https://www.h-r.com/en/article/?articlenr=29839-1&datasuppliernr=5060)<br>Email rates: 45 N/mm 37 N/mm |
-| Tein S-Tech | 235 lbf / 4.21 kgf / -19mm | 168 lbf / 3.01 kgf / -29 mm | [Fab9](https://fab9tuning.com/tein-lowering-springs/), [Tein](https://www.tein.co.jp/srch/eng_search.php?maker=MAZDA&carmodel=ROADSTER&modelyear=1989.09-1998.01&item=default&restype=1&allvch=0&genuine=0) |
-| Espelir Super Downsus ESM-058 | 213 lbf / 3.8 kgf / -32-37 mm | 179 lb / 3.2 kgf / -27-32 mm | [RHDJapan](https://www.rhdjapan.com/espelir-super-downsus-series-coil-spring-suspension-full-set-roadster-na6ce-na8c.html) |
-| King Springs<br>([KMFL-52](https://kingsprings.com.au/catalogue/product/930/kmfl-52) front, [KMRL-53](https://kingsprings.com.au/catalogue/product/932/kmrl-53) rear) | 165-215 lbf / 2.96-3.85 kgf / -30mm | 105-160 lbf / 1.88 to 2.86 kgf / -30mm |  |
-| RSR Down Series M020D | 196 lbf / 3.5 kgf / -30-35 mm | 140 lbf / 2.5 kgf / -15-25 mm | [RHDJapan](https://www.rhdjapan.com/rs-r-down-series-coil-spring-suspension-full-set-na6ce-na8c.html) |
-| Eibach E5517-140 Kit<br>(F5517001 front, F5517002 rear) | 191.28 lbf / 3.42 kgf / -25-30mm | 114.2 lbf / 2.04 kgf / -25-30mm | [Eibach](https://www.eibachshop.co.uk/products/eibach-pro-kit-lowering-springs-e5517-140), [Mania](https://mx5mania.com.au/products/eibach-spring-kit-na-1989-1997-pro-kit)<br>Email rates: 33.5 N/mm 20 N/mm |
-| Pedders Low<br>([2332](https://www.pedders.com.au/product/pedders-sportsryder-coil-spring-2332) front, [2333](https://www.pedders.com.au/product/pedders-sportsryder-coil-spring-2333) rear) | 189.2 lbf / 3.39 kgf / -25mm | 167.2 lbf / 2.99 kgf / -25mm |  |
+| Flyin Miata<br>(old rear bind) | 342 lbf / 6.12 kgf | 228 lbf / 4.08 kgf | Fatcat |
+| Flyin Miata<br>(2006 redesign) | 318 lbf / 5.69 kgf | 233 lbf / 4.17 kgf | Fatcat, [FM](https://flyinmiata.com/products/na-flyin-miata-springs) |
+| H&R Race | 240-270 lbf / 4.30-4.83 kgf<br>-38mm | 220-260 lbf / 3.94-4.66 kgf<br>-38mm | [Good Win Racing](https://www.good-win-racing.com/Mazda-Performance-Part/61-0383.html) |
+| H&R Sport 29839-1 | 257 lbf / 4.59 kgf<br>-35-40mm | 211 lbf / 3.77 kgf<br>-35-40mm | [OzRacer](https://www.ozracer.com.au/products/35mm-lowering-sport-springs-for-the-mazda-mx-5-na), [H&R](https://www.h-r.com/en/article/?articlenr=29839-1&datasuppliernr=5060)<br>Email rates: 45 N/mm 37 N/mm |
+| Tein S-Tech | 235 lbf / 4.21 kgf<br>-19mm | 168 lbf / 3.01 kgf<br>-29 mm | [Fab9](https://fab9tuning.com/tein-lowering-springs/), [Tein](https://www.tein.co.jp/srch/eng_search.php?maker=MAZDA&carmodel=ROADSTER&modelyear=1989.09-1998.01&item=default&restype=1&allvch=0&genuine=0) |
+| Espelir Super Downsus ESM-058 | 213 lbf / 3.8 kgf<br>-32-37 mm | 179 lb / 3.2 kgf<br>-27-32 mm | [RHDJapan](https://www.rhdjapan.com/espelir-super-downsus-series-coil-spring-suspension-full-set-roadster-na6ce-na8c.html) |
+| King Springs<br>([KMFL-52](https://kingsprings.com.au/catalogue/product/930/kmfl-52) front, [KMRL-53](https://kingsprings.com.au/catalogue/product/932/kmrl-53) rear) | 165-215 lbf / 2.96-3.85 kgf<br>-30mm | 105-160 lbf / 1.88-2.86 kgf<br>-30mm |  |
+| RSR Down Series M020D | 196 lbf / 3.5 kgf<br>-30-35 mm | 140 lbf / 2.5 kgf<br>-15-25 mm | [RHDJapan](https://www.rhdjapan.com/rs-r-down-series-coil-spring-suspension-full-set-na6ce-na8c.html) |
+| Eibach E5517-140 Kit<br>(F5517001 front, F5517002 rear) | 191.28 lbf / 3.42 kgf<br>-25-30mm | 114.2 lbf / 2.04 kgf<br>-25-30mm | [Eibach](https://www.eibachshop.co.uk/products/eibach-pro-kit-lowering-springs-e5517-140), [Mania](https://mx5mania.com.au/products/eibach-spring-kit-na-1989-1997-pro-kit)<br>Email rates: 33.5 N/mm 20 N/mm |
+| Pedders Low<br>([2332](https://www.pedders.com.au/product/pedders-sportsryder-coil-spring-2332) front, [2333](https://www.pedders.com.au/product/pedders-sportsryder-coil-spring-2333) rear) | 189.2 lbf / 3.39 kgf<br>-25mm | 167.2 lbf / 2.99 kgf<br>-25mm |  |
 | Pedders Std Height<br>([7332](https://www.pedders.com.au/product/pedders-coil-spring-7332) front, [7333](https://www.pedders.com.au/product/pedders-coil-spring-7333) rear) | 187 lbf / 3.35 kgf | 99 lbf / 1.77 kgf |  |
-| Racing Beat Street | 157 lbf / 2.81 kgf / -8.5mm | 106 lbf / 1.90 kgf / -25mm | [Good Win Racing](https://www.good-win-racing.com/Mazda-Performance-Part/61-1664.html) |
+| Racing Beat Street | 157 lbf / 2.81 kgf<br>-8.5mm | 106 lbf / 1.90 kgf<br>-25mm | [Good Win Racing](https://www.good-win-racing.com/Mazda-Performance-Part/61-1664.html) |
 | **Mazda (Showa) 91-93**<br>**LE and R-pkg 93-96** | 154 lbf / 2.75 kgf | 97 lbf / 1.74 kgf | [Fatcat](https://web.archive.org/web/20130903094019/http://www.fatcatmotorsports.com/FRC_1_6NA/FCM_MSDS_1_6NA.htm) |
 
 Could not find rates for:
