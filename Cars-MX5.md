@@ -19,7 +19,8 @@ Focus on first generation NA/Mk1 (1989-1997) unless otherwise specified.
 
 ## Part Numbers
 
-* Thermo Fan Switch (front of motor) - Tridon TFS114
+* Radiator Fan Switch (front of motor) - Tridon TFS114
+* Rear upper mudflap clip - NA12-51-876A (huge thanks to IL Motorsport)
 
 ## Springs
 
