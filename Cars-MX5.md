@@ -9,17 +9,18 @@ Focus on first generation NA/Mk1 (1989-1997) unless otherwise specified.
 * M5x20 stainless button head screw, M5 10x1 mm nylon washer. Needs the manual (non-electronic) antenna
 * If you have the electric antenna, take the whole antenna out and use a grommet in the body.
 
-## Part Specs
+## Parts
 
 * Brake Caliper Bleeder, Rear - M8 x 1.0 mm, 34mm long - [Good Win Racing](https://www.good-win-racing.com/Mazda-Performance-Part/61-0984.html)
 * Brake Caliper Bleeder, Rear - M7 x 1.0 mm, 34mm long - [Good Win Racing](https://www.good-win-racing.com/Mazda-Performance-Part/61-0985.html)
 * Engine Sump Plug - M14 x 1.5 mm thread
 * Engine Oil Cap - M35 x 4.0 mm thread (sometimes called M36)
-* NA6 Front Sway Bar - 19mm, bush NA01-34-156A (surprisingly difficult part no to find)
+* Sway Bar, Front 19mm - bushing NA01-34-156A (cross-ref [BPS](https://www.bestpartstore.co.uk/na0134156a-oen), [Rockauto](https://www.rockauto.com/en/catalog/mazda,1992,mx-5+miata,1.6l+l4,1190898,suspension,sway+bar+bushing,7624))
+* Sway Bar, Rear 12mm - bushing FB01-28-156 (cross-ref [BPS](https://www.bestpartstore.co.uk/fb0128156-oen))
 * Frankenstein cover side screw - M4 10mm countersunk
-
-## Part Numbers
-
+* Soft top / hard top screws, class 10.9 flanged black zinc oxide
+    - Latch M6 20mm - [Wurth](https://eshop.wurth.com.au/-/425366%2020.sku/en/GB/AUD/?SupplierID=WuerthGroup-Wuerth&CampaignName=FC008), [McMaster](https://www.mcmaster.com/92137A535/)
+    - Striker M8 20mm - [Wurth](https://eshop.wurth.com.au/-/425368%2020.sku/en/GB/AUD/?SupplierID=WuerthGroup-Wuerth&CampaignName=FC008), [McMaster](https://www.mcmaster.com/92137A644/)
 * Radiator Fan Switch (front of motor) - Tridon TFS114
 * Rear upper mudflap clip - NA12-51-876A (huge thanks to IL Motorsport)
 
