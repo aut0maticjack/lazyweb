@@ -15,7 +15,8 @@ Focus on first generation NA/Mk1 (1989-1997) unless otherwise specified.
 * Brake Caliper Bleeder, Rear - M7 x 1.0 mm, 34mm long - [Good Win Racing](https://www.good-win-racing.com/Mazda-Performance-Part/61-0985.html)
 * Engine Sump Plug - M14 x 1.5 mm thread
 * Engine Oil Cap - M35 x 4.0 mm thread (sometimes called M36)
-* NA6 Front Sway Bar - 19mm, bush NA01-34-156A (surprisingly difficult to find)
+* NA6 Front Sway Bar - 19mm, bush NA01-34-156A (surprisingly difficult part no to find)
+* Frankenstein cover side screw - M4 10mm countersunk
 
 ## Part Numbers
 
