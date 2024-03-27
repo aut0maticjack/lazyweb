@@ -15,6 +15,13 @@ Focus on first generation NA/Mk1 (1989-1997) unless otherwise specified.
 * Brake Caliper Bleeder, Rear - M7 x 1.0 mm, 34mm long - [Good Win Racing](https://www.good-win-racing.com/Mazda-Performance-Part/61-0985.html)
 * Engine Sump Plug - M14 x 1.5 mm thread
 * Engine Oil Cap - M35 x 4.0 mm thread (sometimes called M36)
+* Exhaust Manifold Studs ([MiataRoadster Kit](https://miataroadster.com/products/ols/products/miataroadster-exhaust-manifold-fastener-kits))
+    - Nine M10x1.25, 48mm long, grade 8 studs, yellow zinc
+    - Nine M10x1.25 flanged serrated nuts, silver zinc
+    - Nine M10 Nord-Lock washers
+    - M10x1.25 tap to chase threads (imo use a thread chaser, not a tap)
+    - anti-seize for nut end of studs
+    - Cotronics Resbond 907TS threadlock
 * Sway Bar, Front 19mm - bushing NA01-34-156A (cross-ref [BPS](https://www.bestpartstore.co.uk/na0134156a-oen), [Rockauto](https://www.rockauto.com/en/catalog/mazda,1992,mx-5+miata,1.6l+l4,1190898,suspension,sway+bar+bushing,7624))
 * Sway Bar, Rear 12mm - bushing FB01-28-156 (cross-ref [BPS](https://www.bestpartstore.co.uk/fb0128156-oen))
 * Frankenstein cover side screw - M4 10mm countersunk
