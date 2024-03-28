@@ -13,6 +13,8 @@ Focus on first generation NA/Mk1 (1989-1997) unless otherwise specified.
 
 * Brake Caliper Bleeder, Rear - M8 x 1.0 mm, 34mm long - [Good Win Racing](https://www.good-win-racing.com/Mazda-Performance-Part/61-0984.html)
 * Brake Caliper Bleeder, Rear - M7 x 1.0 mm, 34mm long - [Good Win Racing](https://www.good-win-racing.com/Mazda-Performance-Part/61-0985.html)
+* Crush Washer, brakes - ID 10mm, OD 15mm - [MX5OX](https://forum.mx5oc.co.uk/t/brake-banjo-crush-washers-where-to-buy/81054/6)
+* Crush Washer, Sump/Gearbox/Diff - ID 18mm, OD 24mm - [Mania](https://mx5mania.com.au/products/sump-plug-washer-na)
 * Engine Sump Plug - M14 x 1.5 mm thread
 * Engine Oil Cap - M35 x 4.0 mm thread (sometimes called M36)
 * Exhaust Manifold Studs ([MiataRoadster Kit](https://miataroadster.com/products/ols/products/miataroadster-exhaust-manifold-fastener-kits))
