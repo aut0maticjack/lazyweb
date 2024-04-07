@@ -28,8 +28,10 @@ Focus on first generation NA/Mk1 (1989-1997) unless otherwise specified.
 * Sway Bar, Rear 12mm - bushing FB01-28-156 (cross-ref [BPS](https://www.bestpartstore.co.uk/fb0128156-oen))
 * Frankenstein cover side screw - M4 10mm countersunk
 * Soft top / hard top screws, class 10.9 flanged black zinc oxide
-    - Latch M6 20mm - [Wurth](https://eshop.wurth.com.au/-/425366%2020.sku/en/GB/AUD/?SupplierID=WuerthGroup-Wuerth&CampaignName=FC008), [McMaster](https://www.mcmaster.com/92137A535/)
-    - Striker M8 20mm - [Wurth](https://eshop.wurth.com.au/-/425368%2020.sku/en/GB/AUD/?SupplierID=WuerthGroup-Wuerth&CampaignName=FC008), [McMaster](https://www.mcmaster.com/92137A644/)
+    - Latch - Original M6 ~18mm with JIS+3 head (Warning: do not use Phillips)
+    - M6 20mm - [Wurth AU](https://eshop.wurth.com.au/-/425366%2020.sku/en/GB/AUD/?SupplierID=WuerthGroup-Wuerth&CampaignName=FC008), [McMaster USA](https://www.mcmaster.com/92137A535/)
+    - Striker - Original M8 20mm with Torx T40 head
+    - M8 20mm - [Wurth AU](https://eshop.wurth.com.au/-/425368%2020.sku/en/GB/AUD/?SupplierID=WuerthGroup-Wuerth&CampaignName=FC008), [McMaster USA](https://www.mcmaster.com/92137A644/)
 * Radiator Fan Switch (front of motor) - Tridon TFS114
 * Rear upper mudflap clip - NA12-51-876A (huge thanks to IL Motorsport)
 
